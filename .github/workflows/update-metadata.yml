@@ -1,0 +1,51 @@
+name: Update Project Metadata
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Run weekly on Sunday at midnight
+  workflow_dispatch: # Allow manual triggering
+  push:
+    paths:
+      - 'data/projects.json'
+      - '.github/workflows/update-metadata.yml'
+
+jobs:
+  update-metadata:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: false
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Update project metadata
+        run: node scripts/update-metadata.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate README tables
+        run: node scripts/generate-readme-tables.js
+
+      - name: Commit changes if any
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/projects.json README.md
+          git diff --staged --quiet || git commit -m "Update project metadata and README"
+          git push
