@@ -1,42 +1,17 @@
 [
   {
-    "name": "Open3D",
     "url": "https://github.com/isl-org/Open3D",
-    "description": "This is an example AEC project",
-    "category": [
-      "visualization",
-      "bim"
+    "category": "visualization",
+    "metadata": [
+      "Rhino, Grasshopper",
+      "Open3D"
     ],
-    "stars": 12318,
+    "name": "Open3D",
+    "description": "Open3D: A Modern Library for 3D Data Processing",
+    "stars": 12319,
     "forks": 2417,
-    "lastUpdated": "2025-05-20T05:11:17Z",
+    "lastUpdated": "2025-05-20T07:55:18Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION"
-  },
-  {
-    "name": "ThreeJS",
-    "url": "https://github.com/mrdoob/three.js",
-    "description": "Three js lib",
-    "category": [
-      "visualization"
-    ],
-    "stars": 106276,
-    "forks": 35755,
-    "lastUpdated": "2025-05-20T06:21:07Z",
-    "mainLanguage": "JavaScript",
-    "license": "MIT"
-  },
-  {
-    "name": "engine_web-ifc",
-    "url": "https://github.com/ThatOpen/engine_web-ifc",
-    "description": "engine_web-ifc",
-    "category": [
-      "visualization"
-    ],
-    "stars": 723,
-    "forks": 217,
-    "lastUpdated": "2025-05-19T15:55:33Z",
-    "mainLanguage": "TypeScript",
-    "license": "MPL-2.0"
   }
 ]

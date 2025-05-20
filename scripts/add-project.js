@@ -15,7 +15,7 @@ const rl = readline.createInterface({
 
 async function loadCategories() {
 	try {
-		// Using dynamic import to load the categories from schema.ts
+		// Using dynamic import to load the categories from schema.js
 		const schemaModule = await import('../data/schema.js');
 		return schemaModule.categories;
 	} catch (error) {
@@ -49,15 +49,23 @@ async function addProject() {
 	const projects = await loadProjects();
 	const categories = await loadCategories();
 
-	// Get project information
-	const name = await rl.question('Project Name: ');
-	const url = await rl.question('Project URL: ');
-	const description = await rl.question('Description: ');
+	// Get required project information
+	const repository = await rl.question('Repository URL (GitHub): ');
+	const description = await rl.question(
+		'Custom Description (optional, leave blank to use GitHub description): '
+	);
+
+	// Optional: Get custom name if different from repository name
+	const provideCustomName = await rl.question('Do you want to provide a custom name? (y/n): ');
+	let name = '';
+	if (provideCustomName.toLowerCase() === 'y') {
+		name = await rl.question('Custom Project Name: ');
+	}
 
 	// Show categories
 	console.log('\nAvailable Categories:');
-	categories.forEach((cat, index) => {
-		console.log(`${index + 1}. ${cat.name} - ${cat.description}`);
+	categories.forEach((category, index) => {
+		console.log(`${index + 1}. ${category}`);
 	});
 
 	// Get categories
@@ -68,18 +76,18 @@ async function addProject() {
 		.split(',')
 		.map((num) => parseInt(num.trim()) - 1)
 		.filter((num) => num >= 0 && num < categories.length)
-		.map((index) => categories[index].id);
+		.map((index) => categories[index]);
 
 	// Get submitter info
-	const submittedBy = await rl.question('\nYour GitHub username: ');
+	const submittedBy = await rl.question('\nYour GitHub username (optional): ');
 
 	// Create new project object
 	const newProject = {
-		name,
-		url,
-		description,
-		category: selectedCategories,
-		submittedBy,
+		repository,
+		...(name && { name }),
+		...(description && { description }),
+		category: selectedCategories.length === 1 ? selectedCategories[0] : selectedCategories,
+		...(submittedBy && { submittedBy }),
 		submissionDate: new Date().toISOString().split('T')[0] // YYYY-MM-DD format
 	};
 
@@ -92,6 +100,7 @@ async function addProject() {
 	// Show project information
 	console.log('\nProject added:');
 	console.log(JSON.stringify(newProject, null, 2));
+	console.log('\nMetadata will be automatically fetched from GitHub when update-metadata.js runs.');
 
 	rl.close();
 }

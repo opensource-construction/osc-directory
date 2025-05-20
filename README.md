@@ -10,15 +10,15 @@ To add a project, simply create a pull request:
 2. Edit the `data/projects.json` file to add your project in this format:
    ```json
    {
-     "name": "Project Name",
-     "url": "https://github.com/username/project",
-     "description": "Brief description of what the project does",
-     "category": ["category1", "category2"]
+   	"url": "https://github.com/isl-org/Open3D",
+   	"category": "visualization",
+   	"metadata": ["Rhino, Grasshopper", "Open3D"]
    }
    ```
 3. Submit a pull request
 
 Available categories:
+
 - `lca` - Life Cycle Assessment
 - `bim` - Building Information Modeling
 - `visualization` - Visualization
@@ -29,6 +29,12 @@ Available categories:
 Your project will be automatically updated with metadata like stars, language, and last updated date.
 
 ## Projects
+
+### Visualization
+
+| Project                                     | Description                                     | Language | Stars | Last Updated | License     |
+| ------------------------------------------- | ----------------------------------------------- | -------- | ----- | ------------ | ----------- |
+| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++      | 12319 | May 20, 2025 | NOASSERTION |
 
 ## Contributing
 

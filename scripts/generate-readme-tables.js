@@ -6,11 +6,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectsPath = path.join(__dirname, '..', 'data', 'projects.json');
 const readmePath = path.join(__dirname, '..', 'README.md');
-const schemaPath = path.join(__dirname, '..', 'data', 'schema.js');
 
 async function generateReadmeTables() {
 	try {
-		// Import categories
+		// Import categories (assuming they're simple strings now)
 		const { categories } = await import('../data/schema.js');
 
 		// Read projects data
@@ -36,25 +35,31 @@ async function generateReadmeTables() {
 
 		// Generate tables for each category
 		for (const category of categories) {
-			const categoryProjects = projectsData.filter((project) =>
-				project.category.includes(category.id)
+			// Filter projects by category (now it's an array)
+			const categoryProjects = projectsData.filter(
+				(project) =>
+					project.category &&
+					(Array.isArray(project.category)
+						? project.category.map((c) => c.toLowerCase()).includes(category.toLowerCase())
+						: project.category.toLowerCase() === category.toLowerCase())
 			);
 
 			if (categoryProjects.length > 0) {
-				tablesContent += `### ${category.name}\n\n${category.description}\n\n`;
+				tablesContent += `### ${category}\n\n`;
 				tablesContent += `| Project | Description | Language | Stars | Last Updated | License |\n`;
 				tablesContent += `|---------|-------------|----------|-------|--------------|--------|\n`;
 
 				for (const project of categoryProjects) {
-					const lastUpdated = project.lastUpdated
-						? new Date(project.lastUpdated).toLocaleDateString('en-US', {
-								year: 'numeric',
-								month: 'short',
-								day: 'numeric'
-							})
-						: 'N/A';
+					const lastUpdated =
+						project.lastUpdated || project.lastCommit
+							? new Date(project.lastUpdated || project.lastCommit).toLocaleDateString('en-US', {
+									year: 'numeric',
+									month: 'short',
+									day: 'numeric'
+								})
+							: 'N/A';
 
-					tablesContent += `| [${project.name}](${project.url}) | ${project.description} | ${project.mainLanguage || 'N/A'} | ${project.stars || 0} | ${lastUpdated} | ${project.license || 'N/A'} |\n`;
+					tablesContent += `| [${project.name}](${project.url}) | ${project.description} | ${project.mainLanguage || project.language || 'N/A'} | ${project.stars || 0} | ${lastUpdated} | ${project.license || 'N/A'} |\n`;
 				}
 
 				tablesContent += '\n';
@@ -70,6 +75,7 @@ async function generateReadmeTables() {
 		console.log('README tables generated successfully!');
 	} catch (error) {
 		console.error('Error generating README tables:', error);
+		throw error; // Re-throw to see the error in the workflow
 	}
 }
 
