@@ -30,13 +30,13 @@ Your project will be automatically updated with metadata like stars, language, a
 
 ## Projects
 
-### Life Cycle Assessment
+### Building Information Modeling
 
-Tools and libraries for conducting life cycle assessments in the AEC industry
+Tools for creating, managing, and analyzing building information models
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
-| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | N/A | 0 | N/A | N/A |
+| [Open3D](https://github.com/isl-org/Open3D) | This is an example AEC project | C++ | 12318 | May 20, 2025 | NOASSERTION |
 
 ### Visualization
 
@@ -44,7 +44,7 @@ Tools and libraries for visualizing AEC data and models
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
-| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | N/A | 0 | N/A | N/A |
+| [Open3D](https://github.com/isl-org/Open3D) | This is an example AEC project | C++ | 12318 | May 20, 2025 | NOASSERTION |
 
 ## Contributing
 

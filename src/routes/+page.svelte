@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 
 	let projects = [];
@@ -12,7 +12,7 @@
 			projects = await projectsResponse.json();
 
 			// Fetch categories from schema.js
-			const modulePath = '../data/schema.js';
+			const modulePath = '../data/schema.ts';
 			const { categories: loadedCategories } = await import(modulePath);
 			categories = loadedCategories;
 
