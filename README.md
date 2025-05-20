@@ -32,9 +32,9 @@ Your project will be automatically updated with metadata like stars, language, a
 
 ### Visualization
 
-| Project                                     | Description                                     | Language | Stars | Last Updated | License     |
-| ------------------------------------------- | ----------------------------------------------- | -------- | ----- | ------------ | ----------- |
-| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++      | 12319 | May 20, 2025 | NOASSERTION |
+| Project | Description | Language | Stars | Last Updated | License |
+|---------|-------------|----------|-------|--------------|--------|
+| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++ | 12319 | May 20, 2025 | NOASSERTION |
 
 ## Contributing
 
