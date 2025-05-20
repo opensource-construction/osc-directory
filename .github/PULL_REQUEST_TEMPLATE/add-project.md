@@ -7,30 +7,20 @@ labels: new-project
 
 ## Project Information
 
-- **Project Name**:
-- **Project URL**:
-- **Description**:
+- **GitHub URL**: <!-- Required: URL of the GitHub repository -->
+- **Description**: <!-- Required: A short description of what the project does -->
 
 ## Categories
 
-<!-- Select at least one category by placing an 'x' in the square brackets -->
+<!-- Select categories by placing an 'x' in the brackets, choose at least one -->
 
-- [ ] Life Cycle Assessment
-- [ ] Building Information Modeling
-- [ ] Visualization
-- [ ] Structural & Environmental Analysis
-- [ ] Interoperability
-- [ ] Generative Design
-- [ ] Other: <!-- Specify if other -->
+- [ ] Life Cycle Assessment (lca)
+- [ ] Building Information Modeling (bim)
+- [ ] Visualization (visualization)
+- [ ] Structural & Environmental Analysis (analysis)
+- [ ] Interoperability (interoperability)
+- [ ] Generative Design (generative)
 
-## Additional Information
-
-<!-- Any other relevant information about the project -->
-
-## Checklist
-
-- [ ] The project is open source
-- [ ] The project is related to the AEC industry
-- [ ] I have not already submitted this project
+<!-- Make sure the project is open source and related to the AEC industry -->
 
 <!-- Thank you for contributing to the AEC Open Source Directory! -->
