@@ -32,6 +32,11 @@
     "description": "engine_web-ifc",
     "category": [
       "visualization"
-    ]
+    ],
+    "stars": 723,
+    "forks": 217,
+    "lastUpdated": "2025-05-19T15:55:33Z",
+    "mainLanguage": "TypeScript",
+    "license": "MPL-2.0"
   }
 ]

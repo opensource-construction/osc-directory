@@ -30,22 +30,6 @@ Your project will be automatically updated with metadata like stars, language, a
 
 ## Projects
 
-### Building Information Modeling
-
-Tools for creating, managing, and analyzing building information models
-
-| Project | Description | Language | Stars | Last Updated | License |
-|---------|-------------|----------|-------|--------------|--------|
-| [Open3D](https://github.com/isl-org/Open3D) | This is an example AEC project | C++ | 12318 | May 20, 2025 | NOASSERTION |
-
-### Visualization
-
-Tools and libraries for visualizing AEC data and models
-
-| Project | Description | Language | Stars | Last Updated | License |
-|---------|-------------|----------|-------|--------------|--------|
-| [Open3D](https://github.com/isl-org/Open3D) | This is an example AEC project | C++ | 12318 | May 20, 2025 | NOASSERTION |
-
 ## Contributing
 
 Contributions are welcome! Please see our [contribution guidelines](CONTRIBUTING.md) for more information.
