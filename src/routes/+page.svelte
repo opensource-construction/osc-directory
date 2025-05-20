@@ -1,19 +1,38 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	let projects = [];
-	let categories = [];
+	// Define types for our data
+	interface Project {
+		name: string;
+		description: string;
+		url: string;
+		repository: string;
+		category: string;
+		stars?: number;
+		forks?: number;
+		mainLanguage?: string;
+		license?: string;
+		lastUpdated?: string;
+		metadata?: Array<{
+			key: string;
+			value: string;
+			url?: string;
+		}>;
+	}
+
+	let projects: Project[] = [];
+	let categories: string[] = [];
 	let selectedCategory = 'all';
 	let isLoading = true;
 
 	onMount(async () => {
 		try {
+			// Fetch projects from the raw GitHub content (adjust URL to your repository)
 			const projectsResponse = await fetch('/data/projects.json');
 			projects = await projectsResponse.json();
 
 			// Fetch categories from schema.js
-			const modulePath = '../data/schema.ts';
-			const { categories: loadedCategories } = await import(modulePath);
+			const { categories: loadedCategories } = await import('../../data/schema.js');
 			categories = loadedCategories;
 
 			isLoading = false;
@@ -26,12 +45,9 @@
 	$: filteredProjects =
 		selectedCategory === 'all'
 			? projects
-			: projects.filter((project) => project.category.includes(selectedCategory));
-
-	function getCategoryName(categoryId) {
-		const category = categories.find((c) => c.id === categoryId);
-		return category ? category.name : categoryId;
-	}
+			: projects.filter(
+					(project) => project.category.toLowerCase() === selectedCategory.toLowerCase()
+				);
 </script>
 
 <svelte:head>
@@ -62,7 +78,7 @@
 			>
 				<option value="all">All Categories</option>
 				{#each categories as category}
-					<option value={category.id}>{category.name}</option>
+					<option value={category}>{category}</option>
 				{/each}
 			</select>
 		</div>
@@ -85,13 +101,11 @@
 						<p class="text-gray-700 mb-4">{project.description}</p>
 
 						<div class="flex flex-wrap gap-2 mb-4">
-							{#each project.category as categoryId}
-								<span
-									class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800"
-								>
-									{getCategoryName(categoryId)}
-								</span>
-							{/each}
+							<span
+								class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800"
+							>
+								{project.category}
+							</span>
 						</div>
 
 						<div class="flex items-center text-sm text-gray-500 space-x-4">
