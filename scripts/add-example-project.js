@@ -9,7 +9,7 @@ const projectsPath = path.join(__dirname, '..', 'data', 'projects.json');
 
 // Sample project to add
 const newProject = {
-	name: 'Example Project',
+	name: 'Open3D',
 	url: 'https://github.com/isl-org/Open3D',
 	description: 'This is an example AEC project',
 	category: ['visualization', 'bim']
