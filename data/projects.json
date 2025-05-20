@@ -19,6 +19,11 @@
     "description": "Three js lib",
     "category": [
       "visualization"
-    ]
+    ],
+    "stars": 106276,
+    "forks": 35755,
+    "lastUpdated": "2025-05-20T06:21:07Z",
+    "mainLanguage": "JavaScript",
+    "license": "MIT"
   }
 ]
