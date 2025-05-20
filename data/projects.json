@@ -26,4 +26,14 @@
     "mainLanguage": "JavaScript",
     "license": "MIT"
   }
+  {
+    {
+    "name": "engine_web-ifc",
+    "url": "https://github.com/ThatOpen/engine_web-ifc",
+    "description": "engine_web-ifc",
+    "category": [
+      "visualization"
+    ],
+  }
+  }
 ]
