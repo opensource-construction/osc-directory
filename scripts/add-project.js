@@ -5,7 +5,7 @@ import readline from 'readline/promises';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const projectsFilePath = path.join(__dirname, '..', 'data', 'projects.json');
+const projectsFilePath = path.join(__dirname, '..', 'src', 'lib', 'data', 'projects.json');
 
 // Create readline interface for user input
 const rl = readline.createInterface({
