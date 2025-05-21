@@ -43,7 +43,7 @@ async function getGitHubRepoData(url) {
 }
 
 async function updateProjectMetadata() {
-	const filePath = path.join(process.cwd(), 'data', 'projects.json');
+	const filePath = path.join(process.cwd(), 'src', 'lib', 'data', 'projects.json');
 
 	try {
 		const rawData = await fs.readFile(filePath, 'utf8');
