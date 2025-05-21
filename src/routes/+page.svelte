@@ -21,6 +21,8 @@
 
 			projects = await projectsResponse.json();
 
+			console.log('Projects loaded:', $state.snapshot(projects));
+
 			// Fetch categories from schema.js
 			const { categories: loadedCategories } = await import('$lib/data/schema.js');
 			categories = loadedCategories;
