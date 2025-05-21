@@ -16,7 +16,7 @@ const rl = readline.createInterface({
 async function loadCategories() {
 	try {
 		// Using dynamic import to load the categories from schema.js
-		const schemaModule = await import('../data/schema.js');
+		const schemaModule = await import('../src/lib/data/schema.js');
 		return schemaModule.categories;
 	} catch (error) {
 		console.error('Error loading categories:', error);

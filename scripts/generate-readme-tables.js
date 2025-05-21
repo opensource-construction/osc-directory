@@ -10,7 +10,7 @@ const readmePath = path.join(__dirname, '..', 'README.md');
 async function generateReadmeTables() {
 	try {
 		// Import categories (assuming they're simple strings now)
-		const { categories } = await import('../data/schema.js');
+		const { categories } = await import('../src/lib/data/schema.js');
 
 		// Read projects data
 		const projectsData = JSON.parse(await fs.readFile(projectsPath, 'utf8'));

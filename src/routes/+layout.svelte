@@ -32,7 +32,7 @@
 		<div class="container mx-auto px-4 py-6">
 			<div class="flex justify-between items-center">
 				<div>
-					<p>© 2025 OpenSource Construction</p>
+					<p>© 2025 opensource.construction</p>
 				</div>
 				<div>
 					<a
