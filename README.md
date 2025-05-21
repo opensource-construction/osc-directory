@@ -34,7 +34,8 @@ Your project will be automatically updated with metadata like stars, language, a
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
-| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++ | 12319 | May 20, 2025 | NOASSERTION |
+| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++ | 12324 | May 21, 2025 | NOASSERTION |
+| [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1561 | May 21, 2025 | LGPL-2.1 |
 
 ## Contributing
 
