@@ -1,0 +1,8 @@
+{
+  "url": "https://example.com",
+  "category": "example-category",
+  "metadata": [
+    "example-metadata-1",
+    "example-metadata-2"
+  ]
+}

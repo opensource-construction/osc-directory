@@ -28,7 +28,11 @@
 	onMount(async () => {
 		try {
 			// Fetch projects from the raw GitHub content (adjust URL to your repository)
-			const projectsResponse = await fetch('/data/projects.json');
+			const projectsResponse = await fetch(
+				'https://raw.githubusercontent.com/TheVessen/osc-directory/main/data/projects.json'
+			);
+
+			console.log('Projects loaded:', projects);
 			projects = await projectsResponse.json();
 
 			// Fetch categories from schema.js
