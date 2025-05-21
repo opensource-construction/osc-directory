@@ -15,10 +15,5 @@
 		"url": "https://github.com/Open-Cascade-SAS/OCCT",
 		"category": "visualization",
 		"metadata": ["Rhino, Grasshopper", "Open Cascade Technology"]
-	},
-	{
-		"url": "https://github.com/compas-dev/compas",
-		"category": "visualization",
-		"metadata": ["Rhino, Grasshopper", "COMPAS"]
 	}
 ]

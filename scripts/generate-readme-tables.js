@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const projectsPath = path.join(__dirname, '..', 'data', 'projects.json');
+const projectsPath = path.join(__dirname, '..', 'src', 'lib', 'data', 'projects.json');
 const readmePath = path.join(__dirname, '..', 'README.md');
 
 async function generateReadmeTables() {
