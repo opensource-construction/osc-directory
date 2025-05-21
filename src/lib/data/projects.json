@@ -1,19 +1,32 @@
 [
-	{
-		"url": "https://github.com/isl-org/Open3D",
-		"category": "visualization",
-		"metadata": ["Rhino, Grasshopper", "Open3D"],
-		"name": "Open3D",
-		"description": "Open3D: A Modern Library for 3D Data Processing",
-		"stars": 12319,
-		"forks": 2417,
-		"lastUpdated": "2025-05-20T07:55:18Z",
-		"mainLanguage": "C++",
-		"license": "NOASSERTION"
-	},
-	{
-		"url": "https://github.com/Open-Cascade-SAS/OCCT",
-		"category": "visualization",
-		"metadata": ["Rhino, Grasshopper", "Open Cascade Technology"]
-	}
+  {
+    "url": "https://github.com/isl-org/Open3D",
+    "category": "visualization",
+    "metadata": [
+      "Rhino, Grasshopper",
+      "Open3D"
+    ],
+    "name": "Open3D",
+    "description": "Open3D: A Modern Library for 3D Data Processing",
+    "stars": 12324,
+    "forks": 2416,
+    "lastUpdated": "2025-05-21T14:05:05Z",
+    "mainLanguage": "C++",
+    "license": "NOASSERTION"
+  },
+  {
+    "url": "https://github.com/Open-Cascade-SAS/OCCT",
+    "category": "visualization",
+    "metadata": [
+      "Rhino, Grasshopper",
+      "Open Cascade Technology"
+    ],
+    "name": "OCCT",
+    "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
+    "stars": 1561,
+    "forks": 415,
+    "lastUpdated": "2025-05-21T02:26:19Z",
+    "mainLanguage": "C++",
+    "license": "LGPL-2.1"
+  }
 ]
