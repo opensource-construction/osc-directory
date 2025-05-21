@@ -16,7 +16,7 @@
 		try {
 			// Fetch projects from the raw GitHub content (adjust URL to your repository)
 			const projectsResponse = await fetch(
-				'https://raw.githubusercontent.com/TheVessen/osc-directory/main/data/projects.json'
+				'https://raw.githubusercontent.com/TheVessen/osc-directory/main/src/lib/data/projects.json'
 			);
 
 			projects = await projectsResponse.json();

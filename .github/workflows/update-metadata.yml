@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Allow manual triggering
   push:
     paths:
-      - 'data/projects.json'
+      - 'src/lib/data/projects.json'
       - '.github/workflows/update-metadata.yml'
 
 jobs:
