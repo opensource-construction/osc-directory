@@ -5,7 +5,7 @@ import type { Project } from '../src/lib/types/types';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const newProjectPath = path.join(__dirname, '..', 'src', 'lib', 'data', 'new-project.json');
+const newProjectPath = path.join(__dirname, '..', 'new-project.json');
 const projectsPath = path.join(__dirname, '..', 'src', 'lib', 'data', 'projects.json');
 const templateContent = {
   "url": "https://github.com/username/project",
@@ -54,7 +54,6 @@ async function processNewProject(): Promise<void> {
     await fs.writeFile(projectsPath, JSON.stringify(projects, null, 2));
     console.log('New project added successfully!');
 
-    // Reset the template
     await fs.writeFile(newProjectPath, JSON.stringify(templateContent, null, 2));
     console.log('Template reset for next submission');
   } catch (error) {
