@@ -76,22 +76,5 @@
     "lastUpdated": "2025-05-20T10:08:16Z",
     "mainLanguage": "C++",
     "license": "MIT"
-  },
-  {
-    "url": "https://github.com/TheVessen/osc-directory/tree/main",
-    "category": "bim",
-    "metadata": [
-      "openbim",
-      "ifc",
-      "buildingsmart"
-    ],
-    "submissionDate": "2025-05-22",
-    "name": "osc-directory",
-    "description": "No description provided",
-    "stars": 0,
-    "forks": 0,
-    "lastUpdated": "2025-05-22T06:49:21Z",
-    "mainLanguage": "TypeScript",
-    "license": "MIT"
   }
 ]
