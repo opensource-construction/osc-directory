@@ -1,6 +1,7 @@
-// Schema for project data
+import type { JSONSchema7 } from 'json-schema';
 
-export const projectSchema = {
+// Schema for project data
+export const projectSchema: JSONSchema7 = {
 	required: ['repository'],
 	properties: {
 		name: { type: 'string' },
@@ -37,7 +38,19 @@ export const projectSchema = {
 	}
 };
 
-export const categories = [
+export type ProjectCategory =
+	| 'BIM Tools'
+	| 'Visualization'
+	| 'Analysis'
+	| 'Interoperability'
+	| 'Parametric Design'
+	| 'Data Management'
+	| 'Infrastructure'
+	| 'Sustainability'
+	| 'Development Tools'
+	| 'Other';
+
+export const categories: readonly string[] = [
 	'BIM Tools',
 	'Visualization',
 	'Analysis',
@@ -50,8 +63,16 @@ export const categories = [
 	'Other'
 ];
 
-// Add information about automatically fetched fields
-export const autoFetchedFields = [
+export type AutoFetchedField =
+	| 'name'
+	| 'url'
+	| 'stars'
+	| 'forks'
+	| 'license'
+	| 'lastUpdated'
+	| 'mainLanguage';
+
+export const autoFetchedFields: readonly AutoFetchedField[] = [
 	'name',
 	'url',
 	'stars',

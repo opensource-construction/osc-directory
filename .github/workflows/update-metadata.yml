@@ -1,16 +1,15 @@
 name: Update Project Metadata
 
 on:
-  schedule:
-    - cron: '0 0 * * 0' # Run weekly on Sunday at midnight
-  workflow_dispatch: # Allow manual triggering
-  push:
-    paths:
-      - 'src/lib/data/projects.json'
-      - '.github/workflows/update-metadata.yml'
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   update-metadata:
+    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -47,12 +46,12 @@ jobs:
         run: pnpm install
 
       - name: Update project metadata
-        run: node scripts/update-metadata.js
+        run: pnpm tsx scripts/update-metadata.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate README tables
-        run: node scripts/generate-readme-tables.js
+        run: pnpm tsx scripts/generate-readme-tables.ts
 
       - name: Commit changes if any
         run: |

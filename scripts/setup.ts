@@ -3,11 +3,21 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+// Define types for package.json
+interface PackageJson {
+	name?: string;
+	version?: string;
+	dependencies: Record<string, string>;
+	devDependencies?: Record<string, string>;
+	scripts?: Record<string, string>;
+	[key: string]: unknown;
+}
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.join(__dirname, '..');
 
-async function setupProject() {
+async function setupProject(): Promise<void> {
 	console.log('Setting up AEC Open Source Directory...');
 
 	// Add dependencies to package.json
@@ -15,7 +25,7 @@ async function setupProject() {
 
 	try {
 		const packageJsonContent = await fs.readFile(packageJsonPath, 'utf8');
-		const packageJson = JSON.parse(packageJsonContent);
+		const packageJson = JSON.parse(packageJsonContent) as PackageJson;
 
 		// Add Octokit for GitHub API calls
 		if (!packageJson.dependencies) {
@@ -76,9 +86,13 @@ SOFTWARE.`;
 		console.log('\nTo update metadata:');
 		console.log('  pnpm update-metadata');
 	} catch (error) {
-		console.error('Error setting up project:', error);
+		console.error('Error setting up project:', error instanceof Error ? error.message : String(error));
 		process.exit(1);
 	}
 }
 
-setupProject();
+// Execute the setup function
+setupProject().catch(error => {
+	console.error('Unhandled error during setup:', error instanceof Error ? error.message : String(error));
+	process.exit(1);
+});

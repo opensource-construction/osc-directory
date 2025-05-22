@@ -8,13 +8,12 @@
 
 	// Define types for our data
 	let projects: Project[] = $state([]);
-	let categories: string[] = $state([]);
+	let categories: readonly string[] = $state([]);
 	let selectedCategory = $state('all');
 	let isLoading = $state(true);
 
 	onMount(async () => {
 		try {
-			// Fetch projects from the raw GitHub content (adjust URL to your repository)
 			const projectsResponse = await fetch(
 				'https://raw.githubusercontent.com/TheVessen/osc-directory/main/src/lib/data/projects.json'
 			);
@@ -23,7 +22,6 @@
 
 			console.log('Projects loaded:', $state.snapshot(projects));
 
-			// Fetch categories from schema.js
 			const { categories: loadedCategories } = await import('$lib/data/schema.js');
 			categories = loadedCategories;
 

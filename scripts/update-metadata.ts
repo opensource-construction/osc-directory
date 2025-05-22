@@ -1,12 +1,24 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { Octokit } from '@octokit/rest';
+import type { Project } from '../src/lib/types/types';
+
+// GitHub data interface
+interface GitHubRepoData {
+	name: string;
+	description: string;
+	stars: number;
+	forks: number;
+	lastUpdated: string;
+	mainLanguage: string | null;
+	license: string;
+}
 
 const octokit = new Octokit({
 	auth: process.env.GITHUB_TOKEN
 });
 
-async function getGitHubRepoData(url) {
+async function getGitHubRepoData(url: string): Promise<GitHubRepoData | null> {
 	try {
 		// Extract owner and repo from GitHub URL
 		const match = url.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -31,23 +43,25 @@ async function getGitHubRepoData(url) {
 			license: repoData.license?.spdx_id || 'Unknown'
 		};
 	} catch (error) {
-		console.error(`Error fetching GitHub data for ${url}:`, error.message);
+		console.error(`Error fetching GitHub data for ${url}:`, error instanceof Error ? error.message : String(error));
 		return {
+			name: url.split('/').pop() || 'Unknown',
+			description: 'No description provided',
 			stars: 0,
 			forks: 0,
 			lastUpdated: new Date().toISOString(),
-			mainLanguage: 'Unknown',
+			mainLanguage: null,
 			license: 'Unknown'
 		};
 	}
 }
 
-async function updateProjectMetadata() {
+async function updateProjectMetadata(): Promise<void> {
 	const filePath = path.join(process.cwd(), 'src', 'lib', 'data', 'projects.json');
 
 	try {
 		const rawData = await fs.readFile(filePath, 'utf8');
-		const projects = JSON.parse(rawData);
+		const projects: Project[] = JSON.parse(rawData);
 
 		console.log(`Updating metadata for ${projects.length} projects...`);
 
@@ -78,7 +92,7 @@ async function updateProjectMetadata() {
 						if (
 							project.description &&
 							project.description !== 'No description provided' &&
-							project.description.length > githubData.description?.length
+							project.description.length > (githubData.description?.length || 0)
 						) {
 							updatedProject.description = project.description;
 						}
@@ -103,7 +117,7 @@ async function updateProjectMetadata() {
 						if (
 							project.description &&
 							project.description !== 'No description provided' &&
-							project.description.length > githubData.description?.length
+							project.description.length > (githubData.description?.length || 0)
 						) {
 							updatedProject.description = project.description;
 						}

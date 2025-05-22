@@ -1,19 +1,25 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import type { Project } from '../src/lib/types/types';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectsPath = path.join(__dirname, '..', 'src', 'lib', 'data', 'projects.json');
 const readmePath = path.join(__dirname, '..', 'README.md');
 
-async function generateReadmeTables() {
+interface SchemaModule {
+	categories: string[];
+}
+
+async function generateReadmeTables(): Promise<void> {
 	try {
-		// Import categories (assuming they're simple strings now)
-		const { categories } = await import('../src/lib/data/schema.js');
+		// Import categories
+		const schemaModule = await import('../src/lib/data/schema.ts');
+		const { categories } = schemaModule;
 
 		// Read projects data
-		const projectsData = JSON.parse(await fs.readFile(projectsPath, 'utf8'));
+		const projectsData: Project[] = JSON.parse(await fs.readFile(projectsPath, 'utf8'));
 
 		// Read current README content
 		let readmeContent = await fs.readFile(readmePath, 'utf8');
@@ -35,7 +41,7 @@ async function generateReadmeTables() {
 
 		// Generate tables for each category
 		for (const category of categories) {
-			// Filter projects by category (now it's an array)
+			// Filter projects by category
 			const categoryProjects = projectsData.filter(
 				(project) =>
 					project.category &&
@@ -50,16 +56,21 @@ async function generateReadmeTables() {
 				tablesContent += `|---------|-------------|----------|-------|--------------|--------|\n`;
 
 				for (const project of categoryProjects) {
-					const lastUpdated =
-						project.lastUpdated || project.lastCommit
-							? new Date(project.lastUpdated || project.lastCommit).toLocaleDateString('en-US', {
-									year: 'numeric',
-									month: 'short',
-									day: 'numeric'
-								})
-							: 'N/A';
+					const lastUpdatedDate = project.lastUpdated
+						? new Date(project.lastUpdated)
+						: undefined;
 
-					tablesContent += `| [${project.name}](${project.url}) | ${project.description} | ${project.mainLanguage || project.language || 'N/A'} | ${project.stars || 0} | ${lastUpdated} | ${project.license || 'N/A'} |\n`;
+					const lastUpdated = lastUpdatedDate
+						? lastUpdatedDate.toLocaleDateString('en-US', {
+							year: 'numeric',
+							month: 'short',
+							day: 'numeric'
+						})
+						: 'N/A';
+
+					tablesContent += `| [${project.name}](${project.url}) | ${project.description
+						} | ${project.mainLanguage || 'N/A'} | ${project.stars || 0
+						} | ${lastUpdated} | ${project.license || 'N/A'} |\n`;
 				}
 
 				tablesContent += '\n';
@@ -74,10 +85,13 @@ async function generateReadmeTables() {
 		await fs.writeFile(readmePath, newReadmeContent);
 		console.log('README tables generated successfully!');
 	} catch (error) {
-		console.error('Error generating README tables:', error);
-		throw error; // Re-throw to see the error in the workflow
+		console.error('Error generating README tables:', error instanceof Error ? error.message : String(error));
+		process.exit(1);
 	}
 }
 
 // Run the function
-generateReadmeTables();
+generateReadmeTables().catch(error => {
+	console.error('Unhandled error in generateReadmeTables:', error instanceof Error ? error.message : String(error));
+	process.exit(1);
+});

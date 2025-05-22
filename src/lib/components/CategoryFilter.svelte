@@ -2,7 +2,7 @@
 	let {
 		categories = [],
 		selectedCategory = $bindable('all')
-	}: { categories: string[]; selectedCategory: string } = $props();
+	}: { categories: readonly string[]; selectedCategory: string } = $props();
 </script>
 
 <div class="mb-6">
