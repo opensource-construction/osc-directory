@@ -45,21 +45,48 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Check if new-project.json is modified
+        id: check-template
+        run: |
+          TEMPLATE_CONTENT='{
+            "name": "",
+            "url": "https://github.com/username/project",
+            "description": "",
+            "category": "",
+            "metadata": []
+          }'
+
+          # Remove whitespace for comparison
+          NORMALIZED_TEMPLATE=$(echo "$TEMPLATE_CONTENT" | jq -c .)
+          NORMALIZED_FILE=$(cat src/lib/data/new-project.json | jq -c .)
+
+          if [ "$NORMALIZED_TEMPLATE" == "$NORMALIZED_FILE" ]; then
+            echo "Template is unchanged, skipping metadata update"
+            echo "unchanged=true" >> $GITHUB_OUTPUT
+          else
+            echo "Template has been modified, proceeding with update"
+            echo "unchanged=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Process new project
+        if: steps.check-template.outputs.unchanged != 'true'
         run: pnpm tsx scripts/parse-template.ts
 
       - name: Update project metadata
+        if: steps.check-template.outputs.unchanged != 'true'
         run: pnpm tsx scripts/update-metadata.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate README tables
+        if: steps.check-template.outputs.unchanged != 'true'
         run: pnpm tsx scripts/generate-readme-tables.ts
 
       - name: Commit changes if any
+        if: steps.check-template.outputs.unchanged != 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add src/lib/data/projects.json README.md
+          git add src/lib/data/projects.json README.md src/lib/data/new-project.json
           git diff --staged --quiet || git commit -m "Update project metadata and README"
           git push
