@@ -56,6 +56,11 @@ jobs:
       - name: Generate README tables
         run: pnpm tsx scripts/generate-readme-tables.ts
 
+      - name: Reset template file
+        run: pnpm tsx scripts/reset-template.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit changes if any
         run: |
           git config --local user.email "action@github.com"
