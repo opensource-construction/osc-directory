@@ -14,10 +14,11 @@
 		"test": "npm run test:unit -- --run",
 		"lint": "eslint . && prettier --check .",
 		"format": "prettier --write .",
-		"add-project": "node scripts/add-project.js",
-		"add-example": "node scripts/add-example-project.js",
-		"update-metadata": "node scripts/update-metadata.js",
-		"generate-readme": "node scripts/generate-readme-tables.js"
+		"add-project": "tsx scripts/add-project.ts",
+		"add-example": "tsx scripts/add-example-project.ts",
+		"update-metadata": "tsx scripts/update-metadata.ts",
+		"generate-readme": "tsx scripts/generate-readme-tables.ts",
+		"parse-template": "tsx scripts/parse-template.ts"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",

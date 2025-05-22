@@ -46,7 +46,7 @@ jobs:
         run: pnpm install
 
       - name: Update project metadata
-        run: pnpm tsx scripts/update-metadata.ts
+        run: pnpm tsx scripts/parse-template.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
