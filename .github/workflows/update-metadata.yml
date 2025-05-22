@@ -45,8 +45,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Update project metadata
+      - name: Process new project
         run: pnpm tsx scripts/parse-template.ts
+
+      - name: Update project metadata
+        run: pnpm tsx scripts/update-metadata.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
