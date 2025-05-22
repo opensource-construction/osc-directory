@@ -1,5 +1,5 @@
 {
 	"url": "https://github.com/compas-dev/compas",
 	"category": "interoperability",
-	"metadata": [rhino, production]
+	"metadata": ["rhino", "production"]
 }
