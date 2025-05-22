@@ -43,6 +43,7 @@ Your project will be automatically updated with metadata like stars, language, a
 |---------|-------------|----------|-------|--------------|--------|
 | [compas](https://github.com/compas-dev/compas) | Core packages of the COMPAS framework. | Python | 331 | May 17, 2025 | MIT |
 | [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 106317 | May 22, 2025 | MIT |
+| [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 81 | May 20, 2025 | MIT |
 
 ## Contributing
 

@@ -60,5 +60,21 @@
     "lastUpdated": "2025-05-22T05:43:23Z",
     "mainLanguage": "JavaScript",
     "license": "MIT"
+  },
+  {
+    "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
+    "category": "interoperability",
+    "metadata": [
+      "voxel",
+      "ifc"
+    ],
+    "submissionDate": "2025-05-22",
+    "name": "voxelization_toolkit",
+    "description": "Voxelization Toolkit for (IFC) Building Models",
+    "stars": 81,
+    "forks": 17,
+    "lastUpdated": "2025-05-20T10:08:16Z",
+    "mainLanguage": "C++",
+    "license": "MIT"
   }
 ]
