@@ -64,7 +64,6 @@ async function processNewProject(): Promise<void> {
 }
 
 function isTemplateUnchanged(project: Project): boolean {
-  // Check if any meaningful changes were made to the template
   return (
     (project.url === templateContent.url || !project.url) &&
     (project.category === templateContent.category || !project.category) &&
@@ -73,7 +72,6 @@ function isTemplateUnchanged(project: Project): boolean {
 }
 
 function isValidProject(project: Project): boolean {
-  // Minimum requirements: URL and category
   return Boolean(
     project.url &&
     project.url !== templateContent.url &&

@@ -56,15 +56,10 @@ jobs:
       - name: Generate README tables
         run: pnpm tsx scripts/generate-readme-tables.ts
 
-      - name: Reset template file
-        run: pnpm tsx scripts/reset-template.ts
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Commit changes if any
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add src/lib/data/projects.json README.md
+          git add src/lib/data/projects.json README.md src/lib/data/new-project.json
           git diff --staged --quiet || git commit -m "Update project metadata and README"
           git push

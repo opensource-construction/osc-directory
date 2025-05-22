@@ -25,9 +25,8 @@ async function getGitHubRepoData(url: string): Promise<GitHubRepoData | null> {
 		if (!match) return null;
 
 		const [, owner, repo] = match;
-		const repoName = repo.replace(/\.git$/, ''); // Remove .git extension if present
+		const repoName = repo.replace(/\.git$/, '');
 
-		// Get repository information
 		const { data: repoData } = await octokit.repos.get({
 			owner,
 			repo: repoName
@@ -81,10 +80,8 @@ async function updateProjectMetadata(): Promise<void> {
 				if (project.url && project.url.includes('github.com')) {
 					const githubData = await getGitHubRepoData(project.url);
 					if (githubData) {
-						// Only overwrite name and description if not provided manually
 						const updatedProject = { ...project, ...githubData };
 
-						// Preserve manually entered values if they exist
 						if (project.name && project.name !== project.url.split('/').pop()) {
 							updatedProject.name = project.name;
 						}
@@ -100,7 +97,6 @@ async function updateProjectMetadata(): Promise<void> {
 						return updatedProject;
 					}
 				} else if (project.repository && project.repository.includes('github.com')) {
-					// Try to use repository field if URL is not provided or not GitHub
 					const githubData = await getGitHubRepoData(project.repository);
 					if (githubData) {
 						const updatedProject = {
