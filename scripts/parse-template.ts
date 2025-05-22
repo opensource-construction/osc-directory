@@ -9,7 +9,6 @@ const newProjectPath = path.join(__dirname, '..', 'src', 'lib', 'data', 'new-pro
 const projectsPath = path.join(__dirname, '..', 'src', 'lib', 'data', 'projects.json');
 const templateContent = {
   "url": "https://github.com/username/project",
-  "description": "",
   "category": "",
   "metadata": []
 };
@@ -68,7 +67,6 @@ function isTemplateUnchanged(project: Project): boolean {
   // Check if any meaningful changes were made to the template
   return (
     (project.url === templateContent.url || !project.url) &&
-    (project.description === templateContent.description || !project.description) &&
     (project.category === templateContent.category || !project.category) &&
     (Array.isArray(project.metadata) && project.metadata.length === 0)
   );
