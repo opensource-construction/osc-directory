@@ -1,5 +1,5 @@
 {
-  "url": "https://github.com/username/project",
-  "category": "",
-  "metadata": []
+  "url": "https://github.com/opensourceBIM/BIMserver",
+  "category": "Infrastructure",
+  "metadata": ["bim", "openbim", "bim-server"]
 }
