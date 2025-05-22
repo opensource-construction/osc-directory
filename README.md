@@ -45,6 +45,12 @@ Your project will be automatically updated with metadata like stars, language, a
 | [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 106317 | May 22, 2025 | MIT |
 | [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 81 | May 20, 2025 | MIT |
 
+### Infrastructure
+
+| Project | Description | Language | Stars | Last Updated | License |
+|---------|-------------|----------|-------|--------------|--------|
+| [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1610 | May 19, 2025 | AGPL-3.0 |
+
 ## Contributing
 
 Contributions are welcome! Please see our [contribution guidelines](CONTRIBUTING.md) for more information.

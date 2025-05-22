@@ -76,5 +76,22 @@
     "lastUpdated": "2025-05-20T10:08:16Z",
     "mainLanguage": "C++",
     "license": "MIT"
+  },
+  {
+    "url": "https://github.com/opensourceBIM/BIMserver",
+    "category": "Infrastructure",
+    "metadata": [
+      "bim",
+      "openbim",
+      "bim-server"
+    ],
+    "submissionDate": "2025-05-22",
+    "name": "BIMserver",
+    "description": "The open source BIMserver platform",
+    "stars": 1610,
+    "forks": 621,
+    "lastUpdated": "2025-05-19T08:33:33Z",
+    "mainLanguage": "Java",
+    "license": "AGPL-3.0"
   }
 ]
