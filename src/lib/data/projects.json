@@ -9,7 +9,7 @@
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
     "stars": 12324,
-    "forks": 2416,
+    "forks": 2417,
     "lastUpdated": "2025-05-21T14:05:05Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION"
@@ -23,9 +23,9 @@
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1561,
+    "stars": 1563,
     "forks": 415,
-    "lastUpdated": "2025-05-21T02:26:19Z",
+    "lastUpdated": "2025-05-22T03:38:36Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1"
   }
