@@ -58,6 +58,12 @@ Your project will be automatically updated with metadata like stars, language, a
 |---------|-------------|----------|-------|--------------|--------|
 | [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1612 | May 23, 2025 | AGPL-3.0 |
 
+### Other
+
+| Project | Description | Language | Stars | Last Updated | License |
+|---------|-------------|----------|-------|--------------|--------|
+| [ifcopenshell-jupyter](https://github.com/IfcOpenShell/ifcopenshell-jupyter) | Binder to run IfcOpenShell with Jupyter | Python | 3 | Jan 18, 2024 | Unknown |
+
 ## Contributing
 
 Contributions are welcome! Please see our [contribution guidelines](CONTRIBUTING.md) for more information.
