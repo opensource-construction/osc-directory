@@ -1,5 +1,5 @@
 {
-  "url": "https://github.com/username/project",
-  "category": "",
-  "metadata": []
+  "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
+  "category": "Other",
+  "metadata": ["Jupyter Notebook", "IfcOpenShell"]
 }
