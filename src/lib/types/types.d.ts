@@ -10,4 +10,5 @@ export interface Project {
   license?: string;
   lastUpdated?: string;
   metadata?: Array<string>;
+  openIssues?: number;
 }

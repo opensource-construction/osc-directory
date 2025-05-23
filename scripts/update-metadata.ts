@@ -12,6 +12,8 @@ interface GitHubRepoData {
 	lastUpdated: string;
 	mainLanguage: string | null;
 	license: string;
+	topics: string[];
+	openIssues?: number;
 }
 
 const octokit = new Octokit({
@@ -39,7 +41,9 @@ async function getGitHubRepoData(url: string): Promise<GitHubRepoData | null> {
 			forks: repoData.forks_count,
 			lastUpdated: repoData.updated_at,
 			mainLanguage: repoData.language,
-			license: repoData.license?.spdx_id || 'Unknown'
+			license: repoData.license?.spdx_id || 'Unknown',
+			topics: repoData.topics || [],
+			openIssues: repoData.open_issues_count
 		};
 	} catch (error) {
 		console.error(`Error fetching GitHub data for ${url}:`, error instanceof Error ? error.message : String(error));
@@ -50,7 +54,9 @@ async function getGitHubRepoData(url: string): Promise<GitHubRepoData | null> {
 			forks: 0,
 			lastUpdated: new Date().toISOString(),
 			mainLanguage: null,
-			license: 'Unknown'
+			license: 'Unknown',
+			topics: [],
+			openIssues: 0
 		};
 	}
 }
@@ -66,9 +72,7 @@ async function updateProjectMetadata(): Promise<void> {
 
 		const updatedProjects = await Promise.all(
 			projects.map(async (project) => {
-				// Convert any array categories to string (single category)
 				if (project.category && Array.isArray(project.category)) {
-					// Take the first category if it's an array
 					project.category = project.category[0];
 				}
 
@@ -94,10 +98,14 @@ async function updateProjectMetadata(): Promise<void> {
 							updatedProject.description = project.description;
 						}
 
+						updatedProject.metadata?.push(...githubData.topics)
+
 						return updatedProject;
 					}
 				} else if (project.repository && project.repository.includes('github.com')) {
 					const githubData = await getGitHubRepoData(project.repository);
+
+
 					if (githubData) {
 						const updatedProject = {
 							...project,
@@ -118,6 +126,8 @@ async function updateProjectMetadata(): Promise<void> {
 							updatedProject.description = project.description;
 						}
 
+						updatedProject.metadata?.push(...githubData.topics)
+
 						return updatedProject;
 					}
 				}
@@ -132,6 +142,7 @@ async function updateProjectMetadata(): Promise<void> {
 		process.exit(1);
 	}
 }
+
 
 // Run the update function
 updateProjectMetadata();
