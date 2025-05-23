@@ -4,37 +4,107 @@
     "category": "visualization",
     "metadata": [
       "Rhino, Grasshopper",
-      "Open3D"
+      "Open3D",
+      "3d",
+      "3d-perception",
+      "arm",
+      "computer-graphics",
+      "cpp",
+      "cuda",
+      "gpu",
+      "gui",
+      "machine-learning",
+      "mesh-processing",
+      "odometry",
+      "opengl",
+      "pointcloud",
+      "python",
+      "pytorch",
+      "reconstruction",
+      "registration",
+      "rendering",
+      "tensorflow",
+      "visualization"
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12325,
+    "stars": 12335,
     "forks": 2417,
-    "lastUpdated": "2025-05-22T06:43:08Z",
+    "lastUpdated": "2025-05-23T10:03:15Z",
     "mainLanguage": "C++",
-    "license": "NOASSERTION"
+    "license": "NOASSERTION",
+    "topics": [
+      "3d",
+      "3d-perception",
+      "arm",
+      "computer-graphics",
+      "cpp",
+      "cuda",
+      "gpu",
+      "gui",
+      "machine-learning",
+      "mesh-processing",
+      "odometry",
+      "opengl",
+      "pointcloud",
+      "python",
+      "pytorch",
+      "reconstruction",
+      "registration",
+      "rendering",
+      "tensorflow",
+      "visualization"
+    ],
+    "openIssues": 1268
   },
   {
     "url": "https://github.com/Open-Cascade-SAS/OCCT",
     "category": "visualization",
     "metadata": [
       "Rhino, Grasshopper",
-      "Open Cascade Technology"
+      "Open Cascade Technology",
+      "3d",
+      "3d-cad",
+      "cad",
+      "cae",
+      "cam",
+      "occt",
+      "occt3d",
+      "opencascade"
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1563,
-    "forks": 415,
-    "lastUpdated": "2025-05-22T03:38:36Z",
+    "stars": 1564,
+    "forks": 416,
+    "lastUpdated": "2025-05-23T01:31:20Z",
     "mainLanguage": "C++",
-    "license": "LGPL-2.1"
+    "license": "LGPL-2.1",
+    "topics": [
+      "3d",
+      "3d-cad",
+      "cad",
+      "cae",
+      "cam",
+      "occt",
+      "occt3d",
+      "opencascade"
+    ],
+    "openIssues": 76
   },
   {
     "url": "https://github.com/compas-dev/compas",
     "category": "interoperability",
     "metadata": [
       "rhino",
-      "production"
+      "production",
+      "aec",
+      "blender3d",
+      "data",
+      "datastructures",
+      "geometry",
+      "grasshopper3d",
+      "rhino3d",
+      "rpc"
     ],
     "submissionDate": "2025-05-22",
     "name": "compas",
@@ -43,23 +113,61 @@
     "forks": 111,
     "lastUpdated": "2025-05-17T07:21:08Z",
     "mainLanguage": "Python",
-    "license": "MIT"
+    "license": "MIT",
+    "topics": [
+      "aec",
+      "blender3d",
+      "data",
+      "datastructures",
+      "geometry",
+      "grasshopper3d",
+      "rhino3d",
+      "rpc"
+    ],
+    "openIssues": 105
   },
   {
     "url": "https://github.com/mrdoob/three.js",
     "category": "interoperability",
     "metadata": [
       "rhino",
-      "production"
+      "production",
+      "3d",
+      "augmented-reality",
+      "canvas",
+      "html5",
+      "javascript",
+      "svg",
+      "virtual-reality",
+      "webaudio",
+      "webgl",
+      "webgl2",
+      "webgpu",
+      "webxr"
     ],
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106317,
-    "forks": 35761,
-    "lastUpdated": "2025-05-22T05:43:23Z",
+    "stars": 106339,
+    "forks": 35767,
+    "lastUpdated": "2025-05-23T11:26:24Z",
     "mainLanguage": "JavaScript",
-    "license": "MIT"
+    "license": "MIT",
+    "topics": [
+      "3d",
+      "augmented-reality",
+      "canvas",
+      "html5",
+      "javascript",
+      "svg",
+      "virtual-reality",
+      "webaudio",
+      "webgl",
+      "webgl2",
+      "webgpu",
+      "webxr"
+    ],
+    "openIssues": 564
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -75,7 +183,9 @@
     "forks": 17,
     "lastUpdated": "2025-05-20T10:08:16Z",
     "mainLanguage": "C++",
-    "license": "MIT"
+    "license": "MIT",
+    "topics": [],
+    "openIssues": 9
   },
   {
     "url": "https://github.com/opensourceBIM/BIMserver",
@@ -83,15 +193,53 @@
     "metadata": [
       "bim",
       "openbim",
-      "bim-server"
+      "bim-server",
+      "bim",
+      "bim-applications",
+      "bim-bots",
+      "bim-server",
+      "bimserver",
+      "buildingsmart",
+      "ifc",
+      "java",
+      "openbim"
     ],
     "submissionDate": "2025-05-22",
     "name": "BIMserver",
     "description": "The open source BIMserver platform",
-    "stars": 1610,
+    "stars": 1611,
     "forks": 621,
-    "lastUpdated": "2025-05-19T08:33:33Z",
+    "lastUpdated": "2025-05-22T11:24:30Z",
     "mainLanguage": "Java",
-    "license": "AGPL-3.0"
+    "license": "AGPL-3.0",
+    "topics": [
+      "bim",
+      "bim-applications",
+      "bim-bots",
+      "bim-server",
+      "bimserver",
+      "buildingsmart",
+      "ifc",
+      "java",
+      "openbim"
+    ],
+    "openIssues": 108
+  },
+  {
+    "url": "https://github.com/ladybug-tools/ladybug",
+    "category": "Analysis",
+    "metadata": [
+      "LCA"
+    ],
+    "submissionDate": "2025-05-23",
+    "name": "ladybug",
+    "description": "🐞 Core ladybug library for weather data analysis and visualization",
+    "stars": 206,
+    "forks": 56,
+    "lastUpdated": "2025-05-20T02:56:23Z",
+    "mainLanguage": "Python",
+    "license": "AGPL-3.0",
+    "topics": [],
+    "openIssues": 7
   }
 ]

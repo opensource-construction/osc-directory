@@ -34,22 +34,28 @@ Your project will be automatically updated with metadata like stars, language, a
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
-| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++ | 12325 | May 22, 2025 | NOASSERTION |
-| [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1563 | May 22, 2025 | LGPL-2.1 |
+| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++ | 12335 | May 23, 2025 | NOASSERTION |
+| [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1564 | May 23, 2025 | LGPL-2.1 |
+
+### Analysis
+
+| Project | Description | Language | Stars | Last Updated | License |
+|---------|-------------|----------|-------|--------------|--------|
+| [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 206 | May 20, 2025 | AGPL-3.0 |
 
 ### Interoperability
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
 | [compas](https://github.com/compas-dev/compas) | Core packages of the COMPAS framework. | Python | 331 | May 17, 2025 | MIT |
-| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 106317 | May 22, 2025 | MIT |
+| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 106339 | May 23, 2025 | MIT |
 | [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 81 | May 20, 2025 | MIT |
 
 ### Infrastructure
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
-| [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1610 | May 19, 2025 | AGPL-3.0 |
+| [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1611 | May 22, 2025 | AGPL-3.0 |
 
 ## Contributing
 
