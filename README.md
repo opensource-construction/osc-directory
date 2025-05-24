@@ -74,6 +74,7 @@ Your project will be automatically updated with metadata like stars, language, a
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
 | [XbimEssentials](https://github.com/xBimTeam/XbimEssentials) | A .NET library to work with data in the IFC format. This is the core component of the Xbim Toolkit | C# | 524 | May 16, 2025 | NOASSERTION |
+| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 11342 | May 24, 2025 | GPL-2.0 |
 
 ### Other
 
