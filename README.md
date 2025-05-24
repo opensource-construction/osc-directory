@@ -30,6 +30,12 @@ Your project will be automatically updated with metadata like stars, language, a
 
 ## Projects
 
+### BIM Tools
+
+| Project | Description | Language | Stars | Last Updated | License |
+|---------|-------------|----------|-------|--------------|--------|
+| [speckle-server](https://github.com/specklesystems/speckle-server) | The Speckle Server, Frontend, 3D Viewer, & other JS utilities. | TypeScript | 723 | May 23, 2025 | NOASSERTION |
+
 ### Visualization
 
 | Project | Description | Language | Stars | Last Updated | License |
