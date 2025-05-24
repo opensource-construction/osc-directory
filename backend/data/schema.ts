@@ -1,56 +1,7 @@
-import type { JSONSchema7 } from 'json-schema';
+import { z } from 'zod';
 
-// Schema for project data
-export const projectSchema: JSONSchema7 = {
-	required: ['repository'],
-	properties: {
-		name: { type: 'string' },
-		description: { type: 'string' },
-		url: { type: 'string', format: 'uri' },
-		repository: { type: 'string', format: 'uri' },
-		license: { type: 'string' },
-		stars: { type: 'number' },
-		forks: { type: 'number' },
-		lastUpdated: { type: 'string' },
-		lastCommit: { type: 'string' },
-		openIssues: { type: 'number' },
-		mainLanguage: { type: 'string' },
-		language: { type: 'string' },
-		category: { type: 'string' },
-		tags: {
-			type: 'array',
-			items: { type: 'string' }
-		},
-		metadata: {
-			type: 'array',
-			items: {
-				type: 'object',
-				properties: {
-					key: { type: 'string' },
-					value: { type: 'string' },
-					url: { type: 'string', format: 'uri' }
-				},
-				required: ['key', 'value']
-			}
-		},
-		submittedBy: { type: 'string' },
-		submissionDate: { type: 'string', format: 'date' }
-	}
-};
-
-export type ProjectCategory =
-	| 'BIM Tools'
-	| 'Visualization'
-	| 'Analysis'
-	| 'Interoperability'
-	| 'Parametric Design'
-	| 'Data Management'
-	| 'Infrastructure'
-	| 'Sustainability'
-	| 'Development Tools'
-	| 'Other';
-
-export const categories: readonly string[] = [
+// Predefined categories
+export const predefinedCategories = [
 	'BIM Tools',
 	'Visualization',
 	'Analysis',
@@ -61,25 +12,33 @@ export const categories: readonly string[] = [
 	'Sustainability',
 	'Development Tools',
 	'Other'
-];
+] as const;
 
-export type AutoFetchedField =
-	| 'name'
-	| 'url'
-	| 'stars'
-	| 'forks'
-	| 'license'
-	| 'lastUpdated'
-	| 'mainLanguage';
+// Mutable categories array for extension
+export const categories: string[] = [...predefinedCategories];
 
-export const autoFetchedFields: readonly AutoFetchedField[] = [
-	'name',
-	'url',
-	'stars',
-	'forks',
-	'license',
-	'lastUpdated',
-	'mainLanguage'
-];
+// Project schema
+export const ProjectSchema = z.object({
+	repository: z.string().url(),
+	name: z.string().optional(),
+	description: z.string().optional(),
+	url: z.string().url().optional(),
+	license: z.string().optional(),
+	stars: z.number().nonnegative().optional(),
+	forks: z.number().nonnegative().optional(),
+	lastUpdated: z.string().optional(),
+	lastCommit: z.string().optional(),
+	openIssues: z.number().nonnegative().optional(),
+	mainLanguage: z.string().optional(),
+	language: z.string().optional(),
+	category: z.string().optional(),
+	tags: z.array(z.string()).optional(),
+	submittedBy: z.string().optional(),
+	submissionDate: z.string().datetime().optional(),
+});
 
-export default { projectSchema, categories, autoFetchedFields };
+
+export default {
+	ProjectSchema,
+	categories,
+};

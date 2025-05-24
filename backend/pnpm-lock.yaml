@@ -14,6 +14,9 @@ importers:
       json-schema:
         specifier: ^0.4.0
         version: 0.4.0
+      zod:
+        specifier: ^3.25.28
+        version: 3.25.28
     devDependencies:
       '@types/json-schema':
         specifier: ^7.0.15
@@ -639,6 +642,9 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
+  zod@3.25.28:
+    resolution: {integrity: sha512-/nt/67WYKnr5by3YS7LroZJbtcCBurDKKPBPWWzaxvVCGuG/NOsiKkrjoOhI8mJ+SQUXEbUzeB3S+6XDUEEj7Q==}
+
 snapshots:
 
   '@esbuild/aix-ppc64@0.25.4':
@@ -1145,3 +1151,5 @@ snapshots:
       stackback: 0.0.2
 
   wrappy@1.0.2: {}
+
+  zod@3.25.28: {}

@@ -3,84 +3,138 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Project } from '@shared/types/index.ts';
 import { DATA_PATH } from '../utils/shared-vars.ts';
+import { categories } from '../data/schema.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectsPath = path.join(__dirname, DATA_PATH, 'projects.json');
 const readmePath = path.join(__dirname, '..', '..', 'README.md');
 
+/**
+ * Loads projects data from JSON file
+ */
+async function loadProjects(): Promise<Project[]> {
+	try {
+		const data = await fs.readFile(projectsPath, 'utf8');
+		return JSON.parse(data) as Project[];
+	} catch (error) {
+		console.error('Error loading projects:', error);
+		return [];
+	}
+}
+
+
+/**
+ * Loads current README content
+ */
+async function loadReadme(): Promise<string> {
+	try {
+		return await fs.readFile(readmePath, 'utf8');
+	} catch (error) {
+		console.error('Error reading README file:', error);
+		return '';
+	}
+}
+
+/**
+ * Format a date string into a readable format
+ */
+function formatDate(dateString: string | undefined): string {
+	if (!dateString) return 'N/A';
+
+	try {
+		const date = new Date(dateString);
+		return date.toLocaleDateString('en-US', {
+			year: 'numeric',
+			month: 'short',
+			day: 'numeric'
+		});
+	} catch {
+		return 'N/A';
+	}
+}
+
+/**
+ * Filters projects by category
+ */
+function filterProjectsByCategory(projects: Project[], category: string): Project[] {
+	return projects.filter(
+		(project) =>
+			project.category &&
+			(Array.isArray(project.category)
+				? project.category.map((c) => c.toLowerCase()).includes(category.toLowerCase())
+				: project.category.toLowerCase() === category.toLowerCase())
+	);
+}
+
+/**
+ * Generates table content for a single category
+ */
+function generateCategoryTable(category: string, projects: Project[]): string {
+	if (projects.length === 0) return '';
+
+	let tableContent = `### ${category}\n\n`;
+	tableContent += `| Project | Description | Language | Stars | Last Updated | License |\n`;
+	tableContent += `|---------|-------------|----------|-------|--------------|--------|\n`;
+
+	for (const project of projects) {
+		const lastUpdated = formatDate(project.lastUpdated);
+
+		tableContent += `| [${project.name}](${project.url}) | ${project.description || 'N/A'
+			} | ${project.mainLanguage || 'N/A'} | ${project.stars || 0
+			} | ${lastUpdated} | ${project.license || 'N/A'} |\n`;
+	}
+
+	return tableContent + '\n';
+}
+
+/**
+ * Updates the README file with new content
+ */
+async function updateReadme(readmeContent: string, tablesContent: string): Promise<void> {
+	const startMarker = '## Projects';
+	const endMarker = '## Contributing';
+
+	const startIndex = readmeContent.indexOf(startMarker);
+	const endIndex = readmeContent.indexOf(endMarker);
+
+	if (startIndex === -1 || endIndex === -1) {
+		throw new Error('Could not find markers in README');
+	}
+
+	const newReadmeContent =
+		readmeContent.substring(0, startIndex) + tablesContent + readmeContent.substring(endIndex);
+
+	await fs.writeFile(readmePath, newReadmeContent);
+}
+
+/**
+ * Main function to generate README tables
+ */
 async function generateReadmeTables(): Promise<void> {
 	try {
-		// Import categories
-		const schemaModule = await import(`${DATA_PATH}/schema.ts`);
-		const { categories } = schemaModule;
+		// Load data
+		const projects = await loadProjects();
+		const readmeContent = await loadReadme();
 
-		// Read projects data
-		const projectsData: Project[] = JSON.parse(await fs.readFile(projectsPath, 'utf8'));
-
-		// Read current README content
-		let readmeContent = await fs.readFile(readmePath, 'utf8');
-
-		// Find where to insert tables
-		const startMarker = '## Projects';
-		const endMarker = '## Contributing';
-
-		const startIndex = readmeContent.indexOf(startMarker);
-		const endIndex = readmeContent.indexOf(endMarker);
-
-		if (startIndex === -1 || endIndex === -1) {
-			console.error('Could not find markers in README');
+		if (categories.length === 0 || projects.length === 0) {
+			console.error('No categories or projects found');
 			return;
 		}
 
-		// Create tables content
+		// Generate tables content
 		let tablesContent = '## Projects\n\n';
 
-		// Generate tables for each category
+		// Process each category
 		for (const category of categories) {
-			// Filter projects by category
-			const categoryProjects = projectsData.filter(
-				(project) =>
-					project.category &&
-					(Array.isArray(project.category)
-						? project.category.map((c) => c.toLowerCase()).includes(category.toLowerCase())
-						: project.category.toLowerCase() === category.toLowerCase())
-			);
-
-			if (categoryProjects.length > 0) {
-				tablesContent += `### ${category}\n\n`;
-				tablesContent += `| Project | Description | Language | Stars | Last Updated | License |\n`;
-				tablesContent += `|---------|-------------|----------|-------|--------------|--------|\n`;
-
-				for (const project of categoryProjects) {
-					const lastUpdatedDate = project.lastUpdated
-						? new Date(project.lastUpdated)
-						: undefined;
-
-					const lastUpdated = lastUpdatedDate
-						? lastUpdatedDate.toLocaleDateString('en-US', {
-							year: 'numeric',
-							month: 'short',
-							day: 'numeric'
-						})
-						: 'N/A';
-
-					tablesContent += `| [${project.name}](${project.url}) | ${project.description
-						} | ${project.mainLanguage || 'N/A'} | ${project.stars || 0
-						} | ${lastUpdated} | ${project.license || 'N/A'} |\n`;
-				}
-
-				tablesContent += '\n';
-			}
+			const categoryProjects = filterProjectsByCategory(projects, category);
+			tablesContent += generateCategoryTable(category, categoryProjects);
 		}
 
-		// Replace the section in the README
-		const newReadmeContent =
-			readmeContent.substring(0, startIndex) + tablesContent + readmeContent.substring(endIndex);
-
-		// Write the new README
-		await fs.writeFile(readmePath, newReadmeContent);
+		// Update README
+		await updateReadme(readmeContent, tablesContent);
 		console.log('README tables generated successfully!');
+
 	} catch (error) {
 		console.error('Error generating README tables:', error instanceof Error ? error.message : String(error));
 		process.exit(1);
