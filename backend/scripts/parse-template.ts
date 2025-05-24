@@ -2,22 +2,45 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { Project } from '@shared/types/index.ts';
+import yaml from 'js-yaml';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const newProjectPath = path.join(__dirname, '..', "..", 'new-project.json');
+const newProjectPath = path.join(__dirname, '..', "..", 'new-project.yml');
 const projectsPath = path.join(__dirname, '..', 'data', 'projects.json');
-const templateContent = {
-  "url": "https://github.com/username/project",
-  "category": "",
-  "metadata": []
-};
+
+const templateContent = `# Template for adding a new project to the AEC Open Source Directory
+# Please fill in the required information and submit a pull request
+
+# Required: GitHub repository URL
+url: https://github.com/username/project
+
+# Required: Choose one category from:
+# BIM Tools, Visualization, Analysis, Interoperability, Parametric Design,
+# Data Management, Infrastructure, Sustainability, Development Tools, Other
+category: Visualization
+
+# Optional: Additional metadata tags
+metadata:
+  - tag1
+  - tag2
+
+`;
 
 async function processNewProject(): Promise<void> {
   try {
+    // Check if the new project file exists
+    try {
+      await fs.access(newProjectPath);
+    } catch (error) {
+      console.log('No new-project.yml file found. Creating template.');
+      await fs.writeFile(newProjectPath, templateContent);
+      return;
+    }
+
     // Read the new project data
     const newProjectData = await fs.readFile(newProjectPath, 'utf8');
-    const newProject = JSON.parse(newProjectData) as Project;
+    const newProject = yaml.load(newProjectData) as Project;
 
     // Check if the template has been modified
     if (isTemplateUnchanged(newProject)) {
@@ -32,6 +55,15 @@ async function processNewProject(): Promise<void> {
     }
 
     // Read existing projects
+    try {
+      // Check if projects file exists
+      await fs.access(projectsPath);
+    } catch (error) {
+      // If not, create an empty array
+      await fs.mkdir(path.dirname(projectsPath), { recursive: true });
+      await fs.writeFile(projectsPath, '[]');
+    }
+
     const projectsData = await fs.readFile(projectsPath, 'utf8');
     const projects: Project[] = JSON.parse(projectsData);
 
@@ -54,7 +86,8 @@ async function processNewProject(): Promise<void> {
     await fs.writeFile(projectsPath, JSON.stringify(projects, null, 2));
     console.log('New project added successfully!');
 
-    await fs.writeFile(newProjectPath, JSON.stringify(templateContent, null, 2));
+    // Reset the template for next submission
+    await fs.writeFile(newProjectPath, templateContent);
     console.log('Template reset for next submission');
   } catch (error) {
     console.error('Error processing new project:', error instanceof Error ? error.message : String(error));
@@ -63,22 +96,28 @@ async function processNewProject(): Promise<void> {
 }
 
 function isTemplateUnchanged(project: Project): boolean {
+  // Default values for the template
+  const defaultUrl = "https://github.com/username/project";
+
   return (
-    (project.url === templateContent.url || !project.url) &&
-    (project.category === templateContent.category || !project.category) &&
-    (Array.isArray(project.metadata) && project.metadata.length === 0)
+    (!project.url || project.url === defaultUrl) &&
+    (!project.category || project.category === "") &&
+    (!project.metadata || (Array.isArray(project.metadata) && project.metadata.length === 0))
   );
 }
 
 function isValidProject(project: Project): boolean {
+  const defaultUrl = "https://github.com/username/project";
+
   return Boolean(
     project.url &&
-    project.url !== templateContent.url &&
-    project.category
+    project.url !== defaultUrl &&
+    project.category &&
+    project.category.trim() !== ""
   );
 }
 
-// Run the function
+
 processNewProject().catch(error => {
   console.error('Unhandled error:', error instanceof Error ? error.message : String(error));
   process.exit(1);
