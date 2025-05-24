@@ -7,24 +7,29 @@ A curated list of open source projects for the Architecture, Engineering, and Co
 To add a project, simply create a pull request:
 
 1. Fork this repository
-2. Edit the `data/projects.json` file to add your project in this format:
+2. Create a new file called `new-project.json` at the root of the repository with your project information:
    ```json
    {
-   	"url": "https://github.com/isl-org/Open3D",
-   	"category": "visualization",
-   	"metadata": ["Rhino, Grasshopper", "Open3D"]
+     "url": "https://github.com/username/repo",
+     "category": "visualization",
+     "description": "Optional description of your project",
+     "metadata": ["Optional", "Keywords"]
    }
    ```
 3. Submit a pull request
 
 Available categories:
 
-- `lca` - Life Cycle Assessment
-- `bim` - Building Information Modeling
-- `visualization` - Visualization
-- `analysis` - Structural & Environmental Analysis
-- `interoperability` - Interoperability
-- `generative` - Generative Design
+- `BIM Tools` - Building Information Modeling tools and utilities
+- `Visualization` - 3D visualization, rendering and graphics
+- `Analysis` - Structural, environmental, and performance analysis
+- `Interoperability` - Data exchange and format conversion
+- `Parametric Design` - Parametric and computational design tools
+- `Data Management` - BIM data and asset management
+- `Infrastructure` - Civil and infrastructure engineering
+- `Sustainability` - Environmental analysis and sustainable design
+- `Development Tools` - APIs, SDKs and development frameworks
+- `Other` - Additional AEC-related projects
 
 Your project will be automatically updated with metadata like stars, language, and last updated date.
 
@@ -32,43 +37,43 @@ Your project will be automatically updated with metadata like stars, language, a
 
 ### Visualization
 
-| Project | Description | Language | Stars | Last Updated | License |
-|---------|-------------|----------|-------|--------------|--------|
-| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++ | 12340 | May 24, 2025 | NOASSERTION |
-| [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1564 | May 23, 2025 | LGPL-2.1 |
-| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. | C++ | 24758 | May 24, 2025 | NOASSERTION |
+| Project                                          | Description                                                                                          | Language | Stars | Last Updated | License     |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | -------- | ----- | ------------ | ----------- |
+| [Open3D](https://github.com/isl-org/Open3D)      | Open3D: A Modern Library for 3D Data Processing                                                      | C++      | 12340 | May 24, 2025 | NOASSERTION |
+| [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++      | 1564  | May 23, 2025 | LGPL-2.1    |
+| [FreeCAD](https://github.com/FreeCAD/FreeCAD)    | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.          | C++      | 24758 | May 24, 2025 | NOASSERTION |
 
 ### Analysis
 
-| Project | Description | Language | Stars | Last Updated | License |
-|---------|-------------|----------|-------|--------------|--------|
-| [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 206 | May 20, 2025 | AGPL-3.0 |
+| Project                                             | Description                                                         | Language | Stars | Last Updated | License  |
+| --------------------------------------------------- | ------------------------------------------------------------------- | -------- | ----- | ------------ | -------- |
+| [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python   | 206   | May 20, 2025 | AGPL-3.0 |
 
 ### Interoperability
 
-| Project | Description | Language | Stars | Last Updated | License |
-|---------|-------------|----------|-------|--------------|--------|
-| [compas](https://github.com/compas-dev/compas) | Core packages of the COMPAS framework. | Python | 331 | May 17, 2025 | MIT |
-| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 106352 | May 24, 2025 | MIT |
-| [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 81 | May 20, 2025 | MIT |
+| Project                                                                      | Description                                    | Language   | Stars  | Last Updated | License |
+| ---------------------------------------------------------------------------- | ---------------------------------------------- | ---------- | ------ | ------------ | ------- |
+| [compas](https://github.com/compas-dev/compas)                               | Core packages of the COMPAS framework.         | Python     | 331    | May 17, 2025 | MIT     |
+| [three.js](https://github.com/mrdoob/three.js)                               | JavaScript 3D Library.                         | JavaScript | 106352 | May 24, 2025 | MIT     |
+| [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++        | 81     | May 20, 2025 | MIT     |
 
 ### Infrastructure
 
-| Project | Description | Language | Stars | Last Updated | License |
-|---------|-------------|----------|-------|--------------|--------|
-| [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1612 | May 23, 2025 | AGPL-3.0 |
+| Project                                                 | Description                        | Language | Stars | Last Updated | License  |
+| ------------------------------------------------------- | ---------------------------------- | -------- | ----- | ------------ | -------- |
+| [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java     | 1612  | May 23, 2025 | AGPL-3.0 |
 
 ### Sustainability
 
-| Project | Description | Language | Stars | Last Updated | License |
-|---------|-------------|----------|-------|--------------|--------|
-| [XbimEssentials](https://github.com/xBimTeam/XbimEssentials) | A .NET library to work with data in the IFC format. This is the core component of the Xbim Toolkit | C# | 524 | May 16, 2025 | NOASSERTION |
+| Project                                                      | Description                                                                                        | Language | Stars | Last Updated | License     |
+| ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | -------- | ----- | ------------ | ----------- |
+| [XbimEssentials](https://github.com/xBimTeam/XbimEssentials) | A .NET library to work with data in the IFC format. This is the core component of the Xbim Toolkit | C#       | 524   | May 16, 2025 | NOASSERTION |
 
 ### Other
 
-| Project | Description | Language | Stars | Last Updated | License |
-|---------|-------------|----------|-------|--------------|--------|
-| [ifcopenshell-jupyter](https://github.com/IfcOpenShell/ifcopenshell-jupyter) | Binder to run IfcOpenShell with Jupyter | Python | 3 | Jan 18, 2024 | Unknown |
+| Project                                                                      | Description                             | Language | Stars | Last Updated | License |
+| ---------------------------------------------------------------------------- | --------------------------------------- | -------- | ----- | ------------ | ------- |
+| [ifcopenshell-jupyter](https://github.com/IfcOpenShell/ifcopenshell-jupyter) | Binder to run IfcOpenShell with Jupyter | Python   | 3     | Jan 18, 2024 | Unknown |
 
 ## Contributing
 
