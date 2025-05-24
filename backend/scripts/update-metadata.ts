@@ -1,7 +1,8 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { Octokit } from '@octokit/rest';
-import type { Project } from '../src/lib/types/types';
+import { Project } from '@shared/types/index.ts';
+
 
 // GitHub data interface
 interface GitHubRepoData {

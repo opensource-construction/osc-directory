@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { Project } from '../src/lib/types/types.js';
+import type { Project } from '@shared/types/index.ts';
 
 // Get the directory path of the script
 const __filename = fileURLToPath(import.meta.url);

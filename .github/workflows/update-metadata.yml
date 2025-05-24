@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
@@ -42,19 +42,19 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
-      - name: Install dependencies
-        run: pnpm install
+      - name: Install backend dependencies
+        run: cd backend && pnpm install
 
       - name: Process new project
-        run: pnpm tsx scripts/parse-template.ts
+        run: cd backend && pnpm tsx scripts/parse-template.ts
 
       - name: Update project metadata
-        run: pnpm tsx scripts/update-metadata.ts
+        run: cd backend && pnpm tsx scripts/update-metadata.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate README tables
-        run: pnpm tsx scripts/generate-readme-tables.ts
+        run: cd backend && pnpm tsx scripts/generate-readme-tables.ts
 
       - name: Commit changes if any
         run: |

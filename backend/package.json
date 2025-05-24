@@ -1,0 +1,24 @@
+{
+  "name": "aec-directory-backend",
+  "version": "1.0.0",
+  "description": "Backend services for AEC Open Source Directory",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "add-project": "tsx scripts/add-project.ts",
+    "add-example": "tsx scripts/add-example-project.ts",
+    "update-metadata": "tsx scripts/update-metadata.ts",
+    "generate-readme": "tsx scripts/generate-readme-tables.ts",
+    "parse-template": "tsx scripts/parse-template.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tailwindcss": "^4.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.6.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.1"
+  }
+}

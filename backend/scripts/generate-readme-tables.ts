@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import type { Project } from '../src/lib/types/types';
+import { Project } from '@shared/types/index.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -15,7 +15,7 @@ interface SchemaModule {
 async function generateReadmeTables(): Promise<void> {
 	try {
 		// Import categories
-		const schemaModule = await import('../src/lib/data/schema.ts');
+		const schemaModule = await import('../../shared/data/schema.ts');
 		const { categories } = schemaModule;
 
 		// Read projects data

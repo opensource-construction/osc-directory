@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Project } from '$lib/types/types.js';
+	import type { Project } from '$shared/types/index';
 	import ProjectCard from './ProjectCard.svelte';
 
 	let { projects }: { projects: Project[] } = $props();

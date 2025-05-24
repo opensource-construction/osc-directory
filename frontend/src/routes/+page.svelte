@@ -1,36 +1,17 @@
 <script lang="ts">
-	import type { Project } from '$lib/types/types.js';
-	import { onMount } from 'svelte';
 	import PageHeader from '$lib/components/PageHeader.svelte';
 	import LoadingIndicator from '$lib/components/LoadingIndicator.svelte';
 	import CategoryFilter from '$lib/components/CategoryFilter.svelte';
 	import ProjectList from '$lib/components/ProjectList.svelte';
+	import { type Project } from '$shared/types';
+
+	let { data } = $props();
 
 	// Define types for our data
-	let projects: Project[] = $state([]);
-	let categories: readonly string[] = $state([]);
+	let projects: Project[] = $state(data.projects);
+	let categories: readonly string[] = $state(data.categories);
 	let selectedCategory = $state('all');
-	let isLoading = $state(true);
-
-	onMount(async () => {
-		try {
-			const projectsResponse = await fetch(
-				'https://raw.githubusercontent.com/TheVessen/osc-directory/main/src/lib/data/projects.json'
-			);
-
-			projects = await projectsResponse.json();
-
-			console.log('Projects loaded:', $state.snapshot(projects));
-
-			const { categories: loadedCategories } = await import('$lib/data/schema.js');
-			categories = loadedCategories;
-
-			isLoading = false;
-		} catch (error) {
-			console.error('Error loading data:', error);
-			isLoading = false;
-		}
-	});
+	let isLoading = $state(false);
 
 	let filteredProjects = $derived.by(() =>
 		selectedCategory === 'all'
