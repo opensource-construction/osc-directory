@@ -3,7 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Project } from '@shared/types/index.ts';
 import { DATA_PATH } from '../utils/shared-vars.ts';
-import { categories } from '../data/schema.ts';
+import { predefinedCategories } from '@shared/categories.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -22,7 +22,6 @@ async function loadProjects(): Promise<Project[]> {
 		return [];
 	}
 }
-
 
 /**
  * Loads current README content
@@ -117,16 +116,11 @@ async function generateReadmeTables(): Promise<void> {
 		const projects = await loadProjects();
 		const readmeContent = await loadReadme();
 
-		if (categories.length === 0 || projects.length === 0) {
-			console.error('No categories or projects found');
-			return;
-		}
-
 		// Generate tables content
 		let tablesContent = '## Projects\n\n';
 
 		// Process each category
-		for (const category of categories) {
+		for (const category of predefinedCategories) {
 			const categoryProjects = filterProjectsByCategory(projects, category);
 			tablesContent += generateCategoryTable(category, categoryProjects);
 		}

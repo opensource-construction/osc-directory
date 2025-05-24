@@ -3,7 +3,6 @@ import path from 'path';
 import { Octokit } from '@octokit/rest';
 import { Project } from '@shared/types/index.ts';
 
-
 // GitHub data interface
 interface GitHubRepoData {
 	name: string;
