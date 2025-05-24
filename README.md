@@ -7,7 +7,7 @@ A curated list of open source projects for the Architecture, Engineering, and Co
 To add a project, simply create a pull request:
 
 1. Fork this repository
-2. Open the new-project.yml file and follow hte instructions there
+2. Open the [new-project.yml](new-project.yml) file and follow hte instructions there
 3. Submit a pull request
 
 Available categories:
