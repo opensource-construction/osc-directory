@@ -7,7 +7,7 @@ import { DATA_PATH } from '../utils/shared-vars.ts';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectsPath = path.join(__dirname, DATA_PATH, 'projects.json');
-const readmePath = path.join(__dirname, '..', "'..'", 'README.md');
+const readmePath = path.join(__dirname, '..', '..', 'README.md');
 
 async function generateReadmeTables(): Promise<void> {
 	try {
