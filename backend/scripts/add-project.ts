@@ -2,18 +2,12 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import readline from 'readline/promises';
-import { ProjectCategory } from '@shared/data/schema.ts';
 import type { Project } from '@shared/types/index.ts';
-
-// Define schema module interface with proper typing
-interface SchemaModule {
-	categories: readonly string[];
-	ProjectCategory: ProjectCategory;
-}
+import { DATA_PATH } from "../utils/shared-vars.ts"
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const projectsFilePath = path.join(__dirname, '..', 'src', 'lib', 'data', 'projects.json');
+const projectsFilePath = path.join(__dirname, DATA_PATH, 'projects.json');
 
 // Create readline interface for user input
 const rl = readline.createInterface({
@@ -24,7 +18,7 @@ const rl = readline.createInterface({
 async function loadCategories(): Promise<readonly string[]> {
 	try {
 		// Using dynamic import to load the categories from schema.js
-		const schemaModule = await import('@shared/data/schema.ts');
+		const schemaModule = await import('../data/schema.ts');
 		return schemaModule.categories;
 	} catch (error) {
 		console.error('Error loading categories:', error instanceof Error ? error.message : String(error));

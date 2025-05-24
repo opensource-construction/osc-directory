@@ -2,11 +2,12 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import type { Project } from '@shared/types/index.ts';
+import { DATA_PATH } from "../utils/shared-vars.ts"
 
 // Get the directory path of the script
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const projectsPath = path.join(__dirname, '..', 'src', 'lib', 'data', 'projects.json');
+const projectsPath = path.join(__dirname, DATA_PATH, 'projects.json');
 
 // Sample project to add
 const newProject: Project = {

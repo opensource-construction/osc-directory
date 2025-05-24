@@ -9,16 +9,20 @@
     "add-example": "tsx scripts/add-example-project.ts",
     "update-metadata": "tsx scripts/update-metadata.ts",
     "generate-readme": "tsx scripts/generate-readme-tables.ts",
-    "parse-template": "tsx scripts/parse-template.ts"
+    "parse-template": "tsx scripts/parse-template.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "devDependencies": {
+    "@types/json-schema": "^7.0.15",
     "@types/node": "^22.15.21",
-    "tailwindcss": "^4.0.0",
     "tsconfig-paths": "^4.2.0",
     "tsx": "^4.6.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vitest": "^3.1.4"
   },
   "dependencies": {
-    "@octokit/rest": "^20.0.1"
+    "@octokit/rest": "^20.0.1",
+    "json-schema": "^0.4.0"
   }
 }
