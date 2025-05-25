@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "new-project.yml"
   workflow_dispatch:
 
 jobs:
@@ -16,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: main # Explicitly checkout the main branch
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

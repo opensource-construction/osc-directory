@@ -11,4 +11,5 @@ export interface Project {
   lastUpdated?: string;
   metadata?: Array<string>;
   openIssues?: number;
+  submissionDate?: string;
 }

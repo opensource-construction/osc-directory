@@ -3,11 +3,14 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Project } from '@shared/types/index.ts';
 import yaml from 'js-yaml';
+import { predefinedCategories } from "@shared/categories.ts";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const newProjectPath = path.join(__dirname, '..', "..", 'new-project.yml');
+const newProjectPath = path.join(__dirname, '..', '..', 'new-project.yml');
 const projectsPath = path.join(__dirname, '..', 'data', 'projects.json');
+
+const validateOnly = process.argv.includes('--validate-only');
 
 const templateContent = `# Template for adding a new project to the AEC Open Source Directory
 # Please fill in the required information and submit a pull request
@@ -27,59 +30,70 @@ metadata:
 
 `;
 
+const defaultUrl = "https://github.com/username/project";
+const githubUrlPattern = /^https:\/\/github\.com\/[^/]+\/[^/]+(\/)?$/;
+
 async function processNewProject(): Promise<void> {
   try {
     // Check if the new project file exists
-    try {
-      await fs.access(newProjectPath);
-    } catch (error) {
-      console.log('No new-project.yml file found. Creating template.');
+    if (!(await fileExists(newProjectPath))) {
+      console.log('No new-project.yml file found.');
+      if (validateOnly) {
+        console.error('Error: new-project.yml not found during validation. It might have been deleted or not yet committed.');
+        process.exit(1);
+      }
+
+      console.log('Creating template for new-project.yml.');
       await fs.writeFile(newProjectPath, templateContent);
       return;
     }
 
-    // Read the new project data
+    // Read and parse the new project data
     const newProjectData = await fs.readFile(newProjectPath, 'utf8');
     const newProject = yaml.load(newProjectData) as Project;
 
     // Check if the template has been modified
     if (isTemplateUnchanged(newProject)) {
       console.log('No new project to process - template is unchanged');
+      if (validateOnly) {
+        console.log('Validation successful: new-project.yml is the default template.');
+        process.exit(0);
+      }
       return;
     }
 
     // Validate the new project data
-    if (!isValidProject(newProject)) {
-      console.error('Invalid project data. URL and category are required.');
-      return;
+    const validationErrors = validateProject(newProject);
+    if (validationErrors.length > 0) {
+      console.error('Validation failed:');
+      validationErrors.forEach(error => console.error(`  - ${error}`));
+      process.exit(1);
     }
+
+    if (validateOnly) {
+      console.log('Validation successful: new-project.yml is valid.');
+      process.exit(0);
+    }
+
+    // Ensure projects file exists
+    await ensureProjectsFileExists();
 
     // Read existing projects
-    try {
-      // Check if projects file exists
-      await fs.access(projectsPath);
-    } catch (error) {
-      // If not, create an empty array
-      await fs.mkdir(path.dirname(projectsPath), { recursive: true });
-      await fs.writeFile(projectsPath, '[]');
-    }
-
     const projectsData = await fs.readFile(projectsPath, 'utf8');
     const projects: Project[] = JSON.parse(projectsData);
 
-    // Check if project with same URL already exists
+    // Check for duplicate URLs
     if (projects.some(project => project.url === newProject.url)) {
       console.log(`Project with URL ${newProject.url} already exists. Skipping.`);
       return;
     }
 
-    // Add submission date
-    const projectToAdd = {
+    // Add the new project with submission date
+    const projectToAdd: Project = {
       ...newProject,
       submissionDate: new Date().toISOString().split('T')[0]
     };
 
-    // Add the new project
     projects.push(projectToAdd);
 
     // Save updated projects file
@@ -89,35 +103,76 @@ async function processNewProject(): Promise<void> {
     // Reset the template for next submission
     await fs.writeFile(newProjectPath, templateContent);
     console.log('Template reset for next submission');
+
   } catch (error) {
     console.error('Error processing new project:', error instanceof Error ? error.message : String(error));
     process.exit(1);
   }
 }
 
-function isTemplateUnchanged(project: Project): boolean {
-  // Default values for the template
-  const defaultUrl = "https://github.com/username/project";
+async function fileExists(filePath: string): Promise<boolean> {
+  try {
+    await fs.access(filePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
 
+async function ensureProjectsFileExists(): Promise<void> {
+  if (!(await fileExists(projectsPath))) {
+    await fs.mkdir(path.dirname(projectsPath), { recursive: true });
+    await fs.writeFile(projectsPath, '[]');
+  }
+}
+
+function isTemplateUnchanged(project: Project): boolean {
   return (
     (!project.url || project.url === defaultUrl) &&
-    (!project.category || project.category === "") &&
-    (!project.metadata || (Array.isArray(project.metadata) && project.metadata.length === 0))
+    (!project.category || project.category === "Visualization") &&
+    (!project.metadata || isDefaultMetadata(project.metadata))
   );
 }
 
-function isValidProject(project: Project): boolean {
-  const defaultUrl = "https://github.com/username/project";
-
-  return Boolean(
-    project.url &&
-    project.url !== defaultUrl &&
-    project.category &&
-    project.category.trim() !== ""
-  );
+function isDefaultMetadata(metadata: unknown): boolean {
+  return Array.isArray(metadata) &&
+    metadata.length === 2 &&
+    metadata[0] === 'tag1' &&
+    metadata[1] === 'tag2';
 }
 
+function validateProject(project: Project): string[] {
+  const errors: string[] = [];
 
+  // URL validation
+  if (!project.url) {
+    errors.push("Project URL is required.");
+  } else if (project.url === defaultUrl) {
+    errors.push("Project URL must be changed from the default template value.");
+  } else if (!githubUrlPattern.test(project.url)) {
+    errors.push("Project URL must be a valid GitHub repository URL (e.g., https://github.com/owner/repo).");
+  }
+
+  // Category validation
+  if (!project.category || project.category.trim() === "") {
+    errors.push("Project category is required.");
+  } else if (!predefinedCategories.includes(project.category as any)) {
+    errors.push(`Invalid category: "${project.category}". Must be one of: ${predefinedCategories.join(', ')}.`);
+  }
+
+  // Metadata validation (optional, but if present, must be an array of strings)
+  if (project.metadata !== undefined) {
+    if (!Array.isArray(project.metadata)) {
+      errors.push("Metadata must be an array of tags (strings).");
+    } else if (!project.metadata.every(tag => typeof tag === 'string' && tag.trim() !== "")) {
+      errors.push("All metadata tags must be non-empty strings.");
+    }
+  }
+
+  return errors;
+}
+
+// Run the script
 processNewProject().catch(error => {
   console.error('Unhandled error:', error instanceof Error ? error.message : String(error));
   process.exit(1);
