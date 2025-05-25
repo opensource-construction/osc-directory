@@ -2,15 +2,15 @@
 # Please fill in the required information and submit a pull request
 
 # Required: GitHub repository URL
-url: https://github.com/username/project
+url: https://github.com/ocni-dtu/lcax
 
 # Required: Choose one category from:
 # BIM Tools, Visualization, Analysis, Interoperability, Parametric Design,
 # Data Management, Infrastructure, Sustainability, Development Tools, Other
-category: Visualization
+category: Infrastructure
 
 # Optional: Additional metadata tags
 metadata:
-  - tag1
-  - tag2
+  - valid-tag
+  - ifc
 
