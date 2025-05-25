@@ -40,7 +40,7 @@ jobs:
 
       - name: Install backend dependencies
         working-directory: ./backend
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
 
       - name: Validate new-project.yml
         working-directory: ./backend
