@@ -68,6 +68,7 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
 | [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1612 | May 23, 2025 | AGPL-3.0 |
+| [lcax](https://github.com/ocni-dtu/lcax) | LCAx is a open, verifiable, machine and human-readable LCA exchange format | Rust | 65 | May 15, 2025 | Apache-2.0 |
 
 ### Sustainability
 
