@@ -11,6 +11,6 @@ category: Infrastructure
 
 # Optional: Additional metadata tags
 metadata:
-  - invalid tag
+  - valid-tag
   - ifc
 
