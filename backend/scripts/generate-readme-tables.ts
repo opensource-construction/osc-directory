@@ -92,17 +92,15 @@ function generateCategoryTable(category: string, projects: Project[]): string {
  */
 async function updateReadme(readmeContent: string, tablesContent: string): Promise<void> {
 	const startMarker = '## Projects';
-	const endMarker = '## Contributing';
 
 	const startIndex = readmeContent.indexOf(startMarker);
-	const endIndex = readmeContent.indexOf(endMarker);
 
-	if (startIndex === -1 || endIndex === -1) {
-		throw new Error('Could not find markers in README');
+	if (startIndex === -1) {
+		throw new Error('Could not find start marker "## Projects" in README');
 	}
 
-	const newReadmeContent =
-		readmeContent.substring(0, startIndex) + tablesContent + readmeContent.substring(endIndex);
+	// Keep everything before the Projects section and add the new tables content
+	const newReadmeContent = readmeContent.substring(0, startIndex) + tablesContent;
 
 	await fs.writeFile(readmePath, newReadmeContent);
 }
