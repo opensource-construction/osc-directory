@@ -160,12 +160,38 @@ function validateProject(project: Project): string[] {
     errors.push(`Invalid category: "${project.category}". Must be one of: ${predefinedCategories.join(', ')}.`);
   }
 
-  // Metadata validation (optional, but if present, must be an array of strings)
+  // Metadata validation with strict format rules
   if (project.metadata !== undefined) {
     if (!Array.isArray(project.metadata)) {
       errors.push("Metadata must be an array of tags (strings).");
-    } else if (!project.metadata.every(tag => typeof tag === 'string' && tag.trim() !== "")) {
-      errors.push("All metadata tags must be non-empty strings.");
+    } else {
+      // Check each tag for format compliance
+      const invalidTags = project.metadata.filter(tag => {
+        // Check if tag is a string
+        if (typeof tag !== 'string') return true;
+
+        // Check for empty tags
+        if (tag.trim() === "") return true;
+
+        // Check for whitespace
+        if (/\s/.test(tag)) return true;
+
+        // Check for valid format (alphanumeric and hyphens only)
+        if (!/^[a-zA-Z0-9-]+$/.test(tag)) return true;
+
+        // Check for consecutive hyphens
+        if (/--/.test(tag)) return true;
+
+        return false;
+      });
+
+      if (invalidTags.length > 0) {
+        errors.push(
+          "Metadata tags can only contain letters, numbers, and single hyphens as separators. " +
+          "No whitespace or special characters allowed. " +
+          `Invalid tags: ${invalidTags.map(t => `"${t}"`).join(', ')}`
+        );
+      }
     }
   }
 
