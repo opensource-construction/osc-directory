@@ -2,15 +2,15 @@
 # Please fill in the required information and submit a pull request
 
 # Required: GitHub repository URL
-url: https://github.com/mcneel/rhino3dm
+url: https://github.com/username/project
 
 # Required: Choose one category from:
 # BIM Tools, Visualization, Analysis, Interoperability, Parametric Design,
 # Data Management, Infrastructure, Sustainability, Development Tools, Other
-category: Development Tools
+category: Visualization
 
 # Optional: Additional metadata tags
 metadata:
-  - Geometry
-  - Rhino
-  - 3D-Modeling
+  - tag1
+  - tag2
+
