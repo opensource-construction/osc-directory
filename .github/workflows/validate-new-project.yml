@@ -1,9 +1,11 @@
 name: Validate New Project File
 
 on:
+  push:
   pull_request:
     paths:
       - "new-project.yml"
+  workflow_dispatch:
 
 jobs:
   validate:
