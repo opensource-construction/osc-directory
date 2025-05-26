@@ -51,17 +51,20 @@ jobs:
       - name: Generate README tables
         run: cd backend && pnpm tsx scripts/generate-readme-tables.ts
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Manual rebuild: Update project metadata and README"
-          title: "Manual rebuild: Project metadata and README"
-          body: |
-            This PR was manually triggered to rebuild project metadata and README tables.
+      - name: Check for changes
+        id: changes
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
 
-            Changes include:
-            - Updated project metadata from GitHub API
-            - Regenerated README tables
-          branch: manual-rebuild-metadata
-          delete-branch: true
+      - name: Commit and push changes
+        if: steps.changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "chore: automated update of project metadata and README [skip ci]"
+          git push
