@@ -54,7 +54,7 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
 | [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 206 | May 24, 2025 | AGPL-3.0 |
-| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2105 | May 26, 2025 | LGPL-3.0 |
+| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2106 | May 26, 2025 | LGPL-3.0 |
 
 ### Interoperability
 
@@ -84,6 +84,7 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
 | [rhino3dm](https://github.com/mcneel/rhino3dm) | Libraries based on OpenNURBS with a RhinoCommon style | C# | 654 | May 20, 2025 | MIT |
+| [xeokit-sdk](https://github.com/xeokit/xeokit-sdk) | 3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision | JavaScript | 793 | May 26, 2025 | AGPL-3.0 |
 
 ### Other
 
