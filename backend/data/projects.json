@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12347,
+    "stars": 12348,
     "forks": 2421,
-    "lastUpdated": "2025-05-26T12:13:26Z",
+    "lastUpdated": "2025-05-26T15:37:56Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -89,7 +89,7 @@
       "occt3d",
       "opencascade"
     ],
-    "openIssues": 78
+    "openIssues": 79
   },
   {
     "url": "https://github.com/compas-dev/compas",
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106379,
-    "forks": 35774,
-    "lastUpdated": "2025-05-26T10:24:15Z",
+    "stars": 106383,
+    "forks": 35773,
+    "lastUpdated": "2025-05-26T18:08:55Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 565
+    "openIssues": 566
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24792,
+    "stars": 24800,
     "forks": 4566,
-    "lastUpdated": "2025-05-26T13:18:49Z",
+    "lastUpdated": "2025-05-26T18:56:02Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3110
+    "openIssues": 3097
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 97
+    "openIssues": 99
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -389,7 +389,7 @@
     "description": "OpenFOAM Foundation development repository",
     "stars": 1721,
     "forks": 634,
-    "lastUpdated": "2025-05-26T12:39:53Z",
+    "lastUpdated": "2025-05-26T13:40:12Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -496,11 +496,11 @@
     "description": "Open source IFC library and geometry engine",
     "stars": 2106,
     "forks": 789,
-    "lastUpdated": "2025-05-26T13:14:04Z",
+    "lastUpdated": "2025-05-26T15:56:17Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 988
+    "openIssues": 989
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
