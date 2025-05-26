@@ -496,10 +496,10 @@
     "description": "Open source IFC library and geometry engine",
     "stars": 2105,
     "forks": 789,
-    "lastUpdated": "2025-05-26T08:50:02Z",
+    "lastUpdated": "2025-05-26T13:04:59Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 989
+    "openIssues": 988
   }
 ]
