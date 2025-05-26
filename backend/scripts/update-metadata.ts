@@ -98,10 +98,10 @@ async function updateProjectMetadata(): Promise<void> {
 							updatedProject.description = project.description;
 						}
 
-						// Add unique values to metadata
+						// Combine and deduplicate all metadata
 						const existingMetadata = updatedProject.metadata || [];
-						const newTopics = githubData.topics.filter(topic => !existingMetadata.includes(topic));
-						updatedProject.metadata = [...existingMetadata, ...newTopics];
+						const allMetadata = [...existingMetadata, ...githubData.topics];
+						updatedProject.metadata = [...new Set(allMetadata)];
 
 						return updatedProject;
 					}
@@ -128,14 +128,20 @@ async function updateProjectMetadata(): Promise<void> {
 							updatedProject.description = project.description;
 						}
 
-						// Add unique values to metadata
+						// Combine and deduplicate all metadata
 						const existingMetadata = updatedProject.metadata || [];
-						const newTopics = githubData.topics.filter(topic => !existingMetadata.includes(topic));
-						updatedProject.metadata = [...existingMetadata, ...newTopics];
+						const allMetadata = [...existingMetadata, ...githubData.topics];
+						updatedProject.metadata = [...new Set(allMetadata)];
 
 						return updatedProject;
 					}
 				}
+
+				// For projects without GitHub URLs, still deduplicate existing metadata
+				if (project.metadata) {
+					project.metadata = [...new Set(project.metadata)];
+				}
+
 				return project;
 			})
 		);
