@@ -7,9 +7,8 @@ url: https://github.com/xeokit/xeokit-sdk
 # Required: Choose one category from:
 # BIM Tools, Visualization, Analysis, Interoperability, Parametric Design,
 # Data Management, Infrastructure, Sustainability, Development Tools, Other
-category: Interoperability
+category: Development Tools
 
 # Optional: Additional metadata tags
 metadata:
-  -sdk
-
+  - sdk
