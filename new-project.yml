@@ -10,6 +10,4 @@ url: https://github.com/xeokit/xeokit-sdk
 category: Interoperability
 
 # Optional: Additional metadata tags
-metadata:
-  -sdk
-
+  - sdk
