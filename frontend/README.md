@@ -43,5 +43,3 @@ To start the development server, run:
 ```sh
 pnpm dev
 ```
-
-This will start the development server, typically on `http://localhost:5173`. Open this URL in your browser to see the application. The app will automatically reload if you change any of the source files.
