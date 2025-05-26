@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -50,10 +51,17 @@ jobs:
       - name: Generate README tables
         run: cd backend && pnpm tsx scripts/generate-readme-tables.ts
 
-      - name: Commit changes if any
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add backend/data/projects.json README.md || true
-          git diff --staged --quiet || git commit -m "Update project metadata and README"
-          git push
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Manual rebuild: Update project metadata and README"
+          title: "Manual rebuild: Project metadata and README"
+          body: |
+            This PR was manually triggered to rebuild project metadata and README tables.
+
+            Changes include:
+            - Updated project metadata from GitHub API
+            - Regenerated README tables
+          branch: manual-rebuild-metadata
+          delete-branch: true
