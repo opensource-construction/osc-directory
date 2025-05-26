@@ -2,6 +2,8 @@ name: Rebuild Project Metadata
 
 on:
   workflow_dispatch:
+  schedule:
+     - cron: '0 0 * * *'
 
 jobs:
   rebuild-metadata:
@@ -71,7 +73,7 @@ jobs:
         if: steps.create-pr.outputs.pull-request-number
         run: |
           # Wait a moment for PR to be fully created
-          sleep 10
+          sleep 5
 
           # Try to merge directly (if no protection rules require checks)
           gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --squash --delete-branch
