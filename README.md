@@ -47,7 +47,7 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 |---------|-------------|----------|-------|--------------|--------|
 | [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++ | 12347 | May 26, 2025 | NOASSERTION |
 | [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1564 | May 26, 2025 | LGPL-2.1 |
-| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. | C++ | 24791 | May 26, 2025 | NOASSERTION |
+| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. | C++ | 24792 | May 26, 2025 | NOASSERTION |
 
 ### Analysis
 
