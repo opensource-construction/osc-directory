@@ -98,13 +98,15 @@ async function updateProjectMetadata(): Promise<void> {
 							updatedProject.description = project.description;
 						}
 
-						updatedProject.metadata?.push(...githubData.topics)
+						// Add unique values to metadata
+						const existingMetadata = updatedProject.metadata || [];
+						const newTopics = githubData.topics.filter(topic => !existingMetadata.includes(topic));
+						updatedProject.metadata = [...existingMetadata, ...newTopics];
 
 						return updatedProject;
 					}
 				} else if (project.repository && project.repository.includes('github.com')) {
 					const githubData = await getGitHubRepoData(project.repository);
-
 
 					if (githubData) {
 						const updatedProject = {
@@ -126,7 +128,10 @@ async function updateProjectMetadata(): Promise<void> {
 							updatedProject.description = project.description;
 						}
 
-						updatedProject.metadata?.push(...githubData.topics)
+						// Add unique values to metadata
+						const existingMetadata = updatedProject.metadata || [];
+						const newTopics = githubData.topics.filter(topic => !existingMetadata.includes(topic));
+						updatedProject.metadata = [...existingMetadata, ...newTopics];
 
 						return updatedProject;
 					}
