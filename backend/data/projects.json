@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24791,
+    "stars": 24792,
     "forks": 4566,
-    "lastUpdated": "2025-05-26T12:31:47Z",
+    "lastUpdated": "2025-05-26T13:18:49Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
