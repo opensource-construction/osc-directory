@@ -1,9 +1,8 @@
 name: Update Project Metadata
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    types: [closed]
     paths:
       - "new-project.yml"
   workflow_dispatch:
@@ -11,6 +10,7 @@ on:
 jobs:
   update-metadata:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
     permissions:
       contents: write
       pull-requests: write
@@ -63,14 +63,14 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Update project metadata and README"
-          title: "Auto-update: Project metadata and README"
+          commit-message: "chore: update project metadata after new project addition"
+          title: "Auto-update: Project metadata after new project"
           body: |
-            This PR was automatically created to update project metadata and README tables.
+            Automatically generated after merging new project submission.
 
-            Changes include:
+            Changes:
             - Updated project metadata from GitHub API
             - Regenerated README tables
-            - Processed new project submission
-          branch: auto-update-metadata
+            - Processed: ${{ github.event.pull_request.title }}
+          branch: auto-update-metadata-${{ github.event.pull_request.number }}
           delete-branch: true
