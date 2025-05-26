@@ -54,6 +54,7 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
 | [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 206 | May 24, 2025 | AGPL-3.0 |
+| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2105 | May 26, 2025 | LGPL-3.0 |
 
 ### Interoperability
 
