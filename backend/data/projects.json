@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106383,
+    "stars": 106384,
     "forks": 35773,
-    "lastUpdated": "2025-05-26T18:08:55Z",
+    "lastUpdated": "2025-05-26T19:04:43Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3097
+    "openIssues": 3098
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
