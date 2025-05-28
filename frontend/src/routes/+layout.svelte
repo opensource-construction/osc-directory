@@ -2,6 +2,8 @@
 	import '../app.css';
 
 	let { children } = $props();
+
+	const repoLink = 'https://github.com/opensource-construction/osc-directory';
 </script>
 
 <div class="flex flex-col min-h-screen">
@@ -10,10 +12,9 @@
 			<a href="/" class="text-xl font-bold">AEC Open Source Directory</a>
 			<nav>
 				<ul class="flex space-x-6">
-					<li><a href="/" class="hover:text-blue-300 transition-colors">Home</a></li>
 					<li>
 						<a
-							href="https://github.com/yourusername/osc-directory"
+							href={repoLink}
 							target="_blank"
 							rel="noopener noreferrer"
 							class="hover:text-blue-300 transition-colors">GitHub</a
@@ -36,7 +37,7 @@
 				</div>
 				<div>
 					<a
-						href="https://github.com/yourusername/osc-directory"
+						href={repoLink}
 						target="_blank"
 						rel="noopener noreferrer"
 						class="text-white hover:text-blue-300 transition-colors"

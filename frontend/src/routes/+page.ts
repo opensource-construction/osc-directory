@@ -3,7 +3,7 @@ import { type Project } from '$shared/types';
 
 export const load: PageLoad = async ({ fetch }) => {
   try {
-    const response = await fetch('https://raw.githubusercontent.com/TheVessen/osc-directory/main/backend/data/projects.json');
+    const response = await fetch('https://raw.githubusercontent.com/opensource-construction/osc-directory/main/backend/data/projects.json');
 
     console.log('Loaded projects:', response);
 
