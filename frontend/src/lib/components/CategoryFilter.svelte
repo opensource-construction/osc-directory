@@ -1,4 +1,6 @@
 <script lang="ts">
+	// Not use: This code is part of a Svelte component for filtering projects by category.
+
 	let {
 		categories = [],
 		selectedCategory = $bindable('all')
