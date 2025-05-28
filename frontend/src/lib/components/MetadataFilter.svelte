@@ -1,6 +1,9 @@
 <script lang="ts">
+	import type { FilterOption } from '$lib/types/types';
+	import Icon from '@iconify/svelte';
+
 	interface Props {
-		metadataOptions: Record<string, string[]>;
+		metadataOptions: Record<string, FilterOption>;
 		selectedMetadataFilters: Record<string, string[]>;
 		updateMetadataFilter: (key: string, values: string[]) => void;
 	}
@@ -24,14 +27,17 @@
 		updateMetadataFilter(key, []);
 	}
 
-	// Check if any filters are active
 	const hasActiveFilters = $derived(
 		Object.values(selectedMetadataFilters).some((values) => values.length > 0)
 	);
 
-	// Get count of selected filters per key
 	function getSelectedCount(key: string): number {
 		return selectedMetadataFilters[key]?.length || 0;
+	}
+
+	function getFilterIcon(key: string): string {
+		const option = metadataOptions[key];
+		return option?.icon || '📋';
 	}
 </script>
 
@@ -53,23 +59,28 @@
 
 	<div class="p-6">
 		<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-			{#each Object.entries(metadataOptions) as [key, values]}
+			{#each Object.entries(metadataOptions) as [key, option]}
 				<div class="space-y-3">
-					<div class="flex items-center justify-between">
-						<h4 class="font-medium text-gray-900 text-sm">
-							{formatKey(key)}
+					<div class="flex items-center justify-between min-h-[2rem]">
+						<div class="flex items-center min-w-0 flex-1">
+							<span class="mr-3 text-lg flex-shrink-0">
+								<Icon icon={getFilterIcon(key)} class="w-4 h-4" />
+							</span>
+							<h4 class="font-medium text-gray-900 text-sm truncate">
+								{formatKey(key)}
+							</h4>
 							{#if getSelectedCount(key) > 0}
 								<span
-									class="ml-2 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800"
+									class="ml-2 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-primary-100 text-primary-800 flex-shrink-0"
 								>
 									{getSelectedCount(key)}
 								</span>
 							{/if}
-						</h4>
+						</div>
 						{#if getSelectedCount(key) > 0}
 							<button
 								onclick={() => clearFilterGroup(key)}
-								class="text-xs text-gray-500 hover:text-gray-700 transition-colors"
+								class="text-xs text-gray-500 hover:text-gray-700 transition-colors ml-2 flex-shrink-0"
 							>
 								Clear
 							</button>
@@ -79,7 +90,7 @@
 					<div
 						class="space-y-2 max-h-40 overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100"
 					>
-						{#each values as value}
+						{#each option.values as value}
 							{@const isSelected = selectedMetadataFilters[key]?.includes(value) || false}
 							<label
 								class="flex items-start space-x-3 text-sm cursor-pointer group hover:bg-gray-50 p-2 rounded-md transition-colors"
@@ -88,9 +99,11 @@
 									type="checkbox"
 									checked={isSelected}
 									onchange={() => toggleMetadataValue(key, value)}
-									class="mt-0.5 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500 focus:ring-2 transition-colors"
+									class="mt-0.5 h-4 w-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500 focus:ring-2 transition-colors flex-shrink-0"
 								/>
-								<span class="text-gray-700 group-hover:text-gray-900 transition-colors leading-5">
+								<span
+									class="text-gray-700 group-hover:text-gray-900 transition-colors leading-5 min-w-0"
+								>
 									{value}
 								</span>
 							</label>
@@ -122,7 +135,6 @@
 </div>
 
 <style>
-	/* Custom scrollbar styles */
 	.scrollbar-thin::-webkit-scrollbar {
 		width: 6px;
 	}

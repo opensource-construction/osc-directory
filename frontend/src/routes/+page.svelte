@@ -1,88 +1,82 @@
 <script lang="ts">
 	import PageHeader from '$lib/components/PageHeader.svelte';
 	import LoadingIndicator from '$lib/components/LoadingIndicator.svelte';
-	import CategoryFilter from '$lib/components/CategoryFilter.svelte';
 	import MetadataFilter from '$lib/components/MetadataFilter.svelte';
 	import ProjectList from '$lib/components/ProjectList.svelte';
 	import { type Project } from '$shared/types';
 
 	let { data } = $props();
 
-	// Define types for our data
 	let projects: Project[] = $state(data.projects);
-	let categories: readonly string[] = $state(data.categories);
-	let selectedCategory = $state('all');
 	let selectedMetadataFilters = $state<Record<string, string[]>>({});
 	let isLoading = $state(false);
 
-	// Extract all unique metadata keys and values
-	let metadataOptions = $derived.by(() => {
+	// Configure metadata filters
+	// Each filter has a key, label, icon, and a function to extract values from the project
+	// Icons are used from https://icon-sets.iconify.design/?query=building
+	const filterConfig = [
+		{
+			key: 'tags',
+			label: 'Tags',
+			icon: 'mdi:tag',
+			getValue: (project: Project) =>
+				project.metadata && Array.isArray(project.metadata) ? project.metadata : null
+		},
+		{
+			key: 'mainLanguage',
+			label: 'Programming Language',
+			icon: 'material-symbols-light:laptop-chromebook-rounded',
+			getValue: (project: Project) => (project.mainLanguage ? [project.mainLanguage] : null)
+		},
+		{
+			key: 'license',
+			label: 'License',
+			icon: 'material-symbols:license',
+			getValue: (project: Project) => (project.license ? [project.license] : null)
+		}
+	];
+
+	let tagOptions = $derived.by(() => {
 		const options: Record<string, Set<string>> = {};
 
-		projects.forEach((project) => {
-			if (project.metadata) {
-				// Handle the case where metadata might be an object with key-value pairs
-				// or a simple array of strings
-				if (Array.isArray(project.metadata)) {
-					// If metadata is a simple array of strings, treat it as a 'tags' field
-					if (!options['tags']) options['tags'] = new Set();
-					project.metadata.forEach((value) => {
-						if (typeof value === 'string') {
-							options['tags'].add(value);
-						}
-					});
-				} else if (typeof project.metadata === 'object') {
-					// If metadata is an object with key-value pairs
-					Object.entries(project.metadata).forEach(([key, values]) => {
-						if (!options[key]) options[key] = new Set();
-						if (Array.isArray(values)) {
-							values.forEach((value) => options[key].add(String(value)));
-						} else {
-							options[key].add(String(values));
+		// Process configured filters
+		filterConfig.forEach(({ key, getValue }) => {
+			options[key] = new Set();
+
+			projects.forEach((project) => {
+				const values = getValue(project);
+				if (values) {
+					values.forEach((value) => {
+						if (value && typeof value === 'string') {
+							options[key].add(value);
 						}
 					});
 				}
-			}
+			});
 		});
 
-		// Convert Sets to Arrays
 		return Object.fromEntries(
-			Object.entries(options).map(([key, valueSet]) => [key, Array.from(valueSet)])
+			Object.entries(options)
+				.filter(([_, valueSet]) => valueSet.size > 0)
+				.map(([key, valueSet]) => [key, Array.from(valueSet).sort()])
 		);
 	});
 
 	let filteredProjects = $derived.by(() => {
 		let filtered = projects;
 
-		// Filter by category
-		if (selectedCategory !== 'all') {
-			filtered = filtered.filter(
-				(project) => project.category.toLowerCase() === selectedCategory.toLowerCase()
-			);
-		}
-
 		// Filter by metadata
 		Object.entries(selectedMetadataFilters).forEach(([metadataKey, selectedValues]) => {
 			if (selectedValues.length > 0) {
 				filtered = filtered.filter((project) => {
-					if (!project.metadata) return false;
-
-					if (Array.isArray(project.metadata)) {
-						// Handle simple array metadata (treat as 'tags')
-						if (metadataKey === 'tags') {
-							return project.metadata.some((value) => selectedValues.includes(String(value)));
-						}
-						return false;
-					} else if (typeof project.metadata === 'object') {
-						// Handle object metadata
-						const projectValues = project.metadata[metadataKey];
-						if (!projectValues) return false;
-
-						if (Array.isArray(projectValues)) {
-							return projectValues.some((value) => selectedValues.includes(String(value)));
-						} else {
-							return selectedValues.includes(String(projectValues));
-						}
+					const filterDef = filterConfig.find((f) => f.key === metadataKey);
+					if (filterDef) {
+						const projectValues = filterDef.getValue(project);
+						return (
+							projectValues &&
+							Array.isArray(projectValues) &&
+							projectValues.some((value) => selectedValues.includes(String(value)))
+						);
 					}
 
 					return false;
@@ -93,12 +87,27 @@
 		return filtered;
 	});
 
+	let enrichedMetadataOptions = $derived(
+		Object.fromEntries(
+			Object.entries(tagOptions).map(([key, values]) => {
+				const config = filterConfig.find((f) => f.key === key);
+				return [
+					key,
+					{
+						values,
+						label: config?.label || key,
+						icon: config?.icon || '📋'
+					}
+				];
+			})
+		)
+	);
+
 	function updateMetadataFilter(key: string, values: string[]) {
 		selectedMetadataFilters = { ...selectedMetadataFilters, [key]: values };
 	}
 
 	function clearAllFilters() {
-		selectedCategory = 'all';
 		selectedMetadataFilters = {};
 	}
 </script>
@@ -114,10 +123,13 @@
 		<LoadingIndicator />
 	{:else}
 		<div class="mb-6 space-y-4">
-			<CategoryFilter {categories} bind:selectedCategory />
-			<MetadataFilter {metadataOptions} {selectedMetadataFilters} {updateMetadataFilter} />
+			<MetadataFilter
+				metadataOptions={enrichedMetadataOptions}
+				{selectedMetadataFilters}
+				{updateMetadataFilter}
+			/>
 
-			{#if selectedCategory !== 'all' || Object.values(selectedMetadataFilters).some((v) => v.length > 0)}
+			{#if Object.values(selectedMetadataFilters).some((v) => v.length > 0)}
 				<div class="flex items-center gap-2">
 					<span class="text-sm text-gray-600">
 						Showing {filteredProjects.length} of {projects.length} projects

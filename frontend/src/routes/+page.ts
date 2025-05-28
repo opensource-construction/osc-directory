@@ -4,13 +4,10 @@ import { type Project } from '$shared/types';
 export const load: PageLoad = async ({ fetch }) => {
   try {
     const response = await fetch('https://raw.githubusercontent.com/opensource-construction/osc-directory/main/backend/data/projects.json');
-
-    console.log('Loaded projects:', response);
-
     const projects: Project[] = await response.json();
 
-
-    // Extract unique categories
+    // Not needed anymore, since are not filtering by category on the frontend
+    // TODO: Remove this when categories are no longer used
     const categories = ['all', ...new Set(projects.map(project => project.category))];
 
     return {
