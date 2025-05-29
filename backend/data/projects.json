@@ -559,5 +559,54 @@
       "webgl-viewer"
     ],
     "openIssues": 150
+  },
+  {
+    "url": "https://github.com/petrasvestartas/compas_wood",
+    "category": "Development Tools",
+    "metadata": [
+      "wood",
+      "timber",
+      "cgal",
+      "cnc",
+      "compas",
+      "connections",
+      "connector",
+      "cpp",
+      "integral-mechanical-attachment",
+      "joinery",
+      "python",
+      "robot",
+      "structures",
+      "timber-structures",
+      "woodwork",
+      "woodworking"
+    ],
+    "submissionDate": "2025-05-29",
+    "name": "compas_wood",
+    "description": "Project for Timber Joint Generation. Documentation:",
+    "stars": 40,
+    "forks": 2,
+    "lastUpdated": "2025-04-26T08:37:52Z",
+    "mainLanguage": "Python",
+    "license": "MIT",
+    "topics": [
+      "cgal",
+      "cnc",
+      "compas",
+      "connections",
+      "connector",
+      "cpp",
+      "integral-mechanical-attachment",
+      "joinery",
+      "python",
+      "robot",
+      "structures",
+      "timber",
+      "timber-structures",
+      "wood",
+      "woodwork",
+      "woodworking"
+    ],
+    "openIssues": 7
   }
 ]
