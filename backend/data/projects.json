@@ -74,9 +74,9 @@
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1568,
+    "stars": 1569,
     "forks": 416,
-    "lastUpdated": "2025-05-29T03:36:09Z",
+    "lastUpdated": "2025-05-29T10:45:08Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "topics": [
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106429,
-    "forks": 35779,
-    "lastUpdated": "2025-05-29T09:35:28Z",
+    "stars": 106430,
+    "forks": 35780,
+    "lastUpdated": "2025-05-29T12:42:36Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24822,
+    "stars": 24821,
     "forks": 4573,
-    "lastUpdated": "2025-05-29T09:00:50Z",
+    "lastUpdated": "2025-05-29T12:31:04Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3115
+    "openIssues": 3113
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -322,7 +322,7 @@
     "description": "A .NET library to work with data in the IFC format. This is the core component of the Xbim Toolkit",
     "stars": 523,
     "forks": 174,
-    "lastUpdated": "2025-05-28T07:32:58Z",
+    "lastUpdated": "2025-05-29T11:41:04Z",
     "mainLanguage": "C#",
     "license": "NOASSERTION",
     "topics": [
@@ -359,7 +359,7 @@
     "description": "The Speckle Server, Frontend, 3D Viewer, & other JS utilities.",
     "stars": 723,
     "forks": 202,
-    "lastUpdated": "2025-05-29T09:15:10Z",
+    "lastUpdated": "2025-05-29T12:31:53Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 102
+    "openIssues": 103
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -389,7 +389,7 @@
     "description": "OpenFOAM Foundation development repository",
     "stars": 1725,
     "forks": 633,
-    "lastUpdated": "2025-05-29T05:47:56Z",
+    "lastUpdated": "2025-05-29T12:19:22Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -412,7 +412,7 @@
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4954
+    "openIssues": 4957
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -626,5 +626,23 @@
     "license": "AGPL-3.0",
     "topics": [],
     "openIssues": 20
+  },
+  {
+    "url": "https://github.com/ladybug-tools/dragonfly-core",
+    "category": "Parametric Design",
+    "metadata": [
+      "analysis",
+      "test"
+    ],
+    "name": "dragonfly-core",
+    "description": ":dragon: dragonfly core library",
+    "stars": 18,
+    "forks": 12,
+    "lastUpdated": "2025-05-28T21:09:04Z",
+    "mainLanguage": "Python",
+    "license": "AGPL-3.0",
+    "topics": [],
+    "submissionDate": "2025-05-29",
+    "openIssues": 1
   }
 ]
