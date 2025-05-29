@@ -3,73 +3,73 @@ description: Submit a new open source project to be added to the directory
 title: "[NEW PROJECT] "
 labels: ["new-project", "pending-review"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a project! Please fill out the information below.
 
-- type: markdown
-  attributes:
-  value: |
-  Thanks for submitting a project! Please fill out the information below.
-- type: input
-  id: name
-  attributes:
-  label: Project Name
-  description: The name of your project
-  placeholder: "My Awesome Project"
-  validations:
-  required: true
+  - type: input
+    id: name
+    attributes:
+      label: Project Name
+      description: The name of your project
+      placeholder: "My Awesome Project"
+    validations:
+      required: true
 
-- type: input
-  id: repository
-  attributes:
-  label: Repository URL
-  description: GitHub repository URL
-  placeholder: "https://github.com/username/project"
-  validations:
-  required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Repository URL
+      description: GitHub repository URL
+      placeholder: "https://github.com/username/project"
+    validations:
+      required: true
 
-- type: textarea
-  id: description
-  attributes:
-  label: Description
-  description: A brief description of what your project does
-  placeholder: "This project helps developers..."
-  validations:
-  required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of what your project does
+      placeholder: "This project helps developers..."
+    validations:
+      required: true
 
-- type: input
-  id: language
-  attributes:
-  label: Primary Language
-  description: The main programming language used
-  placeholder: "TypeScript"
-  validations:
-  required: true
+  - type: input
+    id: language
+    attributes:
+      label: Primary Language
+      description: The main programming language used
+      placeholder: "TypeScript"
+    validations:
+      required: true
 
-- type: input
-  id: license
-  attributes:
-  label: License
-  description: Project license
-  placeholder: "MIT"
-  validations:
-  required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: Project license
+      placeholder: "MIT"
+    validations:
+      required: true
 
-- type: input
-  id: categories
-  attributes:
-  label: Categories
-  description: Comma-separated categories
-  placeholder: "web, tools, productivity"
+  - type: input
+    id: categories
+    attributes:
+      label: Categories
+      description: Comma-separated categories
+      placeholder: "web, tools, productivity"
 
-- type: input
-  id: tags
-  attributes:
-  label: Tags
-  description: Comma-separated tags
-  placeholder: "javascript, react, nodejs"
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated tags
+      placeholder: "javascript, react, nodejs"
 
-- type: input
-  id: contact
-  attributes:
-  label: Contact Email (Optional)
-  description: Your email for any questions
-  placeholder: "your.email@example.com"
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Email (Optional)
+      description: Your email for any questions
+      placeholder: "your.email@example.com"
