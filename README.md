@@ -61,7 +61,7 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
 | [compas](https://github.com/compas-dev/compas) | Core packages of the COMPAS framework. | Python | 333 | May 28, 2025 | MIT |
-| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 106428 | May 29, 2025 | MIT |
+| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 106429 | May 29, 2025 | MIT |
 | [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 81 | May 20, 2025 | MIT |
 
 ### Infrastructure
@@ -76,7 +76,7 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
 | [XbimEssentials](https://github.com/xBimTeam/XbimEssentials) | A .NET library to work with data in the IFC format. This is the core component of the Xbim Toolkit | C# | 523 | May 28, 2025 | NOASSERTION |
-| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 11359 | May 29, 2025 | GPL-2.0 |
+| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 11360 | May 29, 2025 | GPL-2.0 |
 | [calc](https://github.com/herzogdemeuron/calc) | Calc helps architects quickly estimate the environmental impact of their early design. | C# | 15 | May 28, 2025 | MIT |
 
 ### Development Tools

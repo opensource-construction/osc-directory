@@ -89,7 +89,7 @@
       "occt3d",
       "opencascade"
     ],
-    "openIssues": 83
+    "openIssues": 81
   },
   {
     "url": "https://github.com/compas-dev/compas",
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106428,
+    "stars": 106429,
     "forks": 35779,
-    "lastUpdated": "2025-05-29T08:06:02Z",
+    "lastUpdated": "2025-05-29T09:35:28Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 567
+    "openIssues": 566
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -263,8 +263,8 @@
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
     "stars": 24822,
-    "forks": 4572,
-    "lastUpdated": "2025-05-29T07:28:46Z",
+    "forks": 4573,
+    "lastUpdated": "2025-05-29T09:00:50Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3113
+    "openIssues": 3114
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -359,7 +359,7 @@
     "description": "The Speckle Server, Frontend, 3D Viewer, & other JS utilities.",
     "stars": 723,
     "forks": 202,
-    "lastUpdated": "2025-05-29T04:19:24Z",
+    "lastUpdated": "2025-05-29T09:15:10Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 102
+    "openIssues": 101
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11359,
+    "stars": 11360,
     "forks": 3134,
-    "lastUpdated": "2025-05-29T02:48:40Z",
+    "lastUpdated": "2025-05-29T08:24:25Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4953
+    "openIssues": 4954
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
