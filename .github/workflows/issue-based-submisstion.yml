@@ -75,10 +75,39 @@ jobs:
       - name: Generate README tables
         run: cd backend && pnpm tsx scripts/generate-readme-tables.ts
 
+      - name: Extract project details
+        id: project_info
+        run: |
+          cd backend
+          PROJECT_INFO=$(node -e "
+            const fs = require('fs');
+            const projects = JSON.parse(fs.readFileSync('data/projects.json', 'utf8'));
+            const issueData = JSON.parse(fs.readFileSync('temp-project-data.json', 'utf8'));
+            const project = projects.find(p => p.url === issueData.url);
+            console.log(JSON.stringify({
+              name: project.name || project.url.split('/').pop(),
+              repo_path: project.url.replace('https://github.com/', '')
+            }));
+          ")
+          PROJECT_NAME=$(echo $PROJECT_INFO | node -e "console.log(JSON.parse(require('fs').readFileSync(0, 'utf8')).name)")
+          REPO_PATH=$(echo $PROJECT_INFO | node -e "console.log(JSON.parse(require('fs').readFileSync(0, 'utf8')).repo_path)")
+          echo "project_name=$PROJECT_NAME" >> $GITHUB_OUTPUT
+          echo "repo_path=$REPO_PATH" >> $GITHUB_OUTPUT
+        shell: bash
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
+          commit-message: "feat: add ${{ steps.project_info.outputs.project_name }} from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}"
+          title: "Add ${{ steps.project_info.outputs.project_name }} from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}"
+          body: |
+            Automatically processed project submission from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}.
+
+            **Project:** ${{ steps.project_info.outputs.project_name }}
+            **Repository:** https://github.com/${{ steps.project_info.outputs.repo_path }}
+
           commit-message: "feat: add new project from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}"
           title: "Add project from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}"
           body: |
@@ -90,7 +119,7 @@ jobs:
             - Regenerated README tables
 
             Closes #${{ github.event.issue.number || github.event.inputs.issue_number }}
-          branch: add-project-issue-${{ github.event.issue.number || github.event.inputs.issue_number }}
+          branch: add-${{ steps.project_info.outputs.project_name }}-${{ github.event.issue.number || github.event.inputs.issue_number }}
           delete-branch: true
 
       - name: Close issue with success message
