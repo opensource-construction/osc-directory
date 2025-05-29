@@ -24,7 +24,7 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 |---------|-------------|----------|-------|--------------|--------|
 | [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++ | 12371 | May 29, 2025 | NOASSERTION |
 | [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1569 | May 29, 2025 | LGPL-2.1 |
-| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. | C++ | 24821 | May 29, 2025 | NOASSERTION |
+| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. | C++ | 24823 | May 29, 2025 | NOASSERTION |
 
 ### Analysis
 
@@ -47,6 +47,7 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
 | [dragonfly-core](https://github.com/ladybug-tools/dragonfly-core) | :dragon: dragonfly core library | Python | 18 | May 28, 2025 | AGPL-3.0 |
+| [geospiza](https://github.com/TheVessen/geospiza) | Geospiza is a project focusing on evolutionary design in grasshopper | C# | 5 | Feb 25, 2025 | MIT |
 
 ### Infrastructure
 

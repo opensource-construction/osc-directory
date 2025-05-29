@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24821,
+    "stars": 24823,
     "forks": 4573,
-    "lastUpdated": "2025-05-29T13:01:16Z",
+    "lastUpdated": "2025-05-29T13:33:47Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -662,5 +662,31 @@
     "topics": [],
     "submissionDate": "2025-05-29",
     "openIssues": 9
+  },
+  {
+    "url": "https://github.com/TheVessen/geospiza",
+    "category": "Parametric Design",
+    "metadata": [
+      "generativeDesign",
+      "computational-design",
+      "evolutionary-algorithms",
+      "grasshopper",
+      "rhino"
+    ],
+    "name": "geospiza",
+    "description": "Geospiza is a project focusing on evolutionary design in grasshopper",
+    "stars": 5,
+    "forks": 0,
+    "lastUpdated": "2025-02-25T17:10:28Z",
+    "mainLanguage": "C#",
+    "license": "MIT",
+    "topics": [
+      "computational-design",
+      "evolutionary-algorithms",
+      "grasshopper",
+      "rhino"
+    ],
+    "submissionDate": "2025-05-29",
+    "openIssues": 5
   }
 ]
