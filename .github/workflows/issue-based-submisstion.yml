@@ -99,6 +99,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
           commit-message: "feat: add ${{ steps.project_info.outputs.project_name }} from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}"
           title: "Add ${{ steps.project_info.outputs.project_name }} from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}"
           body: |
@@ -106,6 +107,11 @@ jobs:
 
             **Project:** ${{ steps.project_info.outputs.project_name }}
             **Repository:** https://github.com/${{ steps.project_info.outputs.repo_path }}
+
+          commit-message: "feat: add new project from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}"
+          title: "Add project from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}"
+          body: |
+            Automatically processed project submission from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}.
 
             Changes:
             - Added new project to projects.json
