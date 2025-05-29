@@ -1,5 +1,10 @@
 import fs from "fs/promises";
 import path from "path";
+import { fileURLToPath } from 'url';
+
+// Get the correct directory path like in parse-template.ts
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 interface ProjectData {
   url: string;
@@ -15,8 +20,8 @@ async function addProjectFromIssue() {
 
     console.log("Adding project to projects.json:", projectData.url);
 
-    // Read existing projects
-    const projectsPath = path.join(process.cwd(), "../data/projects.json");
+    // Use the same path structure as parse-template.ts
+    const projectsPath = path.join(__dirname, '..', 'data', 'projects.json');
     let projects = [];
 
     try {
@@ -25,6 +30,8 @@ async function addProjectFromIssue() {
     } catch (error: any) {
       if (error.code === 'ENOENT') {
         console.log("No existing projects.json found, creating new one");
+        // Ensure the data directory exists
+        await fs.mkdir(path.dirname(projectsPath), { recursive: true });
         projects = [];
       } else {
         throw error;
@@ -44,7 +51,8 @@ async function addProjectFromIssue() {
       lastUpdated: "",
       mainLanguage: null,
       license: "",
-      topics: []
+      topics: [],
+      submissionDate: new Date().toISOString().split('T')[0]
     };
 
     // Add new project
@@ -57,6 +65,7 @@ async function addProjectFromIssue() {
     await fs.unlink(projectDataPath).catch(() => { });
 
     console.log(`✅ Project "${projectData.url}" added successfully to projects.json`);
+    console.log(`📁 File saved to: ${projectsPath}`);
     console.log("📡 Metadata will be fetched by update-metadata.ts");
   } catch (error) {
     console.error("❌ Error adding project:", error);
