@@ -8,6 +8,7 @@ body:
       value: |
         Thanks for submitting a project! We'll automatically validate and review your submission.
 
+
   - type: input
     id: url
     attributes:
