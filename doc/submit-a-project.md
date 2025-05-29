@@ -1,6 +1,6 @@
 ### 📝 Submit Your Project
 
-1. **[Create a new project submission](../../issues/new?assignees=&labels=submission&template=new_project.yml&title=%5BNEW%20PROJECT%5D%20)**
+1. **[Create a new project submission](https://github.com/opensource-construction/osc-directory/issues/new?assignees=&labels=submission&template=new_project.yml&title=%5BNEW%20PROJECT%5D%20)**
 2. **Fill out the form** with:
    - GitHub repository URL
    - Project category
