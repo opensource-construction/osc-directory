@@ -86,4 +86,5 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 | [ifcopenshell-jupyter](https://github.com/IfcOpenShell/ifcopenshell-jupyter) | Binder to run IfcOpenShell with Jupyter | Python | 3 | Jan 18, 2024 | Unknown |
 | [rhino3dm](https://github.com/mcneel/rhino3dm) | Libraries based on OpenNURBS with a RhinoCommon style | C# | 655 | May 28, 2025 | MIT |
 | [xeokit-sdk](https://github.com/xeokit/xeokit-sdk) | 3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision | JavaScript | 794 | May 28, 2025 | AGPL-3.0 |
+| [compas_wood](https://github.com/petrasvestartas/compas_wood) | Project for Timber Joint Generation. Documentation: | Python | 40 | Apr 26, 2025 | MIT |
 
