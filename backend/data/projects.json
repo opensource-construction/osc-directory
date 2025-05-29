@@ -264,7 +264,7 @@
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
     "stars": 24821,
     "forks": 4573,
-    "lastUpdated": "2025-05-29T12:31:04Z",
+    "lastUpdated": "2025-05-29T13:01:16Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3113
+    "openIssues": 3109
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -389,7 +389,7 @@
     "description": "OpenFOAM Foundation development repository",
     "stars": 1725,
     "forks": 633,
-    "lastUpdated": "2025-05-29T12:19:22Z",
+    "lastUpdated": "2025-05-29T13:03:14Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -644,5 +644,23 @@
     "topics": [],
     "submissionDate": "2025-05-29",
     "openIssues": 1
+  },
+  {
+    "url": "https://github.com/ladybug-tools/honeybee-radiance",
+    "category": "Development Tools",
+    "metadata": [
+      "Radiance",
+      "test"
+    ],
+    "name": "honeybee-radiance",
+    "description": "🐝 ⚡️ Radiance extension for Honeybee",
+    "stars": 16,
+    "forks": 10,
+    "lastUpdated": "2025-05-27T19:06:25Z",
+    "mainLanguage": "Python",
+    "license": "AGPL-3.0",
+    "topics": [],
+    "submissionDate": "2025-05-29",
+    "openIssues": 9
   }
 ]
