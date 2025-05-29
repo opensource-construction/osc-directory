@@ -55,6 +55,7 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 |---------|-------------|----------|-------|--------------|--------|
 | [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 206 | May 24, 2025 | AGPL-3.0 |
 | [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2108 | May 28, 2025 | LGPL-3.0 |
+| [honeybee-energy](https://github.com/ladybug-tools/honeybee-energy) | 🐝 :fire: Honeybee extension for energy simulation | Python | 33 | May 27, 2025 | AGPL-3.0 |
 
 ### Interoperability
 

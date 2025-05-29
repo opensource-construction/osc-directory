@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 101
+    "openIssues": 102
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -608,5 +608,23 @@
       "woodworking"
     ],
     "openIssues": 7
+  },
+  {
+    "url": "https://github.com/ladybug-tools/honeybee-energy",
+    "category": "Analysis",
+    "metadata": [
+      "simulation",
+      "energy"
+    ],
+    "submissionDate": "2025-05-29",
+    "name": "honeybee-energy",
+    "description": "🐝 :fire: Honeybee extension for energy simulation",
+    "stars": 33,
+    "forks": 18,
+    "lastUpdated": "2025-05-27T19:06:25Z",
+    "mainLanguage": "Python",
+    "license": "AGPL-3.0",
+    "topics": [],
+    "openIssues": 20
   }
 ]
