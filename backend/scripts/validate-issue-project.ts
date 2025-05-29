@@ -7,14 +7,9 @@ const octokit = new Octokit({
 });
 
 interface ProjectData {
-  name: string;
-  repository: string;
-  description: string;
-  language: string;
-  license: string;
-  categories: string[];
-  tags: string[];
-  contact?: string;
+  url: string;
+  category: string;
+  metadata?: string[];
 }
 
 async function validateIssueProject() {
@@ -23,16 +18,16 @@ async function validateIssueProject() {
     const projectDataPath = path.join(process.cwd(), "temp-project-data.json");
     const projectData: ProjectData = JSON.parse(await fs.readFile(projectDataPath, "utf-8"));
 
-    console.log("Validating project data:", projectData.name);
+    console.log("Validating project data:", projectData.url);
 
     // Validate required fields
     validateRequiredFields(projectData);
 
     // Validate repository URL and accessibility
-    await validateRepository(projectData.repository);
+    await validateRepository(projectData.url);
 
     // Validate for duplicates
-    await validateNoDuplicates(projectData);
+    await validateNoDuplicates(projectData.url);
 
     // Validate field formats
     validateFieldFormats(projectData);
@@ -45,7 +40,7 @@ async function validateIssueProject() {
 }
 
 function validateRequiredFields(projectData: ProjectData) {
-  const requiredFields = ['name', 'repository', 'description', 'language', 'license'];
+  const requiredFields = ['url', 'category'];
 
   for (const field of requiredFields) {
     if (!projectData[field as keyof ProjectData] || projectData[field as keyof ProjectData] === '') {
@@ -96,29 +91,20 @@ async function validateRepository(repositoryUrl: string) {
   }
 }
 
-async function validateNoDuplicates(projectData: ProjectData) {
+async function validateNoDuplicates(repositoryUrl: string) {
   try {
     // Check existing projects.json
-    const projectsPath = path.join(process.cwd(), "../projects.json");
+    const projectsPath = path.join(process.cwd(), "../data/projects.json");
     const existingData = await fs.readFile(projectsPath, "utf-8");
     const existingProjects = JSON.parse(existingData);
 
     // Check for duplicate repository URLs
     const duplicateRepo = existingProjects.find((project: any) =>
-      project.repository === projectData.repository
+      project.url === repositoryUrl
     );
 
     if (duplicateRepo) {
-      throw new Error(`Repository already exists in directory: ${projectData.repository}`);
-    }
-
-    // Check for duplicate project names (case-insensitive)
-    const duplicateName = existingProjects.find((project: any) =>
-      project.name.toLowerCase() === projectData.name.toLowerCase()
-    );
-
-    if (duplicateName) {
-      throw new Error(`Project name already exists: ${projectData.name}`);
+      throw new Error(`Repository already exists in directory: ${repositoryUrl}`);
     }
 
     console.log("✅ No duplicates found");
@@ -132,44 +118,31 @@ async function validateNoDuplicates(projectData: ProjectData) {
 }
 
 function validateFieldFormats(projectData: ProjectData) {
-  // Validate categories
-  if (projectData.categories && projectData.categories.length > 0) {
-    projectData.categories.forEach(category => {
-      if (category.length > 50) {
-        throw new Error(`Category too long: ${category}`);
-      }
-    });
+  // Validate category is from allowed list
+  const allowedCategories = [
+    'BIM Tools', 'Visualization', 'Analysis', 'Interoperability',
+    'Parametric Design', 'Data Management', 'Infrastructure',
+    'Sustainability', 'Development Tools', 'Other'
+  ];
+
+  if (!allowedCategories.includes(projectData.category)) {
+    throw new Error(`Invalid category: ${projectData.category}`);
   }
 
-  // Validate tags
-  if (projectData.tags && projectData.tags.length > 0) {
-    if (projectData.tags.length > 10) {
-      throw new Error("Too many tags (maximum 10 allowed)");
+  // Validate metadata tags
+  if (projectData.metadata && projectData.metadata.length > 0) {
+    if (projectData.metadata.length > 10) {
+      throw new Error("Too many metadata tags (maximum 10 allowed)");
     }
 
-    projectData.tags.forEach(tag => {
+    projectData.metadata.forEach(tag => {
       if (tag.length > 30) {
-        throw new Error(`Tag too long: ${tag}`);
+        throw new Error(`Metadata tag too long: ${tag}`);
+      }
+      if (tag.trim() !== tag) {
+        throw new Error(`Metadata tag has leading/trailing spaces: "${tag}"`);
       }
     });
-  }
-
-  // Validate email format if provided
-  if (projectData.contact) {
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailPattern.test(projectData.contact)) {
-      throw new Error("Invalid email format");
-    }
-  }
-
-  // Validate name length
-  if (projectData.name.length > 100) {
-    throw new Error("Project name too long (maximum 100 characters)");
-  }
-
-  // Validate description length
-  if (projectData.description.length > 500) {
-    throw new Error("Description too long (maximum 500 characters)");
   }
 
   console.log("✅ Field format validation passed");
