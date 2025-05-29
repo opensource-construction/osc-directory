@@ -359,7 +359,7 @@
     "description": "The Speckle Server, Frontend, 3D Viewer, & other JS utilities.",
     "stars": 723,
     "forks": 202,
-    "lastUpdated": "2025-05-29T12:31:53Z",
+    "lastUpdated": "2025-05-29T13:20:36Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 103
+    "openIssues": 100
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
