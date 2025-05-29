@@ -1,12 +1,13 @@
 name: 🚀 Submit New Project
 description: Submit a new open source project to be added to the directory
 title: "[NEW PROJECT] "
-labels: ["new-project", "pending-review"]
+labels: ["submission"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for submitting a project! We'll automatically fetch most information from GitHub.
+        Thanks for submitting a project! We'll automatically validate and review your submission.
+
 
   - type: input
     id: url
