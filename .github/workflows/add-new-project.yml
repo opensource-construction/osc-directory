@@ -1,0 +1,76 @@
+name: Update Project Metadata
+
+on:
+  pull_request:
+    types: [closed]
+    paths:
+      - "new-project.yml"
+  workflow_dispatch:
+
+jobs:
+  update-metadata:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+          run_install: false
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install backend dependencies
+        run: cd backend && pnpm install
+
+      - name: Process new project
+        run: cd backend && pnpm tsx scripts/parse-template.ts
+
+      - name: Update project metadata
+        run: cd backend && pnpm tsx scripts/update-metadata.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate README tables
+        run: cd backend && pnpm tsx scripts/generate-readme-tables.ts
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: update project metadata after new project addition"
+          title: "Auto-update: Project metadata after new project"
+          body: |
+            Automatically generated after merging new project submission.
+
+            Changes:
+            - Updated project metadata from GitHub API
+            - Regenerated README tables
+            - Processed: ${{ github.event.pull_request.title }}
+          branch: auto-update-metadata-${{ github.event.pull_request.number }}
+          delete-branch: true

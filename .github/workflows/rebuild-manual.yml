@@ -1,0 +1,81 @@
+name: Rebuild Project Metadata
+
+on:
+  workflow_dispatch:
+  schedule:
+     - cron: '0 0 * * *'
+
+jobs:
+  rebuild-metadata:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+          run_install: false
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install backend dependencies
+        run: cd backend && pnpm install
+
+      - name: Update project metadata
+        run: cd backend && pnpm tsx scripts/update-metadata.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate README tables
+        run: cd backend && pnpm tsx scripts/generate-readme-tables.ts
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        id: create-pr
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: automated update of project metadata and README"
+          title: "🤖 Automated: Project metadata update"
+          body: |
+            Automated update of project metadata and README tables.
+
+            - Updated project metadata from GitHub API
+            - Regenerated README tables
+            - Triggered: ${{ github.event_name == 'schedule' && 'Scheduled' || 'Manual' }}
+          branch: auto-update-metadata-${{ github.run_number }}
+          delete-branch: true
+
+      - name: Auto-merge PR
+        if: steps.create-pr.outputs.pull-request-number
+        run: |
+          # Wait a moment for PR to be fully created
+          sleep 5
+
+          # Try to merge directly (if no protection rules require checks)
+          gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --squash --delete-branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
