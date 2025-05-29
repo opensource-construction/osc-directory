@@ -1,0 +1,136 @@
+name: Process Project Issue
+
+on:
+  issues:
+    types: [labeled]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number to process"
+        required: true
+
+jobs:
+  process-project:
+    if: contains(github.event.label.name, 'approved') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+          run_install: false
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install backend dependencies
+        run: cd backend && pnpm install
+
+      - name: Parse issue data
+        id: parse-issue
+        run: cd backend && pnpm tsx scripts/parse-issue.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || github.event.inputs.issue_number }}
+
+      - name: Validate project data
+        run: cd backend && pnpm tsx scripts/validate-issue-project.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || github.event.inputs.issue_number }}
+
+      - name: Add to projects.json
+        run: cd backend && pnpm tsx scripts/add-issue-project.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || github.event.inputs.issue_number }}
+
+      - name: Update metadata
+        run: cd backend && pnpm tsx scripts/update-metadata.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate README
+        run: cd backend && pnpm tsx scripts/generate-readme-tables.ts
+
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: add new project from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}"
+          title: "Add project from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}"
+          body: |
+            Automatically processed project submission from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}.
+
+            Changes:
+            - Added new project to projects.json
+            - Updated project metadata from GitHub API
+            - Regenerated README tables
+
+            Closes #${{ github.event.issue.number || github.event.inputs.issue_number }}
+          branch: add-project-issue-${{ github.event.issue.number || github.event.inputs.issue_number }}
+          delete-branch: true
+
+      - name: Close issue with success message
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: ${{ github.event.issue.number || github.event.inputs.issue_number }},
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '✅ **Project successfully processed!** \n\nYour project submission has been processed and a pull request has been created. The project will be added to the directory once the PR is merged.\n\nThank you for your contribution! 🎉'
+            });
+
+            github.rest.issues.update({
+              issue_number: ${{ github.event.issue.number || github.event.inputs.issue_number }},
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'closed',
+              labels: ['processed', 'approved']
+            });
+
+      - name: Comment on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: ${{ github.event.issue.number || github.event.inputs.issue_number }},
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ **Processing failed** \n\nThere was an error processing your project submission. Please check the workflow logs for details or contact a maintainer.\n\nWorkflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+            });
+
+            github.rest.issues.addLabels({
+              issue_number: ${{ github.event.issue.number || github.event.inputs.issue_number }},
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['processing-failed']
+            });
