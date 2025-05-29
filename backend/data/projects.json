@@ -287,7 +287,7 @@
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
-    "category": "Other",
+    "category": "Development Tools",
     "metadata": [
       "Jupyter Notebook",
       "IfcOpenShell"
