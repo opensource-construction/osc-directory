@@ -6,19 +6,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for submitting a project! Please fill out the information below.
+        Thanks for submitting a project! We'll automatically fetch most information from GitHub.
 
   - type: input
-    id: name
-    attributes:
-      label: Project Name
-      description: The name of your project
-      placeholder: "My Awesome Project"
-    validations:
-      required: true
-
-  - type: input
-    id: repository
+    id: url
     attributes:
       label: Repository URL
       description: GitHub repository URL
@@ -26,50 +17,31 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Choose the main category for your project
+      options:
+        - BIM Tools
+        - Visualization
+        - Analysis
+        - Interoperability
+        - Parametric Design
+        - Data Management
+        - Infrastructure
+        - Sustainability
+        - Development Tools
+        - Other
+    validations:
+      required: true
+
   - type: textarea
-    id: description
+    id: metadata
     attributes:
-      label: Description
-      description: A brief description of what your project does
-      placeholder: "This project helps developers..."
-    validations:
-      required: true
-
-  - type: input
-    id: language
-    attributes:
-      label: Primary Language
-      description: The main programming language used
-      placeholder: "TypeScript"
-    validations:
-      required: true
-
-  - type: input
-    id: license
-    attributes:
-      label: License
-      description: Project license
-      placeholder: "MIT"
-    validations:
-      required: true
-
-  - type: input
-    id: categories
-    attributes:
-      label: Categories
-      description: Comma-separated categories
-      placeholder: "web, tools, productivity"
-
-  - type: input
-    id: tags
-    attributes:
-      label: Tags
-      description: Comma-separated tags
-      placeholder: "javascript, react, nodejs"
-
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Email (Optional)
-      description: Your email for any questions
-      placeholder: "your.email@example.com"
+      label: Additional Tags (Optional)
+      description: Add any additional tags, one per line
+      placeholder: |
+        architecture
+        construction
+        engineering

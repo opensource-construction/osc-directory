@@ -2,14 +2,9 @@ import fs from "fs/promises";
 import path from "path";
 
 interface ProjectData {
-  name: string;
-  repository: string;
-  description: string;
-  language: string;
-  license: string;
-  categories: string[];
-  tags: string[];
-  contact?: string;
+  url: string;
+  category: string;
+  metadata?: string[];
 }
 
 async function addProjectFromIssue() {
@@ -18,10 +13,10 @@ async function addProjectFromIssue() {
     const projectDataPath = path.join(process.cwd(), "temp-project-data.json");
     const projectData: ProjectData = JSON.parse(await fs.readFile(projectDataPath, "utf-8"));
 
-    console.log("Adding project to projects.json:", projectData.name);
+    console.log("Adding project to projects.json:", projectData.url);
 
     // Read existing projects
-    const projectsPath = path.join(process.cwd(), "../projects.json");
+    const projectsPath = path.join(process.cwd(), "../data/projects.json");
     let projects = [];
 
     try {
@@ -36,35 +31,33 @@ async function addProjectFromIssue() {
       }
     }
 
-    // Prepare project entry
+    // Create minimal project entry - update-metadata.ts will fetch the rest
     const newProject = {
-      ...projectData,
-      addedAt: new Date().toISOString(),
-      source: "issue-submission",
+      url: projectData.url,
+      category: projectData.category,
+      metadata: projectData.metadata || [],
       // These will be populated by update-metadata.ts
+      name: "",
+      description: "",
       stars: 0,
       forks: 0,
-      lastUpdated: null,
-      topics: [],
-      verified: false
+      lastUpdated: "",
+      mainLanguage: null,
+      license: "",
+      topics: []
     };
 
     // Add new project
     projects.push(newProject);
 
-    // Sort projects by name for consistency
-    projects.sort((a: any, b: any) => a.name.localeCompare(b.name));
-
     // Write back to projects.json
     await fs.writeFile(projectsPath, JSON.stringify(projects, null, 2));
 
     // Clean up temp file
-    await fs.unlink(projectDataPath).catch(() => {
-      // Ignore if file doesn't exist
-    });
+    await fs.unlink(projectDataPath).catch(() => { });
 
-    console.log(`✅ Project "${projectData.name}" added successfully to projects.json`);
-    console.log(`Total projects: ${projects.length}`);
+    console.log(`✅ Project "${projectData.url}" added successfully to projects.json`);
+    console.log("📡 Metadata will be fetched by update-metadata.ts");
   } catch (error) {
     console.error("❌ Error adding project:", error);
     process.exit(1);
