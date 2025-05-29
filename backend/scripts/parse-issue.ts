@@ -7,14 +7,9 @@ const octokit = new Octokit({
 });
 
 interface ProjectData {
-  name: string;
-  repository: string;
-  description: string;
-  language: string;
-  license: string;
-  categories: string[];
-  tags: string[];
-  contact?: string;
+  url: string;
+  category: string;
+  metadata?: string[];
 }
 
 async function parseIssue() {
@@ -28,7 +23,6 @@ async function parseIssue() {
       issue_number: issueNumber,
     });
 
-    // Parse issue body for form data
     const body = issue.body || "";
     const projectData = extractProjectDataFromIssue(body);
 
@@ -46,47 +40,34 @@ async function parseIssue() {
 }
 
 function extractProjectDataFromIssue(body: string): ProjectData {
-  const lines = body.split('\n');
   const data: Partial<ProjectData> = {};
 
-  // Extract form fields (GitHub issue forms format)
-  let currentField = '';
-  for (const line of lines) {
-    if (line.startsWith('### ')) {
-      currentField = line.replace('### ', '').toLowerCase().trim();
-    } else if (line.trim() && currentField) {
-      switch (currentField) {
-        case 'project name':
-          data.name = line.trim();
-          break;
-        case 'repository url':
-          data.repository = line.trim();
-          break;
-        case 'description':
-          data.description = line.trim();
-          break;
-        case 'primary language':
-          data.language = line.trim();
-          break;
-        case 'license':
-          data.license = line.trim();
-          break;
-        case 'categories':
-          data.categories = line.split(',').map(cat => cat.trim());
-          break;
-        case 'tags':
-          data.tags = line.split(',').map(tag => tag.trim());
-          break;
-        case 'contact email':
-          data.contact = line.trim();
-          break;
-      }
+  // Parse GitHub issue form format
+  const urlMatch = body.match(/### Repository URL\s*\n\s*(.+)/);
+  const categoryMatch = body.match(/### Category\s*\n\s*(.+)/);
+  const metadataMatch = body.match(/### Additional Tags \(Optional\)\s*\n([\s\S]*?)(?=###|$)/);
+
+  if (urlMatch) {
+    data.url = urlMatch[1].trim();
+  }
+
+  if (categoryMatch) {
+    data.category = categoryMatch[1].trim();
+  }
+
+  if (metadataMatch) {
+    const metadataText = metadataMatch[1].trim();
+    if (metadataText && metadataText !== "_No response_") {
+      data.metadata = metadataText
+        .split('\n')
+        .map(line => line.trim())
+        .filter(line => line.length > 0);
     }
   }
 
   // Validate required fields
-  if (!data.name || !data.repository || !data.description) {
-    throw new Error("Missing required fields: name, repository, or description");
+  if (!data.url || !data.category) {
+    throw new Error("Missing required fields: url or category");
   }
 
   return data as ProjectData;
