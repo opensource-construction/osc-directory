@@ -4,7 +4,7 @@ A curated list of open source projects for the Architecture, Engineering, and Co
 
 ## How to Add a Project
 
-Submit your project using our simple GitHub issue form: [See submit a project](/doc/submit-a-project.md)
+Submit your project using our simple GitHub issue form: [See submit a project](/docs/submit-a-project.md)
 
 ## License
 
