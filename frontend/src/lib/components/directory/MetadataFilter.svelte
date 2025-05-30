@@ -136,18 +136,19 @@
 <div class="md:hidden fixed inset-x-0 bottom-0 z-50">
 	<!-- Backdrop when expanded -->
 	{#if isExpanded}
-		<div
+		<button
+			aria-label="toggle-expand"
 			class="fixed inset-0 backdrop-blur-sm bg-black/30 transition-all duration-200"
 			onclick={toggleExpanded}
-		></div>
+		></button>
 	{/if}
 
 	<!-- Filter Dock -->
 	<div class="relative bg-white border-t border-gray-200 shadow-2xl">
 		<!-- Dock Header (Always Visible) -->
 		<div class="px-4 py-3">
-			<button onclick={toggleExpanded} class="w-full flex items-center justify-between">
-				<div class="flex items-center space-x-3">
+			<div class="w-full flex items-center justify-between">
+				<button onclick={toggleExpanded} class="flex items-center space-x-3 flex-1">
 					<Icon icon="mdi:filter-variant" class="w-5 h-5 text-gray-600" />
 					<span class="font-medium text-gray-900">Filters</span>
 					{#if totalActiveFilters > 0}
@@ -157,12 +158,11 @@
 							{totalActiveFilters}
 						</span>
 					{/if}
-				</div>
+				</button>
 				<div class="flex items-center space-x-2">
 					{#if hasActiveFilters}
 						<button
-							onclick={(e) => {
-								e.stopPropagation();
+							onclick={() => {
 								Object.keys(selectedMetadataFilters).forEach((key) => clearFilterGroup(key));
 							}}
 							class="text-xs text-red-600 hover:text-red-800 font-medium px-2 py-1 rounded"
@@ -170,12 +170,14 @@
 							Clear
 						</button>
 					{/if}
-					<Icon
-						icon={isExpanded ? 'mdi:chevron-down' : 'mdi:chevron-up'}
-						class="w-5 h-5 text-gray-400 transition-transform duration-200"
-					/>
+					<button onclick={toggleExpanded} class="flex items-center">
+						<Icon
+							icon={isExpanded ? 'mdi:chevron-down' : 'mdi:chevron-up'}
+							class="w-5 h-5 text-gray-400 transition-transform duration-200"
+						/>
+					</button>
 				</div>
-			</button>
+			</div>
 		</div>
 
 		<!-- Expandable Content -->

@@ -1,8 +1,8 @@
 <script lang="ts">
-	import PageHeader from '$lib/components/PageHeader.svelte';
-	import LoadingIndicator from '$lib/components/LoadingIndicator.svelte';
-	import MetadataFilter from '$lib/components/MetadataFilter.svelte';
-	import ProjectList from '$lib/components/ProjectList.svelte';
+	import PageHeader from '$lib/components/directory/DirectoryHeader.svelte';
+	import MetadataFilter from '$lib/components/directory/MetadataFilter.svelte';
+	import ProjectList from '$lib/components/directory/ProjectList.svelte';
+	import ProjectSorting from '$lib/components/directory/ProjectSorting.svelte';
 	import { type Project } from '$shared/types';
 
 	let { data } = $props();
@@ -120,9 +120,10 @@
 	<PageHeader />
 
 	{#if isLoading}
-		<LoadingIndicator />
+		<p>...Loading</p>
 	{:else}
 		<div class="mb-6 space-y-4">
+			<ProjectSorting bind:projects />
 			<MetadataFilter
 				metadataOptions={enrichedMetadataOptions}
 				{selectedMetadataFilters}

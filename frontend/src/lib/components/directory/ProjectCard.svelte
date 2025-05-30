@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Project } from '$shared/types/index';
+	import Icon from '@iconify/svelte';
 
 	let { project }: { project: Project } = $props();
 
@@ -8,9 +9,9 @@
 </script>
 
 <div
-	class="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-all duration-300 hover:translate-y-[-2px]"
+	class="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-all duration-300 hover:translate-y-[-2px] h-full flex flex-col"
 >
-	<div class="p-5">
+	<div class="p-5 flex-1 flex flex-col">
 		<!-- Header with name and stars -->
 		<div class="flex justify-between items-start mb-3">
 			<h2 class="text-xl font-bold text-gray-800">
@@ -42,16 +43,7 @@
 		</div>
 
 		<!-- Description -->
-		<p class="text-gray-600 mb-4 line-clamp-2">{project.description}</p>
-
-		<!-- Category -->
-		<div class="mb-4">
-			<span
-				class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800"
-			>
-				{project.category}
-			</span>
-		</div>
+		<p class="text-gray-600 mb-4 line-clamp-2 flex-grow">{project.description}</p>
 
 		<!-- Metadata tags -->
 		{#if displayMetadata.length > 0}
@@ -68,7 +60,7 @@
 
 		<!-- Footer with additional info -->
 		<div
-			class="flex flex-wrap items-center text-sm text-gray-500 gap-3 pt-2 border-t border-gray-100"
+			class="flex flex-wrap items-center text-sm text-gray-500 gap-3 pt-2 border-t border-gray-100 mt-auto"
 		>
 			{#if project.mainLanguage}
 				<div class="flex items-center">
@@ -79,40 +71,14 @@
 
 			{#if project.license}
 				<div class="flex items-center">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="h-4 w-4 mr-1"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-						/>
-					</svg>
+					<Icon icon="mdi:license" class="w-4 h-4 mr-1"></Icon>
 					<span>{project.license}</span>
 				</div>
 			{/if}
 
 			{#if project.openIssues !== undefined}
 				<div class="flex items-center">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="h-4 w-4 mr-1"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-						/>
-					</svg>
+					<Icon icon="mdi:alert-circle-outline" class="w-4 h-4 mr-1"></Icon>
 					<a
 						href={`${project.repository || project.url}/issues`}
 						target="_blank"
@@ -124,32 +90,18 @@
 					</a>
 				</div>
 			{/if}
-
-			{#if project.lastUpdated}
-				<div class="flex items-center">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="h-4 w-4 mr-1"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-						/>
-					</svg>
-					<span
-						>{new Date(project.lastUpdated).toLocaleDateString('en-US', {
-							year: 'numeric',
-							month: 'short',
-							day: 'numeric'
-						})}</span
-					>
-				</div>
-			{/if}
 		</div>
+		{#if project.lastUpdated}
+			<div class="text-gray-500 flex gap-1 items-center mt-1">
+				<Icon icon="uil:calendar"></Icon>
+				<span
+					>{new Date(project.lastUpdated).toLocaleDateString('en-US', {
+						year: 'numeric',
+						month: 'short',
+						day: 'numeric'
+					})}</span
+				>
+			</div>
+		{/if}
 	</div>
 </div>
