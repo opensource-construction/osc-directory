@@ -8,23 +8,16 @@ const __dirname = path.dirname(__filename);
 const projectsPath = path.join(__dirname, '..', 'src', 'lib', 'data', 'projects.json');
 const readmePath = path.join(__dirname, '..', 'README.md');
 
-interface SchemaModule {
-	categories: string[];
-}
 
 async function generateReadmeTables(): Promise<void> {
 	try {
-		// Import categories
-		const schemaModule = await import('../src/lib/data/schema.ts');
-		const { categories } = schemaModule;
-
 		// Read projects data
 		const projectsData: Project[] = JSON.parse(await fs.readFile(projectsPath, 'utf8'));
 
 		// Read current README content
 		let readmeContent = await fs.readFile(readmePath, 'utf8');
 
-		// Find where to insert tables
+		// Find where to insert table
 		const startMarker = '## Projects';
 		const endMarker = '## Contributing';
 
@@ -36,50 +29,30 @@ async function generateReadmeTables(): Promise<void> {
 			return;
 		}
 
-		// Create tables content
-		let tablesContent = '## Projects\n\n';
+		// Start building one big table for all projects
+		let tableContent = '## Projects\n\n';
+		tableContent += `| Project | Description | Language | Stars | Last Updated | License |\n`;
+		tableContent += `|---------|-------------|----------|-------|--------------|--------|\n`;
 
-		// Generate tables for each category
-		for (const category of categories) {
-			// Filter projects by category
-			const categoryProjects = projectsData.filter(
-				(project) =>
-					project.category &&
-					(Array.isArray(project.category)
-						? project.category.map((c) => c.toLowerCase()).includes(category.toLowerCase())
-						: project.category.toLowerCase() === category.toLowerCase())
-			);
+		for (const project of projectsData) {
+			const lastUpdatedDate = project.lastUpdated ? new Date(project.lastUpdated) : undefined;
 
-			if (categoryProjects.length > 0) {
-				tablesContent += `### ${category}\n\n`;
-				tablesContent += `| Project | Description | Language | Stars | Last Updated | License |\n`;
-				tablesContent += `|---------|-------------|----------|-------|--------------|--------|\n`;
+			const lastUpdated = lastUpdatedDate
+				? lastUpdatedDate.toLocaleDateString('en-US', {
+					year: 'numeric',
+					month: 'short',
+					day: 'numeric'
+				})
+				: 'N/A';
 
-				for (const project of categoryProjects) {
-					const lastUpdatedDate = project.lastUpdated
-						? new Date(project.lastUpdated)
-						: undefined;
-
-					const lastUpdated = lastUpdatedDate
-						? lastUpdatedDate.toLocaleDateString('en-US', {
-							year: 'numeric',
-							month: 'short',
-							day: 'numeric'
-						})
-						: 'N/A';
-
-					tablesContent += `| [${project.name}](${project.url}) | ${project.description
-						} | ${project.mainLanguage || 'N/A'} | ${project.stars || 0
-						} | ${lastUpdated} | ${project.license || 'N/A'} |\n`;
-				}
-
-				tablesContent += '\n';
-			}
+			tableContent += `| [${project.name}](${project.url}) | ${project.description} | ${project.mainLanguage || 'N/A'} | ${project.stars || 0} | ${lastUpdated} | ${project.license || 'N/A'} |\n`;
 		}
+
+		tableContent += '\n';
 
 		// Replace the section in the README
 		const newReadmeContent =
-			readmeContent.substring(0, startIndex) + tablesContent + readmeContent.substring(endIndex);
+			readmeContent.substring(0, startIndex) + tableContent + readmeContent.substring(endIndex);
 
 		// Write the new README
 		await fs.writeFile(readmePath, newReadmeContent);
