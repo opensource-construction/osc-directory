@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12371,
+    "stars": 12372,
     "forks": 2421,
-    "lastUpdated": "2025-05-29T07:59:11Z",
+    "lastUpdated": "2025-05-29T15:51:14Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -74,9 +74,9 @@
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1569,
+    "stars": 1571,
     "forks": 416,
-    "lastUpdated": "2025-05-29T10:45:08Z",
+    "lastUpdated": "2025-05-30T01:33:10Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "topics": [
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106430,
-    "forks": 35780,
-    "lastUpdated": "2025-05-29T12:42:36Z",
+    "stars": 106434,
+    "forks": 35776,
+    "lastUpdated": "2025-05-30T00:45:40Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 566
+    "openIssues": 565
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24823,
-    "forks": 4573,
-    "lastUpdated": "2025-05-29T13:33:47Z",
+    "stars": 24829,
+    "forks": 4571,
+    "lastUpdated": "2025-05-30T00:20:44Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3109
+    "openIssues": 3110
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 100
+    "openIssues": 101
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -389,7 +389,7 @@
     "description": "OpenFOAM Foundation development repository",
     "stars": 1725,
     "forks": 633,
-    "lastUpdated": "2025-05-29T13:03:14Z",
+    "lastUpdated": "2025-05-29T21:08:28Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11360,
-    "forks": 3134,
-    "lastUpdated": "2025-05-29T08:24:25Z",
+    "stars": 11365,
+    "forks": 3135,
+    "lastUpdated": "2025-05-30T01:40:20Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4957
+    "openIssues": 4953
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -433,9 +433,9 @@
     "submissionDate": "2025-05-25",
     "name": "rhino3dm",
     "description": "Libraries based on OpenNURBS with a RhinoCommon style",
-    "stars": 655,
+    "stars": 656,
     "forks": 142,
-    "lastUpdated": "2025-05-28T06:29:52Z",
+    "lastUpdated": "2025-05-29T19:24:17Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "topics": [
@@ -496,11 +496,11 @@
     "description": "Open source IFC library and geometry engine",
     "stars": 2108,
     "forks": 789,
-    "lastUpdated": "2025-05-28T18:36:56Z",
+    "lastUpdated": "2025-05-29T19:18:23Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 990
+    "openIssues": 993
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -621,7 +621,7 @@
     "description": "🐝 :fire: Honeybee extension for energy simulation",
     "stars": 33,
     "forks": 18,
-    "lastUpdated": "2025-05-27T19:06:25Z",
+    "lastUpdated": "2025-05-29T16:48:33Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "topics": [],
@@ -638,7 +638,7 @@
     "description": ":dragon: dragonfly core library",
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-05-28T21:09:04Z",
+    "lastUpdated": "2025-05-29T22:58:46Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "topics": [],
