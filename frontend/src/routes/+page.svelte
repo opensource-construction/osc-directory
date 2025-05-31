@@ -6,10 +6,11 @@
 	import { type Project } from '$shared/types';
 
 	let { data } = $props();
-
 	let projects: Project[] = $state(data.projects);
 	let selectedMetadataFilters = $state<Record<string, string[]>>({});
 	let isLoading = $state(false);
+	//Copy of projects to avoid mutating the original array
+	let sortedProjects = $state<Project[]>([]);
 
 	// Configure metadata filters
 	// Each filter has a key, label, icon, and a function to extract values from the project
@@ -110,6 +111,10 @@
 	function clearAllFilters() {
 		selectedMetadataFilters = {};
 	}
+
+	function handleSortChange(newSortedProjects: Project[]) {
+		sortedProjects = newSortedProjects;
+	}
 </script>
 
 <svelte:head>
@@ -123,7 +128,7 @@
 		<p>...Loading</p>
 	{:else}
 		<div class="mb-6 space-y-4">
-			<ProjectSorting bind:projects />
+			<ProjectSorting projects={filteredProjects} onSortChange={handleSortChange} />
 			<MetadataFilter
 				metadataOptions={enrichedMetadataOptions}
 				{selectedMetadataFilters}
@@ -145,6 +150,6 @@
 			{/if}
 		</div>
 
-		<ProjectList projects={filteredProjects} />
+		<ProjectList projects={sortedProjects} />
 	{/if}
 </div>

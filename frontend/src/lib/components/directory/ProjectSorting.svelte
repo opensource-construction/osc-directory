@@ -2,9 +2,17 @@
 	import type { Project } from '$shared/types';
 	import Icon from '@iconify/svelte';
 
-	let { projects = $bindable() }: { projects: Project[] } = $props();
+	type SortableField = 'name' | 'stars' | 'updated';
 
-	let sortBy: 'name' | 'stars' | 'updated' | 'added' = $state('name');
+	let {
+		projects,
+		onSortChange
+	}: {
+		projects: Project[];
+		onSortChange: (sortedProjects: Project[]) => void;
+	} = $props();
+
+	let sortBy: SortableField = $state('name');
 	let sortOrder: 'asc' | 'desc' = $state('asc');
 
 	function sortProjects(a: Project, b: Project): number {
@@ -23,13 +31,6 @@
 				else if (!b.lastUpdated) result = -1;
 				else result = new Date(a.lastUpdated).getTime() - new Date(b.lastUpdated).getTime();
 				break;
-			//TODO: Add to github workflow to add the addedAt field
-			// case 'added':
-			// 	if (!a.addedAt && !b.addedAt) result = 0;
-			// 	else if (!a.addedAt) result = 1;
-			// 	else if (!b.addedAt) result = -1;
-			// 	else result = new Date(a.addedAt).getTime() - new Date(b.addedAt).getTime();
-			// 	break;
 			default:
 				result = 0;
 		}
@@ -37,20 +38,29 @@
 		return sortOrder === 'desc' ? -result : result;
 	}
 
+	function applySorting() {
+		const sorted = [...projects].sort(sortProjects);
+		onSortChange(sorted);
+	}
+
 	function handleSortChange(e: Event) {
 		const target = e.target as HTMLSelectElement;
 		sortBy = target.value as typeof sortBy;
-		projects = [...projects].sort(sortProjects);
+		applySorting();
 	}
 
 	function toggleSortOrder() {
 		sortOrder = sortOrder === 'asc' ? 'desc' : 'asc';
-		projects = [...projects].sort(sortProjects);
+		applySorting();
 	}
 
-	// Initial sort
 	$effect(() => {
-		projects = [...projects].sort(sortProjects);
+		applySorting();
+	});
+
+	$effect(() => {
+		projects;
+		applySorting();
 	});
 </script>
 

@@ -92,7 +92,7 @@
 			{/if}
 		</div>
 		{#if project.lastUpdated}
-			<div class="text-gray-500 flex gap-1 items-center mt-1">
+			<div class="text-gray-500 flex gap-1 items-center mt-1 text-sm">
 				<Icon icon="uil:calendar"></Icon>
 				<span
 					>{new Date(project.lastUpdated).toLocaleDateString('en-US', {
