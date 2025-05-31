@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12372,
+    "stars": 12376,
     "forks": 2421,
-    "lastUpdated": "2025-05-29T15:51:14Z",
+    "lastUpdated": "2025-05-31T05:46:00Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -55,7 +55,7 @@
       "tensorflow",
       "visualization"
     ],
-    "openIssues": 1268
+    "openIssues": 1270
   },
   {
     "url": "https://github.com/Open-Cascade-SAS/OCCT",
@@ -74,9 +74,9 @@
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1571,
-    "forks": 416,
-    "lastUpdated": "2025-05-30T01:33:10Z",
+    "stars": 1572,
+    "forks": 415,
+    "lastUpdated": "2025-05-30T09:49:10Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "topics": [
@@ -89,7 +89,7 @@
       "occt3d",
       "opencascade"
     ],
-    "openIssues": 81
+    "openIssues": 80
   },
   {
     "url": "https://github.com/compas-dev/compas",
@@ -111,7 +111,7 @@
     "description": "Core packages of the COMPAS framework.",
     "stars": 333,
     "forks": 111,
-    "lastUpdated": "2025-05-28T17:17:53Z",
+    "lastUpdated": "2025-05-30T10:46:47Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "topics": [
@@ -124,7 +124,7 @@
       "rhino3d",
       "rpc"
     ],
-    "openIssues": 110
+    "openIssues": 109
   },
   {
     "url": "https://github.com/mrdoob/three.js",
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106434,
-    "forks": 35776,
-    "lastUpdated": "2025-05-30T00:45:40Z",
+    "stars": 106444,
+    "forks": 35774,
+    "lastUpdated": "2025-05-31T09:10:15Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 565
+    "openIssues": 566
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -204,9 +204,9 @@
     "submissionDate": "2025-05-22",
     "name": "BIMserver",
     "description": "The open source BIMserver platform",
-    "stars": 1613,
+    "stars": 1614,
     "forks": 621,
-    "lastUpdated": "2025-05-27T16:28:20Z",
+    "lastUpdated": "2025-05-30T15:25:19Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "topics": [
@@ -232,7 +232,7 @@
     "name": "ladybug",
     "description": "🐞 Core ladybug library for weather data analysis and visualization",
     "stars": 206,
-    "forks": 56,
+    "forks": 55,
     "lastUpdated": "2025-05-24T15:12:59Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24829,
-    "forks": 4571,
-    "lastUpdated": "2025-05-30T00:20:44Z",
+    "stars": 24845,
+    "forks": 4574,
+    "lastUpdated": "2025-05-31T09:17:52Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3110
+    "openIssues": 3121
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -320,9 +320,9 @@
     "submissionDate": "2025-05-24",
     "name": "XbimEssentials",
     "description": "A .NET library to work with data in the IFC format. This is the core component of the Xbim Toolkit",
-    "stars": 523,
+    "stars": 524,
     "forks": 174,
-    "lastUpdated": "2025-05-29T11:41:04Z",
+    "lastUpdated": "2025-05-30T10:22:50Z",
     "mainLanguage": "C#",
     "license": "NOASSERTION",
     "topics": [
@@ -359,7 +359,7 @@
     "description": "The Speckle Server, Frontend, 3D Viewer, & other JS utilities.",
     "stars": 723,
     "forks": 202,
-    "lastUpdated": "2025-05-29T13:20:36Z",
+    "lastUpdated": "2025-05-30T16:52:27Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 101
+    "openIssues": 102
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -387,9 +387,9 @@
     "submissionDate": "2025-05-24",
     "name": "OpenFOAM-dev",
     "description": "OpenFOAM Foundation development repository",
-    "stars": 1725,
+    "stars": 1726,
     "forks": 633,
-    "lastUpdated": "2025-05-29T21:08:28Z",
+    "lastUpdated": "2025-05-30T18:56:28Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11365,
-    "forks": 3135,
-    "lastUpdated": "2025-05-30T01:40:20Z",
+    "stars": 11367,
+    "forks": 3136,
+    "lastUpdated": "2025-05-30T22:14:00Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4953
+    "openIssues": 4946
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -434,7 +434,7 @@
     "name": "rhino3dm",
     "description": "Libraries based on OpenNURBS with a RhinoCommon style",
     "stars": 656,
-    "forks": 142,
+    "forks": 141,
     "lastUpdated": "2025-05-29T19:24:17Z",
     "mainLanguage": "C#",
     "license": "MIT",
@@ -494,13 +494,13 @@
     "submissionDate": "2025-05-26",
     "name": "IfcOpenShell",
     "description": "Open source IFC library and geometry engine",
-    "stars": 2108,
-    "forks": 789,
-    "lastUpdated": "2025-05-29T19:18:23Z",
+    "stars": 2109,
+    "forks": 788,
+    "lastUpdated": "2025-05-30T20:16:34Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 993
+    "openIssues": 991
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -638,7 +638,7 @@
     "description": ":dragon: dragonfly core library",
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-05-29T22:58:46Z",
+    "lastUpdated": "2025-05-31T01:29:37Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "topics": [],
