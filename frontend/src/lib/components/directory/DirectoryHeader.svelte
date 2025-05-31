@@ -33,33 +33,33 @@
 	});
 </script>
 
-<header
-	class="bg-gradient-to-r from-primary-200 to-primary-400 text-black py-12 mb-8 rounded-lg shadow-lg"
->
-	<div class="max-w-4xl mx-auto px-6 text-center">
-		<h1 class="text-4xl md:text-5xl font-bold mb-4">AEC Open Source Directory</h1>
+<header class="bg-white border-b border-gray-100 py-6 md:py-8 mb-6">
+	<div class="max-w-4xl mx-auto px-4 md:px-6 text-center">
+		<h1 class="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900 mb-3 leading-tight">
+			AEC Open Source Directory
+		</h1>
 
-		<div class="text-lg md:text-xl font-light opacity-90">
+		<div class="text-sm sm:text-base md:text-lg text-gray-600 max-w-2xl mx-auto mb-4">
 			{#if isLoading}
-				<span class="animate-pulse">Loading description...</span>
+				<span class="animate-pulse text-gray-400">Loading description...</span>
 			{:else}
 				{repoDescription}
 			{/if}
 		</div>
 
-		<div class="mt-6 flex justify-center items-center gap-4 text-sm opacity-80">
-			<span class="flex items-center gap-1">
-				<Icon icon="lets-icons:check-fill"></Icon>
+		<div
+			class="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-6 text-xs sm:text-sm text-gray-500"
+		>
+			<span class="flex items-center gap-1.5">
+				<Icon icon="lets-icons:check-fill" class="w-4 h-4 text-green-500"></Icon>
 				Curated Projects
 			</span>
-			<span class="text-black">•</span>
-			<span class="flex items-center gap-1">
-				<Icon icon="raphael:opensource"></Icon>
+			<span class="flex items-center gap-1.5">
+				<Icon icon="raphael:opensource" class="w-4 h-4 text-blue-500"></Icon>
 				Open Source
 			</span>
-			<span class="text-black">•</span>
-			<span class="flex items-center gap-1">
-				<Icon icon="ri:building-fill"></Icon>
+			<span class="flex items-center gap-1.5">
+				<Icon icon="ri:building-fill" class="w-4 h-4 text-orange-500"></Icon>
 				AEC Industry
 			</span>
 		</div>
