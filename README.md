@@ -1,6 +1,8 @@
 # AEC Open Source Directory
 
-A curated list of open source projects for the Architecture, Engineering, and Construction (AEC) industry.
+A curated list of open source projects for the Architecture, Engineering, and Construction (AEC) industry. A live frontend demo can be found [HERE](https://osc-directory.web.app/)
+
+This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/extra-awesome-dotnet?tab=readme-ov-file) project.
 
 ## How to Add a Project
 
