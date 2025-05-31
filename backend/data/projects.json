@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12375,
+    "stars": 12376,
     "forks": 2421,
-    "lastUpdated": "2025-05-30T07:48:07Z",
+    "lastUpdated": "2025-05-31T05:46:00Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -75,7 +75,7 @@
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
     "stars": 1572,
-    "forks": 416,
+    "forks": 415,
     "lastUpdated": "2025-05-30T09:49:10Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106441,
-    "forks": 35776,
-    "lastUpdated": "2025-05-31T01:34:17Z",
+    "stars": 106444,
+    "forks": 35774,
+    "lastUpdated": "2025-05-31T09:10:15Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -232,7 +232,7 @@
     "name": "ladybug",
     "description": "🐞 Core ladybug library for weather data analysis and visualization",
     "stars": 206,
-    "forks": 56,
+    "forks": 55,
     "lastUpdated": "2025-05-24T15:12:59Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24839,
-    "forks": 4575,
-    "lastUpdated": "2025-05-31T01:24:17Z",
+    "stars": 24845,
+    "forks": 4574,
+    "lastUpdated": "2025-05-31T09:17:52Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3125
+    "openIssues": 3121
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -434,7 +434,7 @@
     "name": "rhino3dm",
     "description": "Libraries based on OpenNURBS with a RhinoCommon style",
     "stars": 656,
-    "forks": 142,
+    "forks": 141,
     "lastUpdated": "2025-05-29T19:24:17Z",
     "mainLanguage": "C#",
     "license": "MIT",
@@ -495,12 +495,12 @@
     "name": "IfcOpenShell",
     "description": "Open source IFC library and geometry engine",
     "stars": 2109,
-    "forks": 789,
+    "forks": 788,
     "lastUpdated": "2025-05-30T20:16:34Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 992
+    "openIssues": 991
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
