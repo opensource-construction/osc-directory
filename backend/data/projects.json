@@ -89,7 +89,7 @@
       "occt3d",
       "opencascade"
     ],
-    "openIssues": 80
+    "openIssues": 81
   },
   {
     "url": "https://github.com/compas-dev/compas",
@@ -696,6 +696,15 @@
       "Energy modeling",
       "HVAC systems",
       "Simulation"
-    ]
+    ],
+    "name": "OpenStudio",
+    "description": "OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance.",
+    "stars": 540,
+    "forks": 213,
+    "lastUpdated": "2025-05-29T18:28:49Z",
+    "mainLanguage": "C++",
+    "license": "NOASSERTION",
+    "topics": [],
+    "openIssues": 197
   }
 ]
