@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12377,
+    "stars": 12379,
     "forks": 2422,
-    "lastUpdated": "2025-06-01T01:28:56Z",
+    "lastUpdated": "2025-06-01T08:12:55Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -74,9 +74,9 @@
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1572,
+    "stars": 1573,
     "forks": 415,
-    "lastUpdated": "2025-05-30T09:49:10Z",
+    "lastUpdated": "2025-06-01T05:11:04Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "topics": [
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106453,
+    "stars": 106455,
     "forks": 35773,
-    "lastUpdated": "2025-05-31T19:03:12Z",
+    "lastUpdated": "2025-06-01T08:03:53Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24850,
+    "stars": 24851,
     "forks": 4574,
-    "lastUpdated": "2025-05-31T17:08:10Z",
+    "lastUpdated": "2025-06-01T07:13:24Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3138
+    "openIssues": 3137
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -387,9 +387,9 @@
     "submissionDate": "2025-05-24",
     "name": "OpenFOAM-dev",
     "description": "OpenFOAM Foundation development repository",
-    "stars": 1727,
+    "stars": 1728,
     "forks": 633,
-    "lastUpdated": "2025-05-31T19:14:26Z",
+    "lastUpdated": "2025-06-01T07:30:11Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -408,11 +408,11 @@
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
     "stars": 11369,
     "forks": 3136,
-    "lastUpdated": "2025-06-01T00:36:43Z",
+    "lastUpdated": "2025-06-01T06:19:28Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4949
+    "openIssues": 4950
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -495,8 +495,8 @@
     "name": "IfcOpenShell",
     "description": "Open source IFC library and geometry engine",
     "stars": 2109,
-    "forks": 788,
-    "lastUpdated": "2025-05-31T13:58:45Z",
+    "forks": 787,
+    "lastUpdated": "2025-06-01T08:00:41Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
@@ -688,5 +688,24 @@
     ],
     "submissionDate": "2025-05-29",
     "openIssues": 5
+  },
+  {
+    "url": "https://github.com/NREL/OpenStudio?tab=readme-ov-file",
+    "category": "Analysis",
+    "metadata": [
+      "Energy modeling",
+      "HVAC systems",
+      "Simulation"
+    ],
+    "name": "OpenStudio?tab=readme-ov-file",
+    "description": "No description provided",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-06-01T08:17:12.812Z",
+    "mainLanguage": null,
+    "license": "Unknown",
+    "topics": [],
+    "submissionDate": "2025-06-01",
+    "openIssues": 0
   }
 ]
