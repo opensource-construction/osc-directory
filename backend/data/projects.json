@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12376,
-    "forks": 2421,
-    "lastUpdated": "2025-05-31T05:46:00Z",
+    "stars": 12377,
+    "forks": 2422,
+    "lastUpdated": "2025-06-01T01:28:56Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -55,7 +55,7 @@
       "tensorflow",
       "visualization"
     ],
-    "openIssues": 1270
+    "openIssues": 1272
   },
   {
     "url": "https://github.com/Open-Cascade-SAS/OCCT",
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106444,
-    "forks": 35774,
-    "lastUpdated": "2025-05-31T09:10:15Z",
+    "stars": 106453,
+    "forks": 35773,
+    "lastUpdated": "2025-05-31T19:03:12Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 566
+    "openIssues": 567
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24845,
+    "stars": 24850,
     "forks": 4574,
-    "lastUpdated": "2025-05-31T09:17:52Z",
+    "lastUpdated": "2025-05-31T17:08:10Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3121
+    "openIssues": 3138
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -336,7 +336,7 @@
       "openbim",
       "step21"
     ],
-    "openIssues": 113
+    "openIssues": 114
   },
   {
     "url": "https://github.com/specklesystems/speckle-server",
@@ -387,9 +387,9 @@
     "submissionDate": "2025-05-24",
     "name": "OpenFOAM-dev",
     "description": "OpenFOAM Foundation development repository",
-    "stars": 1726,
+    "stars": 1727,
     "forks": 633,
-    "lastUpdated": "2025-05-30T18:56:28Z",
+    "lastUpdated": "2025-05-31T19:14:26Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11367,
+    "stars": 11369,
     "forks": 3136,
-    "lastUpdated": "2025-05-30T22:14:00Z",
+    "lastUpdated": "2025-06-01T00:36:43Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4946
+    "openIssues": 4949
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -496,11 +496,11 @@
     "description": "Open source IFC library and geometry engine",
     "stars": 2109,
     "forks": 788,
-    "lastUpdated": "2025-05-30T20:16:34Z",
+    "lastUpdated": "2025-05-31T13:58:45Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 991
+    "openIssues": 990
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -533,7 +533,7 @@
     "description": "3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision",
     "stars": 794,
     "forks": 306,
-    "lastUpdated": "2025-05-28T14:19:42Z",
+    "lastUpdated": "2025-05-31T11:55:16Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "topics": [
@@ -558,7 +558,7 @@
       "webgl",
       "webgl-viewer"
     ],
-    "openIssues": 150
+    "openIssues": 149
   },
   {
     "url": "https://github.com/petrasvestartas/compas_wood",
