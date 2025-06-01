@@ -16,14 +16,14 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
-| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++ | 12379 | Jun 1, 2025 | NOASSERTION |
+| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++ | 12378 | Jun 1, 2025 | NOASSERTION |
 | [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1573 | Jun 1, 2025 | LGPL-2.1 |
 | [compas](https://github.com/compas-dev/compas) | Core packages of the COMPAS framework. | Python | 333 | May 30, 2025 | MIT |
 | [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 106458 | Jun 1, 2025 | MIT |
 | [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 81 | May 20, 2025 | MIT |
 | [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1614 | May 30, 2025 | AGPL-3.0 |
 | [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 206 | May 24, 2025 | AGPL-3.0 |
-| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. | C++ | 24854 | Jun 1, 2025 | NOASSERTION |
+| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. | C++ | 24853 | Jun 1, 2025 | NOASSERTION |
 | [ifcopenshell-jupyter](https://github.com/IfcOpenShell/ifcopenshell-jupyter) | Binder to run IfcOpenShell with Jupyter | Python | 3 | Jan 18, 2024 | Unknown |
 | [XbimEssentials](https://github.com/xBimTeam/XbimEssentials) | A .NET library to work with data in the IFC format. This is the core component of the Xbim Toolkit | C# | 524 | May 30, 2025 | NOASSERTION |
 | [speckle-server](https://github.com/specklesystems/speckle-server) | The Speckle Server, Frontend, 3D Viewer, & other JS utilities. | TypeScript | 723 | May 30, 2025 | NOASSERTION |
@@ -40,4 +40,5 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 | [honeybee-radiance](https://github.com/ladybug-tools/honeybee-radiance) | 🐝 ⚡️ Radiance extension for Honeybee | Python | 16 | May 27, 2025 | AGPL-3.0 |
 | [geospiza](https://github.com/TheVessen/geospiza) | Geospiza is a project focusing on evolutionary design in grasshopper | C# | 5 | Feb 25, 2025 | MIT |
 | [OpenStudio](https://github.com/NREL/OpenStudio) | OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance. | C++ | 540 | May 29, 2025 | NOASSERTION |
+| [BetterCorrectFast](https://github.com/boydhont/BetterCorrectFast) | Simplified BIM Collaboration Format (BCF) generation for project leaders and managers | Python | 12 | Feb 13, 2025 | MIT |
 
