@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12379,
+    "stars": 12378,
     "forks": 2421,
-    "lastUpdated": "2025-06-01T08:12:55Z",
+    "lastUpdated": "2025-06-01T13:51:51Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -55,7 +55,7 @@
       "tensorflow",
       "visualization"
     ],
-    "openIssues": 1273
+    "openIssues": 1274
   },
   {
     "url": "https://github.com/Open-Cascade-SAS/OCCT",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24854,
+    "stars": 24853,
     "forks": 4574,
-    "lastUpdated": "2025-06-01T10:09:29Z",
+    "lastUpdated": "2025-06-01T14:03:55Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3144
+    "openIssues": 3146
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -389,7 +389,7 @@
     "description": "OpenFOAM Foundation development repository",
     "stars": 1728,
     "forks": 633,
-    "lastUpdated": "2025-06-01T11:10:54Z",
+    "lastUpdated": "2025-06-01T13:51:27Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -500,7 +500,7 @@
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 991
+    "openIssues": 992
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -706,5 +706,22 @@
     "license": "NOASSERTION",
     "topics": [],
     "openIssues": 197
+  },
+  {
+    "url": "https://github.com/boydhont/BetterCorrectFast",
+    "category": "BIM Tools",
+    "metadata": [
+      "architecture"
+    ],
+    "name": "BetterCorrectFast",
+    "description": "Simplified BIM Collaboration Format (BCF) generation for project leaders and managers",
+    "stars": 12,
+    "forks": 0,
+    "lastUpdated": "2025-02-13T12:50:50Z",
+    "mainLanguage": "Python",
+    "license": "MIT",
+    "topics": [],
+    "submissionDate": "2025-06-01",
+    "openIssues": 1
   }
 ]
