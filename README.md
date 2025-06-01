@@ -39,5 +39,5 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 | [dragonfly-core](https://github.com/ladybug-tools/dragonfly-core) | :dragon: dragonfly core library | Python | 18 | May 31, 2025 | AGPL-3.0 |
 | [honeybee-radiance](https://github.com/ladybug-tools/honeybee-radiance) | 🐝 ⚡️ Radiance extension for Honeybee | Python | 16 | May 27, 2025 | AGPL-3.0 |
 | [geospiza](https://github.com/TheVessen/geospiza) | Geospiza is a project focusing on evolutionary design in grasshopper | C# | 5 | Feb 25, 2025 | MIT |
-| [OpenStudio?tab=readme-ov-file](https://github.com/NREL/OpenStudio) | OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance. | C++ | 540 | May 29, 2025 | NOASSERTION |
+| [OpenStudio](https://github.com/NREL/OpenStudio) | OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance. | C++ | 540 | May 29, 2025 | NOASSERTION |
 
