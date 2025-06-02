@@ -16,22 +16,22 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
-| [speckle-server](https://github.com/specklesystems/speckle-server) | The Speckle Server, Frontend, 3D Viewer, & other JS utilities. | TypeScript | 723 | May 30, 2025 | NOASSERTION |
+| [speckle-server](https://github.com/specklesystems/speckle-server) | The Speckle Server, Frontend, 3D Viewer, & other JS utilities. | TypeScript | 723 | Jun 1, 2025 | NOASSERTION |
 
 ### Visualization
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
-| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++ | 12376 | May 31, 2025 | NOASSERTION |
-| [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1572 | May 30, 2025 | LGPL-2.1 |
-| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. | C++ | 24850 | May 31, 2025 | NOASSERTION |
+| [Open3D](https://github.com/isl-org/Open3D) | Open3D: A Modern Library for 3D Data Processing | C++ | 12379 | Jun 1, 2025 | NOASSERTION |
+| [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1573 | Jun 1, 2025 | LGPL-2.1 |
+| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. | C++ | 24859 | Jun 2, 2025 | NOASSERTION |
 
 ### Analysis
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
 | [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 206 | May 24, 2025 | AGPL-3.0 |
-| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2109 | May 31, 2025 | LGPL-3.0 |
+| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2109 | Jun 1, 2025 | LGPL-3.0 |
 | [honeybee-energy](https://github.com/ladybug-tools/honeybee-energy) | 🐝 :fire: Honeybee extension for energy simulation | Python | 33 | May 29, 2025 | AGPL-3.0 |
 
 ### Interoperability
@@ -39,7 +39,7 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
 | [compas](https://github.com/compas-dev/compas) | Core packages of the COMPAS framework. | Python | 333 | May 30, 2025 | MIT |
-| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 106453 | May 31, 2025 | MIT |
+| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 106461 | Jun 1, 2025 | MIT |
 | [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 81 | May 20, 2025 | MIT |
 
 ### Parametric Design
@@ -60,8 +60,8 @@ This directory is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
-| [XbimEssentials](https://github.com/xBimTeam/XbimEssentials) | A .NET library to work with data in the IFC format. This is the core component of the Xbim Toolkit | C# | 524 | May 30, 2025 | NOASSERTION |
-| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 11369 | Jun 1, 2025 | GPL-2.0 |
+| [XbimEssentials](https://github.com/xBimTeam/XbimEssentials) | A .NET library to work with data in the IFC format. This is the core component of the Xbim Toolkit | C# | 525 | Jun 1, 2025 | NOASSERTION |
+| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 11371 | Jun 1, 2025 | GPL-2.0 |
 | [calc](https://github.com/herzogdemeuron/calc) | Calc helps architects quickly estimate the environmental impact of their early design. | C# | 15 | May 28, 2025 | MIT |
 
 ### Development Tools
