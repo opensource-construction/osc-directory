@@ -1,22 +1,18 @@
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from 'url';
+import { MinimalProjectData } from "@helpers/validation.ts";
 
 // Get the correct directory path like in parse-template.ts
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-interface ProjectData {
-  url: string;
-  category: string;
-  metadata?: string[];
-}
 
 async function addProjectFromIssue() {
   try {
     // Read the parsed project data
     const projectDataPath = path.join(process.cwd(), "temp-project-data.json");
-    const projectData: ProjectData = JSON.parse(await fs.readFile(projectDataPath, "utf-8"));
+    const projectData: MinimalProjectData = JSON.parse(await fs.readFile(projectDataPath, "utf-8"));
 
     console.log("Adding project to projects.json:", projectData.url);
 

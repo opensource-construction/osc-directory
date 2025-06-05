@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12391,
+    "stars": 12394,
     "forks": 2423,
-    "lastUpdated": "2025-06-04T21:19:14Z",
+    "lastUpdated": "2025-06-05T05:02:00Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106510,
-    "forks": 35784,
-    "lastUpdated": "2025-06-05T00:53:28Z",
+    "stars": 106515,
+    "forks": 35785,
+    "lastUpdated": "2025-06-05T07:21:12Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24909,
+    "stars": 24914,
     "forks": 4587,
-    "lastUpdated": "2025-06-05T00:07:05Z",
+    "lastUpdated": "2025-06-05T07:23:34Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3110
+    "openIssues": 3105
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -357,9 +357,9 @@
     "submissionDate": "2025-05-24",
     "name": "speckle-server",
     "description": "The Speckle Server, Frontend, 3D Viewer, & other JS utilities.",
-    "stars": 724,
+    "stars": 725,
     "forks": 202,
-    "lastUpdated": "2025-06-04T13:47:35Z",
+    "lastUpdated": "2025-06-05T05:53:31Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 106
+    "openIssues": 108
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11386,
+    "stars": 11389,
     "forks": 3139,
-    "lastUpdated": "2025-06-05T00:30:22Z",
+    "lastUpdated": "2025-06-05T06:50:43Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4932
+    "openIssues": 4929
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -466,7 +466,7 @@
     "mainLanguage": "Rust",
     "license": "Apache-2.0",
     "topics": [],
-    "openIssues": 13
+    "openIssues": 15
   },
   {
     "url": "https://github.com/herzogdemeuron/calc",
@@ -500,7 +500,7 @@
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 999
+    "openIssues": 1000
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -688,5 +688,91 @@
     ],
     "submissionDate": "2025-05-29",
     "openIssues": 5
+  },
+  {
+    "url": "https://github.com/NREL/OpenStudio",
+    "category": "Analysis",
+    "metadata": [
+      "Energy modeling",
+      "HVAC systems",
+      "Simulation"
+    ],
+    "name": "OpenStudio",
+    "description": "OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance.",
+    "stars": 542,
+    "forks": 214,
+    "lastUpdated": "2025-06-05T07:01:01Z",
+    "mainLanguage": "C++",
+    "license": "NOASSERTION",
+    "topics": [],
+    "openIssues": 197
+  },
+  {
+    "url": "https://github.com/boydhont/BetterCorrectFast",
+    "category": "BIM Tools",
+    "metadata": [
+      "architecture"
+    ],
+    "name": "BetterCorrectFast",
+    "description": "Simplified BIM Collaboration Format (BCF) generation for project leaders and managers",
+    "stars": 12,
+    "forks": 0,
+    "lastUpdated": "2025-02-13T12:50:50Z",
+    "mainLanguage": "Python",
+    "license": "MIT",
+    "topics": [],
+    "submissionDate": "2025-06-01",
+    "openIssues": 1
+  },
+  {
+    "url": "https://github.com/PerkinsAndWill-IO/sPrint",
+    "category": "Visualization",
+    "metadata": [
+      "Printing",
+      "document",
+      "ifc",
+      "bim",
+      "web"
+    ],
+    "name": "sPrint",
+    "description": "A Chrome extension that allows batch-print PDFs from BIM360 and ACC platforms.",
+    "stars": 31,
+    "forks": 5,
+    "lastUpdated": "2024-12-19T15:23:17Z",
+    "mainLanguage": "TypeScript",
+    "license": "MIT",
+    "topics": [],
+    "submissionDate": "2025-06-05",
+    "openIssues": 3
+  },
+  {
+    "url": "https://github.com/ThatOpen/engine_web-ifc",
+    "category": "Interoperability",
+    "metadata": [
+      "web",
+      "ifc",
+      "cpp",
+      "emscripten",
+      "javascript",
+      "wasm",
+      "webassembly"
+    ],
+    "name": "engine_web-ifc",
+    "description": "Reading and writing IFC files with Javascript, at native speeds.",
+    "stars": 731,
+    "forks": 217,
+    "lastUpdated": "2025-06-04T06:07:27Z",
+    "mainLanguage": "TypeScript",
+    "license": "MPL-2.0",
+    "topics": [
+      "cpp",
+      "emscripten",
+      "ifc",
+      "javascript",
+      "wasm",
+      "webassembly"
+    ],
+    "submissionDate": "2025-06-05",
+    "openIssues": 69
   }
 ]
