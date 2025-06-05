@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12392,
+    "stars": 12393,
     "forks": 2423,
-    "lastUpdated": "2025-06-05T00:58:44Z",
+    "lastUpdated": "2025-06-05T02:15:52Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -150,7 +150,7 @@
     "description": "JavaScript 3D Library.",
     "stars": 106513,
     "forks": 35785,
-    "lastUpdated": "2025-06-05T01:27:36Z",
+    "lastUpdated": "2025-06-05T02:35:44Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24909,
+    "stars": 24910,
     "forks": 4587,
-    "lastUpdated": "2025-06-05T00:07:05Z",
+    "lastUpdated": "2025-06-05T03:24:58Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3110
+    "openIssues": 3100
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11386,
+    "stars": 11387,
     "forks": 3139,
-    "lastUpdated": "2025-06-05T00:30:22Z",
+    "lastUpdated": "2025-06-05T01:57:54Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4932
+    "openIssues": 4931
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -500,7 +500,7 @@
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 999
+    "openIssues": 1000
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -699,9 +699,9 @@
     ],
     "name": "OpenStudio",
     "description": "OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance.",
-    "stars": 540,
+    "stars": 541,
     "forks": 214,
-    "lastUpdated": "2025-06-03T20:57:29Z",
+    "lastUpdated": "2025-06-05T02:52:16Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -723,5 +723,26 @@
     "topics": [],
     "submissionDate": "2025-06-01",
     "openIssues": 1
+  },
+  {
+    "url": "https://github.com/PerkinsAndWill-IO/sPrint",
+    "category": "Visualization",
+    "metadata": [
+      "Printing",
+      "document",
+      "ifc",
+      "bim",
+      "web"
+    ],
+    "name": "sPrint",
+    "description": "A Chrome extension that allows batch-print PDFs from BIM360 and ACC platforms.",
+    "stars": 31,
+    "forks": 5,
+    "lastUpdated": "2024-12-19T15:23:17Z",
+    "mainLanguage": "TypeScript",
+    "license": "MIT",
+    "topics": [],
+    "submissionDate": "2025-06-05",
+    "openIssues": 3
   }
 ]
