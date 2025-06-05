@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12385,
-    "forks": 2422,
-    "lastUpdated": "2025-06-03T18:26:54Z",
+    "stars": 12392,
+    "forks": 2423,
+    "lastUpdated": "2025-06-05T00:58:44Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -55,7 +55,7 @@
       "tensorflow",
       "visualization"
     ],
-    "openIssues": 1276
+    "openIssues": 1275
   },
   {
     "url": "https://github.com/Open-Cascade-SAS/OCCT",
@@ -74,9 +74,9 @@
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1579,
+    "stars": 1581,
     "forks": 414,
-    "lastUpdated": "2025-06-04T00:35:18Z",
+    "lastUpdated": "2025-06-04T12:28:50Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "topics": [
@@ -111,7 +111,7 @@
     "description": "Core packages of the COMPAS framework.",
     "stars": 333,
     "forks": 112,
-    "lastUpdated": "2025-06-03T13:17:49Z",
+    "lastUpdated": "2025-06-04T14:15:36Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "topics": [
@@ -124,7 +124,7 @@
       "rhino3d",
       "rpc"
     ],
-    "openIssues": 109
+    "openIssues": 108
   },
   {
     "url": "https://github.com/mrdoob/three.js",
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106492,
-    "forks": 35778,
-    "lastUpdated": "2025-06-04T01:34:01Z",
+    "stars": 106513,
+    "forks": 35785,
+    "lastUpdated": "2025-06-05T01:27:36Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -204,9 +204,9 @@
     "submissionDate": "2025-05-22",
     "name": "BIMserver",
     "description": "The open source BIMserver platform",
-    "stars": 1615,
+    "stars": 1616,
     "forks": 622,
-    "lastUpdated": "2025-06-03T19:11:19Z",
+    "lastUpdated": "2025-06-04T06:39:10Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "topics": [
@@ -220,7 +220,7 @@
       "java",
       "openbim"
     ],
-    "openIssues": 109
+    "openIssues": 110
   },
   {
     "url": "https://github.com/ladybug-tools/ladybug",
@@ -233,11 +233,11 @@
     "description": "🐞 Core ladybug library for weather data analysis and visualization",
     "stars": 206,
     "forks": 55,
-    "lastUpdated": "2025-06-03T20:34:54Z",
+    "lastUpdated": "2025-06-04T19:22:33Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "topics": [],
-    "openIssues": 8
+    "openIssues": 7
   },
   {
     "url": "https://github.com/FreeCAD/FreeCAD",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24895,
+    "stars": 24909,
     "forks": 4587,
-    "lastUpdated": "2025-06-04T01:16:56Z",
+    "lastUpdated": "2025-06-05T00:07:05Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3095
+    "openIssues": 3110
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -359,7 +359,7 @@
     "description": "The Speckle Server, Frontend, 3D Viewer, & other JS utilities.",
     "stars": 724,
     "forks": 202,
-    "lastUpdated": "2025-06-03T16:42:27Z",
+    "lastUpdated": "2025-06-04T13:47:35Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 101
+    "openIssues": 106
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -389,7 +389,7 @@
     "description": "OpenFOAM Foundation development repository",
     "stars": 1730,
     "forks": 635,
-    "lastUpdated": "2025-06-03T22:45:30Z",
+    "lastUpdated": "2025-06-04T20:44:40Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -406,9 +406,9 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11381,
-    "forks": 3136,
-    "lastUpdated": "2025-06-04T01:45:40Z",
+    "stars": 11386,
+    "forks": 3139,
+    "lastUpdated": "2025-06-05T00:30:22Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
@@ -494,13 +494,13 @@
     "submissionDate": "2025-05-26",
     "name": "IfcOpenShell",
     "description": "Open source IFC library and geometry engine",
-    "stars": 2113,
-    "forks": 787,
-    "lastUpdated": "2025-06-03T18:50:21Z",
+    "stars": 2114,
+    "forks": 786,
+    "lastUpdated": "2025-06-04T14:11:48Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 995
+    "openIssues": 999
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -532,8 +532,8 @@
     "name": "xeokit-sdk",
     "description": "3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision",
     "stars": 794,
-    "forks": 306,
-    "lastUpdated": "2025-06-02T12:41:11Z",
+    "forks": 307,
+    "lastUpdated": "2025-06-04T22:36:31Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "topics": [
@@ -621,7 +621,7 @@
     "description": "🐝 :fire: Honeybee extension for energy simulation",
     "stars": 33,
     "forks": 18,
-    "lastUpdated": "2025-06-04T00:10:23Z",
+    "lastUpdated": "2025-06-04T22:01:10Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "topics": [],
@@ -638,7 +638,7 @@
     "description": ":dragon: dragonfly core library",
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-06-03T23:29:29Z",
+    "lastUpdated": "2025-06-04T19:49:02Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "topics": [],
@@ -656,7 +656,7 @@
     "description": "🐝 ⚡️ Radiance extension for Honeybee",
     "stars": 16,
     "forks": 10,
-    "lastUpdated": "2025-06-03T21:01:28Z",
+    "lastUpdated": "2025-06-04T19:49:03Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "topics": [],
@@ -700,7 +700,7 @@
     "name": "OpenStudio",
     "description": "OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance.",
     "stars": 540,
-    "forks": 213,
+    "forks": 214,
     "lastUpdated": "2025-06-03T20:57:29Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
