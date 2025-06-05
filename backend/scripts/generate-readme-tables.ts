@@ -3,7 +3,6 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Project } from '@shared/types/index.ts';
 import { DATA_PATH } from '../utils/shared-vars.ts';
-import { predefinedCategories } from '@shared/categories.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -53,27 +52,14 @@ function formatDate(dateString: string | undefined): string {
 	}
 }
 
-/**
- * Filters projects by category
- */
-function filterProjectsByCategory(projects: Project[], category: string): Project[] {
-	return projects.filter(
-		(project) =>
-			project.category &&
-			(Array.isArray(project.category)
-				? project.category.map((c) => c.toLowerCase()).includes(category.toLowerCase())
-				: project.category.toLowerCase() === category.toLowerCase())
-	);
-}
 
 /**
- * Generates table content for a single category
+ * Generates table content for all the project
  */
-function generateCategoryTable(category: string, projects: Project[]): string {
+function generateProjectTable(projects: Project[]): string {
 	if (projects.length === 0) return '';
 
-	let tableContent = `### ${category}\n\n`;
-	tableContent += `| Project | Description | Language | Stars | Last Updated | License |\n`;
+	let tableContent = `| Project | Description | Language | Stars | Last Updated | License |\n`;
 	tableContent += `|---------|-------------|----------|-------|--------------|--------|\n`;
 
 	for (const project of projects) {
@@ -114,14 +100,9 @@ async function generateReadmeTables(): Promise<void> {
 		const projects = await loadProjects();
 		const readmeContent = await loadReadme();
 
-		// Generate tables content
+		// Generate single unified table
 		let tablesContent = '## Projects\n\n';
-
-		// Process each category
-		for (const category of predefinedCategories) {
-			const categoryProjects = filterProjectsByCategory(projects, category);
-			tablesContent += generateCategoryTable(category, categoryProjects);
-		}
+		tablesContent += generateProjectTable(projects);
 
 		// Update README
 		await updateReadme(readmeContent, tablesContent);

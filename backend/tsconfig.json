@@ -15,11 +15,22 @@
     "allowImportingTsExtensions": true,
     "emitDeclarationOnly": true,
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["./*"],
+      "@helpers/*": ["./helpers/*"],
+      "@scripts/*": ["./scripts/*"],
+      "@test/*": ["./test/*"],
+      "@utils/*": ["./utils/*"],
+      "@data/*": ["./data/*"],
       "@shared/*": ["../shared/*"]
     }
   },
-  "include": ["src/**/*", "scripts/**/*", "../shared/**/*", "data"],
+  "include": [
+    "scripts/**/*",
+    "helpers/**/*",
+    "test/**/*",
+    "utils/**/*",
+    "../shared/**/*"
+  ],
   "exclude": ["node_modules", "dist"],
   "ts-node": {
     "esm": true
