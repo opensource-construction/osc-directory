@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12394,
-    "forks": 2423,
-    "lastUpdated": "2025-06-05T05:02:00Z",
+    "stars": 12399,
+    "forks": 2425,
+    "lastUpdated": "2025-06-05T18:48:25Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -74,9 +74,9 @@
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1581,
+    "stars": 1582,
     "forks": 414,
-    "lastUpdated": "2025-06-04T12:28:50Z",
+    "lastUpdated": "2025-06-05T18:17:42Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "topics": [
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106515,
-    "forks": 35785,
-    "lastUpdated": "2025-06-05T07:21:12Z",
+    "stars": 106534,
+    "forks": 35792,
+    "lastUpdated": "2025-06-06T00:43:57Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 568
+    "openIssues": 571
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24914,
-    "forks": 4587,
-    "lastUpdated": "2025-06-05T07:23:34Z",
+    "stars": 24919,
+    "forks": 4588,
+    "lastUpdated": "2025-06-06T00:13:51Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3105
+    "openIssues": 3110
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -359,7 +359,7 @@
     "description": "The Speckle Server, Frontend, 3D Viewer, & other JS utilities.",
     "stars": 725,
     "forks": 202,
-    "lastUpdated": "2025-06-05T05:53:31Z",
+    "lastUpdated": "2025-06-05T13:24:40Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 108
+    "openIssues": 101
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -387,9 +387,9 @@
     "submissionDate": "2025-05-24",
     "name": "OpenFOAM-dev",
     "description": "OpenFOAM Foundation development repository",
-    "stars": 1730,
+    "stars": 1732,
     "forks": 635,
-    "lastUpdated": "2025-06-04T20:44:40Z",
+    "lastUpdated": "2025-06-06T01:17:52Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11389,
-    "forks": 3139,
-    "lastUpdated": "2025-06-05T06:50:43Z",
+    "stars": 11391,
+    "forks": 3140,
+    "lastUpdated": "2025-06-06T01:22:57Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4929
+    "openIssues": 4932
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -494,9 +494,9 @@
     "submissionDate": "2025-05-26",
     "name": "IfcOpenShell",
     "description": "Open source IFC library and geometry engine",
-    "stars": 2114,
-    "forks": 786,
-    "lastUpdated": "2025-06-04T14:11:48Z",
+    "stars": 2117,
+    "forks": 788,
+    "lastUpdated": "2025-06-05T23:47:46Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
@@ -558,7 +558,7 @@
       "webgl",
       "webgl-viewer"
     ],
-    "openIssues": 149
+    "openIssues": 151
   },
   {
     "url": "https://github.com/petrasvestartas/compas_wood",
@@ -638,7 +638,7 @@
     "description": ":dragon: dragonfly core library",
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-06-04T19:49:02Z",
+    "lastUpdated": "2025-06-05T21:24:05Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "topics": [],
@@ -759,9 +759,9 @@
     ],
     "name": "engine_web-ifc",
     "description": "Reading and writing IFC files with Javascript, at native speeds.",
-    "stars": 731,
+    "stars": 732,
     "forks": 217,
-    "lastUpdated": "2025-06-04T06:07:27Z",
+    "lastUpdated": "2025-06-05T10:14:39Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
     "topics": [
@@ -773,6 +773,6 @@
       "webassembly"
     ],
     "submissionDate": "2025-06-05",
-    "openIssues": 69
+    "openIssues": 70
   }
 ]
