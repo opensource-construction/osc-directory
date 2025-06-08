@@ -24,6 +24,71 @@ jobs:
         with:
           ref: main
 
+      - name: Get issue details
+        id: issue-details
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = ${{ github.event.issue.number || github.event.inputs.issue_number }};
+
+            // Get issue details
+            const { data: issue } = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber
+            });
+
+            // Extract project name from issue body or title
+            const issueBody = issue.body || '';
+            const issueTitle = issue.title || '';
+
+            // Try to extract project name from issue body (assuming it's in a form field)
+            let projectName = '';
+
+            // Look for patterns like "Project Name: Something" or "### Project Name\nSomething"
+            const namePatterns = [
+              /(?:Project Name|Name):\s*(.+)/i,
+              /### Project Name\s*\n(.+)/i,
+              /\*\*Project Name\*\*:\s*(.+)/i,
+              /Project:\s*(.+)/i
+            ];
+
+            for (const pattern of namePatterns) {
+              const match = issueBody.match(pattern);
+              if (match && match[1]) {
+                projectName = match[1].trim();
+                break;
+              }
+            }
+
+            // If no project name found in body, try to extract from title
+            if (!projectName) {
+              // Remove common prefixes/suffixes from title
+              projectName = issueTitle
+                .replace(/^\[?(?:Add|Submit|New)\]?\s*/i, '')
+                .replace(/\s*(?:submission|project|request)$/i, '')
+                .trim();
+            }
+
+            // Sanitize project name for use in branch names
+            const sanitizedName = projectName
+              .toLowerCase()
+              .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+              .replace(/\s+/g, '-') // Replace spaces with hyphens
+              .replace(/-+/g, '-') // Replace multiple hyphens with single
+              .replace(/^-|-$/g, '') // Remove leading/trailing hyphens
+              .substring(0, 50); // Limit length
+
+            // Set outputs
+            core.setOutput('issue-number', issueNumber);
+            core.setOutput('issue-title', issueTitle);
+            core.setOutput('project-name', projectName);
+            core.setOutput('sanitized-name', sanitizedName);
+
+            console.log(`Issue #${issueNumber}: ${issueTitle}`);
+            console.log(`Project name: ${projectName}`);
+            console.log(`Sanitized name: ${sanitizedName}`);
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -55,13 +120,13 @@ jobs:
         run: cd backend && pnpm tsx scripts/parse-issue.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_NUMBER: ${{ github.event.issue.number || github.event.inputs.issue_number }}
+          ISSUE_NUMBER: ${{ steps.issue-details.outputs.issue-number }}
 
       - name: Add to projects.json
         run: cd backend && pnpm tsx scripts/add-issue-project.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_NUMBER: ${{ github.event.issue.number || github.event.inputs.issue_number }}
+          ISSUE_NUMBER: ${{ steps.issue-details.outputs.issue-number }}
 
       - name: Update project metadata
         run: cd backend && pnpm tsx scripts/update-metadata.ts
@@ -75,18 +140,21 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "feat: add new project from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}"
-          title: "Add project from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}"
+          commit-message: "feat: add ${{ steps.issue-details.outputs.project-name || 'new project' }} from issue #${{ steps.issue-details.outputs.issue-number }}"
+          title: "Add ${{ steps.issue-details.outputs.project-name || 'project' }} (issue #${{ steps.issue-details.outputs.issue-number }})"
           body: |
-            Automatically processed project submission from issue #${{ github.event.issue.number || github.event.inputs.issue_number }}.
+            Automatically processed project submission from issue #${{ steps.issue-details.outputs.issue-number }}.
 
-            Changes:
-            - Added new project to projects.json
-            - Updated project metadata from GitHub API
-            - Regenerated README tables
+            **Project:** ${{ steps.issue-details.outputs.project-name || 'Unknown' }}
+            **Issue:** ${{ steps.issue-details.outputs.issue-title }}
 
-            Closes #${{ github.event.issue.number || github.event.inputs.issue_number }}
-          branch: add-project-issue-${{ github.event.issue.number || github.event.inputs.issue_number }}
+            ## Changes
+            - ✅ Added new project to projects.json
+            - ✅ Updated project metadata from GitHub API  
+            - ✅ Regenerated README tables
+
+            Closes #${{ steps.issue-details.outputs.issue-number }}
+          branch: add-${{ steps.issue-details.outputs.sanitized-name || 'project' }}-${{ steps.issue-details.outputs.issue-number }}
           delete-branch: true
 
       - name: Close issue with success message
@@ -94,15 +162,18 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
+            const projectName = '${{ steps.issue-details.outputs.project-name }}';
+            const displayName = projectName ? `**${projectName}**` : 'your project';
+
             github.rest.issues.createComment({
-              issue_number: ${{ github.event.issue.number || github.event.inputs.issue_number }},
+              issue_number: ${{ steps.issue-details.outputs.issue-number }},
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '✅ **Project successfully processed!** \n\nYour project submission has been processed and a pull request has been created. The project will be added to the directory once the PR is merged.\n\nThank you for your contribution! 🎉'
+              body: `✅ **Project successfully processed!** \n\n${displayName} has been processed and a pull request has been created. The project will be added to the directory once the PR is merged.\n\nThank you for your contribution! 🎉`
             });
 
             github.rest.issues.update({
-              issue_number: ${{ github.event.issue.number || github.event.inputs.issue_number }},
+              issue_number: ${{ steps.issue-details.outputs.issue-number }},
               owner: context.repo.owner,
               repo: context.repo.repo,
               state: 'closed',
@@ -115,14 +186,14 @@ jobs:
         with:
           script: |
             github.rest.issues.createComment({
-              issue_number: ${{ github.event.issue.number || github.event.inputs.issue_number }},
+              issue_number: ${{ steps.issue-details.outputs.issue-number }},
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: '❌ **Processing failed** \n\nThere was an error processing your project submission. Please check the workflow logs for details or contact a maintainer.\n\nWorkflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
             });
 
             github.rest.issues.addLabels({
-              issue_number: ${{ github.event.issue.number || github.event.inputs.issue_number }},
+              issue_number: ${{ steps.issue-details.outputs.issue-number }},
               owner: context.repo.owner,
               repo: context.repo.repo,
               labels: ['processing-failed']
