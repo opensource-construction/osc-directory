@@ -29,7 +29,7 @@
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
     "stars": 12404,
-    "forks": 2426,
+    "forks": 2427,
     "lastUpdated": "2025-06-07T13:18:34Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
@@ -75,7 +75,7 @@
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
     "stars": 1585,
-    "forks": 414,
+    "forks": 416,
     "lastUpdated": "2025-06-07T19:54:24Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106555,
-    "forks": 35797,
-    "lastUpdated": "2025-06-07T17:34:50Z",
+    "stars": 106561,
+    "forks": 35798,
+    "lastUpdated": "2025-06-08T05:27:32Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 571
+    "openIssues": 570
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24945,
-    "forks": 4594,
-    "lastUpdated": "2025-06-08T01:22:57Z",
+    "stars": 24946,
+    "forks": 4595,
+    "lastUpdated": "2025-06-08T07:51:32Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3144
+    "openIssues": 3122
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -388,7 +388,7 @@
     "name": "OpenFOAM-dev",
     "description": "OpenFOAM Foundation development repository",
     "stars": 1737,
-    "forks": 636,
+    "forks": 637,
     "lastUpdated": "2025-06-07T16:32:01Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11400,
-    "forks": 3142,
-    "lastUpdated": "2025-06-07T09:21:09Z",
+    "stars": 11404,
+    "forks": 3144,
+    "lastUpdated": "2025-06-08T08:32:11Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4919
+    "openIssues": 4918
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -496,11 +496,11 @@
     "description": "Open source IFC library and geometry engine",
     "stars": 2119,
     "forks": 788,
-    "lastUpdated": "2025-06-08T00:48:24Z",
+    "lastUpdated": "2025-06-08T08:29:32Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 998
+    "openIssues": 999
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -774,5 +774,39 @@
     ],
     "submissionDate": "2025-06-05",
     "openIssues": 70
+  },
+  {
+    "url": "https://github.com/IfcLCA/IfcLCA",
+    "category": "BIM Tools",
+    "metadata": [
+      "Archi",
+      "ifc",
+      "ifcopenshell",
+      "lca",
+      "nextjs",
+      "pyodide",
+      "react",
+      "sustainability",
+      "wasm"
+    ],
+    "name": "IfcLCA",
+    "description": "Opensource Life Cycle Assessment for Built Environment using Industry Foundation Classes",
+    "stars": 22,
+    "forks": 3,
+    "lastUpdated": "2025-06-08T05:52:27Z",
+    "mainLanguage": "TypeScript",
+    "license": "AGPL-3.0",
+    "topics": [
+      "ifc",
+      "ifcopenshell",
+      "lca",
+      "nextjs",
+      "pyodide",
+      "react",
+      "sustainability",
+      "wasm"
+    ],
+    "submissionDate": "2025-06-08",
+    "openIssues": 11
   }
 ]
