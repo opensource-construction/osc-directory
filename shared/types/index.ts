@@ -1,15 +1,18 @@
-export interface Project {
+export interface BaseProjectData {
+  url: string;
+  metadata?: string[];
+  submitterUsername?: string;
+}
+
+export interface Project extends BaseProjectData {
   name: string;
   description: string;
-  url: string;
   repository?: string;
   stars?: number;
   forks?: number;
   mainLanguage?: string;
   license?: string;
   lastUpdated?: string;
-  metadata?: Array<string>;
   openIssues?: number;
   submissionDate?: string;
-  submitterUsername?: string;
 }

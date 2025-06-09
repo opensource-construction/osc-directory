@@ -52,7 +52,6 @@ function formatDate(dateString: string | undefined): string {
 	}
 }
 
-
 /**
  * Generates table content for all the project
  */
@@ -65,9 +64,11 @@ function generateProjectTable(projects: Project[]): string {
 	for (const project of projects) {
 		const lastUpdated = formatDate(project.lastUpdated);
 
-		tableContent += `| [${project.name}](${project.url}) | ${project.description || 'N/A'
-			} | ${project.mainLanguage || 'N/A'} | ${project.stars || 0
-			} | ${lastUpdated} | ${project.license || 'N/A'} |\n`;
+		tableContent += `| [${project.name}](${project.url}) | ${
+			project.description || 'N/A'
+		} | ${project.mainLanguage || 'N/A'} | ${
+			project.stars || 0
+		} | ${lastUpdated} | ${project.license || 'N/A'} |\n`;
 	}
 
 	return tableContent + '\n';
@@ -107,15 +108,20 @@ async function generateReadmeTables(): Promise<void> {
 		// Update README
 		await updateReadme(readmeContent, tablesContent);
 		console.log('README tables generated successfully!');
-
 	} catch (error) {
-		console.error('Error generating README tables:', error instanceof Error ? error.message : String(error));
+		console.error(
+			'Error generating README tables:',
+			error instanceof Error ? error.message : String(error)
+		);
 		process.exit(1);
 	}
 }
 
 // Run the function
-generateReadmeTables().catch(error => {
-	console.error('Unhandled error in generateReadmeTables:', error instanceof Error ? error.message : String(error));
+generateReadmeTables().catch((error) => {
+	console.error(
+		'Unhandled error in generateReadmeTables:',
+		error instanceof Error ? error.message : String(error)
+	);
 	process.exit(1);
 });
