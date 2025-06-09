@@ -56,7 +56,7 @@ async function addProjectFromIssue() {
 		await fs.writeFile(projectsPath, JSON.stringify(projects, null, 2));
 
 		// Clean up temp file
-		await fs.unlink(projectDataPath).catch(() => {});
+		await fs.unlink(projectDataPath).catch(() => { });
 
 		console.log(`✅ Project "${projectData.url}" added successfully to projects.json`);
 		console.log(`📁 File saved to: ${projectsPath}`);

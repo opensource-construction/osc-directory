@@ -15,4 +15,5 @@ export interface Project extends BaseProjectData {
   lastUpdated?: string;
   openIssues?: number;
   submissionDate?: string;
+  submitterUsername?: string;
 }
