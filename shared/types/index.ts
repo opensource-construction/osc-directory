@@ -3,7 +3,6 @@ export interface Project {
   description: string;
   url: string;
   repository?: string;
-  category: string;
   stars?: number;
   forks?: number;
   mainLanguage?: string;
@@ -12,4 +11,5 @@ export interface Project {
   metadata?: Array<string>;
   openIssues?: number;
   submissionDate?: string;
+  submitterUsername?: string;
 }

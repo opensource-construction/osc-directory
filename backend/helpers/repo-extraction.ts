@@ -54,6 +54,7 @@ export function extractProjectDataFromIssue(body: string): MinimalProjectData {
     }
   }
 
+
   // Validate required fields
   if (!data.url || !data.category) {
     throw new Error("Missing required fields: url or category");

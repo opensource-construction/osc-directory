@@ -19,7 +19,9 @@ async function parseIssue() {
     });
 
     const body = issue.body || "";
+    const submitterUsername = issue.user?.login || "unknown";
     const projectData = extractProjectDataFromIssue(body);
+    projectData.submitterUsername = submitterUsername;
 
     // Save parsed data to temporary file
     await fs.writeFile(
