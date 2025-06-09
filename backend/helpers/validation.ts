@@ -4,7 +4,6 @@ import fs from "fs/promises";
 
 export interface MinimalProjectData {
   url: string;
-  category: string;
   metadata?: string[];
   submitterUsername?: string;
 }
@@ -144,18 +143,7 @@ export async function validateRepository(
   }
 }
 
-export function validateFieldFormats(projectData: MinimalProjectData) {
-  // Validate category is from allowed list
-  const allowedCategories = [
-    'BIM Tools', 'Visualization', 'Analysis', 'Interoperability',
-    'Parametric Design', 'Data Management', 'Infrastructure',
-    'Sustainability', 'Development Tools', 'Other'
-  ];
-
-  if (!allowedCategories.includes(projectData.category)) {
-    throw new Error(`Invalid category: ${projectData.category}`);
-  }
-
+export function validateMetadataTags(projectData: MinimalProjectData) {
   // Validate metadata tags
   if (projectData.metadata && projectData.metadata.length > 0) {
     if (projectData.metadata.length > 10) {

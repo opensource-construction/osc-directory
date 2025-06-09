@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { Octokit } from "@octokit/rest"
-import { validateRepository, validateFieldFormats, validateRequiredFields, validateNoDuplicates } from '@helpers/validation.ts'
+import { validateRepository, validateMetadataTags, validateRequiredFields, validateNoDuplicates } from '@helpers/validation.ts'
 import fs from 'fs/promises'
 
 vi.mock('fs/promises')
@@ -76,7 +76,7 @@ describe('validateFieldFormats', () => {
       metadata: ['tag1', 'tag2']
     }
 
-    expect(() => validateFieldFormats(validProject)).not.toThrow()
+    expect(() => validateMetadataTags(validProject)).not.toThrow()
   })
 
   it('throws error for invalid category', () => {
@@ -86,7 +86,7 @@ describe('validateFieldFormats', () => {
       metadata: ['tag1']
     }
 
-    expect(() => validateFieldFormats(invalidProject)).toThrow('Invalid category')
+    expect(() => validateMetadataTags(invalidProject)).toThrow('Invalid category')
   })
 
   it('throws error for too many metadata tags', () => {
@@ -96,7 +96,7 @@ describe('validateFieldFormats', () => {
       metadata: Array(11).fill('tag')
     }
 
-    expect(() => validateFieldFormats(projectWithTooManyTags)).toThrow('Too many metadata tags')
+    expect(() => validateMetadataTags(projectWithTooManyTags)).toThrow('Too many metadata tags')
   })
 })
 
