@@ -19,7 +19,7 @@
 					href={project.url}
 					target="_blank"
 					rel="noopener noreferrer"
-					class="hover:text-blue-600 transition-colors"
+					class="hover:text-primary-500 transition-colors"
 				>
 					{project.name}
 				</a>
@@ -64,7 +64,7 @@
 		>
 			{#if project.mainLanguage}
 				<div class="flex items-center">
-					<div class="w-2 h-2 rounded-full bg-indigo-500 mr-2"></div>
+					<div class="w-2 h-2 rounded-full bg-primary-400 mr-2"></div>
 					<span>{project.mainLanguage}</span>
 				</div>
 			{/if}
