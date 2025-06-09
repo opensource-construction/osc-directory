@@ -26,7 +26,6 @@ export function extractProjectDataFromIssue(body: string): MinimalProjectData {
 
   // Parse GitHub issue form format
   const urlMatch = body.match(/### Repository URL\s*\n\s*(.+)/);
-  const categoryMatch = body.match(/### Category\s*\n\s*(.+)/);
   const metadataMatch = body.match(/### Additional Tags \(Optional\)\s*\n([\s\S]*?)(?=###|$)/);
 
   if (urlMatch) {
@@ -38,10 +37,6 @@ export function extractProjectDataFromIssue(body: string): MinimalProjectData {
       console.log(`[INFO] URL cleaned from: ${rawUrl}`);
       console.log(`[INFO] URL cleaned to: ${data.url}`);
     }
-  }
-
-  if (categoryMatch) {
-    data.category = categoryMatch[1].trim();
   }
 
   if (metadataMatch) {
