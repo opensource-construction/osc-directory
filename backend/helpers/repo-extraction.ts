@@ -51,8 +51,8 @@ export function extractProjectDataFromIssue(body: string): MinimalProjectData {
 
 
   // Validate required fields
-  if (!data.url || !data.category) {
-    throw new Error("Missing required fields: url or category");
+  if (!data.url) {
+    throw new Error("Repository URL is required");
   }
 
   return data as MinimalProjectData;
