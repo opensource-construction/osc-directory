@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12404,
+    "stars": 12405,
     "forks": 2427,
-    "lastUpdated": "2025-06-07T13:18:34Z",
+    "lastUpdated": "2025-06-08T18:41:38Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -124,7 +124,7 @@
       "rhino3d",
       "rpc"
     ],
-    "openIssues": 108
+    "openIssues": 109
   },
   {
     "url": "https://github.com/mrdoob/three.js",
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106561,
-    "forks": 35798,
-    "lastUpdated": "2025-06-08T05:27:32Z",
+    "stars": 106569,
+    "forks": 35799,
+    "lastUpdated": "2025-06-09T01:12:40Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 570
+    "openIssues": 571
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24946,
-    "forks": 4595,
-    "lastUpdated": "2025-06-08T07:51:32Z",
+    "stars": 24953,
+    "forks": 4597,
+    "lastUpdated": "2025-06-08T23:04:25Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3122
+    "openIssues": 3133
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -387,9 +387,9 @@
     "submissionDate": "2025-05-24",
     "name": "OpenFOAM-dev",
     "description": "OpenFOAM Foundation development repository",
-    "stars": 1737,
+    "stars": 1740,
     "forks": 637,
-    "lastUpdated": "2025-06-07T16:32:01Z",
+    "lastUpdated": "2025-06-08T18:04:30Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11404,
+    "stars": 11407,
     "forks": 3144,
-    "lastUpdated": "2025-06-08T08:32:11Z",
+    "lastUpdated": "2025-06-08T22:35:07Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4918
+    "openIssues": 4917
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -494,13 +494,13 @@
     "submissionDate": "2025-05-26",
     "name": "IfcOpenShell",
     "description": "Open source IFC library and geometry engine",
-    "stars": 2119,
+    "stars": 2120,
     "forks": 788,
-    "lastUpdated": "2025-06-08T08:29:32Z",
+    "lastUpdated": "2025-06-08T10:00:15Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 999
+    "openIssues": 997
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -773,7 +773,7 @@
       "webassembly"
     ],
     "submissionDate": "2025-06-05",
-    "openIssues": 70
+    "openIssues": 71
   },
   {
     "url": "https://github.com/IfcLCA/IfcLCA",
