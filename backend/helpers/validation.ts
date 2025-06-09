@@ -6,6 +6,7 @@ export interface MinimalProjectData {
   url: string;
   category: string;
   metadata?: string[];
+  submitterUsername?: string;
 }
 
 export interface ValidationOptions {

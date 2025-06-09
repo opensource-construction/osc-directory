@@ -72,9 +72,6 @@ async function updateProjectMetadata(): Promise<void> {
 
 		const updatedProjects = await Promise.all(
 			projects.map(async (project) => {
-				if (project.category && Array.isArray(project.category)) {
-					project.category = project.category[0];
-				}
 
 				// Initialize metadata array if it doesn't exist
 				if (!project.metadata) {

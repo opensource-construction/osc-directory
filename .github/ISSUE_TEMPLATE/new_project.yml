@@ -8,32 +8,12 @@ body:
       value: |
         Thanks for submitting a project! We'll automatically validate and review your submission.
 
-
   - type: input
     id: url
     attributes:
       label: Repository URL
       description: GitHub repository URL
       placeholder: "https://github.com/username/project"
-    validations:
-      required: true
-
-  - type: dropdown
-    id: category
-    attributes:
-      label: Category
-      description: Choose the main category for your project
-      options:
-        - BIM Tools
-        - Visualization
-        - Analysis
-        - Interoperability
-        - Parametric Design
-        - Data Management
-        - Infrastructure
-        - Sustainability
-        - Development Tools
-        - Other
     validations:
       required: true
 

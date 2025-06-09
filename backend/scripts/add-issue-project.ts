@@ -2,6 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from 'url';
 import { MinimalProjectData } from "@helpers/validation.ts";
+import { Project } from "@shared/types/index.ts";
 
 // Get the correct directory path like in parse-template.ts
 const __filename = fileURLToPath(import.meta.url);
@@ -35,9 +36,8 @@ async function addProjectFromIssue() {
     }
 
     // Create minimal project entry - update-metadata.ts will fetch the rest
-    const newProject = {
+    const newProject: Project = {
       url: projectData.url,
-      category: projectData.category,
       metadata: projectData.metadata || [],
       // These will be populated by update-metadata.ts
       name: "",
@@ -45,10 +45,10 @@ async function addProjectFromIssue() {
       stars: 0,
       forks: 0,
       lastUpdated: "",
-      mainLanguage: null,
+      mainLanguage: undefined,
       license: "",
-      topics: [],
-      submissionDate: new Date().toISOString().split('T')[0]
+      submissionDate: new Date().toISOString().split('T')[0],
+      submitterUsername: projectData.submitterUsername
     };
 
     // Add new project
