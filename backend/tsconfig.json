@@ -1,38 +1,32 @@
 {
-  "compilerOptions": {
-    "target": "ES2022",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "sourceMap": true,
-    "declaration": true,
-    "strict": true,
-    "outDir": "dist",
-    "baseUrl": ".",
-    "allowImportingTsExtensions": true,
-    "emitDeclarationOnly": true,
-    "paths": {
-      "@/*": ["./*"],
-      "@helpers/*": ["./helpers/*"],
-      "@scripts/*": ["./scripts/*"],
-      "@test/*": ["./test/*"],
-      "@utils/*": ["./utils/*"],
-      "@data/*": ["./data/*"],
-      "@shared/*": ["../shared/*"]
-    }
-  },
-  "include": [
-    "scripts/**/*",
-    "helpers/**/*",
-    "test/**/*",
-    "utils/**/*",
-    "../shared/**/*"
-  ],
-  "exclude": ["node_modules", "dist"],
-  "ts-node": {
-    "esm": true
-  }
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"declaration": true,
+		"strict": true,
+		"outDir": "dist",
+		"baseUrl": ".",
+		"allowImportingTsExtensions": true,
+		"emitDeclarationOnly": true,
+		"paths": {
+			"@/*": ["./*"],
+			"@helpers/*": ["./helpers/*"],
+			"@scripts/*": ["./scripts/*"],
+			"@test/*": ["./test/*"],
+			"@utils/*": ["./utils/*"],
+			"@data/*": ["./data/*"],
+			"@shared/*": ["../shared/*"]
+		}
+	},
+	"include": ["scripts/**/*", "helpers/**/*", "test/**/*", "utils/**/*", "../shared/**/*"],
+	"exclude": ["node_modules", "dist"],
+	"ts-node": {
+		"esm": true
+	}
 }

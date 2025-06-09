@@ -21,8 +21,26 @@ body:
     id: metadata
     attributes:
       label: Additional Tags (Optional)
-      description: Add any additional tags, one per line
+      description: |
+        Add any additional tags, one per line.
+
+        **Best Practice:** We recommend adding topics/tags directly to your GitHub repository instead. 
+        Go to your repo → Settings → Topics and add relevant tags there. This helps with discoverability across GitHub! These will be automatically pulled in.
       placeholder: |
         architecture
         construction
         engineering
+  - type: checkboxes
+    id: project_requirements
+    attributes:
+      label: Project Requirements
+      description: Please confirm your project meets these requirements
+      options:
+        - label: The project is hosted on GitHub
+          required: true
+        - label: It has a clear open-source license (check your repo for a LICENSE file)
+          required: true
+        - label: It is directly connected to the AEC (Architecture, Engineering, Construction) industry
+          required: true
+        - label: The repository has a README file with project description
+          required: true

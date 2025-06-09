@@ -46,7 +46,10 @@ async function getGitHubRepoData(url: string): Promise<GitHubRepoData | null> {
 			openIssues: repoData.open_issues_count
 		};
 	} catch (error) {
-		console.error(`Error fetching GitHub data for ${url}:`, error instanceof Error ? error.message : String(error));
+		console.error(
+			`Error fetching GitHub data for ${url}:`,
+			error instanceof Error ? error.message : String(error)
+		);
 		return {
 			name: url.split('/').pop() || 'Unknown',
 			description: 'No description provided',
@@ -72,7 +75,6 @@ async function updateProjectMetadata(): Promise<void> {
 
 		const updatedProjects = await Promise.all(
 			projects.map(async (project) => {
-
 				// Initialize metadata array if it doesn't exist
 				if (!project.metadata) {
 					project.metadata = [];
@@ -150,7 +152,6 @@ async function updateProjectMetadata(): Promise<void> {
 		process.exit(1);
 	}
 }
-
 
 // Run the update function
 updateProjectMetadata();

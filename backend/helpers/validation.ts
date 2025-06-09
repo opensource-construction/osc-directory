@@ -1,32 +1,27 @@
-import { Octokit } from "@octokit/rest";
-import path from "path";
-import fs from "fs/promises";
-
-export interface MinimalProjectData {
-  url: string;
-  metadata?: string[];
-  submitterUsername?: string;
-}
+import { Octokit } from '@octokit/rest';
+import path from 'path';
+import fs from 'fs/promises';
+import { BaseProjectData } from '@shared/types/index.ts';
 
 export interface ValidationOptions {
-  /** If true, only allows exact repository URLs without additional paths */
-  strictMode?: boolean;
-  /** If true, allows forked repositories */
-  allowForks?: boolean;
-  /** If true, allows archived repositories */
-  allowArchived?: boolean;
-  /** If true, requires repositories to have a description */
-  requireDescription?: boolean;
-  /** If true, shows warning messages for issues that don't fail validation */
-  showWarnings?: boolean;
+	/** If true, only allows exact repository URLs without additional paths */
+	strictMode?: boolean;
+	/** If true, allows forked repositories */
+	allowForks?: boolean;
+	/** If true, allows archived repositories */
+	allowArchived?: boolean;
+	/** If true, requires repositories to have a description */
+	requireDescription?: boolean;
+	/** If true, shows warning messages for issues that don't fail validation */
+	showWarnings?: boolean;
 }
 
 const defaultValidationOptions: Required<ValidationOptions> = {
-  strictMode: false,
-  allowForks: false,
-  allowArchived: false,
-  requireDescription: false,
-  showWarnings: true,
+	strictMode: false,
+	allowForks: false,
+	allowArchived: false,
+	requireDescription: false,
+	showWarnings: true
 };
 
 /**
@@ -56,145 +51,146 @@ const defaultValidationOptions: Required<ValidationOptions> = {
  * Warning messages are logged for archived repositories, forks, and missing descriptions when showWarnings is true.
  */
 export async function validateRepository(
-  repositoryUrl: string,
-  octokit: Octokit,
-  options: ValidationOptions = {}
+	repositoryUrl: string,
+	octokit: Octokit,
+	options: ValidationOptions = {}
 ) {
-  const opts = { ...defaultValidationOptions, ...options };
+	const opts = { ...defaultValidationOptions, ...options };
 
-  // Validate URL format based on strict mode
-  if (opts.strictMode) {
-    const strictUrlPattern = /^https:\/\/github\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_.-]+$/;
-    if (!strictUrlPattern.test(repositoryUrl)) {
-      throw new Error("Invalid GitHub repository URL format (strict mode)");
-    }
-  } else {
-    // In non-strict mode, allow URLs with additional paths
-    const baseUrlPattern = /^https:\/\/github\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_.-]+/;
-    if (!baseUrlPattern.test(repositoryUrl)) {
-      throw new Error("Invalid GitHub repository URL format");
-    }
-  }
+	// Validate URL format based on strict mode
+	if (opts.strictMode) {
+		const strictUrlPattern = /^https:\/\/github\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_.-]+$/;
+		if (!strictUrlPattern.test(repositoryUrl)) {
+			throw new Error('Invalid GitHub repository URL format (strict mode)');
+		}
+	} else {
+		// In non-strict mode, allow URLs with additional paths
+		const baseUrlPattern = /^https:\/\/github\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_.-]+/;
+		if (!baseUrlPattern.test(repositoryUrl)) {
+			throw new Error('Invalid GitHub repository URL format');
+		}
+	}
 
-  // Extract owner and repo from URL (handle both cases)
-  const urlWithoutBase = repositoryUrl.replace('https://github.com/', '');
-  const urlParts = urlWithoutBase.split('/');
-  const [owner, repo] = urlParts;
+	// Extract owner and repo from URL (handle both cases)
+	const urlWithoutBase = repositoryUrl.replace('https://github.com/', '');
+	const urlParts = urlWithoutBase.split('/');
+	const [owner, repo] = urlParts;
 
-  // Validate that we have both owner and repo
-  if (!owner || !repo) {
-    throw new Error("Could not extract owner and repository name from URL");
-  }
+	// Validate that we have both owner and repo
+	if (!owner || !repo) {
+		throw new Error('Could not extract owner and repository name from URL');
+	}
 
-  try {
-    // Check if repository exists and is accessible
-    const { data: repoData } = await octokit.rest.repos.get({
-      owner,
-      repo,
-    });
+	try {
+		// Check if repository exists and is accessible
+		const { data: repoData } = await octokit.rest.repos.get({
+			owner,
+			repo
+		});
 
-    // Check if repository is archived
-    if (repoData.archived) {
-      if (!opts.allowArchived) {
-        throw new Error("Repository is archived");
-      } else if (opts.showWarnings) {
-        console.warn("⚠️ Repository is archived");
-      }
-    }
+		// Check if repository is archived
+		if (repoData.archived) {
+			if (!opts.allowArchived) {
+				throw new Error('Repository is archived');
+			} else if (opts.showWarnings) {
+				console.warn('⚠️ Repository is archived');
+			}
+		}
 
-    // Check if repository is a fork
-    if (repoData.fork) {
-      if (!opts.allowForks) {
-        throw new Error("Repository is a fork");
-      } else if (opts.showWarnings) {
-        console.warn("⚠️ Repository is a fork");
-      }
-    }
+		// Check if repository is a fork
+		if (repoData.fork) {
+			if (!opts.allowForks) {
+				throw new Error('Repository is a fork');
+			} else if (opts.showWarnings) {
+				console.warn('⚠️ Repository is a fork');
+			}
+		}
 
-    // Check if repository has a description
-    if (!repoData.description) {
-      if (opts.requireDescription) {
-        throw new Error("Repository has no description");
-      } else if (opts.showWarnings) {
-        console.warn("⚠️ Repository has no description");
-      }
-    }
+		// Check if repository has a description
+		if (!repoData.description) {
+			if (opts.requireDescription) {
+				throw new Error('Repository has no description');
+			} else if (opts.showWarnings) {
+				console.warn('⚠️ Repository has no description');
+			}
+		}
 
-    // Log additional info if URL had extra paths
-    if (!opts.strictMode && urlParts.length > 2 && opts.showWarnings) {
-      console.log(`ℹ️ URL contained additional paths: /${urlParts.slice(2).join('/')}`);
-    }
+		// Log additional info if URL had extra paths
+		if (!opts.strictMode && urlParts.length > 2 && opts.showWarnings) {
+			console.log(`ℹ️ URL contained additional paths: /${urlParts.slice(2).join('/')}`);
+		}
 
-    console.log(`✅ Repository validation passed: ${repoData.full_name}`);
+		console.log(`✅ Repository validation passed: ${repoData.full_name}`);
 
-    return {
-      owner,
-      repo,
-      fullName: repoData.full_name,
-      isArchived: repoData.archived,
-      isFork: repoData.fork,
-      hasDescription: !!repoData.description,
-    };
-  } catch (error: any) {
-    if (error.status === 404) {
-      throw new Error("Repository not found or not accessible");
-    }
-    throw new Error(`Failed to validate repository: ${error.message}`);
-  }
+		return {
+			owner,
+			repo,
+			fullName: repoData.full_name,
+			isArchived: repoData.archived,
+			isFork: repoData.fork,
+			hasDescription: !!repoData.description
+		};
+	} catch (error: any) {
+		if (error.status === 404) {
+			throw new Error('Repository not found or not accessible');
+		}
+		throw new Error(`Failed to validate repository: ${error.message}`);
+	}
 }
 
-export function validateMetadataTags(projectData: MinimalProjectData) {
-  // Validate metadata tags
-  if (projectData.metadata && projectData.metadata.length > 0) {
-    if (projectData.metadata.length > 10) {
-      throw new Error("Too many metadata tags (maximum 10 allowed)");
-    }
+export function validateMetadataTags(projectData: BaseProjectData) {
+	// Validate metadata tags
+	if (projectData.metadata && projectData.metadata.length > 0) {
+		if (projectData.metadata.length > 10) {
+			throw new Error('Too many metadata tags (maximum 10 allowed)');
+		}
 
-    projectData.metadata.forEach(tag => {
-      if (tag.length > 30) {
-        throw new Error(`Metadata tag too long: ${tag}`);
-      }
-      if (tag.trim() !== tag) {
-        throw new Error(`Metadata tag has leading/trailing spaces: "${tag}"`);
-      }
-    });
-  }
+		projectData.metadata.forEach((tag) => {
+			if (tag.length > 30) {
+				throw new Error(`Metadata tag too long: ${tag}`);
+			}
+			if (tag.trim() !== tag) {
+				throw new Error(`Metadata tag has leading/trailing spaces: "${tag}"`);
+			}
+		});
+	}
 
-  console.log("✅ Field format validation passed");
+	console.log('✅ Field format validation passed');
 }
 
-export function validateRequiredFields(projectData: MinimalProjectData) {
-  const requiredFields = ['url'];
+export function validateRequiredFields(projectData: BaseProjectData) {
+	const requiredFields = ['url'];
 
-  for (const field of requiredFields) {
-    if (!projectData[field as keyof MinimalProjectData] || projectData[field as keyof MinimalProjectData] === '') {
-      throw new Error(`Missing required field: ${field}`);
-    }
-  }
+	for (const field of requiredFields) {
+		if (
+			!projectData[field as keyof BaseProjectData] ||
+			projectData[field as keyof BaseProjectData] === ''
+		) {
+			throw new Error(`Missing required field: ${field}`);
+		}
+	}
 }
 
 export async function validateNoDuplicates(repositoryUrl: string) {
-  try {
-    // Check existing projects.json
-    const projectsPath = path.join(process.cwd(), "../data/projects.json");
-    const existingData = await fs.readFile(projectsPath, "utf-8");
-    const existingProjects = JSON.parse(existingData);
+	try {
+		// Check existing projects.json
+		const projectsPath = path.join(process.cwd(), '../data/projects.json');
+		const existingData = await fs.readFile(projectsPath, 'utf-8');
+		const existingProjects = JSON.parse(existingData);
 
-    // Check for duplicate repository URLs
-    const duplicateRepo = existingProjects.find((project: any) =>
-      project.url === repositoryUrl
-    );
+		// Check for duplicate repository URLs
+		const duplicateRepo = existingProjects.find((project: any) => project.url === repositoryUrl);
 
-    if (duplicateRepo) {
-      throw new Error(`Repository already exists in directory: ${repositoryUrl}`);
-    }
+		if (duplicateRepo) {
+			throw new Error(`Repository already exists in directory: ${repositoryUrl}`);
+		}
 
-    console.log("✅ No duplicates found");
-  } catch (error: any) {
-    if (error.code === 'ENOENT') {
-      console.log("No existing projects.json found - skipping duplicate check");
-    } else {
-      throw error;
-    }
-  }
+		console.log('✅ No duplicates found');
+	} catch (error: any) {
+		if (error.code === 'ENOENT') {
+			console.log('No existing projects.json found - skipping duplicate check');
+		} else {
+			throw error;
+		}
+	}
 }
