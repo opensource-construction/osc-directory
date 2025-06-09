@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12405,
+    "stars": 12407,
     "forks": 2427,
-    "lastUpdated": "2025-06-08T18:41:38Z",
+    "lastUpdated": "2025-06-09T05:21:27Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -55,7 +55,7 @@
       "tensorflow",
       "visualization"
     ],
-    "openIssues": 1275
+    "openIssues": 1276
   },
   {
     "url": "https://github.com/Open-Cascade-SAS/OCCT",
@@ -74,9 +74,9 @@
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1585,
-    "forks": 416,
-    "lastUpdated": "2025-06-07T19:54:24Z",
+    "stars": 1586,
+    "forks": 417,
+    "lastUpdated": "2025-06-09T05:26:50Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "topics": [
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106569,
+    "stars": 106571,
     "forks": 35799,
-    "lastUpdated": "2025-06-09T01:12:40Z",
+    "lastUpdated": "2025-06-09T08:24:09Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 571
+    "openIssues": 572
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24953,
-    "forks": 4597,
-    "lastUpdated": "2025-06-08T23:04:25Z",
+    "stars": 24957,
+    "forks": 4598,
+    "lastUpdated": "2025-06-09T06:52:42Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3133
+    "openIssues": 3134
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -359,7 +359,7 @@
     "description": "The Speckle Server, Frontend, 3D Viewer, & other JS utilities.",
     "stars": 725,
     "forks": 203,
-    "lastUpdated": "2025-06-06T09:51:53Z",
+    "lastUpdated": "2025-06-09T08:27:23Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 101
+    "openIssues": 100
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11407,
+    "stars": 11408,
     "forks": 3144,
-    "lastUpdated": "2025-06-08T22:35:07Z",
+    "lastUpdated": "2025-06-09T07:14:55Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4917
+    "openIssues": 4918
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -494,13 +494,13 @@
     "submissionDate": "2025-05-26",
     "name": "IfcOpenShell",
     "description": "Open source IFC library and geometry engine",
-    "stars": 2120,
+    "stars": 2121,
     "forks": 788,
-    "lastUpdated": "2025-06-08T10:00:15Z",
+    "lastUpdated": "2025-06-09T02:50:33Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 997
+    "openIssues": 998
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -793,7 +793,7 @@
     "description": "Opensource Life Cycle Assessment for Built Environment using Industry Foundation Classes",
     "stars": 22,
     "forks": 3,
-    "lastUpdated": "2025-06-08T05:52:27Z",
+    "lastUpdated": "2025-06-09T07:50:49Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "topics": [
@@ -808,5 +808,38 @@
     ],
     "submissionDate": "2025-06-08",
     "openIssues": 11
+  },
+  {
+    "url": "https://github.com/pyrevitlabs/pyRevit",
+    "metadata": [
+      "autodesk-revit",
+      "cpython",
+      "csharp",
+      "dynamobim",
+      "grasshopper",
+      "ironpython",
+      "python",
+      "vbnet"
+    ],
+    "name": "pyRevit",
+    "description": "Rapid Application Development (RAD) Environment for Autodesk Revit®",
+    "stars": 1467,
+    "forks": 373,
+    "lastUpdated": "2025-06-06T12:05:00Z",
+    "license": "GPL-3.0",
+    "submissionDate": "2025-06-09",
+    "submitterUsername": "TheVessen",
+    "mainLanguage": "Python",
+    "topics": [
+      "autodesk-revit",
+      "cpython",
+      "csharp",
+      "dynamobim",
+      "grasshopper",
+      "ironpython",
+      "python",
+      "vbnet"
+    ],
+    "openIssues": 91
   }
 ]
