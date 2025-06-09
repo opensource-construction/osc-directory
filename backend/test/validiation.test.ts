@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { Octokit } from "@octokit/rest"
-import { validateRepository, validateFieldFormats, validateRequiredFields, validateNoDuplicates } from '@helpers/validation.ts'
+import { validateRepository, validateMetadataTags, validateRequiredFields, validateNoDuplicates } from '@helpers/validation.ts'
 import fs from 'fs/promises'
 
 vi.mock('fs/promises')
@@ -69,34 +69,23 @@ describe('validateRepository', () => {
 })
 
 describe('validateFieldFormats', () => {
-  it('validates correct category and metadata', () => {
+  it('validates correct  metadata', () => {
     const validProject = {
       url: 'https://github.com/owner/repo',
-      category: 'BIM Tools',
       metadata: ['tag1', 'tag2']
     }
 
-    expect(() => validateFieldFormats(validProject)).not.toThrow()
+    expect(() => validateMetadataTags(validProject)).not.toThrow()
   })
 
-  it('throws error for invalid category', () => {
-    const invalidProject = {
-      url: 'https://github.com/owner/repo',
-      category: 'Invalid Category',
-      metadata: ['tag1']
-    }
-
-    expect(() => validateFieldFormats(invalidProject)).toThrow('Invalid category')
-  })
 
   it('throws error for too many metadata tags', () => {
     const projectWithTooManyTags = {
       url: 'https://github.com/owner/repo',
-      category: 'BIM Tools',
       metadata: Array(11).fill('tag')
     }
 
-    expect(() => validateFieldFormats(projectWithTooManyTags)).toThrow('Too many metadata tags')
+    expect(() => validateMetadataTags(projectWithTooManyTags)).toThrow('Too many metadata tags')
   })
 })
 
@@ -104,7 +93,6 @@ describe('validateRequiredFields', () => {
   it('validates project with all required fields', () => {
     const validProject = {
       url: 'https://github.com/owner/repo',
-      category: 'BIM Tools'
     }
 
     expect(() => validateRequiredFields(validProject)).not.toThrow()
@@ -113,7 +101,6 @@ describe('validateRequiredFields', () => {
   it('throws error for missing url', () => {
     const invalidProject = {
       url: '',
-      category: 'BIM Tools'
     }
 
     expect(() => validateRequiredFields(invalidProject)).toThrow('Missing required field: url')

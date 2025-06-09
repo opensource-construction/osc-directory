@@ -1,7 +1,7 @@
 import { Octokit } from "@octokit/rest";
 import fs from "fs/promises";
 import path from "path";
-import { validateRepository, validateNoDuplicates, validateRequiredFields, validateFieldFormats, type MinimalProjectData } from "@helpers/validation.ts";
+import { validateRepository, validateNoDuplicates, validateRequiredFields, validateMetadataTags, type MinimalProjectData } from "@helpers/validation.ts";
 
 const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN,
@@ -25,7 +25,7 @@ async function validateIssueProject() {
     await validateNoDuplicates(projectData.url);
 
     // Validate field formats
-    validateFieldFormats(projectData);
+    validateMetadataTags(projectData);
 
     console.log("✅ Project validation passed!");
   } catch (error) {
