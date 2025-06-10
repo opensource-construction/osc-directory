@@ -29,8 +29,8 @@
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
     "stars": 12407,
-    "forks": 2427,
-    "lastUpdated": "2025-06-09T05:21:27Z",
+    "forks": 2428,
+    "lastUpdated": "2025-06-10T00:24:20Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -74,9 +74,9 @@
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1586,
-    "forks": 417,
-    "lastUpdated": "2025-06-09T05:26:50Z",
+    "stars": 1588,
+    "forks": 418,
+    "lastUpdated": "2025-06-10T01:08:07Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "topics": [
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106572,
-    "forks": 35799,
-    "lastUpdated": "2025-06-09T08:55:32Z",
+    "stars": 106583,
+    "forks": 35805,
+    "lastUpdated": "2025-06-10T01:37:56Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -237,7 +237,7 @@
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "topics": [],
-    "openIssues": 7
+    "openIssues": 8
   },
   {
     "url": "https://github.com/FreeCAD/FreeCAD",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24958,
-    "forks": 4598,
-    "lastUpdated": "2025-06-09T08:55:05Z",
+    "stars": 24968,
+    "forks": 4601,
+    "lastUpdated": "2025-06-10T01:04:55Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3133
+    "openIssues": 3118
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -358,8 +358,8 @@
     "name": "speckle-server",
     "description": "The Speckle Server, Frontend, 3D Viewer, & other JS utilities.",
     "stars": 725,
-    "forks": 203,
-    "lastUpdated": "2025-06-09T08:52:26Z",
+    "forks": 204,
+    "lastUpdated": "2025-06-09T16:10:32Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 100
+    "openIssues": 101
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -387,9 +387,9 @@
     "submissionDate": "2025-05-24",
     "name": "OpenFOAM-dev",
     "description": "OpenFOAM Foundation development repository",
-    "stars": 1740,
+    "stars": 1742,
     "forks": 637,
-    "lastUpdated": "2025-06-08T18:04:30Z",
+    "lastUpdated": "2025-06-09T17:31:54Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11409,
+    "stars": 11413,
     "forks": 3144,
-    "lastUpdated": "2025-06-09T08:48:02Z",
+    "lastUpdated": "2025-06-09T18:22:32Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4919
+    "openIssues": 4929
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -494,13 +494,13 @@
     "submissionDate": "2025-05-26",
     "name": "IfcOpenShell",
     "description": "Open source IFC library and geometry engine",
-    "stars": 2121,
+    "stars": 2122,
     "forks": 788,
-    "lastUpdated": "2025-06-09T02:50:33Z",
+    "lastUpdated": "2025-06-10T00:41:48Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 998
+    "openIssues": 1001
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -558,7 +558,7 @@
       "webgl",
       "webgl-viewer"
     ],
-    "openIssues": 153
+    "openIssues": 154
   },
   {
     "url": "https://github.com/petrasvestartas/compas_wood",
@@ -700,7 +700,7 @@
     "name": "OpenStudio",
     "description": "OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance.",
     "stars": 542,
-    "forks": 214,
+    "forks": 215,
     "lastUpdated": "2025-06-05T07:01:01Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
