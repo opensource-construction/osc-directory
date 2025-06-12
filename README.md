@@ -49,4 +49,5 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [IfcLCA](https://github.com/IfcLCA/IfcLCA) | Opensource Life Cycle Assessment for Built Environment using Industry Foundation Classes | TypeScript | 22 | Jun 9, 2025 | AGPL-3.0 |
 | [speckle-powerbi](https://github.com/specklesystems/speckle-powerbi) | No description provided | TypeScript | 45 | May 28, 2025 | Unknown |
 | [ifc-flow](https://github.com/louistrue/ifc-flow) | No description provided | TypeScript | 18 | Jun 11, 2025 | AGPL-3.0 |
+| [stepcode](https://github.com/stepcode/stepcode) | STEPcode (formerly NIST's STEP Class Library) is used with IFC, STEP, and other standards that utilize the technologies of ISO10303 (STEP). It generates C++ and Python from EXPRESS (10303-11) schemas. The code is capable of reading and writing STEP Part 21 exchange files. It also utilizes Parts 22 and 23 (SDAI and its C++ binding). | C | 463 | May 24, 2025 | NOASSERTION |
 
