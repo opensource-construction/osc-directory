@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12412,
+    "stars": 12420,
     "forks": 2429,
-    "lastUpdated": "2025-06-10T22:25:36Z",
+    "lastUpdated": "2025-06-11T20:00:15Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -55,7 +55,7 @@
       "tensorflow",
       "visualization"
     ],
-    "openIssues": 1278
+    "openIssues": 1279
   },
   {
     "url": "https://github.com/Open-Cascade-SAS/OCCT",
@@ -74,9 +74,9 @@
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1592,
-    "forks": 418,
-    "lastUpdated": "2025-06-10T19:54:52Z",
+    "stars": 1598,
+    "forks": 419,
+    "lastUpdated": "2025-06-12T00:24:37Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "topics": [
@@ -108,10 +108,10 @@
     ],
     "submissionDate": "2025-05-22",
     "name": "compas",
-    "description": "Core packages of the COMPAS framework.",
+    "description": "Main library of the COMPAS framework and CAD integrations for Rhino/GH and Blender.",
     "stars": 334,
     "forks": 112,
-    "lastUpdated": "2025-06-07T12:42:22Z",
+    "lastUpdated": "2025-06-11T13:22:51Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "topics": [
@@ -124,7 +124,7 @@
       "rhino3d",
       "rpc"
     ],
-    "openIssues": 109
+    "openIssues": 108
   },
   {
     "url": "https://github.com/mrdoob/three.js",
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106595,
-    "forks": 35807,
-    "lastUpdated": "2025-06-11T01:01:29Z",
+    "stars": 106611,
+    "forks": 35805,
+    "lastUpdated": "2025-06-12T00:35:33Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 567
+    "openIssues": 566
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -204,9 +204,9 @@
     "submissionDate": "2025-05-22",
     "name": "BIMserver",
     "description": "The open source BIMserver platform",
-    "stars": 1618,
+    "stars": 1619,
     "forks": 622,
-    "lastUpdated": "2025-06-10T14:09:14Z",
+    "lastUpdated": "2025-06-11T23:31:14Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "topics": [
@@ -220,7 +220,7 @@
       "java",
       "openbim"
     ],
-    "openIssues": 110
+    "openIssues": 109
   },
   {
     "url": "https://github.com/ladybug-tools/ladybug",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24973,
-    "forks": 4602,
-    "lastUpdated": "2025-06-11T01:47:10Z",
+    "stars": 24985,
+    "forks": 4604,
+    "lastUpdated": "2025-06-11T23:01:13Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3127
+    "openIssues": 3143
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -336,7 +336,7 @@
       "openbim",
       "step21"
     ],
-    "openIssues": 113
+    "openIssues": 114
   },
   {
     "url": "https://github.com/specklesystems/speckle-server",
@@ -357,9 +357,9 @@
     "submissionDate": "2025-05-24",
     "name": "speckle-server",
     "description": "The Speckle Server, Frontend, 3D Viewer, & other JS utilities.",
-    "stars": 725,
-    "forks": 205,
-    "lastUpdated": "2025-06-10T15:41:56Z",
+    "stars": 726,
+    "forks": 206,
+    "lastUpdated": "2025-06-12T00:40:39Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 103
+    "openIssues": 105
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -389,7 +389,7 @@
     "description": "OpenFOAM Foundation development repository",
     "stars": 1742,
     "forks": 636,
-    "lastUpdated": "2025-06-10T20:45:08Z",
+    "lastUpdated": "2025-06-11T14:17:43Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11419,
-    "forks": 3145,
-    "lastUpdated": "2025-06-11T00:33:45Z",
+    "stars": 11424,
+    "forks": 3147,
+    "lastUpdated": "2025-06-11T22:48:21Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4927
+    "openIssues": 4934
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -433,9 +433,9 @@
     "submissionDate": "2025-05-25",
     "name": "rhino3dm",
     "description": "Libraries based on OpenNURBS with a RhinoCommon style",
-    "stars": 658,
+    "stars": 659,
     "forks": 142,
-    "lastUpdated": "2025-06-07T10:23:02Z",
+    "lastUpdated": "2025-06-11T09:33:10Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "topics": [
@@ -494,13 +494,13 @@
     "submissionDate": "2025-05-26",
     "name": "IfcOpenShell",
     "description": "Open source IFC library and geometry engine",
-    "stars": 2124,
+    "stars": 2125,
     "forks": 787,
-    "lastUpdated": "2025-06-10T18:33:27Z",
+    "lastUpdated": "2025-06-11T21:39:26Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 1003
+    "openIssues": 1004
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -638,7 +638,7 @@
     "description": ":dragon: dragonfly core library",
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-06-10T19:29:19Z",
+    "lastUpdated": "2025-06-11T23:36:07Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "topics": [],
@@ -701,11 +701,11 @@
     "description": "OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance.",
     "stars": 542,
     "forks": 215,
-    "lastUpdated": "2025-06-10T21:50:20Z",
+    "lastUpdated": "2025-06-11T15:51:52Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
-    "openIssues": 198
+    "openIssues": 199
   },
   {
     "url": "https://github.com/boydhont/BetterCorrectFast",
