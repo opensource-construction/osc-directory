@@ -29,7 +29,7 @@
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
     "stars": 12420,
-    "forks": 2429,
+    "forks": 2428,
     "lastUpdated": "2025-06-11T20:00:15Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
@@ -412,7 +412,7 @@
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4933
+    "openIssues": 4935
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -868,5 +868,22 @@
       "web-ifc"
     ],
     "openIssues": 3
+  },
+  {
+    "url": "https://github.com/stepcode/stepcode",
+    "metadata": [
+      "ISO10303"
+    ],
+    "name": "stepcode",
+    "description": "STEPcode (formerly NIST's STEP Class Library) is used with IFC, STEP, and other standards that utilize the technologies of ISO10303 (STEP). It generates C++ and Python from EXPRESS (10303-11) schemas. The code is capable of reading and writing STEP Part 21 exchange files. It also utilizes Parts 22 and 23 (SDAI and its C++ binding).",
+    "stars": 463,
+    "forks": 127,
+    "lastUpdated": "2025-05-24T11:23:53Z",
+    "license": "NOASSERTION",
+    "submissionDate": "2025-06-12",
+    "submitterUsername": "Ammar-Kasem",
+    "mainLanguage": "C",
+    "topics": [],
+    "openIssues": 63
   }
 ]
