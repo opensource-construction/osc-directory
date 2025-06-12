@@ -3,48 +3,44 @@
 	import MetadataFilter from '$lib/components/directory/MetadataFilter.svelte';
 	import ProjectList from '$lib/components/directory/ProjectList.svelte';
 	import ProjectSorting from '$lib/components/directory/ProjectSorting.svelte';
-	import { type Project } from '$shared/types';
+	import SearchBar from '$lib/components/ui/SearchBar.svelte';
+	import { filterConfig, fuseOptions } from '$lib/search.js';
+	import type { Project } from '$shared/types/index.js';
+	import Fuse from 'fuse.js';
 
 	let { data } = $props();
 	let projects: Project[] = $state(data.projects);
 	let selectedMetadataFilters = $state<Record<string, string[]>>({});
 	let isLoading = $state(false);
-	//Copy of projects to avoid mutating the original array
 	let sortedProjects = $state<Project[]>([]);
+	let searchQuery = $state('');
 
-	// Configure metadata filters
-	// Each filter has a key, label, icon, and a function to extract values from the project
-	// Icons are used from https://icon-sets.iconify.design/?query=building
-	const filterConfig = [
-		{
-			key: 'tags',
-			label: 'Tags',
-			icon: 'mdi:tag',
-			getValue: (project: Project) =>
-				project.metadata && Array.isArray(project.metadata) ? project.metadata : null
-		},
-		{
-			key: 'mainLanguage',
-			label: 'Programming Language',
-			icon: 'material-symbols-light:laptop-chromebook-rounded',
-			getValue: (project: Project) => (project.mainLanguage ? [project.mainLanguage] : null)
-		},
-		{
-			key: 'license',
-			label: 'License',
-			icon: 'material-symbols:license',
-			getValue: (project: Project) => (project.license ? [project.license] : null)
+	let fuse = $derived(new Fuse(projects, fuseOptions));
+
+	function performSearch(projects: Project[], query: string): Project[] {
+		if (!query.trim()) return projects;
+
+		const searchResults = fuse.search(query);
+		return searchResults.map((result) => result.item);
+	}
+
+	let searchFilteredProjects = $derived.by(() => {
+		let filtered = projects;
+
+		if (searchQuery.trim()) {
+			filtered = performSearch(filtered, searchQuery);
 		}
-	];
+
+		return filtered;
+	});
 
 	let tagOptions = $derived.by(() => {
 		const options: Record<string, Set<string>> = {};
 
-		// Process configured filters
 		filterConfig.forEach(({ key, getValue }) => {
 			options[key] = new Set();
 
-			projects.forEach((project) => {
+			searchFilteredProjects.forEach((project) => {
 				const values = getValue(project);
 				if (values) {
 					values.forEach((value) => {
@@ -64,9 +60,8 @@
 	});
 
 	let filteredProjects = $derived.by(() => {
-		let filtered = projects;
+		let filtered = searchFilteredProjects; // Start with search results
 
-		// Filter by metadata
 		Object.entries(selectedMetadataFilters).forEach(([metadataKey, selectedValues]) => {
 			if (selectedValues.length > 0) {
 				filtered = filtered.filter((project) => {
@@ -79,7 +74,6 @@
 							projectValues.some((value) => selectedValues.includes(String(value)))
 						);
 					}
-
 					return false;
 				});
 			}
@@ -110,10 +104,16 @@
 
 	function clearAllFilters() {
 		selectedMetadataFilters = {};
+		searchQuery = '';
 	}
 
 	function handleSortChange(newSortedProjects: Project[]) {
 		sortedProjects = newSortedProjects;
+	}
+
+	function handleSearchChange(query: string) {
+		searchQuery = query;
+		selectedMetadataFilters = {}; // Reset metadata filters on new search
 	}
 </script>
 
@@ -128,17 +128,29 @@
 		<p>...Loading</p>
 	{:else}
 		<div class="mb-6 space-y-4">
-			<ProjectSorting projects={filteredProjects} onSortChange={handleSortChange} />
+			<SearchBar
+				bind:searchQuery
+				onSearchChange={handleSearchChange}
+				onClearSearch={() => (searchQuery = '')}
+				resultCount={filteredProjects.length}
+				totalCount={projects.length}
+				showTips={true}
+			/>
+
 			<MetadataFilter
 				metadataOptions={enrichedMetadataOptions}
 				{selectedMetadataFilters}
 				{updateMetadataFilter}
 			/>
+			<ProjectSorting projects={filteredProjects} onSortChange={handleSortChange} />
 
-			{#if Object.values(selectedMetadataFilters).some((v) => v.length > 0)}
+			{#if Object.values(selectedMetadataFilters).some((v) => v.length > 0) || searchQuery.trim()}
 				<div class="flex items-center gap-2">
 					<span class="text-sm text-gray-600">
 						Showing {filteredProjects.length} of {projects.length} projects
+						{#if searchQuery.trim()}
+							(filtered from {searchFilteredProjects.length} search results)
+						{/if}
 					</span>
 					<button
 						onclick={clearAllFilters}

@@ -57,6 +57,7 @@
 		]
 	},
 	"dependencies": {
-		"@octokit/rest": "^20.0.1"
+		"@octokit/rest": "^20.0.1",
+		"fuse.js": "^7.1.0"
 	}
 }
