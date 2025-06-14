@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12425,
-    "forks": 2428,
-    "lastUpdated": "2025-06-13T01:43:21Z",
+    "stars": 12424,
+    "forks": 2427,
+    "lastUpdated": "2025-06-13T11:05:08Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -74,9 +74,9 @@
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1601,
-    "forks": 420,
-    "lastUpdated": "2025-06-12T14:53:27Z",
+    "stars": 1608,
+    "forks": 421,
+    "lastUpdated": "2025-06-13T15:29:48Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "topics": [
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106633,
-    "forks": 35808,
-    "lastUpdated": "2025-06-13T00:42:03Z",
+    "stars": 106652,
+    "forks": 35805,
+    "lastUpdated": "2025-06-13T22:43:43Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 567
+    "openIssues": 566
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -204,9 +204,9 @@
     "submissionDate": "2025-05-22",
     "name": "BIMserver",
     "description": "The open source BIMserver platform",
-    "stars": 1620,
+    "stars": 1622,
     "forks": 623,
-    "lastUpdated": "2025-06-12T10:45:59Z",
+    "lastUpdated": "2025-06-13T15:54:57Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "topics": [
@@ -220,7 +220,7 @@
       "java",
       "openbim"
     ],
-    "openIssues": 107
+    "openIssues": 105
   },
   {
     "url": "https://github.com/ladybug-tools/ladybug",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 24992,
+    "stars": 25006,
     "forks": 4605,
-    "lastUpdated": "2025-06-13T00:37:43Z",
+    "lastUpdated": "2025-06-14T00:05:26Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3153
+    "openIssues": 3162
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -336,7 +336,7 @@
       "openbim",
       "step21"
     ],
-    "openIssues": 113
+    "openIssues": 114
   },
   {
     "url": "https://github.com/specklesystems/speckle-server",
@@ -357,9 +357,9 @@
     "submissionDate": "2025-05-24",
     "name": "speckle-server",
     "description": "The Speckle Server, Frontend, 3D Viewer, & other JS utilities.",
-    "stars": 726,
+    "stars": 727,
     "forks": 205,
-    "lastUpdated": "2025-06-12T09:28:50Z",
+    "lastUpdated": "2025-06-13T13:11:34Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -375,7 +375,7 @@
       "version-control",
       "viewer"
     ],
-    "openIssues": 105
+    "openIssues": 106
   },
   {
     "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
@@ -389,7 +389,7 @@
     "description": "OpenFOAM Foundation development repository",
     "stars": 1744,
     "forks": 637,
-    "lastUpdated": "2025-06-12T22:09:57Z",
+    "lastUpdated": "2025-06-13T15:32:50Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11429,
+    "stars": 11433,
     "forks": 3148,
-    "lastUpdated": "2025-06-12T16:19:23Z",
+    "lastUpdated": "2025-06-13T22:56:25Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4938
+    "openIssues": 4949
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -494,13 +494,13 @@
     "submissionDate": "2025-05-26",
     "name": "IfcOpenShell",
     "description": "Open source IFC library and geometry engine",
-    "stars": 2124,
+    "stars": 2123,
     "forks": 787,
-    "lastUpdated": "2025-06-12T18:49:00Z",
+    "lastUpdated": "2025-06-13T16:15:31Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 1004
+    "openIssues": 1002
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -638,7 +638,7 @@
     "description": ":dragon: dragonfly core library",
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-06-11T23:36:07Z",
+    "lastUpdated": "2025-06-14T00:52:05Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "topics": [],
@@ -699,9 +699,9 @@
     ],
     "name": "OpenStudio",
     "description": "OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance.",
-    "stars": 542,
+    "stars": 543,
     "forks": 215,
-    "lastUpdated": "2025-06-11T15:51:52Z",
+    "lastUpdated": "2025-06-13T13:55:15Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -759,9 +759,9 @@
     ],
     "name": "engine_web-ifc",
     "description": "Reading and writing IFC files with Javascript, at native speeds.",
-    "stars": 734,
+    "stars": 735,
     "forks": 218,
-    "lastUpdated": "2025-06-10T11:14:36Z",
+    "lastUpdated": "2025-06-13T08:43:44Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
     "topics": [
@@ -793,21 +793,17 @@
     "description": "Opensource Life Cycle Assessment for Built Environment using Industry Foundation Classes",
     "stars": 22,
     "forks": 3,
-    "lastUpdated": "2025-06-09T07:50:49Z",
+    "lastUpdated": "2025-06-13T18:45:23Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "topics": [
       "ifc",
       "ifcopenshell",
       "lca",
-      "nextjs",
-      "pyodide",
-      "react",
-      "sustainability",
-      "wasm"
+      "pyodide"
     ],
     "submissionDate": "2025-06-08",
-    "openIssues": 11
+    "openIssues": 13
   },
   {
     "url": "https://github.com/specklesystems/speckle-powerbi",
@@ -840,7 +836,7 @@
       "powerbi",
       "speckle"
     ],
-    "openIssues": 1
+    "openIssues": 3
   },
   {
     "url": "https://github.com/louistrue/ifc-flow",
