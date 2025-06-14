@@ -1,7 +1,7 @@
 # AEC Open Source Directory
 
 A curated list of open source projects for the Architecture, Engineering, and Construction (AEC) industry. 
-A live frontend demo can be found [HERE](https://osc-directory.web.app/)
+A live frontend demo can be found [HERE](https://directory.opensource.construction/)
 
 ## How to Add a Project
 
