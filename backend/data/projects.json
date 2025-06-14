@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12424,
+    "stars": 12425,
     "forks": 2427,
-    "lastUpdated": "2025-06-13T11:05:08Z",
+    "lastUpdated": "2025-06-14T02:49:22Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -149,8 +149,8 @@
     "name": "three.js",
     "description": "JavaScript 3D Library.",
     "stars": 106652,
-    "forks": 35805,
-    "lastUpdated": "2025-06-13T22:43:43Z",
+    "forks": 35806,
+    "lastUpdated": "2025-06-14T05:30:00Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 566
+    "openIssues": 567
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 25006,
-    "forks": 4605,
-    "lastUpdated": "2025-06-14T00:05:26Z",
+    "stars": 25008,
+    "forks": 4604,
+    "lastUpdated": "2025-06-14T02:56:45Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -387,9 +387,9 @@
     "submissionDate": "2025-05-24",
     "name": "OpenFOAM-dev",
     "description": "OpenFOAM Foundation development repository",
-    "stars": 1744,
+    "stars": 1745,
     "forks": 637,
-    "lastUpdated": "2025-06-13T15:32:50Z",
+    "lastUpdated": "2025-06-14T01:46:24Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11433,
+    "stars": 11434,
     "forks": 3148,
-    "lastUpdated": "2025-06-13T22:56:25Z",
+    "lastUpdated": "2025-06-14T02:39:57Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4949
+    "openIssues": 4948
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -533,7 +533,7 @@
     "description": "3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision",
     "stars": 795,
     "forks": 308,
-    "lastUpdated": "2025-06-12T12:45:44Z",
+    "lastUpdated": "2025-06-14T06:27:41Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "topics": [
@@ -558,7 +558,7 @@
       "webgl",
       "webgl-viewer"
     ],
-    "openIssues": 153
+    "openIssues": 152
   },
   {
     "url": "https://github.com/petrasvestartas/compas_wood",
@@ -881,5 +881,35 @@
     "mainLanguage": "C",
     "topics": [],
     "openIssues": 63
+  },
+  {
+    "url": "https://github.com/ThatOpen/web-ifc-viewer",
+    "metadata": [
+      "Model viewer",
+      "IFC file viewer",
+      "3D model inspection",
+      "3d",
+      "bim",
+      "geometry",
+      "ifc",
+      "threejs"
+    ],
+    "name": "web-ifc-viewer",
+    "description": "Graphics engine and toolkit for client applications.",
+    "stars": 968,
+    "forks": 243,
+    "lastUpdated": "2025-06-10T02:36:45Z",
+    "license": "MIT",
+    "submissionDate": "2025-06-14",
+    "submitterUsername": "TheVessen",
+    "mainLanguage": "JavaScript",
+    "topics": [
+      "3d",
+      "bim",
+      "geometry",
+      "ifc",
+      "threejs"
+    ],
+    "openIssues": 56
   }
 ]
