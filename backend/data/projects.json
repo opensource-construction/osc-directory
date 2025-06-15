@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12425,
+    "stars": 12427,
     "forks": 2427,
-    "lastUpdated": "2025-06-14T02:49:22Z",
+    "lastUpdated": "2025-06-15T00:49:11Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -55,7 +55,7 @@
       "tensorflow",
       "visualization"
     ],
-    "openIssues": 1279
+    "openIssues": 1278
   },
   {
     "url": "https://github.com/Open-Cascade-SAS/OCCT",
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106652,
-    "forks": 35806,
-    "lastUpdated": "2025-06-14T05:30:00Z",
+    "stars": 106668,
+    "forks": 35815,
+    "lastUpdated": "2025-06-15T01:12:49Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 567
+    "openIssues": 566
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 25008,
-    "forks": 4604,
-    "lastUpdated": "2025-06-14T02:56:45Z",
+    "stars": 25010,
+    "forks": 4605,
+    "lastUpdated": "2025-06-14T21:38:05Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3162
+    "openIssues": 3163
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11434,
+    "stars": 11437,
     "forks": 3148,
-    "lastUpdated": "2025-06-14T02:39:57Z",
+    "lastUpdated": "2025-06-15T00:57:07Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4948
+    "openIssues": 4949
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -494,9 +494,9 @@
     "submissionDate": "2025-05-26",
     "name": "IfcOpenShell",
     "description": "Open source IFC library and geometry engine",
-    "stars": 2123,
-    "forks": 787,
-    "lastUpdated": "2025-06-13T16:15:31Z",
+    "stars": 2124,
+    "forks": 788,
+    "lastUpdated": "2025-06-14T19:18:42Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
@@ -760,7 +760,7 @@
     "name": "engine_web-ifc",
     "description": "Reading and writing IFC files with Javascript, at native speeds.",
     "stars": 735,
-    "forks": 218,
+    "forks": 219,
     "lastUpdated": "2025-06-13T08:43:44Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
