@@ -28,9 +28,9 @@
     ],
     "name": "Open3D",
     "description": "Open3D: A Modern Library for 3D Data Processing",
-    "stars": 12432,
+    "stars": 12437,
     "forks": 2429,
-    "lastUpdated": "2025-06-15T18:29:44Z",
+    "lastUpdated": "2025-06-16T23:39:00Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -55,7 +55,7 @@
       "tensorflow",
       "visualization"
     ],
-    "openIssues": 1280
+    "openIssues": 1281
   },
   {
     "url": "https://github.com/Open-Cascade-SAS/OCCT",
@@ -74,9 +74,9 @@
     ],
     "name": "OCCT",
     "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-    "stars": 1611,
-    "forks": 423,
-    "lastUpdated": "2025-06-16T01:42:07Z",
+    "stars": 1619,
+    "forks": 424,
+    "lastUpdated": "2025-06-16T19:20:08Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "topics": [
@@ -148,9 +148,9 @@
     "submissionDate": "2025-05-22",
     "name": "three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 106685,
-    "forks": 35815,
-    "lastUpdated": "2025-06-16T01:39:26Z",
+    "stars": 106699,
+    "forks": 35819,
+    "lastUpdated": "2025-06-17T01:18:46Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "topics": [
@@ -167,7 +167,7 @@
       "webgpu",
       "webxr"
     ],
-    "openIssues": 568
+    "openIssues": 566
   },
   {
     "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
@@ -262,9 +262,9 @@
     "submissionDate": "2025-05-23",
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    "stars": 25019,
-    "forks": 4606,
-    "lastUpdated": "2025-06-15T22:07:23Z",
+    "stars": 25029,
+    "forks": 4612,
+    "lastUpdated": "2025-06-17T00:52:12Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [
@@ -283,7 +283,7 @@
       "opencascade",
       "windows"
     ],
-    "openIssues": 3178
+    "openIssues": 3159
   },
   {
     "url": "https://github.com/IfcOpenShell/ifcopenshell-jupyter",
@@ -359,7 +359,7 @@
     "description": "The Speckle Server, Frontend, 3D Viewer, & other JS utilities.",
     "stars": 727,
     "forks": 205,
-    "lastUpdated": "2025-06-13T13:11:34Z",
+    "lastUpdated": "2025-06-16T11:51:13Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -389,7 +389,7 @@
     "description": "OpenFOAM Foundation development repository",
     "stars": 1746,
     "forks": 637,
-    "lastUpdated": "2025-06-15T19:09:27Z",
+    "lastUpdated": "2025-06-16T16:41:26Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -406,13 +406,13 @@
     "submissionDate": "2025-05-24",
     "name": "QGIS",
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-    "stars": 11440,
-    "forks": 3149,
-    "lastUpdated": "2025-06-15T22:56:03Z",
+    "stars": 11441,
+    "forks": 3150,
+    "lastUpdated": "2025-06-17T01:33:24Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "topics": [],
-    "openIssues": 4948
+    "openIssues": 4943
   },
   {
     "url": "https://github.com/mcneel/rhino3dm",
@@ -494,13 +494,13 @@
     "submissionDate": "2025-05-26",
     "name": "IfcOpenShell",
     "description": "Open source IFC library and geometry engine",
-    "stars": 2124,
+    "stars": 2125,
     "forks": 787,
-    "lastUpdated": "2025-06-14T19:18:42Z",
+    "lastUpdated": "2025-06-16T19:18:29Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "topics": [],
-    "openIssues": 1003
+    "openIssues": 1005
   },
   {
     "url": "https://github.com/xeokit/xeokit-sdk",
@@ -533,7 +533,7 @@
     "description": "3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision",
     "stars": 795,
     "forks": 308,
-    "lastUpdated": "2025-06-14T06:27:41Z",
+    "lastUpdated": "2025-06-16T11:59:05Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "topics": [
@@ -638,7 +638,7 @@
     "description": ":dragon: dragonfly core library",
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-06-14T00:52:05Z",
+    "lastUpdated": "2025-06-16T21:49:32Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "topics": [],
@@ -701,7 +701,7 @@
     "description": "OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance.",
     "stars": 543,
     "forks": 215,
-    "lastUpdated": "2025-06-13T13:55:15Z",
+    "lastUpdated": "2025-06-16T17:41:12Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
     "topics": [],
@@ -760,7 +760,7 @@
     "name": "engine_web-ifc",
     "description": "Reading and writing IFC files with Javascript, at native speeds.",
     "stars": 735,
-    "forks": 219,
+    "forks": 220,
     "lastUpdated": "2025-06-13T08:43:44Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
@@ -791,9 +791,9 @@
     ],
     "name": "IfcLCA",
     "description": "Opensource Life Cycle Assessment for Built Environment using Industry Foundation Classes",
-    "stars": 22,
+    "stars": 23,
     "forks": 3,
-    "lastUpdated": "2025-06-13T18:45:23Z",
+    "lastUpdated": "2025-06-16T06:53:28Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "topics": [
@@ -836,7 +836,7 @@
       "powerbi",
       "speckle"
     ],
-    "openIssues": 3
+    "openIssues": 1
   },
   {
     "url": "https://github.com/louistrue/ifc-flow",
@@ -872,9 +872,9 @@
     ],
     "name": "stepcode",
     "description": "STEPcode (formerly NIST's STEP Class Library) is used with IFC, STEP, and other standards that utilize the technologies of ISO10303 (STEP). It generates C++ and Python from EXPRESS (10303-11) schemas. The code is capable of reading and writing STEP Part 21 exchange files. It also utilizes Parts 22 and 23 (SDAI and its C++ binding).",
-    "stars": 463,
+    "stars": 464,
     "forks": 128,
-    "lastUpdated": "2025-05-24T11:23:53Z",
+    "lastUpdated": "2025-06-16T09:12:07Z",
     "license": "NOASSERTION",
     "submissionDate": "2025-06-12",
     "submitterUsername": "Ammar-Kasem",
@@ -896,9 +896,9 @@
     ],
     "name": "web-ifc-viewer",
     "description": "Graphics engine and toolkit for client applications.",
-    "stars": 968,
+    "stars": 969,
     "forks": 243,
-    "lastUpdated": "2025-06-10T02:36:45Z",
+    "lastUpdated": "2025-06-16T21:37:12Z",
     "license": "MIT",
     "submissionDate": "2025-06-14",
     "submitterUsername": "TheVessen",
