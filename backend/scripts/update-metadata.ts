@@ -66,7 +66,6 @@ async function getGitHubRepoData(url: string): Promise<GitHubRepoData | null> {
 
 async function updateProjectMetadata(): Promise<void> {
 	const filePath = path.join(process.cwd(), 'data', 'projects.json');
-	const updateTags = false;
 
 	try {
 		const rawData = await fs.readFile(filePath, 'utf8');
@@ -76,7 +75,7 @@ async function updateProjectMetadata(): Promise<void> {
 
 		const updatedProjects = await Promise.all(
 			projects.map(async (project) => {
-				// Initialize metadata array if it doesn't exist
+				// Initialize tags array if it doesn't exist
 				if (!project.tags) {
 					project.tags = [];
 				}
@@ -84,12 +83,22 @@ async function updateProjectMetadata(): Promise<void> {
 				if (project.url && project.url.includes('github.com')) {
 					const githubData = await getGitHubRepoData(project.url);
 					if (githubData) {
+						// PRESERVE existing tags BEFORE merging
+						const originalTags = project.tags || [];
+
 						const updatedProject = { ...project, ...githubData };
 
+						// Restore and combine tags properly
+						const githubTags = githubData.tags || [];
+						const allTags = [...originalTags, ...githubTags];
+						updatedProject.tags = [...new Set(allTags)];
+
+						// Preserve custom name
 						if (project.name && project.name !== project.url.split('/').pop()) {
 							updatedProject.name = project.name;
 						}
 
+						// Preserve custom description
 						if (
 							project.description &&
 							project.description !== 'No description provided' &&
@@ -98,21 +107,25 @@ async function updateProjectMetadata(): Promise<void> {
 							updatedProject.description = project.description;
 						}
 
-						const existingMetadata = updatedProject.tags || [];
-						const allMetadata = [...existingMetadata, ...githubData.tags];
-						updatedProject.tags = [...new Set(allMetadata)];
-
 						return updatedProject;
 					}
 				} else if (project.repository && project.repository.includes('github.com')) {
 					const githubData = await getGitHubRepoData(project.repository);
 
 					if (githubData) {
+						// PRESERVE existing tags BEFORE merging
+						const originalTags = project.tags || [];
+
 						const updatedProject = {
 							...project,
 							...githubData,
 							url: project.url || project.repository
 						};
+
+						// Restore and combine tags properly
+						const githubTags = githubData.tags || [];
+						const allTags = [...originalTags, ...githubTags];
+						updatedProject.tags = [...new Set(allTags)];
 
 						// Preserve manually entered values if they exist
 						if (project.name && project.name !== project.repository.split('/').pop()) {
@@ -127,16 +140,11 @@ async function updateProjectMetadata(): Promise<void> {
 							updatedProject.description = project.description;
 						}
 
-						// Combine and deduplicate all metadata
-						const existingMetadata = updatedProject.tags || [];
-						const allMetadata = [...existingMetadata, ...githubData.tags];
-						updatedProject.tags = [...new Set(allMetadata)];
-
 						return updatedProject;
 					}
 				}
 
-				// For projects without GitHub URLs, still deduplicate existing metadata
+				// For projects without GitHub URLs, still deduplicate existing tags
 				if (project.tags) {
 					project.tags = [...new Set(project.tags)];
 				}
