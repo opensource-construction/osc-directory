@@ -5,7 +5,7 @@ import {
 	validateRepository,
 	validateNoDuplicates,
 	validateRequiredFields,
-	validateMetadataTags
+	validateTags
 } from '@helpers/validation.ts';
 import { BaseProjectData } from '@shared/types/index.ts';
 
@@ -31,7 +31,7 @@ async function validateIssueProject() {
 		await validateNoDuplicates(projectData.url);
 
 		// Validate field formats
-		validateMetadataTags(projectData);
+		validateTags(projectData);
 
 		console.log('✅ Project validation passed!');
 	} catch (error) {

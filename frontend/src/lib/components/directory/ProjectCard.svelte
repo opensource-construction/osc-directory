@@ -5,7 +5,7 @@
 	let { project }: { project: Project } = $props();
 
 	// Limit metadata to max 4 items
-	const displayMetadata = project.metadata?.slice(0, 4) || [];
+	const displayMetadata = project.tags?.slice(0, 4) || [];
 </script>
 
 <div

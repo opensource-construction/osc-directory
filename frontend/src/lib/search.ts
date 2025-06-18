@@ -1,6 +1,4 @@
 import type { Project } from "$shared/types";
-import Fuse from "fuse.js";
-
 
 export const fuseOptions = {
   keys: [
@@ -22,7 +20,7 @@ export const fuseOptions = {
       weight: 0.1
     }
   ],
-  threshold: 0.4, // 0.0 = perfect match, 1.0 = match anything
+  threshold: 0.2, // 0.0 = perfect match, 1.0 = match anything
   distance: 100,
   minMatchCharLength: 2, // Don't match single characters
   includeScore: true,
@@ -36,7 +34,7 @@ export const filterConfig = [
     label: 'Tags',
     icon: 'mdi:tag',
     getValue: (project: Project) =>
-      project.metadata && Array.isArray(project.metadata) ? project.metadata : null
+      project.tags && Array.isArray(project.tags) ? project.tags : null
   },
   {
     key: 'mainLanguage',

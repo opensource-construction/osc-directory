@@ -138,19 +138,19 @@ export async function validateRepository(
 	}
 }
 
-export function validateMetadataTags(projectData: BaseProjectData) {
+export function validateTags(projectData: BaseProjectData) {
 	// Validate metadata tags
-	if (projectData.metadata && projectData.metadata.length > 0) {
-		if (projectData.metadata.length > 10) {
-			throw new Error('Too many metadata tags (maximum 10 allowed)');
+	if (projectData.tags && projectData.tags.length > 0) {
+		if (projectData.tags.length > 10) {
+			throw new Error('Too many tags (maximum 10 allowed)');
 		}
 
-		projectData.metadata.forEach((tag) => {
+		projectData.tags.forEach((tag) => {
 			if (tag.length > 30) {
-				throw new Error(`Metadata tag too long: ${tag}`);
+				throw new Error(`Tag too long: ${tag}`);
 			}
 			if (tag.trim() !== tag) {
-				throw new Error(`Metadata tag has leading/trailing spaces: "${tag}"`);
+				throw new Error(`Tag has leading/trailing spaces: "${tag}"`);
 			}
 		});
 	}
