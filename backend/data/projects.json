@@ -165,12 +165,12 @@
       "opencascade",
       "windows"
     ],
-    "stars": 25051,
+    "stars": 25052,
     "forks": 4613,
-    "lastUpdated": "2025-06-18T16:06:47Z",
+    "lastUpdated": "2025-06-18T18:30:35Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
-    "openIssues": 3154
+    "openIssues": 3155
   },
   {
     "name": "ifcopenshell-jupyter",
