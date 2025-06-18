@@ -12,7 +12,7 @@ interface GitHubRepoData {
 	lastUpdated: string;
 	mainLanguage: string | null;
 	license: string;
-	topics: string[];
+	tags: string[];
 	openIssues?: number;
 }
 
@@ -42,7 +42,7 @@ async function getGitHubRepoData(url: string): Promise<GitHubRepoData | null> {
 			lastUpdated: repoData.updated_at,
 			mainLanguage: repoData.language,
 			license: repoData.license?.spdx_id || 'Unknown',
-			topics: repoData.topics || [],
+			tags: repoData.topics || [],
 			openIssues: repoData.open_issues_count
 		};
 	} catch (error) {
@@ -58,7 +58,7 @@ async function getGitHubRepoData(url: string): Promise<GitHubRepoData | null> {
 			lastUpdated: new Date().toISOString(),
 			mainLanguage: null,
 			license: 'Unknown',
-			topics: [],
+			tags: [],
 			openIssues: 0
 		};
 	}
@@ -66,6 +66,7 @@ async function getGitHubRepoData(url: string): Promise<GitHubRepoData | null> {
 
 async function updateProjectMetadata(): Promise<void> {
 	const filePath = path.join(process.cwd(), 'data', 'projects.json');
+	const updateTags = false;
 
 	try {
 		const rawData = await fs.readFile(filePath, 'utf8');
@@ -76,8 +77,8 @@ async function updateProjectMetadata(): Promise<void> {
 		const updatedProjects = await Promise.all(
 			projects.map(async (project) => {
 				// Initialize metadata array if it doesn't exist
-				if (!project.metadata) {
-					project.metadata = [];
+				if (!project.tags) {
+					project.tags = [];
 				}
 
 				if (project.url && project.url.includes('github.com')) {
@@ -97,10 +98,9 @@ async function updateProjectMetadata(): Promise<void> {
 							updatedProject.description = project.description;
 						}
 
-						// Combine and deduplicate all metadata
-						const existingMetadata = updatedProject.metadata || [];
-						const allMetadata = [...existingMetadata, ...githubData.topics];
-						updatedProject.metadata = [...new Set(allMetadata)];
+						const existingMetadata = updatedProject.tags || [];
+						const allMetadata = [...existingMetadata, ...githubData.tags];
+						updatedProject.tags = [...new Set(allMetadata)];
 
 						return updatedProject;
 					}
@@ -128,17 +128,17 @@ async function updateProjectMetadata(): Promise<void> {
 						}
 
 						// Combine and deduplicate all metadata
-						const existingMetadata = updatedProject.metadata || [];
-						const allMetadata = [...existingMetadata, ...githubData.topics];
-						updatedProject.metadata = [...new Set(allMetadata)];
+						const existingMetadata = updatedProject.tags || [];
+						const allMetadata = [...existingMetadata, ...githubData.tags];
+						updatedProject.tags = [...new Set(allMetadata)];
 
 						return updatedProject;
 					}
 				}
 
 				// For projects without GitHub URLs, still deduplicate existing metadata
-				if (project.metadata) {
-					project.metadata = [...new Set(project.metadata)];
+				if (project.tags) {
+					project.tags = [...new Set(project.tags)];
 				}
 
 				return project;

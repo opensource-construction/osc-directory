@@ -2,7 +2,7 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { Octokit } from '@octokit/rest';
 import {
 	validateRepository,
-	validateMetadataTags,
+	validateTags,
 	validateRequiredFields,
 	validateNoDuplicates
 } from '@helpers/validation.ts';
@@ -76,22 +76,22 @@ describe('validateRepository', () => {
 });
 
 describe('validateFieldFormats', () => {
-	it('validates correct  metadata', () => {
+	it('validates correct  tags', () => {
 		const validProject = {
 			url: 'https://github.com/owner/repo',
-			metadata: ['tag1', 'tag2']
+			tags: ['tag1', 'tag2']
 		};
 
-		expect(() => validateMetadataTags(validProject)).not.toThrow();
+		expect(() => validateTags(validProject)).not.toThrow();
 	});
 
-	it('throws error for too many metadata tags', () => {
+	it('throws error for too many tags', () => {
 		const projectWithTooManyTags = {
 			url: 'https://github.com/owner/repo',
-			metadata: Array(11).fill('tag')
+			tags: Array(11).fill('tag')
 		};
 
-		expect(() => validateMetadataTags(projectWithTooManyTags)).toThrow('Too many metadata tags');
+		expect(() => validateTags(projectWithTooManyTags)).toThrow('Too many tags');
 	});
 });
 

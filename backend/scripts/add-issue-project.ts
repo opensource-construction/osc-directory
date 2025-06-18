@@ -36,7 +36,7 @@ async function addProjectFromIssue() {
 		// Create minimal project entry - update-metadata.ts will fetch the rest
 		const newProject: Project = {
 			url: projectData.url,
-			metadata: projectData.metadata || [],
+			tags: projectData.tags || [],
 			// These will be populated by update-metadata.ts
 			name: '',
 			description: '',

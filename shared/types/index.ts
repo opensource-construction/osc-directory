@@ -1,6 +1,6 @@
 export interface BaseProjectData {
   url: string;
-  metadata?: string[];
+  tags?: string[];
   submitterUsername?: string;
 }
 
@@ -15,5 +15,4 @@ export interface Project extends BaseProjectData {
   lastUpdated?: string;
   openIssues?: number;
   submissionDate?: string;
-  submitterUsername?: string;
 }

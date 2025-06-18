@@ -14,11 +14,11 @@ tag2
     const result = extractProjectDataFromIssue(issueBody);
     expect(result).toEqual({
       url: 'https://github.com/owner/repo',
-      metadata: ['tag1', 'tag2']
+      tags: ['tag1', 'tag2']
     });
   });
 
-  it('handles issue body with no metadata', () => {
+  it('handles issue body with no tags', () => {
     const issueBody = `
 ### Repository URL
 https://github.com/owner/repo

@@ -42,7 +42,7 @@ export function extractProjectDataFromIssue(body: string): BaseProjectData {
 	if (metadataMatch) {
 		const metadataText = metadataMatch[1].trim();
 		if (metadataText && metadataText !== '_No response_') {
-			data.metadata = metadataText
+			data.tags = metadataText
 				.split('\n')
 				.map((line) => line.trim())
 				.filter((line) => line.length > 0);
