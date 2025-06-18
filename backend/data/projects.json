@@ -566,5 +566,19 @@
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 56
+  },
+  {
+    "url": "https://github.com/potree/potree",
+    "tags": [],
+    "name": "potree",
+    "description": "WebGL point cloud viewer for large datasets",
+    "stars": 4970,
+    "forks": 1250,
+    "lastUpdated": "2025-06-18T07:32:51Z",
+    "license": "NOASSERTION",
+    "submissionDate": "2025-06-18",
+    "submitterUsername": "TheVessen",
+    "mainLanguage": "JavaScript",
+    "openIssues": 792
   }
 ]
