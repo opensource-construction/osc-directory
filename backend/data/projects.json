@@ -580,5 +580,23 @@
     "submitterUsername": "TheVessen",
     "mainLanguage": "JavaScript",
     "openIssues": 792
+  },
+  {
+    "url": "https://github.com/nickkt123/blenderbim-auto-materials",
+    "tags": [
+      "blender",
+      "materials",
+      "custom-tag"
+    ],
+    "name": "blenderbim-auto-materials",
+    "description": "No description provided",
+    "stars": 11,
+    "forks": 0,
+    "lastUpdated": "2025-05-16T08:09:28Z",
+    "license": "Unknown",
+    "submissionDate": "2025-06-18",
+    "submitterUsername": "TheVessen",
+    "mainLanguage": "Python",
+    "openIssues": 3
   }
 ]

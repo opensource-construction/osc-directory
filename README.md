@@ -52,4 +52,5 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [stepcode](https://github.com/stepcode/stepcode) | STEPcode (formerly NIST's STEP Class Library) is used with IFC, STEP, and other standards that utilize the technologies of ISO10303 (STEP). It generates C++ and Python from EXPRESS (10303-11) schemas. The code is capable of reading and writing STEP Part 21 exchange files. It also utilizes Parts 22 and 23 (SDAI and its C++ binding). | C | 464 | Jun 16, 2025 | NOASSERTION |
 | [web-ifc-viewer](https://github.com/ThatOpen/web-ifc-viewer) | Graphics engine and toolkit for client applications. | JavaScript | 969 | Jun 16, 2025 | MIT |
 | [potree](https://github.com/potree/potree) | WebGL point cloud viewer for large datasets | JavaScript | 4970 | Jun 18, 2025 | NOASSERTION |
+| [blenderbim-auto-materials](https://github.com/nickkt123/blenderbim-auto-materials) | No description provided | Python | 11 | May 16, 2025 | Unknown |
 
