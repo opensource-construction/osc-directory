@@ -92,9 +92,9 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106737,
-    "forks": 35823,
-    "lastUpdated": "2025-06-18T17:42:38Z",
+    "stars": 106742,
+    "forks": 35825,
+    "lastUpdated": "2025-06-19T01:48:36Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 567
@@ -140,7 +140,7 @@
     "tags": [],
     "stars": 208,
     "forks": 56,
-    "lastUpdated": "2025-06-07T14:24:52Z",
+    "lastUpdated": "2025-06-19T00:15:16Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 8
@@ -167,10 +167,10 @@
     ],
     "stars": 25052,
     "forks": 4613,
-    "lastUpdated": "2025-06-18T18:30:35Z",
+    "lastUpdated": "2025-06-18T22:03:55Z",
     "mainLanguage": "C++",
     "license": "NOASSERTION",
-    "openIssues": 3155
+    "openIssues": 3152
   },
   {
     "name": "ifcopenshell-jupyter",
@@ -228,7 +228,7 @@
     "lastUpdated": "2025-06-18T14:32:00Z",
     "mainLanguage": "TypeScript",
     "license": "NOASSERTION",
-    "openIssues": 107
+    "openIssues": 108
   },
   {
     "name": "OpenFOAM-dev",
@@ -247,12 +247,12 @@
     "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
     "url": "https://github.com/qgis/QGIS",
     "tags": [],
-    "stars": 11444,
+    "stars": 11446,
     "forks": 3149,
-    "lastUpdated": "2025-06-18T17:23:41Z",
+    "lastUpdated": "2025-06-18T22:37:47Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4947
+    "openIssues": 4943
   },
   {
     "name": "rhino3dm",
@@ -309,7 +309,7 @@
     "lastUpdated": "2025-06-18T14:14:25Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1011
+    "openIssues": 1012
   },
   {
     "name": "xeokit-sdk",
@@ -380,7 +380,7 @@
     "tags": [],
     "stars": 33,
     "forks": 19,
-    "lastUpdated": "2025-06-12T22:34:54Z",
+    "lastUpdated": "2025-06-19T00:41:19Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 20
@@ -392,7 +392,7 @@
     "tags": [],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-06-17T21:35:25Z",
+    "lastUpdated": "2025-06-19T01:32:55Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1
@@ -404,7 +404,7 @@
     "tags": [],
     "stars": 16,
     "forks": 11,
-    "lastUpdated": "2025-06-04T19:49:03Z",
+    "lastUpdated": "2025-06-19T00:41:21Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9
@@ -476,7 +476,7 @@
     ],
     "stars": 736,
     "forks": 220,
-    "lastUpdated": "2025-06-18T07:06:52Z",
+    "lastUpdated": "2025-06-18T19:31:27Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
     "openIssues": 70
@@ -572,13 +572,13 @@
     "tags": [],
     "name": "potree",
     "description": "WebGL point cloud viewer for large datasets",
-    "stars": 4970,
+    "stars": 4971,
     "forks": 1250,
-    "lastUpdated": "2025-06-18T07:32:51Z",
+    "lastUpdated": "2025-06-19T01:12:28Z",
     "license": "NOASSERTION",
     "submissionDate": "2025-06-18",
     "submitterUsername": "TheVessen",
     "mainLanguage": "JavaScript",
-    "openIssues": 792
+    "openIssues": 793
   }
 ]
