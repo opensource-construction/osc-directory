@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1622,
+    "stars": 1623,
     "forks": 425,
-    "lastUpdated": "2025-06-19T09:18:36Z",
+    "lastUpdated": "2025-06-20T01:22:37Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 84
@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106745,
+    "stars": 106760,
     "forks": 35826,
-    "lastUpdated": "2025-06-19T09:41:08Z",
+    "lastUpdated": "2025-06-20T01:41:54Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 570
+    "openIssues": 569
   },
   {
     "name": "voxelization_toolkit",
@@ -97,9 +97,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1627,
-    "forks": 624,
-    "lastUpdated": "2025-06-19T09:10:01Z",
+    "stars": 1628,
+    "forks": 625,
+    "lastUpdated": "2025-06-19T20:16:17Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 106
@@ -118,7 +118,7 @@
     ],
     "stars": 208,
     "forks": 56,
-    "lastUpdated": "2025-06-19T00:15:16Z",
+    "lastUpdated": "2025-06-19T23:48:00Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 8
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11450,
-    "forks": 3149,
-    "lastUpdated": "2025-06-19T09:43:18Z",
+    "stars": 11451,
+    "forks": 3150,
+    "lastUpdated": "2025-06-19T18:56:23Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4937
+    "openIssues": 4940
   },
   {
     "name": "rhino3dm",
@@ -207,10 +207,10 @@
     ],
     "stars": 2126,
     "forks": 789,
-    "lastUpdated": "2025-06-19T02:36:13Z",
+    "lastUpdated": "2025-06-19T19:41:08Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1011
+    "openIssues": 1013
   },
   {
     "name": "xeokit-sdk",
@@ -240,7 +240,7 @@
     ],
     "stars": 795,
     "forks": 308,
-    "lastUpdated": "2025-06-18T11:36:41Z",
+    "lastUpdated": "2025-06-19T18:05:20Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "openIssues": 155
@@ -286,7 +286,7 @@
     ],
     "stars": 33,
     "forks": 19,
-    "lastUpdated": "2025-06-19T00:41:19Z",
+    "lastUpdated": "2025-06-20T00:13:15Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 20
@@ -303,7 +303,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-06-19T01:32:55Z",
+    "lastUpdated": "2025-06-20T00:13:15Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1
@@ -320,7 +320,7 @@
     ],
     "stars": 16,
     "forks": 11,
-    "lastUpdated": "2025-06-19T00:41:21Z",
+    "lastUpdated": "2025-06-20T00:13:18Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9
@@ -388,12 +388,12 @@
       "wasm",
       "webassembly"
     ],
-    "stars": 736,
+    "stars": 737,
     "forks": 220,
-    "lastUpdated": "2025-06-19T09:52:11Z",
+    "lastUpdated": "2025-06-19T21:50:54Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 65
+    "openIssues": 70
   },
   {
     "name": "IfcLCA",
