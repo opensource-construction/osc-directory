@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1623,
-    "forks": 425,
-    "lastUpdated": "2025-06-20T01:22:37Z",
+    "stars": 1624,
+    "forks": 426,
+    "lastUpdated": "2025-06-20T10:16:05Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 84
@@ -34,9 +34,9 @@
       "rhino3d",
       "rpc"
     ],
-    "stars": 334,
+    "stars": 335,
     "forks": 112,
-    "lastUpdated": "2025-06-11T13:22:51Z",
+    "lastUpdated": "2025-06-20T15:01:25Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "openIssues": 108
@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106760,
-    "forks": 35826,
-    "lastUpdated": "2025-06-20T01:41:54Z",
+    "stars": 106777,
+    "forks": 35827,
+    "lastUpdated": "2025-06-21T00:43:22Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 569
+    "openIssues": 568
   },
   {
     "name": "voxelization_toolkit",
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11451,
-    "forks": 3150,
-    "lastUpdated": "2025-06-19T18:56:23Z",
+    "stars": 11455,
+    "forks": 3151,
+    "lastUpdated": "2025-06-20T22:49:41Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4940
+    "openIssues": 4941
   },
   {
     "name": "rhino3dm",
@@ -156,7 +156,7 @@
     ],
     "stars": 659,
     "forks": 142,
-    "lastUpdated": "2025-06-11T09:33:10Z",
+    "lastUpdated": "2025-06-21T00:23:51Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 24
@@ -205,12 +205,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2126,
+    "stars": 2127,
     "forks": 789,
-    "lastUpdated": "2025-06-19T19:41:08Z",
+    "lastUpdated": "2025-06-20T13:49:23Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1013
+    "openIssues": 1016
   },
   {
     "name": "xeokit-sdk",
@@ -240,7 +240,7 @@
     ],
     "stars": 795,
     "forks": 308,
-    "lastUpdated": "2025-06-19T18:05:20Z",
+    "lastUpdated": "2025-06-20T11:27:22Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "openIssues": 155
@@ -388,12 +388,12 @@
       "wasm",
       "webassembly"
     ],
-    "stars": 737,
-    "forks": 220,
-    "lastUpdated": "2025-06-19T21:50:54Z",
+    "stars": 738,
+    "forks": 221,
+    "lastUpdated": "2025-06-20T13:53:11Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 70
+    "openIssues": 67
   },
   {
     "name": "IfcLCA",
