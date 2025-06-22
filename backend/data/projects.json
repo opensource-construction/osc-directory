@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1624,
+    "stars": 1626,
     "forks": 426,
-    "lastUpdated": "2025-06-20T10:16:05Z",
+    "lastUpdated": "2025-06-22T01:19:13Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 84
@@ -35,7 +35,7 @@
       "rpc"
     ],
     "stars": 335,
-    "forks": 112,
+    "forks": 113,
     "lastUpdated": "2025-06-20T15:01:25Z",
     "mainLanguage": "Python",
     "license": "MIT",
@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106777,
-    "forks": 35827,
-    "lastUpdated": "2025-06-21T00:43:22Z",
+    "stars": 106794,
+    "forks": 35828,
+    "lastUpdated": "2025-06-22T00:10:48Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 568
+    "openIssues": 565
   },
   {
     "name": "voxelization_toolkit",
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11455,
+    "stars": 11456,
     "forks": 3151,
-    "lastUpdated": "2025-06-20T22:49:41Z",
+    "lastUpdated": "2025-06-21T09:56:39Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4941
+    "openIssues": 4945
   },
   {
     "name": "rhino3dm",
@@ -154,9 +154,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 659,
-    "forks": 142,
-    "lastUpdated": "2025-06-21T00:23:51Z",
+    "stars": 660,
+    "forks": 143,
+    "lastUpdated": "2025-06-21T11:16:36Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 24
@@ -207,10 +207,10 @@
     ],
     "stars": 2127,
     "forks": 789,
-    "lastUpdated": "2025-06-20T13:49:23Z",
+    "lastUpdated": "2025-06-21T15:14:24Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1016
+    "openIssues": 1017
   },
   {
     "name": "xeokit-sdk",
@@ -441,9 +441,9 @@
       "ifc",
       "threejs"
     ],
-    "stars": 969,
+    "stars": 970,
     "forks": 243,
-    "lastUpdated": "2025-06-16T21:37:12Z",
+    "lastUpdated": "2025-06-21T15:04:44Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 56
