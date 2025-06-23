@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1626,
+    "stars": 1627,
     "forks": 426,
-    "lastUpdated": "2025-06-22T01:19:13Z",
+    "lastUpdated": "2025-06-22T10:50:20Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 84
+    "openIssues": 86
   },
   {
     "name": "compas",
@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106794,
-    "forks": 35828,
-    "lastUpdated": "2025-06-22T00:10:48Z",
+    "stars": 106809,
+    "forks": 35830,
+    "lastUpdated": "2025-06-23T01:46:42Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 565
+    "openIssues": 564
   },
   {
     "name": "voxelization_toolkit",
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11456,
-    "forks": 3151,
-    "lastUpdated": "2025-06-21T09:56:39Z",
+    "stars": 11457,
+    "forks": 3152,
+    "lastUpdated": "2025-06-23T00:37:22Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4945
+    "openIssues": 4948
   },
   {
     "name": "rhino3dm",
@@ -156,7 +156,7 @@
     ],
     "stars": 660,
     "forks": 143,
-    "lastUpdated": "2025-06-21T11:16:36Z",
+    "lastUpdated": "2025-06-23T01:53:05Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 24
@@ -205,12 +205,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2127,
+    "stars": 2128,
     "forks": 789,
-    "lastUpdated": "2025-06-21T15:14:24Z",
+    "lastUpdated": "2025-06-22T12:10:00Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1017
+    "openIssues": 1015
   },
   {
     "name": "xeokit-sdk",
@@ -240,7 +240,7 @@
     ],
     "stars": 795,
     "forks": 308,
-    "lastUpdated": "2025-06-20T11:27:22Z",
+    "lastUpdated": "2025-06-22T09:27:18Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "openIssues": 155
@@ -389,7 +389,7 @@
       "webassembly"
     ],
     "stars": 738,
-    "forks": 221,
+    "forks": 220,
     "lastUpdated": "2025-06-20T13:53:11Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
@@ -423,9 +423,9 @@
       "visual-scripting",
       "web-ifc"
     ],
-    "stars": 19,
+    "stars": 21,
     "forks": 3,
-    "lastUpdated": "2025-06-15T11:32:20Z",
+    "lastUpdated": "2025-06-22T09:13:58Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "openIssues": 4
@@ -442,7 +442,7 @@
       "threejs"
     ],
     "stars": 970,
-    "forks": 243,
+    "forks": 242,
     "lastUpdated": "2025-06-21T15:04:44Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
