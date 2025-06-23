@@ -15,7 +15,7 @@
 					href={repoLink}
 					target="_blank"
 					rel="noopener noreferrer"
-					class="inline-flex items-center gap-2 px-4 py-2 bg-primary-500 text-white rounded-lg hover:bg-primary-600 transition-colors font-medium"
+					class="inline-flex items-center gap-2 px-4 py-2 bg-primary text-black rounded-lg hover:bg-primary-600 transition-colors font-medium"
 				>
 					<Icon icon="mdi:github" class="w-4 h-4" />
 					Contribute on GitHub
