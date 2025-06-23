@@ -47,21 +47,26 @@
 			{/if}
 		</div>
 
-		<div
-			class="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-6 text-xs sm:text-sm text-gray-500"
-		>
-			<span class="flex items-center gap-1.5">
-				<Icon icon="lets-icons:check-fill" class="w-4 h-4 text-green-500"></Icon>
-				Curated Projects
-			</span>
-			<span class="flex items-center gap-1.5">
-				<Icon icon="raphael:opensource" class="w-4 h-4 text-blue-500"></Icon>
-				Open Source
-			</span>
-			<span class="flex items-center gap-1.5">
-				<Icon icon="ri:building-fill" class="w-4 h-4 text-orange-500"></Icon>
-				AEC Industry
-			</span>
+		<div class="bg-gray-50 border border-gray-200 rounded-lg p-4 text-left text-sm text-gray-700">
+			<h2 class="text-lg font-semibold text-gray-900 mb-3">Rules for Publishing Projects</h2>
+			<ul class="space-y-2">
+				<li class="flex items-start gap-2">
+					<Icon icon="mdi:check-circle" class="w-5 h-5 text-green-500" />
+					Code published with an open source license
+				</li>
+				<li class="flex items-start gap-2">
+					<Icon icon="mdi:check-circle" class="w-5 h-5 text-green-500" />
+					Project is relevant to Architecture, Engineering, Construction or Operation
+				</li>
+				<li class="flex items-start gap-2">
+					<Icon icon="mdi:check-circle" class="w-5 h-5 text-green-500" />
+					Project has a public GitHub repository
+				</li>
+				<li class="flex items-start gap-2">
+					<Icon icon="mdi:check-circle" class="w-5 h-5 text-green-500" />
+					Repo includes a meaningful description
+				</li>
+			</ul>
 		</div>
 	</div>
 </header>
