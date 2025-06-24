@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1627,
+    "stars": 1628,
     "forks": 427,
-    "lastUpdated": "2025-06-22T10:50:20Z",
+    "lastUpdated": "2025-06-24T02:08:25Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 84
@@ -59,9 +59,9 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106823,
-    "forks": 35830,
-    "lastUpdated": "2025-06-24T01:05:53Z",
+    "stars": 106837,
+    "forks": 35828,
+    "lastUpdated": "2025-06-24T12:28:28Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 566
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11461,
+    "stars": 11460,
     "forks": 3153,
-    "lastUpdated": "2025-06-23T23:18:01Z",
+    "lastUpdated": "2025-06-24T12:26:10Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4950
+    "openIssues": 4938
   },
   {
     "name": "rhino3dm",
@@ -154,9 +154,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 660,
+    "stars": 661,
     "forks": 143,
-    "lastUpdated": "2025-06-23T16:02:31Z",
+    "lastUpdated": "2025-06-24T07:50:57Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 24
@@ -205,12 +205,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2132,
-    "forks": 789,
-    "lastUpdated": "2025-06-23T17:55:54Z",
+    "stars": 2133,
+    "forks": 790,
+    "lastUpdated": "2025-06-24T11:30:18Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1018
+    "openIssues": 1020
   },
   {
     "name": "xeokit-sdk",
@@ -393,7 +393,7 @@
     "lastUpdated": "2025-06-23T12:13:55Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 71
+    "openIssues": 72
   },
   {
     "name": "IfcLCA",
@@ -423,9 +423,9 @@
       "visual-scripting",
       "web-ifc"
     ],
-    "stars": 22,
+    "stars": 23,
     "forks": 3,
-    "lastUpdated": "2025-06-23T07:17:58Z",
+    "lastUpdated": "2025-06-24T12:22:36Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "openIssues": 4
@@ -442,10 +442,29 @@
       "threejs"
     ],
     "stars": 970,
-    "forks": 242,
+    "forks": 243,
     "lastUpdated": "2025-06-21T15:04:44Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 56
+  },
+  {
+    "url": "https://github.com/louistrue/ifc-classifier",
+    "tags": [
+      "ifc",
+      "ifcope",
+      "threejs",
+      "web-ifc"
+    ],
+    "name": "ifc-classifier",
+    "description": "No description provided",
+    "stars": 5,
+    "forks": 0,
+    "lastUpdated": "2025-06-22T05:33:39Z",
+    "license": "AGPL-3.0",
+    "submissionDate": "2025-06-24",
+    "submitterUsername": "louistrue",
+    "mainLanguage": "TypeScript",
+    "openIssues": 0
   }
 ]
