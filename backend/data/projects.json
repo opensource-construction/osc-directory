@@ -489,5 +489,30 @@
     "submitterUsername": "bastiannispel",
     "mainLanguage": "C#",
     "openIssues": 10
+  },
+  {
+    "url": "https://github.com/ara3d/ara3d-sdk",
+    "tags": [
+      "C#",
+      "libraries",
+      "geometry",
+      "mesh",
+      "numerics",
+      "3d",
+      "math",
+      "architecture",
+      "engineering",
+      "construction"
+    ],
+    "name": "ara3d-sdk",
+    "description": "📚 Various C# libraries for efficient data driven applications ",
+    "stars": 5,
+    "forks": 2,
+    "lastUpdated": "2025-06-23T16:56:16Z",
+    "license": "MIT",
+    "submissionDate": "2025-06-24",
+    "submitterUsername": "cdiggins",
+    "mainLanguage": "C#",
+    "openIssues": 1
   }
 ]
