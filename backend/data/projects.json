@@ -514,5 +514,31 @@
     "submitterUsername": "cdiggins",
     "mainLanguage": "C#",
     "openIssues": 1
+  },
+  {
+    "url": "https://github.com/ara3d/ara3d-webgl",
+    "tags": [
+      "JavaScript",
+      "WebGL",
+      "Three.JS",
+      "3D",
+      "Viewer",
+      "3d",
+      "aec",
+      "bim",
+      "model",
+      "viewer",
+      "webgl"
+    ],
+    "name": "ara3d-webgl",
+    "description": "A Three.JS based WebGL viewer for AEC data. ",
+    "stars": 22,
+    "forks": 3,
+    "lastUpdated": "2025-04-24T17:53:02Z",
+    "license": "MIT",
+    "submissionDate": "2025-06-24",
+    "submitterUsername": "cdiggins",
+    "mainLanguage": "TypeScript",
+    "openIssues": 0
   }
 ]
