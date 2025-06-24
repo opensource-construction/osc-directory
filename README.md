@@ -45,4 +45,5 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [ifc-classifier](https://github.com/louistrue/ifc-classifier) | No description provided | TypeScript | 5 | Jun 22, 2025 | AGPL-3.0 |
 | [D2P-Components](https://github.com/design-to-production/D2P-Components) | D2P Components streamline parametric modeling in Grasshopper, helping you manage complex data trees, reduce recomputations, and maintain a structured, scalable workflow from concept to fabrication. | C# | 13 | Jun 6, 2025 | MIT |
 | [ara3d-sdk](https://github.com/ara3d/ara3d-sdk) | 📚 Various C# libraries for efficient data driven applications  | C# | 5 | Jun 23, 2025 | MIT |
+| [ara3d-webgl](https://github.com/ara3d/ara3d-webgl) | A Three.JS based WebGL viewer for AEC data.  | TypeScript | 22 | Apr 24, 2025 | MIT |
 
