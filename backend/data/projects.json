@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106837,
-    "forks": 35828,
-    "lastUpdated": "2025-06-24T12:28:28Z",
+    "stars": 106839,
+    "forks": 35831,
+    "lastUpdated": "2025-06-24T14:45:30Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 566
+    "openIssues": 569
   },
   {
     "name": "voxelization_toolkit",
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11460,
+    "stars": 11461,
     "forks": 3153,
-    "lastUpdated": "2025-06-24T12:26:10Z",
+    "lastUpdated": "2025-06-24T13:07:37Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4938
+    "openIssues": 4941
   },
   {
     "name": "rhino3dm",
@@ -207,10 +207,10 @@
     ],
     "stars": 2133,
     "forks": 790,
-    "lastUpdated": "2025-06-24T11:30:18Z",
+    "lastUpdated": "2025-06-24T14:09:25Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1020
+    "openIssues": 1019
   },
   {
     "name": "xeokit-sdk",
@@ -388,9 +388,9 @@
       "wasm",
       "webassembly"
     ],
-    "stars": 739,
-    "forks": 220,
-    "lastUpdated": "2025-06-23T12:13:55Z",
+    "stars": 740,
+    "forks": 221,
+    "lastUpdated": "2025-06-24T16:43:15Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
     "openIssues": 72
@@ -466,5 +466,28 @@
     "submitterUsername": "louistrue",
     "mainLanguage": "TypeScript",
     "openIssues": 0
+  },
+  {
+    "url": "https://github.com/design-to-production/D2P-Components",
+    "tags": [
+      "architecture",
+      "construction",
+      "engineering",
+      "modelling-framework",
+      "bim",
+      "free-form-design",
+      "grasshopper3d",
+      "rhino3d"
+    ],
+    "name": "D2P-Components",
+    "description": "D2P Components streamline parametric modeling in Grasshopper, helping you manage complex data trees, reduce recomputations, and maintain a structured, scalable workflow from concept to fabrication.",
+    "stars": 13,
+    "forks": 1,
+    "lastUpdated": "2025-06-06T14:31:56Z",
+    "license": "MIT",
+    "submissionDate": "2025-06-24",
+    "submitterUsername": "bastiannispel",
+    "mainLanguage": "C#",
+    "openIssues": 10
   }
 ]
