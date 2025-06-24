@@ -540,5 +540,26 @@
     "submitterUsername": "cdiggins",
     "mainLanguage": "TypeScript",
     "openIssues": 0
+  },
+  {
+    "url": "https://github.com/daikon-eco/gladis",
+    "tags": [
+      "epd",
+      "lca",
+      "sustainability",
+      "data",
+      "environmental-impact",
+      "aec"
+    ],
+    "name": "gladis",
+    "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
+    "stars": 3,
+    "forks": 2,
+    "lastUpdated": "2025-06-24T16:58:59Z",
+    "license": "AGPL-3.0",
+    "submissionDate": "2025-06-24",
+    "submitterUsername": "aduverger",
+    "mainLanguage": "Python",
+    "openIssues": 27
   }
 ]
