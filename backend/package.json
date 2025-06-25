@@ -12,7 +12,9 @@
 		"test:watch": "vitest",
 		"format": "prettier --write .",
 		"lint": "eslint .",
-		"lint:fix": "eslint . --fix"
+		"lint:fix": "eslint . --fix",
+		"migrate": "tsx scripts/migration.ts",
+		"migrate:dry": "tsx scripts/migration.ts --dry-run"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.3.0",
