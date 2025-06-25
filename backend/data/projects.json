@@ -18,7 +18,7 @@
     "lastUpdated": "2025-06-24T02:08:25Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 84
+    "openIssues": 85
   },
   {
     "name": "compas",
@@ -59,9 +59,9 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106839,
-    "forks": 35831,
-    "lastUpdated": "2025-06-24T14:45:30Z",
+    "stars": 106841,
+    "forks": 35832,
+    "lastUpdated": "2025-06-24T22:22:50Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 569
@@ -97,9 +97,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1628,
+    "stars": 1630,
     "forks": 625,
-    "lastUpdated": "2025-06-19T20:16:17Z",
+    "lastUpdated": "2025-06-25T01:34:52Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 106
@@ -118,7 +118,7 @@
     ],
     "stars": 208,
     "forks": 56,
-    "lastUpdated": "2025-06-19T23:48:00Z",
+    "lastUpdated": "2025-06-24T21:24:16Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 8
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11461,
-    "forks": 3153,
-    "lastUpdated": "2025-06-24T13:07:37Z",
+    "stars": 11464,
+    "forks": 3154,
+    "lastUpdated": "2025-06-24T22:22:31Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4941
+    "openIssues": 4944
   },
   {
     "name": "rhino3dm",
@@ -207,10 +207,10 @@
     ],
     "stars": 2133,
     "forks": 790,
-    "lastUpdated": "2025-06-24T14:09:25Z",
+    "lastUpdated": "2025-06-24T21:17:32Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1019
+    "openIssues": 1017
   },
   {
     "name": "xeokit-sdk",
@@ -238,9 +238,9 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 795,
+    "stars": 796,
     "forks": 308,
-    "lastUpdated": "2025-06-22T09:27:18Z",
+    "lastUpdated": "2025-06-24T21:00:35Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "openIssues": 154
@@ -286,7 +286,7 @@
     ],
     "stars": 33,
     "forks": 19,
-    "lastUpdated": "2025-06-24T00:00:45Z",
+    "lastUpdated": "2025-06-24T21:50:21Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 20
@@ -303,7 +303,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-06-24T00:00:46Z",
+    "lastUpdated": "2025-06-24T21:50:20Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1
@@ -320,7 +320,7 @@
     ],
     "stars": 16,
     "forks": 11,
-    "lastUpdated": "2025-06-24T00:00:47Z",
+    "lastUpdated": "2025-06-24T21:50:20Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9
@@ -508,7 +508,7 @@
     "description": "📚 Various C# libraries for efficient data driven applications ",
     "stars": 5,
     "forks": 2,
-    "lastUpdated": "2025-06-23T16:56:16Z",
+    "lastUpdated": "2025-06-25T00:13:22Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
