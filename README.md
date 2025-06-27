@@ -21,19 +21,19 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 |---------|-------------|----------|-------|--------------|--------|
 | [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1630 | Jun 26, 2025 | LGPL-2.1 |
 | [compas](https://github.com/compas-dev/compas) | Main library of the COMPAS framework and CAD integrations for Rhino/GH and Blender. | Python | 335 | Jun 20, 2025 | MIT |
-| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 106858 | Jun 26, 2025 | MIT |
-| [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 81 | May 20, 2025 | MIT |
+| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 106869 | Jun 27, 2025 | MIT |
+| [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 82 | Jun 26, 2025 | MIT |
 | [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1630 | Jun 25, 2025 | AGPL-3.0 |
 | [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 208 | Jun 24, 2025 | AGPL-3.0 |
-| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 11472 | Jun 25, 2025 | GPL-2.0 |
-| [rhino3dm](https://github.com/mcneel/rhino3dm) | Libraries based on OpenNURBS with a RhinoCommon style | C# | 662 | Jun 25, 2025 | MIT |
-| [lcax](https://github.com/ocni-dtu/lcax) | LCAx is a open, verifiable, machine and human-readable LCA exchange format | Rust | 65 | May 15, 2025 | Apache-2.0 |
+| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 11475 | Jun 26, 2025 | GPL-2.0 |
+| [rhino3dm](https://github.com/mcneel/rhino3dm) | Libraries based on OpenNURBS with a RhinoCommon style | C# | 663 | Jun 26, 2025 | MIT |
+| [lcax](https://github.com/ocni-dtu/lcax) | LCAx is a open, verifiable, machine and human-readable LCA exchange format | Rust | 65 | Jun 26, 2025 | Apache-2.0 |
 | [calc](https://github.com/herzogdemeuron/calc) | Calc helps architects quickly estimate the environmental impact of their early design. | C# | 15 | May 28, 2025 | MIT |
 | [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2139 | Jun 26, 2025 | LGPL-3.0 |
-| [xeokit-sdk](https://github.com/xeokit/xeokit-sdk) | 3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision | JavaScript | 796 | Jun 24, 2025 | AGPL-3.0 |
+| [xeokit-sdk](https://github.com/xeokit/xeokit-sdk) | 3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision | JavaScript | 798 | Jun 26, 2025 | AGPL-3.0 |
 | [compas_wood](https://github.com/petrasvestartas/compas_wood) | Project for Timber Joint Generation. Documentation: | Python | 40 | Apr 26, 2025 | MIT |
 | [honeybee-energy](https://github.com/ladybug-tools/honeybee-energy) | 🐝 :fire: Honeybee extension for energy simulation | Python | 33 | Jun 24, 2025 | AGPL-3.0 |
-| [dragonfly-core](https://github.com/ladybug-tools/dragonfly-core) | :dragon: dragonfly core library | Python | 18 | Jun 24, 2025 | AGPL-3.0 |
+| [dragonfly-core](https://github.com/ladybug-tools/dragonfly-core) | :dragon: dragonfly core library | Python | 18 | Jun 27, 2025 | AGPL-3.0 |
 | [honeybee-radiance](https://github.com/ladybug-tools/honeybee-radiance) | 🐝 ⚡️ Radiance extension for Honeybee | Python | 16 | Jun 24, 2025 | AGPL-3.0 |
 | [geospiza](https://github.com/TheVessen/geospiza) | Geospiza is a project focusing on evolutionary design in grasshopper | C# | 5 | Feb 25, 2025 | MIT |
 | [BetterCorrectFast](https://github.com/boydhont/BetterCorrectFast) | Simplified BIM Collaboration Format (BCF) generation for project leaders and managers | Python | 12 | Feb 13, 2025 | MIT |
@@ -45,6 +45,6 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [ifc-classifier](https://github.com/louistrue/ifc-classifier) | No description provided | TypeScript | 5 | Jun 22, 2025 | AGPL-3.0 |
 | [D2P-Components](https://github.com/design-to-production/D2P-Components) | D2P Components streamline parametric modeling in Grasshopper, helping you manage complex data trees, reduce recomputations, and maintain a structured, scalable workflow from concept to fabrication. | C# | 13 | Jun 6, 2025 | MIT |
 | [ara3d-sdk](https://github.com/ara3d/ara3d-sdk) | 📚 Various C# libraries for efficient data driven applications  | C# | 5 | Jun 25, 2025 | MIT |
-| [ara3d-webgl](https://github.com/ara3d/ara3d-webgl) | A Three.JS based WebGL viewer for AEC data.  | TypeScript | 22 | Apr 24, 2025 | MIT |
+| [ara3d-webgl](https://github.com/ara3d/ara3d-webgl) | A Three.JS based WebGL viewer for AEC data.  | TypeScript | 23 | Jun 26, 2025 | MIT |
 | [gladis](https://github.com/daikon-eco/gladis) | A web app and search engine for Environmental Product Declarations (EPDs). | Python | 3 | Jun 24, 2025 | AGPL-3.0 |
 
