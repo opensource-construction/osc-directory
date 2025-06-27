@@ -18,7 +18,7 @@
     "lastUpdated": "2025-06-26T01:11:08Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 82
+    "openIssues": 81
   },
   {
     "name": "compas",
@@ -39,7 +39,7 @@
     "lastUpdated": "2025-06-20T15:01:25Z",
     "mainLanguage": "Python",
     "license": "MIT",
-    "openIssues": 108
+    "openIssues": 110
   },
   {
     "name": "three.js",
@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106858,
-    "forks": 35834,
-    "lastUpdated": "2025-06-26T00:01:24Z",
+    "stars": 106869,
+    "forks": 35835,
+    "lastUpdated": "2025-06-27T01:43:17Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 565
+    "openIssues": 566
   },
   {
     "name": "voxelization_toolkit",
@@ -75,9 +75,9 @@
       "ifc",
       "voxelization"
     ],
-    "stars": 81,
+    "stars": 82,
     "forks": 17,
-    "lastUpdated": "2025-05-20T10:08:16Z",
+    "lastUpdated": "2025-06-26T08:10:01Z",
     "mainLanguage": "C++",
     "license": "MIT",
     "openIssues": 9
@@ -102,7 +102,7 @@
     "lastUpdated": "2025-06-25T01:34:52Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
-    "openIssues": 106
+    "openIssues": 107
   },
   {
     "name": "ladybug",
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11472,
-    "forks": 3155,
-    "lastUpdated": "2025-06-25T23:49:54Z",
+    "stars": 11475,
+    "forks": 3156,
+    "lastUpdated": "2025-06-26T11:01:10Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4940
+    "openIssues": 4950
   },
   {
     "name": "rhino3dm",
@@ -154,12 +154,12 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 662,
+    "stars": 663,
     "forks": 143,
-    "lastUpdated": "2025-06-25T12:44:54Z",
+    "lastUpdated": "2025-06-26T10:55:08Z",
     "mainLanguage": "C#",
     "license": "MIT",
-    "openIssues": 24
+    "openIssues": 25
   },
   {
     "name": "lcax",
@@ -173,7 +173,7 @@
     ],
     "stars": 65,
     "forks": 4,
-    "lastUpdated": "2025-05-15T17:27:30Z",
+    "lastUpdated": "2025-06-26T14:59:42Z",
     "mainLanguage": "Rust",
     "license": "Apache-2.0",
     "openIssues": 15
@@ -207,10 +207,10 @@
     ],
     "stars": 2139,
     "forks": 791,
-    "lastUpdated": "2025-06-26T00:28:12Z",
+    "lastUpdated": "2025-06-26T21:58:10Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1017
+    "openIssues": 1014
   },
   {
     "name": "xeokit-sdk",
@@ -238,9 +238,9 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 796,
+    "stars": 798,
     "forks": 308,
-    "lastUpdated": "2025-06-24T21:00:35Z",
+    "lastUpdated": "2025-06-26T18:14:14Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "openIssues": 154
@@ -303,7 +303,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-06-24T21:50:20Z",
+    "lastUpdated": "2025-06-27T00:29:56Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1
@@ -393,7 +393,7 @@
     "lastUpdated": "2025-06-25T11:54:22Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 71
+    "openIssues": 72
   },
   {
     "name": "IfcLCA",
@@ -532,9 +532,9 @@
     ],
     "name": "ara3d-webgl",
     "description": "A Three.JS based WebGL viewer for AEC data. ",
-    "stars": 22,
+    "stars": 23,
     "forks": 3,
-    "lastUpdated": "2025-04-24T17:53:02Z",
+    "lastUpdated": "2025-06-26T14:18:24Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
