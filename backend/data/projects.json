@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1630,
+    "stars": 1631,
     "forks": 427,
-    "lastUpdated": "2025-06-26T01:11:08Z",
+    "lastUpdated": "2025-06-27T03:29:10Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 81
@@ -59,9 +59,9 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106869,
+    "stars": 106875,
     "forks": 35835,
-    "lastUpdated": "2025-06-27T01:43:17Z",
+    "lastUpdated": "2025-06-27T06:54:55Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 566
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11475,
+    "stars": 11477,
     "forks": 3156,
-    "lastUpdated": "2025-06-26T11:01:10Z",
+    "lastUpdated": "2025-06-27T06:15:18Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4950
+    "openIssues": 4949
   },
   {
     "name": "rhino3dm",
@@ -207,10 +207,10 @@
     ],
     "stars": 2139,
     "forks": 791,
-    "lastUpdated": "2025-06-26T21:58:10Z",
+    "lastUpdated": "2025-06-27T05:59:24Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1014
+    "openIssues": 1013
   },
   {
     "name": "xeokit-sdk",
@@ -238,9 +238,9 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 798,
+    "stars": 799,
     "forks": 308,
-    "lastUpdated": "2025-06-26T18:14:14Z",
+    "lastUpdated": "2025-06-27T06:38:22Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "openIssues": 154
@@ -390,10 +390,10 @@
     ],
     "stars": 741,
     "forks": 221,
-    "lastUpdated": "2025-06-25T11:54:22Z",
+    "lastUpdated": "2025-06-27T07:02:10Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 72
+    "openIssues": 68
   },
   {
     "name": "IfcLCA",
@@ -561,5 +561,28 @@
     "submitterUsername": "aduverger",
     "mainLanguage": "Python",
     "openIssues": 27
+  },
+  {
+    "url": "https://github.com/IliaShkola/honey-ifc",
+    "tags": [
+      "ifc",
+      "export",
+      "excel",
+      "bim",
+      "ifcopenshell",
+      "open-source",
+      "python",
+      "xlsx"
+    ],
+    "name": "honey-ifc",
+    "description": "Stylish desktop app for exploring and exporting IFC data — fast, fun, and frustration-free. ",
+    "stars": 4,
+    "forks": 0,
+    "lastUpdated": "2025-06-25T05:02:23Z",
+    "license": "GPL-3.0",
+    "submissionDate": "2025-06-27",
+    "submitterUsername": "IliaShkola",
+    "mainLanguage": "Python",
+    "openIssues": 0
   }
 ]
