@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1631,
+    "stars": 1632,
     "forks": 427,
-    "lastUpdated": "2025-06-27T03:29:10Z",
+    "lastUpdated": "2025-06-27T07:40:41Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 81
@@ -34,9 +34,9 @@
       "rhino3d",
       "rpc"
     ],
-    "stars": 335,
+    "stars": 336,
     "forks": 113,
-    "lastUpdated": "2025-06-20T15:01:25Z",
+    "lastUpdated": "2025-06-27T16:36:15Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "openIssues": 110
@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106875,
+    "stars": 106889,
     "forks": 35835,
-    "lastUpdated": "2025-06-27T06:54:55Z",
+    "lastUpdated": "2025-06-28T00:21:39Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 566
+    "openIssues": 564
   },
   {
     "name": "voxelization_toolkit",
@@ -97,12 +97,12 @@
       "java",
       "openbim"
     ],
-    "stars": 1630,
+    "stars": 1631,
     "forks": 625,
-    "lastUpdated": "2025-06-25T01:34:52Z",
+    "lastUpdated": "2025-06-27T21:50:49Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
-    "openIssues": 107
+    "openIssues": 105
   },
   {
     "name": "ladybug",
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11477,
+    "stars": 11480,
     "forks": 3156,
-    "lastUpdated": "2025-06-27T06:15:18Z",
+    "lastUpdated": "2025-06-27T14:38:09Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4949
+    "openIssues": 4957
   },
   {
     "name": "rhino3dm",
@@ -154,9 +154,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 663,
-    "forks": 143,
-    "lastUpdated": "2025-06-26T10:55:08Z",
+    "stars": 664,
+    "forks": 144,
+    "lastUpdated": "2025-06-27T11:37:34Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 25
@@ -206,11 +206,11 @@
       "ifcopenshell"
     ],
     "stars": 2139,
-    "forks": 791,
-    "lastUpdated": "2025-06-27T05:59:24Z",
+    "forks": 792,
+    "lastUpdated": "2025-06-27T14:48:16Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1013
+    "openIssues": 1010
   },
   {
     "name": "xeokit-sdk",
@@ -240,7 +240,7 @@
     ],
     "stars": 799,
     "forks": 308,
-    "lastUpdated": "2025-06-27T06:38:22Z",
+    "lastUpdated": "2025-06-27T14:05:07Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "openIssues": 154
@@ -390,10 +390,10 @@
     ],
     "stars": 741,
     "forks": 221,
-    "lastUpdated": "2025-06-27T07:02:10Z",
+    "lastUpdated": "2025-06-27T15:07:31Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 68
+    "openIssues": 67
   },
   {
     "name": "IfcLCA",
@@ -405,9 +405,9 @@
       "lca",
       "pyodide"
     ],
-    "stars": 23,
-    "forks": 3,
-    "lastUpdated": "2025-06-16T06:53:28Z",
+    "stars": 24,
+    "forks": 4,
+    "lastUpdated": "2025-06-27T11:30:04Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "openIssues": 13
