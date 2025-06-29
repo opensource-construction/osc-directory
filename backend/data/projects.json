@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1632,
+    "stars": 1633,
     "forks": 427,
-    "lastUpdated": "2025-06-27T07:40:41Z",
+    "lastUpdated": "2025-06-28T22:27:43Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 81
+    "openIssues": 80
   },
   {
     "name": "compas",
@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106889,
-    "forks": 35835,
-    "lastUpdated": "2025-06-28T00:21:39Z",
+    "stars": 106897,
+    "forks": 35833,
+    "lastUpdated": "2025-06-28T22:11:51Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 564
+    "openIssues": 565
   },
   {
     "name": "voxelization_toolkit",
@@ -98,11 +98,11 @@
       "openbim"
     ],
     "stars": 1631,
-    "forks": 625,
-    "lastUpdated": "2025-06-27T21:50:49Z",
+    "forks": 626,
+    "lastUpdated": "2025-06-28T09:44:59Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
-    "openIssues": 105
+    "openIssues": 102
   },
   {
     "name": "ladybug",
@@ -135,10 +135,10 @@
     ],
     "stars": 11480,
     "forks": 3156,
-    "lastUpdated": "2025-06-27T14:38:09Z",
+    "lastUpdated": "2025-06-28T21:00:27Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4957
+    "openIssues": 4956
   },
   {
     "name": "rhino3dm",
@@ -205,12 +205,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2139,
+    "stars": 2140,
     "forks": 792,
-    "lastUpdated": "2025-06-27T14:48:16Z",
+    "lastUpdated": "2025-06-28T20:00:32Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1010
+    "openIssues": 1007
   },
   {
     "name": "xeokit-sdk",
