@@ -6,6 +6,7 @@
 
 	// Limit metadata to max 4 items
 	const displayMetadata = project.tags?.slice(0, 4) || [];
+	let isExpanded = $state(false);
 </script>
 
 <div
@@ -43,7 +44,24 @@
 		</div>
 
 		<!-- Description -->
-		<p class="text-gray-600 mb-4 line-clamp-2 flex-grow">{project.description}</p>
+		<p
+			class="text-gray-600 mb-4 flex-grow"
+			class:is-expanded={isExpanded}
+			class:line-clamp-2={!isExpanded}
+		>
+			{project.description}
+		</p>
+		{#if project.description.length > 100}
+			<!-- Show toggle only for long descriptions -->
+			<div class="h-5 w-full flex justify-center items-center mb-4">
+				<button
+					class="text-primary-500 cursor-pointer text-sm hover:underline focus:outline-none"
+					onclick={() => (isExpanded = !isExpanded)}
+				>
+					{isExpanded ? 'Show less' : 'Show more'}
+				</button>
+			</div>
+		{/if}
 
 		<!-- Metadata tags -->
 		{#if displayMetadata.length > 0}
@@ -73,6 +91,13 @@
 				<div class="flex items-center">
 					<Icon icon="mdi:license" class="w-4 h-4 mr-1"></Icon>
 					<span>{project.license}</span>
+				</div>
+			{/if}
+
+			{#if project.forks}
+				<div class="flex items-center">
+					<Icon icon="mdi:source-fork" class="w-4 h-4 mr-1"></Icon>
+					<span>{project.forks}</span>
 				</div>
 			{/if}
 
