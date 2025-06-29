@@ -26,7 +26,7 @@ export function extractProjectDataFromIssue(body: string): BaseProjectData {
 
 	// Parse GitHub issue form format
 	const urlMatch = body.match(/### Repository URL\s*\n\s*(.+)/);
-	const metadataMatch = body.match(/### Additional Tags \(Optional\)\s*\n([\s\S]*?)(?=###|$)/);
+	const tagMatch = body.match(/### Additional Tags \(Optional\)\s*\n([\s\S]*?)(?=###|$)/);
 
 	if (urlMatch) {
 		const rawUrl = urlMatch[1].trim();
@@ -39,10 +39,10 @@ export function extractProjectDataFromIssue(body: string): BaseProjectData {
 		}
 	}
 
-	if (metadataMatch) {
-		const metadataText = metadataMatch[1].trim();
-		if (metadataText && metadataText !== '_No response_') {
-			data.tags = metadataText
+	if (tagMatch) {
+		const tagText = tagMatch[1].trim();
+		if (tagText && tagText !== '_No response_') {
+			data.tags = tagText
 				.split('\n')
 				.map((line) => line.trim())
 				.filter((line) => line.length > 0);

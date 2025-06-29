@@ -147,7 +147,7 @@
 				{#if Object.keys(metadataOptions).length > 0}
 					<button
 						onclick={toggleExpanded}
-						class="flex items-center gap-1 px-3 py-1.5 text-sm text-blue-600 hover:text-blue-800 underline"
+						class="flex items-center gap-1 px-3 py-1.5 text-sm text-primary-600 hover:text-primary-400 underline cursor-pointer"
 					>
 						Show all filters
 					</button>
