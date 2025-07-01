@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1634,
+    "stars": 1635,
     "forks": 428,
-    "lastUpdated": "2025-06-29T11:27:17Z",
+    "lastUpdated": "2025-06-30T05:27:49Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 81
+    "openIssues": 82
   },
   {
     "name": "compas",
@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 106911,
+    "stars": 106925,
     "forks": 35833,
-    "lastUpdated": "2025-06-30T01:49:41Z",
+    "lastUpdated": "2025-07-01T01:52:24Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 563
+    "openIssues": 566
   },
   {
     "name": "voxelization_toolkit",
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11482,
-    "forks": 3156,
-    "lastUpdated": "2025-06-29T23:10:39Z",
+    "stars": 11487,
+    "forks": 3157,
+    "lastUpdated": "2025-06-30T23:47:17Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4958
+    "openIssues": 4959
   },
   {
     "name": "rhino3dm",
@@ -190,7 +190,7 @@
     ],
     "stars": 15,
     "forks": 4,
-    "lastUpdated": "2025-05-28T08:17:13Z",
+    "lastUpdated": "2025-06-30T02:35:53Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 0
@@ -205,12 +205,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2143,
+    "stars": 2144,
     "forks": 793,
-    "lastUpdated": "2025-06-29T18:56:38Z",
+    "lastUpdated": "2025-06-30T22:51:08Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1009
+    "openIssues": 1010
   },
   {
     "name": "xeokit-sdk",
@@ -286,7 +286,7 @@
     ],
     "stars": 33,
     "forks": 19,
-    "lastUpdated": "2025-06-24T21:50:21Z",
+    "lastUpdated": "2025-06-30T19:36:52Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 20
@@ -303,7 +303,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-06-27T00:29:56Z",
+    "lastUpdated": "2025-06-30T19:36:52Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1
@@ -320,7 +320,7 @@
     ],
     "stars": 16,
     "forks": 11,
-    "lastUpdated": "2025-06-24T21:50:20Z",
+    "lastUpdated": "2025-06-30T19:36:55Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9
@@ -388,12 +388,12 @@
       "wasm",
       "webassembly"
     ],
-    "stars": 741,
+    "stars": 742,
     "forks": 222,
-    "lastUpdated": "2025-06-29T19:09:33Z",
+    "lastUpdated": "2025-06-30T09:04:47Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 67
+    "openIssues": 77
   },
   {
     "name": "IfcLCA",
@@ -441,9 +441,9 @@
       "ifc",
       "threejs"
     ],
-    "stars": 971,
-    "forks": 244,
-    "lastUpdated": "2025-06-29T04:38:42Z",
+    "stars": 972,
+    "forks": 243,
+    "lastUpdated": "2025-06-30T09:17:24Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 56
@@ -508,7 +508,7 @@
     "description": "📚 Various C# libraries for efficient data driven applications ",
     "stars": 6,
     "forks": 2,
-    "lastUpdated": "2025-06-29T15:59:14Z",
+    "lastUpdated": "2025-07-01T01:40:05Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
