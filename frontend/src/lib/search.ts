@@ -17,6 +17,14 @@ export const fuseOptions = {
       weight: 0.15
     },
     {
+      name: 'platforms',
+      weight: 0.12 // Higher weight - platforms are important for compatibility
+    },
+    {
+      name: 'frameworks',
+      weight: 0.08 // Medium weight - frameworks help with technology matching
+    },
+    {
       name: 'metadata',
       weight: 0.1
     }
