@@ -18,7 +18,9 @@
     "lastUpdated": "2025-07-02T14:10:33Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 82
+    "openIssues": 82,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": ["threejs"]
   },
   {
     "name": "compas",
@@ -39,7 +41,9 @@
     "lastUpdated": "2025-06-27T16:36:15Z",
     "mainLanguage": "Python",
     "license": "MIT",
-    "openIssues": 110
+    "openIssues": 110,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": ["react"]
   },
   {
     "name": "three.js",
@@ -64,7 +68,9 @@
     "lastUpdated": "2025-07-03T01:46:32Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 568
+    "openIssues": 568,
+    "platforms": ["web", "mobile"],
+    "frameworks": ["threejs"]
   },
   {
     "name": "voxelization_toolkit",
@@ -80,7 +86,9 @@
     "lastUpdated": "2025-06-26T08:10:01Z",
     "mainLanguage": "C++",
     "license": "MIT",
-    "openIssues": 9
+    "openIssues": 9,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": []
   },
   {
     "name": "BIMserver",
@@ -102,7 +110,9 @@
     "lastUpdated": "2025-07-01T14:21:27Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
-    "openIssues": 103
+    "openIssues": 103,
+    "platforms": ["windows", "linux", "macos", "web"],
+    "frameworks": ["spring"]
   },
   {
     "name": "ladybug",
@@ -121,7 +131,9 @@
     "lastUpdated": "2025-07-02T23:56:06Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
-    "openIssues": 8
+    "openIssues": 8,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": []
   },
   {
     "name": "QGIS",
@@ -138,7 +150,9 @@
     "lastUpdated": "2025-07-02T21:32:39Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4965
+    "openIssues": 4965,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": ["qt"]
   },
   {
     "name": "rhino3dm",
@@ -159,7 +173,9 @@
     "lastUpdated": "2025-06-29T04:19:17Z",
     "mainLanguage": "C#",
     "license": "MIT",
-    "openIssues": 25
+    "openIssues": 25,
+    "platforms": ["windows", "linux", "macos", "web"],
+    "frameworks": ["dotnet"]
   },
   {
     "name": "lcax",
@@ -176,7 +192,9 @@
     "lastUpdated": "2025-07-02T18:56:30Z",
     "mainLanguage": "Rust",
     "license": "Apache-2.0",
-    "openIssues": 15
+    "openIssues": 15,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": []
   },
   {
     "name": "calc",
@@ -193,7 +211,9 @@
     "lastUpdated": "2025-06-30T02:35:53Z",
     "mainLanguage": "C#",
     "license": "MIT",
-    "openIssues": 0
+    "openIssues": 0,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": ["dotnet"]
   },
   {
     "name": "IfcOpenShell",
@@ -210,7 +230,9 @@
     "lastUpdated": "2025-07-03T00:57:29Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1008
+    "openIssues": 1008,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": []
   },
   {
     "name": "xeokit-sdk",
@@ -243,7 +265,9 @@
     "lastUpdated": "2025-07-02T13:55:58Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
-    "openIssues": 155
+    "openIssues": 155,
+    "platforms": ["web"],
+    "frameworks": ["threejs"]
   },
   {
     "name": "compas_wood",
@@ -272,7 +296,9 @@
     "lastUpdated": "2025-04-26T08:37:52Z",
     "mainLanguage": "Python",
     "license": "MIT",
-    "openIssues": 7
+    "openIssues": 7,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": []
   },
   {
     "name": "honeybee-energy",
@@ -289,7 +315,9 @@
     "lastUpdated": "2025-07-03T00:22:11Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
-    "openIssues": 20
+    "openIssues": 20,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": []
   },
   {
     "name": "dragonfly-core",
@@ -306,7 +334,9 @@
     "lastUpdated": "2025-07-03T00:22:09Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
-    "openIssues": 1
+    "openIssues": 1,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": []
   },
   {
     "name": "honeybee-radiance",
@@ -323,7 +353,9 @@
     "lastUpdated": "2025-07-03T00:22:10Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
-    "openIssues": 9
+    "openIssues": 9,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": []
   },
   {
     "name": "geospiza",
@@ -340,7 +372,9 @@
     "lastUpdated": "2025-02-25T17:10:28Z",
     "mainLanguage": "C#",
     "license": "MIT",
-    "openIssues": 5
+    "openIssues": 5,
+    "platforms": ["windows"],
+    "frameworks": ["dotnet"]
   },
   {
     "name": "BetterCorrectFast",
@@ -357,7 +391,9 @@
     "lastUpdated": "2025-02-13T12:50:50Z",
     "mainLanguage": "Python",
     "license": "MIT",
-    "openIssues": 1
+    "openIssues": 1,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": []
   },
   {
     "name": "sPrint",
@@ -374,7 +410,9 @@
     "lastUpdated": "2024-12-19T15:23:17Z",
     "mainLanguage": "TypeScript",
     "license": "MIT",
-    "openIssues": 3
+    "openIssues": 3,
+    "platforms": ["web"],
+    "frameworks": []
   },
   {
     "name": "engine_web-ifc",
@@ -393,7 +431,9 @@
     "lastUpdated": "2025-07-02T23:23:02Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 79
+    "openIssues": 79,
+    "platforms": ["web", "nodejs"],
+    "frameworks": ["nodejs"]
   },
   {
     "name": "IfcLCA",
@@ -410,7 +450,9 @@
     "lastUpdated": "2025-06-27T11:30:04Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
-    "openIssues": 13
+    "openIssues": 13,
+    "platforms": ["web"],
+    "frameworks": []
   },
   {
     "name": "ifc-flow",
@@ -428,7 +470,9 @@
     "lastUpdated": "2025-06-29T23:03:55Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
-    "openIssues": 4
+    "openIssues": 4,
+    "platforms": ["web"],
+    "frameworks": ["threejs"]
   },
   {
     "name": "web-ifc-viewer",
@@ -446,7 +490,9 @@
     "lastUpdated": "2025-07-02T09:50:45Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 56
+    "openIssues": 56,
+    "platforms": ["web"],
+    "frameworks": ["threejs"]
   },
   {
     "url": "https://github.com/louistrue/ifc-classifier",
@@ -465,7 +511,9 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "louistrue",
     "mainLanguage": "TypeScript",
-    "openIssues": 0
+    "openIssues": 0,
+    "platforms": ["web"],
+    "frameworks": ["threejs"]
   },
   {
     "url": "https://github.com/design-to-production/D2P-Components",
@@ -488,7 +536,9 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "bastiannispel",
     "mainLanguage": "C#",
-    "openIssues": 10
+    "openIssues": 10,
+    "platforms": ["windows"],
+    "frameworks": ["dotnet"]
   },
   {
     "url": "https://github.com/ara3d/ara3d-sdk",
@@ -513,7 +563,9 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
     "mainLanguage": "C#",
-    "openIssues": 1
+    "openIssues": 1,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": ["dotnet"]
   },
   {
     "url": "https://github.com/ara3d/ara3d-webgl",
@@ -539,7 +591,9 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
     "mainLanguage": "TypeScript",
-    "openIssues": 0
+    "openIssues": 0,
+    "platforms": ["web"],
+    "frameworks": ["threejs"]
   },
   {
     "url": "https://github.com/daikon-eco/gladis",
@@ -560,7 +614,9 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
     "mainLanguage": "Python",
-    "openIssues": 27
+    "openIssues": 27,
+    "platforms": ["web"],
+    "frameworks": ["django"]
   },
   {
     "url": "https://github.com/IliaShkola/honey-ifc",
@@ -583,6 +639,8 @@
     "submissionDate": "2025-06-27",
     "submitterUsername": "IliaShkola",
     "mainLanguage": "Python",
-    "openIssues": 0
+    "openIssues": 0,
+    "platforms": ["windows", "linux", "macos"],
+    "frameworks": []
   }
 ]

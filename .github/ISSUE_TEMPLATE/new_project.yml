@@ -30,6 +30,50 @@ body:
         architecture
         construction
         engineering
+  
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: Supported Platforms
+      description: Which platforms does your project support? Select all that apply.
+      multiple: true
+      options:
+        - windows
+        - linux
+        - macos
+        - web
+        - mobile
+        - desktop
+        - cloud
+        - ios
+        - android
+  
+  - type: dropdown
+    id: frameworks
+    attributes:
+      label: Frameworks/Technologies Used
+      description: What frameworks or key technologies does your project use? Select all that apply.
+      multiple: true
+      options:
+        - react
+        - vue
+        - angular
+        - svelte
+        - threejs
+        - babylonjs
+        - unity
+        - unreal
+        - electron
+        - flutter
+        - dotnet
+        - nodejs
+        - django
+        - flask
+        - spring
+        - qt
+        - wpf
+        - winui
+        - xamarin
   - type: checkboxes
     id: project_requirements
     attributes:

@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { Octokit } from '@octokit/rest';
-import { Project } from '@shared/types/index.ts';
+import { Project } from '../../shared/types/index.js';
 
 // GitHub data interface
 interface GitHubRepoData {
@@ -10,7 +10,7 @@ interface GitHubRepoData {
 	stars: number;
 	forks: number;
 	lastUpdated: string;
-	mainLanguage: string | null;
+	mainLanguage: string | undefined;
 	license: string;
 	tags: string[];
 	openIssues?: number;
@@ -40,7 +40,7 @@ async function getGitHubRepoData(url: string): Promise<GitHubRepoData | null> {
 			stars: repoData.stargazers_count,
 			forks: repoData.forks_count,
 			lastUpdated: repoData.updated_at,
-			mainLanguage: repoData.language,
+			mainLanguage: repoData.language || undefined,
 			license: repoData.license?.spdx_id || 'Unknown',
 			tags: repoData.topics || [],
 			openIssues: repoData.open_issues_count
@@ -56,7 +56,7 @@ async function getGitHubRepoData(url: string): Promise<GitHubRepoData | null> {
 			stars: 0,
 			forks: 0,
 			lastUpdated: new Date().toISOString(),
-			mainLanguage: null,
+			mainLanguage: undefined,
 			license: 'Unknown',
 			tags: [],
 			openIssues: 0
@@ -86,7 +86,20 @@ async function updateProjectMetadata(): Promise<void> {
 						// PRESERVE existing tags BEFORE merging
 						const originalTags = project.tags || [];
 
-						const updatedProject = { ...project, ...githubData };
+						const updatedProject: Project = {
+							...project, // Preserve all existing project fields first
+							...githubData, // Override with GitHub data
+							// Explicitly preserve manual fields
+							platforms: project.platforms,
+							frameworks: project.frameworks,
+							submitterUsername: project.submitterUsername,
+							submissionDate: project.submissionDate,
+							// Preserve manually set licenses
+							...(project.licenseManual && {
+								license: project.license,
+								licenseManual: true
+							})
+						};
 
 						// Restore and combine tags properly
 						const githubTags = githubData.tags || [];
@@ -116,9 +129,19 @@ async function updateProjectMetadata(): Promise<void> {
 						// PRESERVE existing tags BEFORE merging
 						const originalTags = project.tags || [];
 
-						const updatedProject = {
-							...project,
-							...githubData,
+						const updatedProject: Project = {
+							...project, // Preserve all existing project fields first
+							...githubData, // Override with GitHub data
+							// Explicitly preserve manual fields
+							platforms: project.platforms,
+							frameworks: project.frameworks,
+							submitterUsername: project.submitterUsername,
+							submissionDate: project.submissionDate,
+							// Preserve manually set licenses
+							...(project.licenseManual && {
+								license: project.license,
+								licenseManual: true
+							}),
 							url: project.url || project.repository
 						};
 

@@ -1,4 +1,5 @@
-import { BaseProjectData } from '@shared/types/index.ts';
+import { BaseProjectData } from '../../shared/types/index.js';
+import type { PlatformTag, FrameworkTag } from '../../shared/types/index.js';
 
 /**
  * Cleans up a GitHub URL to extract just the base repository URL
@@ -27,6 +28,8 @@ export function extractProjectDataFromIssue(body: string): BaseProjectData {
 	// Parse GitHub issue form format
 	const urlMatch = body.match(/### Repository URL\s*\n\s*(.+)/);
 	const tagMatch = body.match(/### Additional Tags \(Optional\)\s*\n([\s\S]*?)(?=###|$)/);
+	const platformMatch = body.match(/### Compatible Platforms\s*\n([\s\S]*?)(?=###|$)/);
+	const frameworkMatch = body.match(/### Frameworks Used \(Optional\)\s*\n([\s\S]*?)(?=###|$)/);
 
 	if (urlMatch) {
 		const rawUrl = urlMatch[1].trim();
@@ -46,6 +49,28 @@ export function extractProjectDataFromIssue(body: string): BaseProjectData {
 				.split('\n')
 				.map((line) => line.trim())
 				.filter((line) => line.length > 0);
+		}
+	}
+
+	// Extract platforms
+	if (platformMatch) {
+		const platformText = platformMatch[1].trim();
+		if (platformText && platformText !== '_No response_') {
+			data.platforms = platformText
+				.split('\n')
+				.map((line) => line.trim())
+				.filter((line) => line.length > 0) as PlatformTag[];
+		}
+	}
+
+	// Extract frameworks
+	if (frameworkMatch) {
+		const frameworkText = frameworkMatch[1].trim();
+		if (frameworkText && frameworkText !== '_No response_') {
+			data.frameworks = frameworkText
+				.split('\n')
+				.map((line) => line.trim())
+				.filter((line) => line.length > 0) as FrameworkTag[];
 		}
 	}
 

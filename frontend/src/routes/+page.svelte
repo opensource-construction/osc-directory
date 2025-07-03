@@ -142,6 +142,7 @@
 				{selectedMetadataFilters}
 				{updateMetadataFilter}
 			/>
+			
 			<ProjectSorting projects={filteredProjects} onSortChange={handleSortChange} />
 
 			{#if Object.values(selectedMetadataFilters).some((v) => v.length > 0) || searchQuery.trim()}
