@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1638,
+    "stars": 1640,
     "forks": 430,
-    "lastUpdated": "2025-07-03T13:50:55Z",
+    "lastUpdated": "2025-07-03T21:59:25Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 82
@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107171,
+    "stars": 107252,
     "forks": 35857,
-    "lastUpdated": "2025-07-03T14:35:37Z",
+    "lastUpdated": "2025-07-04T01:46:10Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 568
+    "openIssues": 571
   },
   {
     "name": "voxelization_toolkit",
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11502,
+    "stars": 11503,
     "forks": 3157,
-    "lastUpdated": "2025-07-03T14:08:49Z",
+    "lastUpdated": "2025-07-03T20:40:18Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4960
+    "openIssues": 4964
   },
   {
     "name": "rhino3dm",
@@ -303,7 +303,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-07-03T00:22:09Z",
+    "lastUpdated": "2025-07-03T23:22:55Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1
@@ -390,7 +390,7 @@
     ],
     "stars": 744,
     "forks": 223,
-    "lastUpdated": "2025-07-02T23:23:02Z",
+    "lastUpdated": "2025-07-03T16:38:30Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
     "openIssues": 79
