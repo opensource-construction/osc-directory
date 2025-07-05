@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1640,
+    "stars": 1643,
     "forks": 430,
-    "lastUpdated": "2025-07-03T21:59:25Z",
+    "lastUpdated": "2025-07-05T01:29:32Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 82
@@ -34,9 +34,9 @@
       "rhino3d",
       "rpc"
     ],
-    "stars": 336,
+    "stars": 337,
     "forks": 113,
-    "lastUpdated": "2025-06-27T16:36:15Z",
+    "lastUpdated": "2025-07-04T17:13:58Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "openIssues": 110
@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107252,
-    "forks": 35857,
-    "lastUpdated": "2025-07-04T01:46:10Z",
+    "stars": 107337,
+    "forks": 35861,
+    "lastUpdated": "2025-07-05T00:50:51Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 571
+    "openIssues": 569
   },
   {
     "name": "voxelization_toolkit",
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11503,
-    "forks": 3157,
-    "lastUpdated": "2025-07-03T20:40:18Z",
+    "stars": 11511,
+    "forks": 3158,
+    "lastUpdated": "2025-07-04T21:10:04Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4964
+    "openIssues": 4970
   },
   {
     "name": "rhino3dm",
@@ -205,9 +205,9 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2147,
+    "stars": 2148,
     "forks": 793,
-    "lastUpdated": "2025-07-03T13:50:17Z",
+    "lastUpdated": "2025-07-04T14:48:52Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "openIssues": 1009
@@ -238,9 +238,9 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 801,
+    "stars": 802,
     "forks": 308,
-    "lastUpdated": "2025-07-02T13:55:58Z",
+    "lastUpdated": "2025-07-04T09:19:30Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "openIssues": 155
@@ -286,7 +286,7 @@
     ],
     "stars": 33,
     "forks": 19,
-    "lastUpdated": "2025-07-03T00:22:11Z",
+    "lastUpdated": "2025-07-04T22:46:10Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 20
@@ -303,7 +303,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-07-03T23:22:55Z",
+    "lastUpdated": "2025-07-04T22:46:09Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1
@@ -320,7 +320,7 @@
     ],
     "stars": 16,
     "forks": 11,
-    "lastUpdated": "2025-07-03T00:22:10Z",
+    "lastUpdated": "2025-07-04T22:46:13Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9
@@ -388,12 +388,12 @@
       "wasm",
       "webassembly"
     ],
-    "stars": 744,
+    "stars": 745,
     "forks": 223,
-    "lastUpdated": "2025-07-03T16:38:30Z",
+    "lastUpdated": "2025-07-04T22:29:14Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 79
+    "openIssues": 74
   },
   {
     "name": "IfcLCA",
