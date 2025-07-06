@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1643,
+    "stars": 1646,
     "forks": 430,
-    "lastUpdated": "2025-07-05T01:29:32Z",
+    "lastUpdated": "2025-07-06T00:59:35Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 82
@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107337,
-    "forks": 35861,
-    "lastUpdated": "2025-07-05T00:50:51Z",
+    "stars": 107396,
+    "forks": 35866,
+    "lastUpdated": "2025-07-06T01:47:52Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 569
+    "openIssues": 573
   },
   {
     "name": "voxelization_toolkit",
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11511,
+    "stars": 11512,
     "forks": 3158,
-    "lastUpdated": "2025-07-04T21:10:04Z",
+    "lastUpdated": "2025-07-05T16:20:39Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4970
+    "openIssues": 4967
   },
   {
     "name": "rhino3dm",
@@ -206,11 +206,11 @@
       "ifcopenshell"
     ],
     "stars": 2148,
-    "forks": 793,
-    "lastUpdated": "2025-07-04T14:48:52Z",
+    "forks": 794,
+    "lastUpdated": "2025-07-05T11:59:07Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1009
+    "openIssues": 1012
   },
   {
     "name": "xeokit-sdk",
@@ -423,9 +423,9 @@
       "visual-scripting",
       "web-ifc"
     ],
-    "stars": 26,
+    "stars": 27,
     "forks": 3,
-    "lastUpdated": "2025-06-29T23:03:55Z",
+    "lastUpdated": "2025-07-05T13:20:16Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "openIssues": 5
@@ -602,9 +602,9 @@
     ],
     "name": "bowerbird",
     "description": "Scripted C# Plug-in Framework for Revit",
-    "stars": 49,
+    "stars": 50,
     "forks": 6,
-    "lastUpdated": "2025-07-01T19:46:36Z",
+    "lastUpdated": "2025-07-05T23:07:40Z",
     "license": "MIT",
     "submissionDate": "2025-07-03",
     "submitterUsername": "cdiggins",
