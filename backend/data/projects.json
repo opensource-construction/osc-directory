@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1646,
-    "forks": 430,
-    "lastUpdated": "2025-07-06T00:59:35Z",
+    "stars": 1648,
+    "forks": 431,
+    "lastUpdated": "2025-07-06T19:25:17Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 82
+    "openIssues": 80
   },
   {
     "name": "compas",
@@ -59,12 +59,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107396,
-    "forks": 35866,
-    "lastUpdated": "2025-07-06T01:47:52Z",
+    "stars": 107444,
+    "forks": 35871,
+    "lastUpdated": "2025-07-07T01:12:51Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 573
+    "openIssues": 574
   },
   {
     "name": "voxelization_toolkit",
@@ -133,12 +133,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11512,
+    "stars": 11513,
     "forks": 3158,
-    "lastUpdated": "2025-07-05T16:20:39Z",
+    "lastUpdated": "2025-07-06T23:11:24Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4967
+    "openIssues": 4965
   },
   {
     "name": "rhino3dm",
@@ -156,7 +156,7 @@
     ],
     "stars": 666,
     "forks": 144,
-    "lastUpdated": "2025-07-03T03:13:59Z",
+    "lastUpdated": "2025-07-06T15:44:04Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 25
@@ -206,11 +206,11 @@
       "ifcopenshell"
     ],
     "stars": 2148,
-    "forks": 794,
-    "lastUpdated": "2025-07-05T11:59:07Z",
+    "forks": 793,
+    "lastUpdated": "2025-07-06T16:39:29Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1012
+    "openIssues": 1014
   },
   {
     "name": "xeokit-sdk",
@@ -389,11 +389,11 @@
       "webassembly"
     ],
     "stars": 745,
-    "forks": 223,
+    "forks": 224,
     "lastUpdated": "2025-07-04T22:29:14Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 74
+    "openIssues": 79
   },
   {
     "name": "IfcLCA",
@@ -441,9 +441,9 @@
       "ifc",
       "threejs"
     ],
-    "stars": 973,
+    "stars": 974,
     "forks": 243,
-    "lastUpdated": "2025-07-02T09:50:45Z",
+    "lastUpdated": "2025-07-06T10:01:30Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 56
