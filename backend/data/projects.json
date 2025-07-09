@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1636,
-    "forks": 431,
-    "lastUpdated": "2025-07-02T14:10:33Z",
+    "stars": 1652,
+    "forks": 432,
+    "lastUpdated": "2025-07-08T09:16:39Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 82,
+    "openIssues": 79
     "platforms": ["windows", "linux", "macos"],
     "frameworks": ["threejs"]
   },
@@ -36,9 +36,9 @@
       "rhino3d",
       "rpc"
     ],
-    "stars": 336,
+    "stars": 337,
     "forks": 113,
-    "lastUpdated": "2025-06-27T16:36:15Z",
+    "lastUpdated": "2025-07-04T17:13:58Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "openIssues": 110,
@@ -63,12 +63,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107073,
-    "forks": 35849,
-    "lastUpdated": "2025-07-03T01:46:32Z",
+    "stars": 107498,
+    "forks": 35878,
+    "lastUpdated": "2025-07-09T01:23:48Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 568,
+    "openIssues": 571
     "platforms": ["web", "mobile"],
     "frameworks": ["threejs"]
   },
@@ -105,9 +105,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1632,
+    "stars": 1633,
     "forks": 626,
-    "lastUpdated": "2025-07-01T14:21:27Z",
+    "lastUpdated": "2025-07-08T22:33:47Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 103,
@@ -145,12 +145,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11498,
-    "forks": 3158,
-    "lastUpdated": "2025-07-02T21:32:39Z",
+    "stars": 11523,
+    "forks": 3159,
+    "lastUpdated": "2025-07-08T22:46:08Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4965,
+    "openIssues": 4971
     "platforms": ["windows", "linux", "macos"],
     "frameworks": ["qt"]
   },
@@ -168,9 +168,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 665,
+    "stars": 667,
     "forks": 144,
-    "lastUpdated": "2025-06-29T04:19:17Z",
+    "lastUpdated": "2025-07-07T04:28:58Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 25,
@@ -225,12 +225,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2145,
+    "stars": 2147,
     "forks": 793,
-    "lastUpdated": "2025-07-03T00:57:29Z",
+    "lastUpdated": "2025-07-08T17:09:20Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1008,
+    "openIssues": 1016
     "platforms": ["windows", "linux", "macos"],
     "frameworks": []
   },
@@ -260,9 +260,9 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 801,
+    "stars": 802,
     "forks": 308,
-    "lastUpdated": "2025-07-02T13:55:58Z",
+    "lastUpdated": "2025-07-08T09:15:00Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "openIssues": 155,
@@ -312,7 +312,7 @@
     ],
     "stars": 33,
     "forks": 19,
-    "lastUpdated": "2025-07-03T00:22:11Z",
+    "lastUpdated": "2025-07-08T19:15:26Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 20,
@@ -331,7 +331,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-07-03T00:22:09Z",
+    "lastUpdated": "2025-07-04T22:46:09Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -350,7 +350,7 @@
     ],
     "stars": 16,
     "forks": 11,
-    "lastUpdated": "2025-07-03T00:22:10Z",
+    "lastUpdated": "2025-07-04T22:46:13Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9,
@@ -426,12 +426,12 @@
       "wasm",
       "webassembly"
     ],
-    "stars": 744,
-    "forks": 223,
-    "lastUpdated": "2025-07-02T23:23:02Z",
+    "stars": 746,
+    "forks": 224,
+    "lastUpdated": "2025-07-08T21:12:19Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 79,
+    "openIssues": 74
     "platforms": ["web"],
     "frameworks": ["nodejs"]
   },
@@ -465,12 +465,12 @@
       "visual-scripting",
       "web-ifc"
     ],
-    "stars": 26,
+    "stars": 29,
     "forks": 3,
-    "lastUpdated": "2025-06-29T23:03:55Z",
+    "lastUpdated": "2025-07-08T09:25:21Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
-    "openIssues": 4,
+    "openIssues": 5
     "platforms": ["web"],
     "frameworks": ["threejs"]
   },
@@ -485,9 +485,9 @@
       "ifc",
       "threejs"
     ],
-    "stars": 973,
+    "stars": 974,
     "forks": 243,
-    "lastUpdated": "2025-07-02T09:50:45Z",
+    "lastUpdated": "2025-07-06T10:01:30Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 56,
@@ -558,7 +558,7 @@
     "description": "📚 Various C# libraries for efficient data driven applications ",
     "stars": 7,
     "forks": 3,
-    "lastUpdated": "2025-07-02T18:33:42Z",
+    "lastUpdated": "2025-07-07T04:43:15Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
@@ -584,9 +584,9 @@
     ],
     "name": "ara3d-webgl",
     "description": "A Three.JS based WebGL viewer for AEC data. ",
-    "stars": 23,
+    "stars": 24,
     "forks": 4,
-    "lastUpdated": "2025-06-26T14:18:24Z",
+    "lastUpdated": "2025-07-07T12:18:58Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
@@ -614,7 +614,7 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
     "mainLanguage": "Python",
-    "openIssues": 27,
+    "openIssues": 32
     "platforms": ["web"],
     "frameworks": ["django"]
   },
@@ -639,8 +639,34 @@
     "submissionDate": "2025-06-27",
     "submitterUsername": "IliaShkola",
     "mainLanguage": "Python",
-    "openIssues": 0,
+    "openIssues": 0
     "platforms": ["windows", "linux", "macos"],
     "frameworks": []
+  },
+  {
+    "url": "https://github.com/ara3d/bowerbird",
+    "tags": [
+      "architecture",
+      "Revit",
+      "plug-ins",
+      "scripting",
+      "C#",
+      "rapid development",
+      "aec",
+      "bim",
+      "csharp",
+      "revit",
+      "scripting-engine"
+    ],
+    "name": "bowerbird",
+    "description": "Scripted C# Plug-in Framework for Revit",
+    "stars": 50,
+    "forks": 6,
+    "lastUpdated": "2025-07-05T23:07:40Z",
+    "license": "MIT",
+    "submissionDate": "2025-07-03",
+    "submitterUsername": "cdiggins",
+    "mainLanguage": "C#",
+    "openIssues": 1
   }
 ]
