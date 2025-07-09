@@ -18,7 +18,7 @@
     "lastUpdated": "2025-07-08T09:16:39Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 79
+    "openIssues": 79,
     "platforms": ["windows", "linux", "macos"],
     "frameworks": ["threejs"]
   },
