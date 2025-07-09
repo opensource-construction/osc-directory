@@ -432,7 +432,7 @@
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
     "openIssues": 79,
-    "platforms": ["web", "nodejs"],
+    "platforms": ["web"],
     "frameworks": ["nodejs"]
   },
   {

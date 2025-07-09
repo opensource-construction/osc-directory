@@ -64,6 +64,7 @@ export const filterConfig = [
     getValue: (project: Project) => 
       project.platforms && Array.isArray(project.platforms) ? project.platforms : null
   },
+  /*
   {
     key: 'frameworks',
     label: 'Frameworks',
@@ -71,5 +72,6 @@ export const filterConfig = [
     getValue: (project: Project) => 
       project.frameworks && Array.isArray(project.frameworks) ? project.frameworks : null
   }
+  */
 ];
 
