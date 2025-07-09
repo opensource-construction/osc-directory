@@ -13,7 +13,7 @@
 		searchQuery = $bindable(),
 		onSearchChange,
 		onClearSearch,
-		placeholder = 'Search by name, description, language, or tags...',
+		placeholder = 'Search by name, description, language, tags, platforms, or frameworks...',
 		showTips = true,
 		resultCount,
 		totalCount
