@@ -28,8 +28,8 @@ export function extractProjectDataFromIssue(body: string): BaseProjectData {
 	// Parse GitHub issue form format
 	const urlMatch = body.match(/### Repository URL\s*\n\s*(.+)/);
 	const tagMatch = body.match(/### Additional Tags \(Optional\)\s*\n([\s\S]*?)(?=###|$)/);
-	const platformMatch = body.match(/### Compatible Platforms\s*\n([\s\S]*?)(?=###|$)/);
-	const frameworkMatch = body.match(/### Frameworks Used \(Optional\)\s*\n([\s\S]*?)(?=###|$)/);
+	const platformMatch = body.match(/### Supported Platforms\s*\n([\s\S]*?)(?=###|$)/);
+	const frameworkMatch = body.match(/### Frameworks\/Technologies Used\s*\n([\s\S]*?)(?=###|$)/);
 
 	if (urlMatch) {
 		const rawUrl = urlMatch[1].trim();
