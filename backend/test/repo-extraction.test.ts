@@ -61,4 +61,49 @@ tag2
     `;
     expect(() => extractProjectDataFromIssue(issueBody)).toThrow('Repository URL is required');
   });
+
+  it('extracts platforms and frameworks from issue body', () => {
+    const issueBody = `
+### Repository URL
+https://github.com/owner/repo
+
+### Additional Tags (Optional)
+tag1
+tag2
+
+### Supported Platforms
+windows
+linux
+web
+
+### Frameworks/Technologies Used
+react
+threejs
+electron
+    `;
+    const result = extractProjectDataFromIssue(issueBody);
+    expect(result).toEqual({
+      url: 'https://github.com/owner/repo',
+      tags: ['tag1', 'tag2'],
+      platforms: ['windows', 'linux', 'web'],
+      frameworks: ['react', 'threejs', 'electron']
+    });
+  });
+
+  it('handles empty platforms and frameworks', () => {
+    const issueBody = `
+### Repository URL
+https://github.com/owner/repo
+
+### Supported Platforms
+_No response_
+
+### Frameworks/Technologies Used
+_No response_
+    `;
+    const result = extractProjectDataFromIssue(issueBody);
+    expect(result).toEqual({
+      url: 'https://github.com/owner/repo'
+    });
+  });
 });
