@@ -1,801 +1,804 @@
 [
-    {
-        "name": "OCCT",
-        "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
-        "url": "https://github.com/Open-Cascade-SAS/OCCT",
-        "tags": [
-            "3d",
-            "3d-cad",
-            "cad",
-            "cae",
-            "cam",
-            "occt",
-            "occt3d",
-            "opencascade"
-        ],
-        "stars": 1652,
-        "forks": 432,
-        "lastUpdated": "2025-07-08T09:16:39Z",
-        "mainLanguage": "C++",
-        "license": "LGPL-2.1",
-        "openIssues": 79,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": [
-            "threejs"
-        ]
-    },
-    {
-        "name": "compas",
-        "description": "Main library of the COMPAS framework and CAD integrations for Rhino/GH and Blender.",
-        "url": "https://github.com/compas-dev/compas",
-        "tags": [
-            "aec",
-            "blender3d",
-            "data",
-            "datastructures",
-            "geometry",
-            "grasshopper3d",
-            "rhino3d",
-            "rpc"
-        ],
-        "stars": 337,
-        "forks": 113,
-        "lastUpdated": "2025-07-04T17:13:58Z",
-        "mainLanguage": "Python",
-        "license": "MIT",
-        "openIssues": 110,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": [
-            "react"
-        ]
-    },
-    {
-        "name": "three.js",
-        "description": "JavaScript 3D Library.",
-        "url": "https://github.com/mrdoob/three.js",
-        "tags": [
-            "3d",
-            "augmented-reality",
-            "canvas",
-            "html5",
-            "javascript",
-            "svg",
-            "virtual-reality",
-            "webaudio",
-            "webgl",
-            "webgl2",
-            "webgpu",
-            "webxr"
-        ],
-        "stars": 107498,
-        "forks": 35878,
-        "lastUpdated": "2025-07-09T01:23:48Z",
-        "mainLanguage": "JavaScript",
-        "license": "MIT",
-        "openIssues": 571,
-        "platforms": [
-            "web",
-            "mobile"
-        ],
-        "frameworks": [
-            "threejs"
-        ]
-    },
-    {
-        "name": "voxelization_toolkit",
-        "description": "Voxelization Toolkit for (IFC) Building Models",
-        "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
-        "tags": [
-            "bim",
-            "ifc",
-            "voxelization"
-        ],
-        "stars": 82,
-        "forks": 17,
-        "lastUpdated": "2025-06-26T08:10:01Z",
-        "mainLanguage": "C++",
-        "license": "MIT",
-        "openIssues": 9,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": []
-    },
-    {
-        "name": "BIMserver",
-        "description": "The open source BIMserver platform",
-        "url": "https://github.com/opensourceBIM/BIMserver",
-        "tags": [
-            "bim",
-            "bim-applications",
-            "bim-bots",
-            "bim-server",
-            "bimserver",
-            "buildingsmart",
-            "ifc",
-            "java",
-            "openbim"
-        ],
-        "stars": 1633,
-        "forks": 626,
-        "lastUpdated": "2025-07-08T22:33:47Z",
-        "mainLanguage": "Java",
-        "license": "AGPL-3.0",
-        "openIssues": 103,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos",
-            "web"
-        ],
-        "frameworks": [
-            "spring"
-        ]
-    },
-    {
-        "name": "ladybug",
-        "description": "🐞 Core ladybug library for weather data analysis and visualization",
-        "url": "https://github.com/ladybug-tools/ladybug",
-        "tags": [
-            "analysis",
-            "climate",
-            "climate-data",
-            "environmental-design",
-            "ladybug",
-            "weather"
-        ],
-        "stars": 208,
-        "forks": 55,
-        "lastUpdated": "2025-07-02T23:56:06Z",
-        "mainLanguage": "Python",
-        "license": "AGPL-3.0",
-        "openIssues": 8,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": []
-    },
-    {
-        "name": "QGIS",
-        "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
-        "url": "https://github.com/qgis/QGIS",
-        "tags": [
-            "gis",
-            "geospatial",
-            "qgis",
-            "spatial-data"
-        ],
-        "stars": 11523,
-        "forks": 3159,
-        "lastUpdated": "2025-07-08T22:46:08Z",
-        "mainLanguage": "C++",
-        "license": "GPL-2.0",
-        "openIssues": 4971,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": [
-            "qt"
-        ]
-    },
-    {
-        "name": "rhino3dm",
-        "description": "Libraries based on OpenNURBS with a RhinoCommon style",
-        "url": "https://github.com/mcneel/rhino3dm",
-        "tags": [
-            "hacktoberfest",
-            "javascript-library",
-            "opennurbs",
-            "python",
-            "python3",
-            "rhino3d",
-            "rhinocommon",
-            "wasm"
-        ],
-        "stars": 667,
-        "forks": 144,
-        "lastUpdated": "2025-07-07T04:28:58Z",
-        "mainLanguage": "C#",
-        "license": "MIT",
-        "openIssues": 25,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos",
-            "web"
-        ],
-        "frameworks": [
-            "dotnet"
-        ]
-    },
-    {
-        "name": "lcax",
-        "description": "LCAx is a open, verifiable, machine and human-readable LCA exchange format",
-        "url": "https://github.com/ocni-dtu/lcax",
-        "tags": [
-            "lca",
-            "lifecycle-assessment",
-            "sustainability",
-            "environmental-impact"
-        ],
-        "stars": 66,
-        "forks": 4,
-        "lastUpdated": "2025-07-02T18:56:30Z",
-        "mainLanguage": "Rust",
-        "license": "Apache-2.0",
-        "openIssues": 15,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": []
-    },
-    {
-        "name": "calc",
-        "description": "Calc helps architects quickly estimate the environmental impact of their early design.",
-        "url": "https://github.com/herzogdemeuron/calc",
-        "tags": [
-            "lca",
-            "environmental-impact",
-            "architecture",
-            "sustainability"
-        ],
-        "stars": 15,
-        "forks": 4,
-        "lastUpdated": "2025-06-30T02:35:53Z",
-        "mainLanguage": "C#",
-        "license": "MIT",
-        "openIssues": 0,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": [
-            "dotnet"
-        ]
-    },
-    {
-        "name": "IfcOpenShell",
-        "description": "Open source IFC library and geometry engine",
-        "url": "https://github.com/ifcopenshell/ifcopenshell",
-        "tags": [
-            "ifc",
-            "bim",
-            "geometry",
-            "ifcopenshell"
-        ],
-        "stars": 2147,
-        "forks": 793,
-        "lastUpdated": "2025-07-08T17:09:20Z",
-        "mainLanguage": "C++",
-        "license": "LGPL-3.0",
-        "openIssues": 1016,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": []
-    },
-    {
-        "name": "xeokit-sdk",
-        "description": "3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision",
-        "url": "https://github.com/xeokit/xeokit-sdk",
-        "tags": [
-            "3d-tiles",
-            "3d-viewers",
-            "bim",
-            "bim-viewer",
-            "buildingsmart",
-            "geometry",
-            "geospatial",
-            "gis",
-            "ifc",
-            "ifc-viewer",
-            "javascript-viewer",
-            "las-viewer",
-            "laz-viewer",
-            "online-viewer",
-            "point-cloud",
-            "point-cloud-viewer",
-            "viewer-sdk",
-            "web-viewer",
-            "webgl",
-            "webgl-viewer"
-        ],
-        "stars": 802,
-        "forks": 308,
-        "lastUpdated": "2025-07-08T09:15:00Z",
-        "mainLanguage": "JavaScript",
-        "license": "AGPL-3.0",
-        "openIssues": 155,
-        "platforms": [
-            "web"
-        ],
-        "frameworks": [
-            "threejs"
-        ]
-    },
-    {
-        "name": "compas_wood",
-        "description": "Project for Timber Joint Generation. Documentation:",
-        "url": "https://github.com/petrasvestartas/compas_wood",
-        "tags": [
-            "cgal",
-            "cnc",
-            "compas",
-            "connections",
-            "connector",
-            "cpp",
-            "integral-mechanical-attachment",
-            "joinery",
-            "python",
-            "robot",
-            "structures",
-            "timber",
-            "timber-structures",
-            "wood",
-            "woodwork",
-            "woodworking"
-        ],
-        "stars": 40,
-        "forks": 2,
-        "lastUpdated": "2025-04-26T08:37:52Z",
-        "mainLanguage": "Python",
-        "license": "MIT",
-        "openIssues": 7,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": []
-    },
-    {
-        "name": "honeybee-energy",
-        "description": "🐝 :fire: Honeybee extension for energy simulation",
-        "url": "https://github.com/ladybug-tools/honeybee-energy",
-        "tags": [
-            "energy-simulation",
-            "building-performance",
-            "energyplus",
-            "honeybee"
-        ],
-        "stars": 33,
-        "forks": 19,
-        "lastUpdated": "2025-07-08T19:15:26Z",
-        "mainLanguage": "Python",
-        "license": "AGPL-3.0",
-        "openIssues": 20,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": []
-    },
-    {
-        "name": "dragonfly-core",
-        "description": ":dragon: dragonfly core library",
-        "url": "https://github.com/ladybug-tools/dragonfly-core",
-        "tags": [
-            "urban-modeling",
-            "building-simulation",
-            "dragonfly",
-            "ladybug-tools"
-        ],
-        "stars": 18,
-        "forks": 12,
-        "lastUpdated": "2025-07-04T22:46:09Z",
-        "mainLanguage": "Python",
-        "license": "AGPL-3.0",
-        "openIssues": 1,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": []
-    },
-    {
-        "name": "honeybee-radiance",
-        "description": "🐝 ⚡️ Radiance extension for Honeybee",
-        "url": "https://github.com/ladybug-tools/honeybee-radiance",
-        "tags": [
-            "daylight-simulation",
-            "radiance",
-            "lighting-analysis",
-            "honeybee"
-        ],
-        "stars": 16,
-        "forks": 11,
-        "lastUpdated": "2025-07-04T22:46:13Z",
-        "mainLanguage": "Python",
-        "license": "AGPL-3.0",
-        "openIssues": 9,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": []
-    },
-    {
-        "name": "geospiza",
-        "description": "Geospiza is a project focusing on evolutionary design in grasshopper",
-        "url": "https://github.com/TheVessen/geospiza",
-        "tags": [
-            "computational-design",
-            "evolutionary-algorithms",
-            "grasshopper",
-            "rhino"
-        ],
-        "stars": 5,
-        "forks": 0,
-        "lastUpdated": "2025-02-25T17:10:28Z",
-        "mainLanguage": "C#",
-        "license": "MIT",
-        "openIssues": 5,
-        "platforms": [
-            "windows"
-        ],
-        "frameworks": [
-            "dotnet"
-        ]
-    },
-    {
-        "name": "BetterCorrectFast",
-        "description": "Simplified BIM Collaboration Format (BCF) generation for project leaders and managers",
-        "url": "https://github.com/boydhont/BetterCorrectFast",
-        "tags": [
-            "bim",
-            "bcf",
-            "collaboration",
-            "project-management"
-        ],
-        "stars": 12,
-        "forks": 0,
-        "lastUpdated": "2025-02-13T12:50:50Z",
-        "mainLanguage": "Python",
-        "license": "MIT",
-        "openIssues": 1,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": []
-    },
-    {
-        "name": "sPrint",
-        "description": "A Chrome extension that allows batch-print PDFs from BIM360 and ACC platforms.",
-        "url": "https://github.com/PerkinsAndWill-IO/sPrint",
-        "tags": [
-            "chrome-extension",
-            "bim360",
-            "acc",
-            "pdf-printing"
-        ],
-        "stars": 31,
-        "forks": 5,
-        "lastUpdated": "2024-12-19T15:23:17Z",
-        "mainLanguage": "TypeScript",
-        "license": "MIT",
-        "openIssues": 3,
-        "platforms": [
-            "web"
-        ],
-        "frameworks": []
-    },
-    {
-        "name": "engine_web-ifc",
-        "description": "Reading and writing IFC files with Javascript, at native speeds.",
-        "url": "https://github.com/ThatOpen/engine_web-ifc",
-        "tags": [
-            "cpp",
-            "emscripten",
-            "ifc",
-            "javascript",
-            "wasm",
-            "webassembly"
-        ],
-        "stars": 746,
-        "forks": 224,
-        "lastUpdated": "2025-07-08T21:12:19Z",
-        "mainLanguage": "TypeScript",
-        "license": "MPL-2.0",
-        "openIssues": 74,
-        "platforms": [
-            "web"
-        ],
-        "frameworks": [
-            "nodejs"
-        ]
-    },
-    {
-        "name": "IfcLCA",
-        "description": "Opensource Life Cycle Assessment for Built Environment using Industry Foundation Classes",
-        "url": "https://github.com/IfcLCA/IfcLCA",
-        "tags": [
-            "ifc",
-            "ifcopenshell",
-            "lca",
-            "pyodide"
-        ],
-        "stars": 24,
-        "forks": 4,
-        "lastUpdated": "2025-06-27T11:30:04Z",
-        "mainLanguage": "TypeScript",
-        "license": "AGPL-3.0",
-        "openIssues": 13,
-        "platforms": [
-            "web"
-        ],
-        "frameworks": []
-    },
-    {
-        "name": "ifc-flow",
-        "description": "No description provided",
-        "url": "https://github.com/louistrue/ifc-flow",
-        "tags": [
-            "ifc",
-            "ifcopenshell",
-            "threejs",
-            "visual-scripting",
-            "web-ifc"
-        ],
-        "stars": 29,
-        "forks": 3,
-        "lastUpdated": "2025-07-08T09:25:21Z",
-        "mainLanguage": "TypeScript",
-        "license": "AGPL-3.0",
-        "openIssues": 5,
-        "platforms": [
-            "web"
-        ],
-        "frameworks": [
-            "threejs"
-        ]
-    },
-    {
-        "name": "web-ifc-viewer",
-        "description": "Graphics engine and toolkit for client applications.",
-        "url": "https://github.com/ThatOpen/web-ifc-viewer",
-        "tags": [
-            "3d",
-            "bim",
-            "geometry",
-            "ifc",
-            "threejs"
-        ],
-        "stars": 974,
-        "forks": 243,
-        "lastUpdated": "2025-07-06T10:01:30Z",
-        "mainLanguage": "JavaScript",
-        "license": "MIT",
-        "openIssues": 56,
-        "platforms": [
-            "web"
-        ],
-        "frameworks": [
-            "threejs"
-        ]
-    },
-    {
-        "url": "https://github.com/louistrue/ifc-classifier",
-        "tags": [
-            "ifc",
-            "ifcope",
-            "threejs",
-            "web-ifc"
-        ],
-        "name": "ifc-classifier",
-        "description": "No description provided",
-        "stars": 5,
-        "forks": 0,
-        "lastUpdated": "2025-06-22T05:33:39Z",
-        "license": "AGPL-3.0",
-        "submissionDate": "2025-06-24",
-        "submitterUsername": "louistrue",
-        "mainLanguage": "TypeScript",
-        "openIssues": 0,
-        "platforms": [
-            "web"
-        ],
-        "frameworks": [
-            "threejs"
-        ]
-    },
-    {
-        "url": "https://github.com/design-to-production/D2P-Components",
-        "tags": [
-            "architecture",
-            "construction",
-            "engineering",
-            "modelling-framework",
-            "bim",
-            "free-form-design",
-            "grasshopper3d",
-            "rhino3d"
-        ],
-        "name": "D2P-Components",
-        "description": "D2P Components streamline parametric modeling in Grasshopper, helping you manage complex data trees, reduce recomputations, and maintain a structured, scalable workflow from concept to fabrication.",
-        "stars": 13,
-        "forks": 1,
-        "lastUpdated": "2025-06-06T14:31:56Z",
-        "license": "MIT",
-        "submissionDate": "2025-06-24",
-        "submitterUsername": "bastiannispel",
-        "mainLanguage": "C#",
-        "openIssues": 10,
-        "platforms": [
-            "windows"
-        ],
-        "frameworks": [
-            "dotnet"
-        ]
-    },
-    {
-        "url": "https://github.com/ara3d/ara3d-sdk",
-        "tags": [
-            "C#",
-            "libraries",
-            "geometry",
-            "mesh",
-            "numerics",
-            "3d",
-            "math",
-            "architecture",
-            "engineering",
-            "construction"
-        ],
-        "name": "ara3d-sdk",
-        "description": "📚 Various C# libraries for efficient data driven applications ",
-        "stars": 7,
-        "forks": 3,
-        "lastUpdated": "2025-07-07T04:43:15Z",
-        "license": "MIT",
-        "submissionDate": "2025-06-24",
-        "submitterUsername": "cdiggins",
-        "mainLanguage": "C#",
-        "openIssues": 1,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": [
-            "dotnet"
-        ]
-    },
-    {
-        "url": "https://github.com/ara3d/ara3d-webgl",
-        "tags": [
-            "JavaScript",
-            "WebGL",
-            "Three.JS",
-            "3D",
-            "Viewer",
-            "3d",
-            "aec",
-            "bim",
-            "model",
-            "viewer",
-            "webgl"
-        ],
-        "name": "ara3d-webgl",
-        "description": "A Three.JS based WebGL viewer for AEC data. ",
-        "stars": 24,
-        "forks": 4,
-        "lastUpdated": "2025-07-07T12:18:58Z",
-        "license": "MIT",
-        "submissionDate": "2025-06-24",
-        "submitterUsername": "cdiggins",
-        "mainLanguage": "TypeScript",
-        "openIssues": 0,
-        "platforms": [
-            "web"
-        ],
-        "frameworks": [
-            "threejs"
-        ]
-    },
-    {
-        "url": "https://github.com/daikon-eco/gladis",
-        "tags": [
-            "epd",
-            "lca",
-            "sustainability",
-            "data",
-            "environmental-impact",
-            "aec"
-        ],
-        "name": "gladis",
-        "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
-        "stars": 3,
-        "forks": 2,
-        "lastUpdated": "2025-06-24T16:58:59Z",
-        "license": "AGPL-3.0",
-        "submissionDate": "2025-06-24",
-        "submitterUsername": "aduverger",
-        "mainLanguage": "Python",
-        "openIssues": 32,
-        "platforms": [
-            "web"
-        ],
-        "frameworks": [
-            "django"
-        ]
-    },
-    {
-        "url": "https://github.com/IliaShkola/honey-ifc",
-        "tags": [
-            "ifc",
-            "export",
-            "excel",
-            "bim",
-            "ifcopenshell",
-            "open-source",
-            "python",
-            "xlsx"
-        ],
-        "name": "honey-ifc",
-        "description": "Stylish desktop app for exploring and exporting IFC data — fast, fun, and frustration-free. ",
-        "stars": 4,
-        "forks": 0,
-        "lastUpdated": "2025-06-25T05:02:23Z",
-        "license": "GPL-3.0",
-        "submissionDate": "2025-06-27",
-        "submitterUsername": "IliaShkola",
-        "mainLanguage": "Python",
-        "openIssues": 0,
-        "platforms": [
-            "windows",
-            "linux",
-            "macos"
-        ],
-        "frameworks": []
-    },
-    {
-        "url": "https://github.com/ara3d/bowerbird",
-        "tags": [
-            "architecture",
-            "Revit",
-            "plug-ins",
-            "scripting",
-            "C#",
-            "rapid development",
-            "aec",
-            "bim",
-            "csharp",
-            "revit",
-            "scripting-engine"
-        ],
-        "name": "bowerbird",
-        "description": "Scripted C# Plug-in Framework for Revit",
-        "stars": 50,
-        "forks": 6,
-        "lastUpdated": "2025-07-05T23:07:40Z",
-        "license": "MIT",
-        "submissionDate": "2025-07-03",
-        "submitterUsername": "cdiggins",
-        "mainLanguage": "C#",
-        "openIssues": 1
-    }
+  {
+    "name": "OCCT",
+    "description": "Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.",
+    "url": "https://github.com/Open-Cascade-SAS/OCCT",
+    "tags": [
+      "3d",
+      "3d-cad",
+      "cad",
+      "cae",
+      "cam",
+      "occt",
+      "occt3d",
+      "opencascade"
+    ],
+    "stars": 1652,
+    "forks": 433,
+    "lastUpdated": "2025-07-09T11:33:01Z",
+    "mainLanguage": "C++",
+    "license": "LGPL-2.1",
+    "openIssues": 79,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": [
+      "threejs"
+    ]
+  },
+  {
+    "name": "compas",
+    "description": "Main library of the COMPAS framework and CAD integrations for Rhino/GH and Blender.",
+    "url": "https://github.com/compas-dev/compas",
+    "tags": [
+      "aec",
+      "blender3d",
+      "data",
+      "datastructures",
+      "geometry",
+      "grasshopper3d",
+      "rhino3d",
+      "rpc"
+    ],
+    "stars": 338,
+    "forks": 113,
+    "lastUpdated": "2025-07-09T02:38:20Z",
+    "mainLanguage": "Python",
+    "license": "MIT",
+    "openIssues": 110,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": [
+      "react"
+    ]
+  },
+  {
+    "name": "three.js",
+    "description": "JavaScript 3D Library.",
+    "url": "https://github.com/mrdoob/three.js",
+    "tags": [
+      "3d",
+      "augmented-reality",
+      "canvas",
+      "html5",
+      "javascript",
+      "svg",
+      "virtual-reality",
+      "webaudio",
+      "webgl",
+      "webgl2",
+      "webgpu",
+      "webxr"
+    ],
+    "stars": 107517,
+    "forks": 35880,
+    "lastUpdated": "2025-07-10T01:38:52Z",
+    "mainLanguage": "JavaScript",
+    "license": "MIT",
+    "openIssues": 572,
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "frameworks": [
+      "threejs"
+    ]
+  },
+  {
+    "name": "voxelization_toolkit",
+    "description": "Voxelization Toolkit for (IFC) Building Models",
+    "url": "https://github.com/IfcOpenShell/voxelization_toolkit",
+    "tags": [
+      "bim",
+      "ifc",
+      "voxelization"
+    ],
+    "stars": 83,
+    "forks": 17,
+    "lastUpdated": "2025-07-09T22:33:02Z",
+    "mainLanguage": "C++",
+    "license": "MIT",
+    "openIssues": 9,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": []
+  },
+  {
+    "name": "BIMserver",
+    "description": "The open source BIMserver platform",
+    "url": "https://github.com/opensourceBIM/BIMserver",
+    "tags": [
+      "bim",
+      "bim-applications",
+      "bim-bots",
+      "bim-server",
+      "bimserver",
+      "buildingsmart",
+      "ifc",
+      "java",
+      "openbim"
+    ],
+    "stars": 1633,
+    "forks": 626,
+    "lastUpdated": "2025-07-08T22:33:47Z",
+    "mainLanguage": "Java",
+    "license": "AGPL-3.0",
+    "openIssues": 103,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos",
+      "web"
+    ],
+    "frameworks": [
+      "spring"
+    ]
+  },
+  {
+    "name": "ladybug",
+    "description": "🐞 Core ladybug library for weather data analysis and visualization",
+    "url": "https://github.com/ladybug-tools/ladybug",
+    "tags": [
+      "analysis",
+      "climate",
+      "climate-data",
+      "environmental-design",
+      "ladybug",
+      "weather"
+    ],
+    "stars": 208,
+    "forks": 55,
+    "lastUpdated": "2025-07-02T23:56:06Z",
+    "mainLanguage": "Python",
+    "license": "AGPL-3.0",
+    "openIssues": 8,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": []
+  },
+  {
+    "name": "QGIS",
+    "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
+    "url": "https://github.com/qgis/QGIS",
+    "tags": [
+      "gis",
+      "geospatial",
+      "qgis",
+      "spatial-data"
+    ],
+    "stars": 11526,
+    "forks": 3159,
+    "lastUpdated": "2025-07-09T15:33:03Z",
+    "mainLanguage": "C++",
+    "license": "GPL-2.0",
+    "openIssues": 4978,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": [
+      "qt"
+    ]
+  },
+  {
+    "name": "rhino3dm",
+    "description": "Libraries based on OpenNURBS with a RhinoCommon style",
+    "url": "https://github.com/mcneel/rhino3dm",
+    "tags": [
+      "hacktoberfest",
+      "javascript-library",
+      "opennurbs",
+      "python",
+      "python3",
+      "rhino3d",
+      "rhinocommon",
+      "wasm"
+    ],
+    "stars": 667,
+    "forks": 144,
+    "lastUpdated": "2025-07-07T04:28:58Z",
+    "mainLanguage": "C#",
+    "license": "MIT",
+    "openIssues": 26,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos",
+      "web"
+    ],
+    "frameworks": [
+      "dotnet"
+    ]
+  },
+  {
+    "name": "lcax",
+    "description": "LCAx is a open, verifiable, machine and human-readable LCA exchange format",
+    "url": "https://github.com/ocni-dtu/lcax",
+    "tags": [
+      "lca",
+      "lifecycle-assessment",
+      "sustainability",
+      "environmental-impact"
+    ],
+    "stars": 66,
+    "forks": 4,
+    "lastUpdated": "2025-07-02T18:56:30Z",
+    "mainLanguage": "Rust",
+    "license": "Apache-2.0",
+    "openIssues": 15,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": []
+  },
+  {
+    "name": "calc",
+    "description": "Calc helps architects quickly estimate the environmental impact of their early design.",
+    "url": "https://github.com/herzogdemeuron/calc",
+    "tags": [
+      "lca",
+      "environmental-impact",
+      "architecture",
+      "sustainability"
+    ],
+    "stars": 15,
+    "forks": 4,
+    "lastUpdated": "2025-06-30T02:35:53Z",
+    "mainLanguage": "C#",
+    "license": "MIT",
+    "openIssues": 0,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": [
+      "dotnet"
+    ]
+  },
+  {
+    "name": "IfcOpenShell",
+    "description": "Open source IFC library and geometry engine",
+    "url": "https://github.com/ifcopenshell/ifcopenshell",
+    "tags": [
+      "ifc",
+      "bim",
+      "geometry",
+      "ifcopenshell"
+    ],
+    "stars": 2148,
+    "forks": 793,
+    "lastUpdated": "2025-07-10T01:42:06Z",
+    "mainLanguage": "C++",
+    "license": "LGPL-3.0",
+    "openIssues": 1015,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": []
+  },
+  {
+    "name": "xeokit-sdk",
+    "description": "3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision",
+    "url": "https://github.com/xeokit/xeokit-sdk",
+    "tags": [
+      "3d-tiles",
+      "3d-viewers",
+      "bim",
+      "bim-viewer",
+      "buildingsmart",
+      "geometry",
+      "geospatial",
+      "gis",
+      "ifc",
+      "ifc-viewer",
+      "javascript-viewer",
+      "las-viewer",
+      "laz-viewer",
+      "online-viewer",
+      "point-cloud",
+      "point-cloud-viewer",
+      "viewer-sdk",
+      "web-viewer",
+      "webgl",
+      "webgl-viewer"
+    ],
+    "stars": 803,
+    "forks": 308,
+    "lastUpdated": "2025-07-09T20:04:47Z",
+    "mainLanguage": "JavaScript",
+    "license": "AGPL-3.0",
+    "openIssues": 155,
+    "platforms": [
+      "web"
+    ],
+    "frameworks": [
+      "threejs"
+    ]
+  },
+  {
+    "name": "compas_wood",
+    "description": "Project for Timber Joint Generation. Documentation:",
+    "url": "https://github.com/petrasvestartas/compas_wood",
+    "tags": [
+      "cgal",
+      "cnc",
+      "compas",
+      "connections",
+      "connector",
+      "cpp",
+      "integral-mechanical-attachment",
+      "joinery",
+      "python",
+      "robot",
+      "structures",
+      "timber",
+      "timber-structures",
+      "wood",
+      "woodwork",
+      "woodworking"
+    ],
+    "stars": 40,
+    "forks": 2,
+    "lastUpdated": "2025-04-26T08:37:52Z",
+    "mainLanguage": "Python",
+    "license": "MIT",
+    "openIssues": 7,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": []
+  },
+  {
+    "name": "honeybee-energy",
+    "description": "🐝 :fire: Honeybee extension for energy simulation",
+    "url": "https://github.com/ladybug-tools/honeybee-energy",
+    "tags": [
+      "energy-simulation",
+      "building-performance",
+      "energyplus",
+      "honeybee"
+    ],
+    "stars": 33,
+    "forks": 19,
+    "lastUpdated": "2025-07-09T21:34:53Z",
+    "mainLanguage": "Python",
+    "license": "AGPL-3.0",
+    "openIssues": 20,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": []
+  },
+  {
+    "name": "dragonfly-core",
+    "description": ":dragon: dragonfly core library",
+    "url": "https://github.com/ladybug-tools/dragonfly-core",
+    "tags": [
+      "urban-modeling",
+      "building-simulation",
+      "dragonfly",
+      "ladybug-tools"
+    ],
+    "stars": 18,
+    "forks": 12,
+    "lastUpdated": "2025-07-09T21:34:52Z",
+    "mainLanguage": "Python",
+    "license": "AGPL-3.0",
+    "openIssues": 1,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": []
+  },
+  {
+    "name": "honeybee-radiance",
+    "description": "🐝 ⚡️ Radiance extension for Honeybee",
+    "url": "https://github.com/ladybug-tools/honeybee-radiance",
+    "tags": [
+      "daylight-simulation",
+      "radiance",
+      "lighting-analysis",
+      "honeybee"
+    ],
+    "stars": 16,
+    "forks": 11,
+    "lastUpdated": "2025-07-09T21:34:52Z",
+    "mainLanguage": "Python",
+    "license": "AGPL-3.0",
+    "openIssues": 9,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": []
+  },
+  {
+    "name": "geospiza",
+    "description": "Geospiza is a project focusing on evolutionary design in grasshopper",
+    "url": "https://github.com/TheVessen/geospiza",
+    "tags": [
+      "computational-design",
+      "evolutionary-algorithms",
+      "grasshopper",
+      "rhino"
+    ],
+    "stars": 5,
+    "forks": 0,
+    "lastUpdated": "2025-02-25T17:10:28Z",
+    "mainLanguage": "C#",
+    "license": "MIT",
+    "openIssues": 5,
+    "platforms": [
+      "windows"
+    ],
+    "frameworks": [
+      "dotnet"
+    ]
+  },
+  {
+    "name": "BetterCorrectFast",
+    "description": "Simplified BIM Collaboration Format (BCF) generation for project leaders and managers",
+    "url": "https://github.com/boydhont/BetterCorrectFast",
+    "tags": [
+      "bim",
+      "bcf",
+      "collaboration",
+      "project-management"
+    ],
+    "stars": 12,
+    "forks": 0,
+    "lastUpdated": "2025-02-13T12:50:50Z",
+    "mainLanguage": "Python",
+    "license": "MIT",
+    "openIssues": 1,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": []
+  },
+  {
+    "name": "sPrint",
+    "description": "A Chrome extension that allows batch-print PDFs from BIM360 and ACC platforms.",
+    "url": "https://github.com/PerkinsAndWill-IO/sPrint",
+    "tags": [
+      "chrome-extension",
+      "bim360",
+      "acc",
+      "pdf-printing"
+    ],
+    "stars": 31,
+    "forks": 5,
+    "lastUpdated": "2024-12-19T15:23:17Z",
+    "mainLanguage": "TypeScript",
+    "license": "MIT",
+    "openIssues": 3,
+    "platforms": [
+      "web"
+    ],
+    "frameworks": []
+  },
+  {
+    "name": "engine_web-ifc",
+    "description": "Reading and writing IFC files with Javascript, at native speeds.",
+    "url": "https://github.com/ThatOpen/engine_web-ifc",
+    "tags": [
+      "cpp",
+      "emscripten",
+      "ifc",
+      "javascript",
+      "wasm",
+      "webassembly"
+    ],
+    "stars": 748,
+    "forks": 225,
+    "lastUpdated": "2025-07-10T01:32:01Z",
+    "mainLanguage": "TypeScript",
+    "license": "MPL-2.0",
+    "openIssues": 69,
+    "platforms": [
+      "web"
+    ],
+    "frameworks": [
+      "nodejs"
+    ]
+  },
+  {
+    "name": "IfcLCA",
+    "description": "Opensource Life Cycle Assessment for Built Environment using Industry Foundation Classes",
+    "url": "https://github.com/IfcLCA/IfcLCA",
+    "tags": [
+      "ifc",
+      "ifcopenshell",
+      "lca",
+      "pyodide"
+    ],
+    "stars": 24,
+    "forks": 4,
+    "lastUpdated": "2025-06-27T11:30:04Z",
+    "mainLanguage": "TypeScript",
+    "license": "AGPL-3.0",
+    "openIssues": 14,
+    "platforms": [
+      "web"
+    ],
+    "frameworks": []
+  },
+  {
+    "name": "ifc-flow",
+    "description": "No description provided",
+    "url": "https://github.com/louistrue/ifc-flow",
+    "tags": [
+      "ifc",
+      "ifcopenshell",
+      "threejs",
+      "visual-scripting",
+      "web-ifc"
+    ],
+    "stars": 29,
+    "forks": 3,
+    "lastUpdated": "2025-07-08T09:25:21Z",
+    "mainLanguage": "TypeScript",
+    "license": "AGPL-3.0",
+    "openIssues": 5,
+    "platforms": [
+      "web"
+    ],
+    "frameworks": [
+      "threejs"
+    ]
+  },
+  {
+    "name": "web-ifc-viewer",
+    "description": "Graphics engine and toolkit for client applications.",
+    "url": "https://github.com/ThatOpen/web-ifc-viewer",
+    "tags": [
+      "3d",
+      "bim",
+      "geometry",
+      "ifc",
+      "threejs"
+    ],
+    "stars": 974,
+    "forks": 243,
+    "lastUpdated": "2025-07-06T10:01:30Z",
+    "mainLanguage": "JavaScript",
+    "license": "MIT",
+    "openIssues": 56,
+    "platforms": [
+      "web"
+    ],
+    "frameworks": [
+      "threejs"
+    ]
+  },
+  {
+    "url": "https://github.com/louistrue/ifc-classifier",
+    "tags": [
+      "ifc",
+      "ifcope",
+      "threejs",
+      "web-ifc",
+      "ifc2x3",
+      "ifc4",
+      "ifcopenshell"
+    ],
+    "name": "ifc-classifier",
+    "description": "No description provided",
+    "stars": 5,
+    "forks": 0,
+    "lastUpdated": "2025-07-09T11:45:05Z",
+    "license": "AGPL-3.0",
+    "submissionDate": "2025-06-24",
+    "submitterUsername": "louistrue",
+    "mainLanguage": "TypeScript",
+    "openIssues": 0,
+    "platforms": [
+      "web"
+    ],
+    "frameworks": [
+      "threejs"
+    ]
+  },
+  {
+    "url": "https://github.com/design-to-production/D2P-Components",
+    "tags": [
+      "architecture",
+      "construction",
+      "engineering",
+      "modelling-framework",
+      "bim",
+      "free-form-design",
+      "grasshopper3d",
+      "rhino3d"
+    ],
+    "name": "D2P-Components",
+    "description": "D2P Components streamline parametric modeling in Grasshopper, helping you manage complex data trees, reduce recomputations, and maintain a structured, scalable workflow from concept to fabrication.",
+    "stars": 13,
+    "forks": 1,
+    "lastUpdated": "2025-06-06T14:31:56Z",
+    "license": "MIT",
+    "submissionDate": "2025-06-24",
+    "submitterUsername": "bastiannispel",
+    "mainLanguage": "C#",
+    "openIssues": 10,
+    "platforms": [
+      "windows"
+    ],
+    "frameworks": [
+      "dotnet"
+    ]
+  },
+  {
+    "url": "https://github.com/ara3d/ara3d-sdk",
+    "tags": [
+      "C#",
+      "libraries",
+      "geometry",
+      "mesh",
+      "numerics",
+      "3d",
+      "math",
+      "architecture",
+      "engineering",
+      "construction"
+    ],
+    "name": "ara3d-sdk",
+    "description": "📚 Various C# libraries for efficient data driven applications ",
+    "stars": 7,
+    "forks": 3,
+    "lastUpdated": "2025-07-07T04:43:15Z",
+    "license": "MIT",
+    "submissionDate": "2025-06-24",
+    "submitterUsername": "cdiggins",
+    "mainLanguage": "C#",
+    "openIssues": 1,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": [
+      "dotnet"
+    ]
+  },
+  {
+    "url": "https://github.com/ara3d/ara3d-webgl",
+    "tags": [
+      "JavaScript",
+      "WebGL",
+      "Three.JS",
+      "3D",
+      "Viewer",
+      "3d",
+      "aec",
+      "bim",
+      "model",
+      "viewer",
+      "webgl"
+    ],
+    "name": "ara3d-webgl",
+    "description": "A Three.JS based WebGL viewer for AEC data. ",
+    "stars": 24,
+    "forks": 4,
+    "lastUpdated": "2025-07-07T12:18:58Z",
+    "license": "MIT",
+    "submissionDate": "2025-06-24",
+    "submitterUsername": "cdiggins",
+    "mainLanguage": "TypeScript",
+    "openIssues": 0,
+    "platforms": [
+      "web"
+    ],
+    "frameworks": [
+      "threejs"
+    ]
+  },
+  {
+    "url": "https://github.com/daikon-eco/gladis",
+    "tags": [
+      "epd",
+      "lca",
+      "sustainability",
+      "data",
+      "environmental-impact",
+      "aec"
+    ],
+    "name": "gladis",
+    "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
+    "stars": 3,
+    "forks": 2,
+    "lastUpdated": "2025-06-24T16:58:59Z",
+    "license": "AGPL-3.0",
+    "submissionDate": "2025-06-24",
+    "submitterUsername": "aduverger",
+    "mainLanguage": "Python",
+    "openIssues": 33,
+    "platforms": [
+      "web"
+    ],
+    "frameworks": [
+      "django"
+    ]
+  },
+  {
+    "url": "https://github.com/IliaShkola/honey-ifc",
+    "tags": [
+      "ifc",
+      "export",
+      "excel",
+      "bim",
+      "ifcopenshell",
+      "open-source",
+      "python",
+      "xlsx"
+    ],
+    "name": "honey-ifc",
+    "description": "Stylish desktop app for exploring and exporting IFC data — fast, fun, and frustration-free. ",
+    "stars": 4,
+    "forks": 0,
+    "lastUpdated": "2025-06-25T05:02:23Z",
+    "license": "GPL-3.0",
+    "submissionDate": "2025-06-27",
+    "submitterUsername": "IliaShkola",
+    "mainLanguage": "Python",
+    "openIssues": 0,
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "frameworks": []
+  },
+  {
+    "url": "https://github.com/ara3d/bowerbird",
+    "tags": [
+      "architecture",
+      "Revit",
+      "plug-ins",
+      "scripting",
+      "C#",
+      "rapid development",
+      "aec",
+      "bim",
+      "csharp",
+      "revit",
+      "scripting-engine"
+    ],
+    "name": "bowerbird",
+    "description": "Scripted C# Plug-in Framework for Revit",
+    "stars": 50,
+    "forks": 6,
+    "lastUpdated": "2025-07-09T19:08:24Z",
+    "license": "MIT",
+    "submissionDate": "2025-07-03",
+    "submitterUsername": "cdiggins",
+    "mainLanguage": "C#",
+    "openIssues": 1
+  }
 ]
