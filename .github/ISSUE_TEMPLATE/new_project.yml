@@ -74,17 +74,17 @@ body:
   #       - wpf
   #       - winui
   #       - xamarin
-  # - type: checkboxes
-  #   id: project_requirements
-  #   attributes:
-  #     label: Project Requirements
-  #     description: Please confirm your project meets these requirements
-  #     options:
-  #       - label: The project is hosted on GitHub
-  #         required: true
-  #       - label: It has a clear open-source license (check your repo for a LICENSE file)
-  #         required: true
-  #       - label: It is directly connected to the AEC (Architecture, Engineering, Construction) industry
-  #         required: true
-  #       - label: The repository has a README file with project description
-  #         required: true
+  - type: checkboxes
+    id: project_requirements
+    attributes:
+      label: Project Requirements
+      description: Please confirm your project meets these requirements
+      options:
+        - label: The project is hosted on GitHub
+          required: true
+        - label: It has a clear open-source license (check your repo for a LICENSE file)
+          required: true
+        - label: It is directly connected to the AEC (Architecture, Engineering, Construction) industry
+          required: true
+        - label: The repository has a README file with project description
+          required: true
