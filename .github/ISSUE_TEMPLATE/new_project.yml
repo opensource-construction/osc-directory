@@ -30,7 +30,7 @@ body:
         architecture
         construction
         engineering
-  
+
   - type: dropdown
     id: platforms
     attributes:
@@ -47,44 +47,44 @@ body:
         - cloud
         - ios
         - android
-  
-  - type: dropdown
-    id: frameworks
-    attributes:
-      label: Frameworks/Technologies Used
-      description: What frameworks or key technologies does your project use? Select all that apply.
-      multiple: true
-      options:
-        - react
-        - vue
-        - angular
-        - svelte
-        - threejs
-        - babylonjs
-        - unity
-        - unreal
-        - electron
-        - flutter
-        - dotnet
-        - nodejs
-        - django
-        - flask
-        - spring
-        - qt
-        - wpf
-        - winui
-        - xamarin
-  - type: checkboxes
-    id: project_requirements
-    attributes:
-      label: Project Requirements
-      description: Please confirm your project meets these requirements
-      options:
-        - label: The project is hosted on GitHub
-          required: true
-        - label: It has a clear open-source license (check your repo for a LICENSE file)
-          required: true
-        - label: It is directly connected to the AEC (Architecture, Engineering, Construction) industry
-          required: true
-        - label: The repository has a README file with project description
-          required: true
+
+  # - type: dropdown
+  #   id: frameworks
+  #   attributes:
+  #     label: Frameworks/Technologies Used
+  #     description: What frameworks or key technologies does your project use? Select all that apply.
+  #     multiple: true
+  #     options:
+  #       - react
+  #       - vue
+  #       - angular
+  #       - svelte
+  #       - threejs
+  #       - babylonjs
+  #       - unity
+  #       - unreal
+  #       - electron
+  #       - flutter
+  #       - dotnet
+  #       - nodejs
+  #       - django
+  #       - flask
+  #       - spring
+  #       - qt
+  #       - wpf
+  #       - winui
+  #       - xamarin
+  # - type: checkboxes
+  #   id: project_requirements
+  #   attributes:
+  #     label: Project Requirements
+  #     description: Please confirm your project meets these requirements
+  #     options:
+  #       - label: The project is hosted on GitHub
+  #         required: true
+  #       - label: It has a clear open-source license (check your repo for a LICENSE file)
+  #         required: true
+  #       - label: It is directly connected to the AEC (Architecture, Engineering, Construction) industry
+  #         required: true
+  #       - label: The repository has a README file with project description
+  #         required: true

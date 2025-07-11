@@ -57,7 +57,7 @@ export function extractProjectDataFromIssue(body: string): BaseProjectData {
 		const platformText = platformMatch[1].trim();
 		if (platformText && platformText !== '_No response_') {
 			data.platforms = platformText
-				.split('\n')
+				.split(',')
 				.map((line) => line.trim())
 				.filter((line) => line.length > 0) as PlatformTag[];
 		}
@@ -68,7 +68,7 @@ export function extractProjectDataFromIssue(body: string): BaseProjectData {
 		const frameworkText = frameworkMatch[1].trim();
 		if (frameworkText && frameworkText !== '_No response_') {
 			data.frameworks = frameworkText
-				.split('\n')
+				.split(',')
 				.map((line) => line.trim())
 				.filter((line) => line.length > 0) as FrameworkTag[];
 		}

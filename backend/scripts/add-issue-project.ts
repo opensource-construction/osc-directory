@@ -46,7 +46,9 @@ async function addProjectFromIssue() {
 			mainLanguage: undefined,
 			license: '',
 			submissionDate: new Date().toISOString().split('T')[0],
-			submitterUsername: projectData.submitterUsername
+			submitterUsername: projectData.submitterUsername,
+			frameworks: projectData.frameworks || [],
+			platforms: projectData.platforms || []
 		};
 
 		// Add new project
