@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1657,
-    "forks": 434,
-    "lastUpdated": "2025-07-11T14:27:36Z",
+    "stars": 1659,
+    "forks": 436,
+    "lastUpdated": "2025-07-12T20:12:03Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 82,
+    "openIssues": 85,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107555,
+    "stars": 107570,
     "forks": 35888,
-    "lastUpdated": "2025-07-12T01:53:18Z",
+    "lastUpdated": "2025-07-13T01:49:36Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 568,
+    "openIssues": 571,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11530,
+    "stars": 11533,
     "forks": 3159,
-    "lastUpdated": "2025-07-11T20:33:42Z",
+    "lastUpdated": "2025-07-12T20:41:54Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4985,
+    "openIssues": 4987,
     "platforms": [
       "windows",
       "linux",
@@ -206,9 +206,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 667,
+    "stars": 668,
     "forks": 144,
-    "lastUpdated": "2025-07-11T04:34:05Z",
+    "lastUpdated": "2025-07-12T14:21:48Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 26,
@@ -282,10 +282,10 @@
     ],
     "stars": 2151,
     "forks": 794,
-    "lastUpdated": "2025-07-11T20:56:55Z",
+    "lastUpdated": "2025-07-12T15:16:44Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1014,
+    "openIssues": 1015,
     "platforms": [
       "windows",
       "linux",
@@ -515,12 +515,12 @@
       "wasm",
       "webassembly"
     ],
-    "stars": 753,
+    "stars": 755,
     "forks": 225,
-    "lastUpdated": "2025-07-11T02:17:02Z",
+    "lastUpdated": "2025-07-12T23:44:34Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 73,
+    "openIssues": 70,
     "platforms": [
       "web"
     ],
