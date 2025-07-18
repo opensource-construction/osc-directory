@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1666,
+    "stars": 1667,
     "forks": 438,
-    "lastUpdated": "2025-07-16T07:01:18Z",
+    "lastUpdated": "2025-07-18T01:42:06Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 70,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107649,
-    "forks": 35897,
-    "lastUpdated": "2025-07-17T01:54:08Z",
+    "stars": 107662,
+    "forks": 35896,
+    "lastUpdated": "2025-07-18T01:46:51Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 571,
+    "openIssues": 569,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11545,
-    "forks": 3162,
-    "lastUpdated": "2025-07-16T18:54:22Z",
+    "stars": 11551,
+    "forks": 3164,
+    "lastUpdated": "2025-07-17T17:16:03Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4992,
+    "openIssues": 4995,
     "platforms": [
       "windows",
       "linux",
@@ -206,9 +206,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 670,
+    "stars": 671,
     "forks": 144,
-    "lastUpdated": "2025-07-14T23:58:21Z",
+    "lastUpdated": "2025-07-17T17:32:12Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 26,
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2154,
-    "forks": 793,
-    "lastUpdated": "2025-07-16T20:52:57Z",
+    "stars": 2155,
+    "forks": 794,
+    "lastUpdated": "2025-07-17T17:48:57Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1013,
+    "openIssues": 1015,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2025-07-16T23:29:50Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
-    "openIssues": 155,
+    "openIssues": 158,
     "platforms": [
       "web"
     ],
@@ -515,12 +515,12 @@
       "wasm",
       "webassembly"
     ],
-    "stars": 759,
+    "stars": 761,
     "forks": 227,
-    "lastUpdated": "2025-07-16T19:47:29Z",
+    "lastUpdated": "2025-07-17T08:10:34Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 77,
+    "openIssues": 79,
     "platforms": [
       "web"
     ],
