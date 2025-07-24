@@ -50,4 +50,5 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [honey-ifc](https://github.com/IliaShkola/honey-ifc) | Stylish desktop app for exploring and exporting IFC data — fast, fun, and frustration-free.  | Python | 4 | Jun 25, 2025 | GPL-3.0 |
 | [bowerbird](https://github.com/ara3d/bowerbird) | Scripted C# Plug-in Framework for Revit | C# | 51 | Jul 21, 2025 | MIT |
 | [EngineeringPaper.xyz](https://github.com/mgreminger/EngineeringPaper.xyz) | EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations. | TypeScript | 173 | Jul 15, 2025 | MIT |
+| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. | C++ | 25501 | Jul 24, 2025 | NOASSERTION |
 
