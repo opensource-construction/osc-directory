@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107754,
-    "forks": 35910,
-    "lastUpdated": "2025-07-24T01:19:08Z",
+    "stars": 107761,
+    "forks": 35909,
+    "lastUpdated": "2025-07-24T06:32:16Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 571,
+    "openIssues": 572,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11569,
+    "stars": 11570,
     "forks": 3172,
-    "lastUpdated": "2025-07-24T01:51:12Z",
+    "lastUpdated": "2025-07-24T04:32:33Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4993,
+    "openIssues": 4992,
     "platforms": [
       "windows",
       "linux",
@@ -282,10 +282,10 @@
     ],
     "stars": 2157,
     "forks": 800,
-    "lastUpdated": "2025-07-24T00:20:50Z",
+    "lastUpdated": "2025-07-24T06:12:27Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1027,
+    "openIssues": 1025,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2025-07-21T17:08:16Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
-    "openIssues": 157,
+    "openIssues": 158,
     "platforms": [
       "web"
     ],
@@ -515,9 +515,9 @@
       "wasm",
       "webassembly"
     ],
-    "stars": 763,
+    "stars": 764,
     "forks": 227,
-    "lastUpdated": "2025-07-23T11:09:24Z",
+    "lastUpdated": "2025-07-24T07:07:02Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
     "openIssues": 75,
@@ -538,9 +538,9 @@
       "lca",
       "pyodide"
     ],
-    "stars": 25,
+    "stars": 26,
     "forks": 4,
-    "lastUpdated": "2025-07-21T16:09:23Z",
+    "lastUpdated": "2025-07-24T05:21:13Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "openIssues": 14,
@@ -731,9 +731,9 @@
     ],
     "name": "gladis",
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
-    "stars": 4,
+    "stars": 5,
     "forks": 1,
-    "lastUpdated": "2025-07-13T04:40:38Z",
+    "lastUpdated": "2025-07-24T05:10:43Z",
     "license": "AGPL-3.0",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -800,5 +800,35 @@
     "submitterUsername": "cdiggins",
     "mainLanguage": "C#",
     "openIssues": 1
+  },
+  {
+    "url": "https://github.com/mgreminger/EngineeringPaper.xyz",
+    "tags": [
+      "calculations",
+      "calculator",
+      "chemical-engineering",
+      "civil-engineering",
+      "electrical-engineering",
+      "engineering",
+      "engineering-education",
+      "mechanical-engineering",
+      "unit-conversion"
+    ],
+    "name": "EngineeringPaper.xyz",
+    "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
+    "stars": 173,
+    "forks": 20,
+    "lastUpdated": "2025-07-15T07:45:32Z",
+    "license": "MIT",
+    "submissionDate": "2025-07-24",
+    "submitterUsername": "mgreminger",
+    "frameworks": [
+      "svelte"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "mainLanguage": "TypeScript",
+    "openIssues": 39
   }
 ]
