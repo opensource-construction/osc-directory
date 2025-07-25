@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1670,
+    "stars": 1674,
     "forks": 443,
-    "lastUpdated": "2025-07-23T13:04:08Z",
+    "lastUpdated": "2025-07-25T00:31:45Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 72,
+    "openIssues": 71,
     "platforms": [
       "windows",
       "linux",
@@ -44,7 +44,7 @@
     ],
     "stars": 339,
     "forks": 113,
-    "lastUpdated": "2025-07-14T12:54:50Z",
+    "lastUpdated": "2025-07-24T09:54:44Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "openIssues": 110,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107761,
-    "forks": 35909,
-    "lastUpdated": "2025-07-24T06:32:16Z",
+    "stars": 107773,
+    "forks": 35911,
+    "lastUpdated": "2025-07-24T23:48:02Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 572,
+    "openIssues": 570,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11570,
-    "forks": 3172,
-    "lastUpdated": "2025-07-24T04:32:33Z",
+    "stars": 11577,
+    "forks": 3173,
+    "lastUpdated": "2025-07-25T00:33:19Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 4992,
+    "openIssues": 4997,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2157,
+    "stars": 2160,
     "forks": 800,
-    "lastUpdated": "2025-07-24T06:12:27Z",
+    "lastUpdated": "2025-07-24T14:39:54Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1025,
+    "openIssues": 1027,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2025-07-21T17:08:16Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
-    "openIssues": 158,
+    "openIssues": 159,
     "platforms": [
       "web"
     ],
@@ -520,7 +520,7 @@
     "lastUpdated": "2025-07-24T07:07:02Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 75,
+    "openIssues": 76,
     "platforms": [
       "web"
     ],
@@ -816,9 +816,9 @@
     ],
     "name": "EngineeringPaper.xyz",
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
-    "stars": 173,
+    "stars": 174,
     "forks": 20,
-    "lastUpdated": "2025-07-15T07:45:32Z",
+    "lastUpdated": "2025-07-24T20:50:43Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
