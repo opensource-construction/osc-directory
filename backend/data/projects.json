@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1674,
-    "forks": 443,
-    "lastUpdated": "2025-07-25T00:31:45Z",
+    "stars": 1675,
+    "forks": 444,
+    "lastUpdated": "2025-07-25T19:29:46Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 71,
+    "openIssues": 68,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107773,
-    "forks": 35911,
-    "lastUpdated": "2025-07-24T23:48:02Z",
+    "stars": 107783,
+    "forks": 35912,
+    "lastUpdated": "2025-07-26T01:17:35Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 570,
+    "openIssues": 568,
     "platforms": [
       "web",
       "mobile"
@@ -127,7 +127,7 @@
       "openbim"
     ],
     "stars": 1638,
-    "forks": 627,
+    "forks": 628,
     "lastUpdated": "2025-07-22T06:56:30Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
@@ -177,9 +177,9 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11577,
-    "forks": 3173,
-    "lastUpdated": "2025-07-25T00:33:19Z",
+    "stars": 11580,
+    "forks": 3174,
+    "lastUpdated": "2025-07-25T23:53:54Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "openIssues": 4997,
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2160,
-    "forks": 800,
-    "lastUpdated": "2025-07-24T14:39:54Z",
+    "stars": 2163,
+    "forks": 801,
+    "lastUpdated": "2025-07-25T18:30:13Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1027,
+    "openIssues": 1028,
     "platforms": [
       "windows",
       "linux",
@@ -321,10 +321,10 @@
     ],
     "stars": 809,
     "forks": 308,
-    "lastUpdated": "2025-07-21T17:08:16Z",
+    "lastUpdated": "2025-07-25T15:27:45Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
-    "openIssues": 159,
+    "openIssues": 158,
     "platforms": [
       "web"
     ],
