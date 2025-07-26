@@ -49,5 +49,7 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [gladis](https://github.com/daikon-eco/gladis) | A web app and search engine for Environmental Product Declarations (EPDs). | Python | 5 | Jul 24, 2025 | AGPL-3.0 |
 | [honey-ifc](https://github.com/IliaShkola/honey-ifc) | Stylish desktop app for exploring and exporting IFC data — fast, fun, and frustration-free.  | Python | 4 | Jun 25, 2025 | GPL-3.0 |
 | [bowerbird](https://github.com/ara3d/bowerbird) | Scripted C# Plug-in Framework for Revit | C# | 51 | Jul 21, 2025 | MIT |
-| [EngineeringPaper.xyz](https://github.com/mgreminger/EngineeringPaper.xyz) | EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations. | TypeScript | 174 | Jul 24, 2025 | MIT |
+| [EngineeringPaper.xyz](https://github.com/mgreminger/EngineeringPaper.xyz) | EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations. | TypeScript | 173 | Jul 15, 2025 | MIT |
+| [bim-open-schema](https://github.com/ara3d/bim-open-schema) | BIM to Parquet and DuckDB | C# | 9 | Jul 23, 2025 | MIT |
+
 

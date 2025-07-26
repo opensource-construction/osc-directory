@@ -830,5 +830,30 @@
     ],
     "mainLanguage": "TypeScript",
     "openIssues": 39
+  },
+  {
+    "url": "https://github.com/ara3d/bim-open-schema",
+    "tags": [
+      "aec",
+      "analytics",
+      "bim",
+      "duckdb",
+      "etl",
+      "ifc",
+      "parquet",
+      "revit"
+    ],
+    "name": "bim-open-schema",
+    "description": "BIM to Parquet and DuckDB",
+    "stars": 9,
+    "forks": 0,
+    "lastUpdated": "2025-07-23T14:30:43Z",
+    "license": "MIT",
+    "submissionDate": "2025-07-24",
+    "submitterUsername": "cdiggins",
+    "frameworks": [],
+    "platforms": [],
+    "mainLanguage": "C#",
+    "openIssues": 0
   }
 ]
