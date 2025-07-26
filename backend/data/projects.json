@@ -832,6 +832,43 @@
     "openIssues": 39
   },
   {
+    "url": "https://github.com/FreeCAD/FreeCAD",
+    "tags": [
+      "architecture",
+      "BIM",
+      "IFC",
+      "BCF",
+      "3d",
+      "3d-printing",
+      "bim",
+      "cad",
+      "cam",
+      "coin",
+      "engineering",
+      "fem",
+      "freecad",
+      "linux",
+      "macos",
+      "opencascade",
+      "windows"
+    ],
+    "name": "FreeCAD",
+    "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
+    "stars": 25501,
+    "forks": 4685,
+    "lastUpdated": "2025-07-24T07:23:51Z",
+    "license": "NOASSERTION",
+    "submissionDate": "2025-07-24",
+    "submitterUsername": "prokoudine",
+    "frameworks": [],
+    "platforms": [
+      "windows",
+      "linux",
+      "macos",
+      "desktop"
+    ],
+    "mainLanguage": "C++",
+    "openIssues": 3204
     "url": "https://github.com/ara3d/bim-open-schema",
     "tags": [
       "aec",
