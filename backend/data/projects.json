@@ -18,7 +18,7 @@
     "lastUpdated": "2025-07-26T08:53:49Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 69,
+    "openIssues": 68,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107790,
-    "forks": 35913,
-    "lastUpdated": "2025-07-26T23:53:48Z",
+    "stars": 107807,
+    "forks": 35912,
+    "lastUpdated": "2025-07-28T02:01:19Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 568,
+    "openIssues": 567,
     "platforms": [
       "web",
       "mobile"
@@ -127,11 +127,11 @@
       "openbim"
     ],
     "stars": 1639,
-    "forks": 628,
+    "forks": 629,
     "lastUpdated": "2025-07-26T16:44:17Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
-    "openIssues": 107,
+    "openIssues": 105,
     "platforms": [
       "windows",
       "linux",
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11584,
-    "forks": 3174,
-    "lastUpdated": "2025-07-26T21:02:54Z",
+    "stars": 11588,
+    "forks": 3176,
+    "lastUpdated": "2025-07-28T00:54:44Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5001,
+    "openIssues": 5003,
     "platforms": [
       "windows",
       "linux",
@@ -281,11 +281,11 @@
       "ifcopenshell"
     ],
     "stars": 2163,
-    "forks": 801,
-    "lastUpdated": "2025-07-26T06:40:07Z",
+    "forks": 800,
+    "lastUpdated": "2025-07-27T22:15:54Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1027,
+    "openIssues": 1028,
     "platforms": [
       "windows",
       "linux",
@@ -672,7 +672,7 @@
     "description": "📚 Various C# libraries for efficient data driven applications ",
     "stars": 9,
     "forks": 3,
-    "lastUpdated": "2025-07-26T04:29:03Z",
+    "lastUpdated": "2025-07-27T19:44:20Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
