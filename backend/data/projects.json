@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1678,
+    "stars": 1680,
     "forks": 444,
-    "lastUpdated": "2025-07-28T20:48:35Z",
+    "lastUpdated": "2025-07-30T01:37:13Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 68,
+    "openIssues": 69,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107830,
-    "forks": 35915,
-    "lastUpdated": "2025-07-29T01:34:35Z",
+    "stars": 107848,
+    "forks": 35919,
+    "lastUpdated": "2025-07-30T01:43:20Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 565,
+    "openIssues": 570,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11591,
+    "stars": 11596,
     "forks": 3179,
-    "lastUpdated": "2025-07-29T00:03:02Z",
+    "lastUpdated": "2025-07-29T18:30:00Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5010,
+    "openIssues": 5016,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2163,
+    "stars": 2165,
     "forks": 800,
-    "lastUpdated": "2025-07-28T14:28:38Z",
+    "lastUpdated": "2025-07-29T20:12:56Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1031,
+    "openIssues": 1032,
     "platforms": [
       "windows",
       "linux",
@@ -321,7 +321,7 @@
     ],
     "stars": 809,
     "forks": 308,
-    "lastUpdated": "2025-07-25T15:27:45Z",
+    "lastUpdated": "2025-07-29T15:18:39Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "openIssues": 158,
@@ -517,10 +517,10 @@
     ],
     "stars": 765,
     "forks": 227,
-    "lastUpdated": "2025-07-28T12:48:22Z",
+    "lastUpdated": "2025-07-29T09:43:19Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 71,
+    "openIssues": 76,
     "platforms": [
       "web"
     ],
@@ -560,9 +560,9 @@
       "visual-scripting",
       "web-ifc"
     ],
-    "stars": 30,
+    "stars": 32,
     "forks": 3,
-    "lastUpdated": "2025-07-21T16:08:06Z",
+    "lastUpdated": "2025-07-29T11:26:57Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "openIssues": 0,
