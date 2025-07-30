@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1680,
+    "stars": 1681,
     "forks": 444,
-    "lastUpdated": "2025-07-30T01:37:13Z",
+    "lastUpdated": "2025-07-30T06:30:56Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 69,
@@ -75,9 +75,9 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107848,
-    "forks": 35919,
-    "lastUpdated": "2025-07-30T01:43:20Z",
+    "stars": 107850,
+    "forks": 35921,
+    "lastUpdated": "2025-07-30T04:09:00Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 570,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11596,
+    "stars": 11597,
     "forks": 3179,
-    "lastUpdated": "2025-07-29T18:30:00Z",
+    "lastUpdated": "2025-07-30T02:39:41Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5016,
+    "openIssues": 5015,
     "platforms": [
       "windows",
       "linux",
@@ -855,5 +855,37 @@
     "platforms": [],
     "mainLanguage": "C#",
     "openIssues": 0
+  },
+  {
+    "url": "https://github.com/madil4/awatif",
+    "tags": [
+      "awatif,",
+      "parametricdesign,",
+      "computationaldesign,",
+      "structuralengineering,",
+      "parametricmodeling",
+      "awatif",
+      "bim",
+      "computational",
+      "design",
+      "engineering",
+      "fem",
+      "parametric",
+      "structural"
+    ],
+    "name": "awatif",
+    "description": "The First Web-based Parametric Structural Engineering Platform",
+    "stars": 82,
+    "forks": 12,
+    "lastUpdated": "2025-07-29T10:26:48Z",
+    "license": "MIT",
+    "submissionDate": "2025-07-30",
+    "submitterUsername": "madil4",
+    "frameworks": [],
+    "platforms": [
+      "web"
+    ],
+    "mainLanguage": "JavaScript",
+    "openIssues": 23
   }
 ]
