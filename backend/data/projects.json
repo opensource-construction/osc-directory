@@ -857,6 +857,38 @@
     "openIssues": 0
   },
   {
+    "url": "https://github.com/madil4/awatif",
+    "tags": [
+      "awatif,",
+      "parametricdesign,",
+      "computationaldesign,",
+      "structuralengineering,",
+      "parametricmodeling",
+      "awatif",
+      "bim",
+      "computational",
+      "design",
+      "engineering",
+      "fem",
+      "parametric",
+      "structural"
+    ],
+    "name": "awatif",
+    "description": "The First Web-based Parametric Structural Engineering Platform",
+    "stars": 82,
+    "forks": 12,
+    "lastUpdated": "2025-07-29T10:26:48Z",
+    "license": "MIT",
+    "submissionDate": "2025-07-30",
+    "submitterUsername": "madil4",
+    "frameworks": [],
+    "platforms": [
+      "web"
+    ],
+    "mainLanguage": "JavaScript",
+    "openIssues": 23
+  },
+  {
     "url": "https://github.com/MagmaWorks/Taxonomy",
     "tags": [
       "Schema",
