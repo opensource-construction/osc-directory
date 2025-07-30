@@ -52,4 +52,5 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [EngineeringPaper.xyz](https://github.com/mgreminger/EngineeringPaper.xyz) | EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations. | TypeScript | 174 | Jul 24, 2025 | MIT |
 | [bim-open-schema](https://github.com/ara3d/bim-open-schema) | BIM to Parquet and DuckDB | C# | 14 | Jul 28, 2025 | MIT |
 | [awatif](https://github.com/madil4/awatif) | The First Web-based Parametric Structural Engineering Platform | JavaScript | 82 | Jul 29, 2025 | MIT |
+| [Taxonomy](https://github.com/MagmaWorks/Taxonomy) | A set of interfaces describing a taxonomy for structural engineering objects | C# | 4 | Jul 25, 2025 | MIT |
 

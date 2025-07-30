@@ -887,5 +887,25 @@
     ],
     "mainLanguage": "JavaScript",
     "openIssues": 23
+  },
+  {
+    "url": "https://github.com/MagmaWorks/Taxonomy",
+    "tags": [
+      "Schema",
+      "Naming",
+      "Taxonomy"
+    ],
+    "name": "Taxonomy",
+    "description": "A set of interfaces describing a taxonomy for structural engineering objects",
+    "stars": 4,
+    "forks": 0,
+    "lastUpdated": "2025-07-25T07:54:26Z",
+    "license": "MIT",
+    "submissionDate": "2025-07-30",
+    "submitterUsername": "kpne",
+    "frameworks": [],
+    "platforms": [],
+    "mainLanguage": "C#",
+    "openIssues": 2
   }
 ]
