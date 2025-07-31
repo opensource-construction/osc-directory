@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1681,
-    "forks": 444,
-    "lastUpdated": "2025-07-30T06:30:56Z",
+    "stars": 1683,
+    "forks": 445,
+    "lastUpdated": "2025-07-30T12:45:18Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 69,
+    "openIssues": 72,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 107850,
-    "forks": 35921,
-    "lastUpdated": "2025-07-30T04:09:00Z",
+    "stars": 107864,
+    "forks": 35925,
+    "lastUpdated": "2025-07-31T01:16:13Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 570,
+    "openIssues": 566,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11597,
-    "forks": 3179,
-    "lastUpdated": "2025-07-30T02:39:41Z",
+    "stars": 11599,
+    "forks": 3180,
+    "lastUpdated": "2025-07-30T22:34:30Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5015,
+    "openIssues": 5016,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2165,
-    "forks": 800,
-    "lastUpdated": "2025-07-29T20:12:56Z",
+    "stars": 2166,
+    "forks": 801,
+    "lastUpdated": "2025-07-30T16:55:36Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1032,
+    "openIssues": 1036,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2025-07-29T15:18:39Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
-    "openIssues": 158,
+    "openIssues": 159,
     "platforms": [
       "web"
     ],
@@ -520,7 +520,7 @@
     "lastUpdated": "2025-07-29T09:43:19Z",
     "mainLanguage": "TypeScript",
     "license": "MPL-2.0",
-    "openIssues": 76,
+    "openIssues": 78,
     "platforms": [
       "web"
     ],
@@ -792,9 +792,9 @@
     ],
     "name": "bowerbird",
     "description": "Scripted C# Plug-in Framework for Revit",
-    "stars": 51,
+    "stars": 52,
     "forks": 6,
-    "lastUpdated": "2025-07-21T01:52:02Z",
+    "lastUpdated": "2025-07-30T13:33:01Z",
     "license": "MIT",
     "submissionDate": "2025-07-03",
     "submitterUsername": "cdiggins",
@@ -875,9 +875,9 @@
     ],
     "name": "awatif",
     "description": "The First Web-based Parametric Structural Engineering Platform",
-    "stars": 82,
+    "stars": 84,
     "forks": 12,
-    "lastUpdated": "2025-07-29T10:26:48Z",
+    "lastUpdated": "2025-07-30T17:00:12Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -899,13 +899,13 @@
     "description": "A set of interfaces describing a taxonomy for structural engineering objects",
     "stars": 4,
     "forks": 0,
-    "lastUpdated": "2025-07-25T07:54:26Z",
+    "lastUpdated": "2025-07-30T12:17:28Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "kpne",
     "frameworks": [],
     "platforms": [],
     "mainLanguage": "C#",
-    "openIssues": 2
+    "openIssues": 1
   }
 ]
