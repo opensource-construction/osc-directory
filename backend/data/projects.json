@@ -504,31 +504,6 @@
     "frameworks": []
   },
   {
-    "name": "engine_web-ifc",
-    "description": "Reading and writing IFC files with Javascript, at native speeds.",
-    "url": "https://github.com/ThatOpen/engine_web-ifc",
-    "tags": [
-      "cpp",
-      "emscripten",
-      "ifc",
-      "javascript",
-      "wasm",
-      "webassembly"
-    ],
-    "stars": 769,
-    "forks": 227,
-    "lastUpdated": "2025-08-06T07:07:50Z",
-    "mainLanguage": "TypeScript",
-    "license": "MPL-2.0",
-    "openIssues": 79,
-    "platforms": [
-      "web"
-    ],
-    "frameworks": [
-      "nodejs"
-    ]
-  },
-  {
     "name": "IfcLCA",
     "description": "Opensource Life Cycle Assessment for Built Environment using Industry Foundation Classes",
     "url": "https://github.com/IfcLCA/IfcLCA",
@@ -566,30 +541,6 @@
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "openIssues": 0,
-    "platforms": [
-      "web"
-    ],
-    "frameworks": [
-      "threejs"
-    ]
-  },
-  {
-    "name": "web-ifc-viewer",
-    "description": "Graphics engine and toolkit for client applications.",
-    "url": "https://github.com/ThatOpen/web-ifc-viewer",
-    "tags": [
-      "3d",
-      "bim",
-      "geometry",
-      "ifc",
-      "threejs"
-    ],
-    "stars": 977,
-    "forks": 243,
-    "lastUpdated": "2025-07-19T14:49:34Z",
-    "mainLanguage": "JavaScript",
-    "license": "MIT",
-    "openIssues": 56,
     "platforms": [
       "web"
     ],

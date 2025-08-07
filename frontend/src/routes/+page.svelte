@@ -8,11 +8,17 @@
 	import type { Project } from '$shared/types/index.js';
 	import Fuse from 'fuse.js';
 
+	type GroupedProjects = {
+		groupName: string;
+		projects: Project[];
+	}[];
+
 	let { data } = $props();
 	let projects: Project[] = $state(data.projects);
 	let selectedMetadataFilters = $state<Record<string, string[]>>({});
 	let isLoading = $state(false);
 	let sortedProjects = $state<Project[]>([]);
+	let groupedProjects = $state<GroupedProjects>([]);
 	let searchQuery = $state('');
 
 	let fuse = $derived(new Fuse(projects, fuseOptions));
@@ -107,8 +113,9 @@
 		searchQuery = '';
 	}
 
-	function handleSortChange(newSortedProjects: Project[]) {
+	function handleSortChange(newSortedProjects: Project[], newGroupedProjects: GroupedProjects) {
 		sortedProjects = newSortedProjects;
+		groupedProjects = newGroupedProjects;
 	}
 
 	function handleSearchChange(query: string) {
@@ -142,7 +149,7 @@
 				{selectedMetadataFilters}
 				{updateMetadataFilter}
 			/>
-			
+
 			<ProjectSorting projects={filteredProjects} onSortChange={handleSortChange} />
 
 			{#if Object.values(selectedMetadataFilters).some((v) => v.length > 0) || searchQuery.trim()}
@@ -162,7 +169,20 @@
 				</div>
 			{/if}
 		</div>
-
-		<ProjectList projects={sortedProjects} />
+		{#if groupedProjects.length > 0}
+			{#each groupedProjects as group}
+				<div class="mb-8">
+					<h2 class="text-xl font-semibold text-gray-800 mb-4 pb-2 border-b border-gray-200">
+						{group.groupName}
+						<span class="text-sm font-normal text-gray-500 ml-2">
+							({group.projects.length} project{group.projects.length !== 1 ? 's' : ''})
+						</span>
+					</h2>
+					<ProjectList projects={group.projects} />
+				</div>
+			{/each}
+		{:else}
+			<ProjectList projects={sortedProjects} />
+		{/if}
 	{/if}
 </div>

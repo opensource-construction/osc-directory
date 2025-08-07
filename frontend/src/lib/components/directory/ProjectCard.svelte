@@ -6,6 +6,7 @@
 
 	// Limit metadata to max 4 items
 	const displayMetadata = project.tags?.slice(0, 4) || [];
+	let projectUserName = project.url.match(/github\.com\/([^\/]+)/)?.[1] || 'Unknown';
 	let isExpanded = $state(false);
 </script>
 
@@ -115,6 +116,11 @@
 					</a>
 				</div>
 			{/if}
+
+			<div class="flex items-center">
+				<Icon icon="solar:user-broken" class="w-4 h-4 mr-1"></Icon>
+				<span>{projectUserName}</span>
+			</div>
 		</div>
 		{#if project.lastUpdated}
 			<div class="text-gray-500 flex gap-1 items-center mt-1 text-sm">
