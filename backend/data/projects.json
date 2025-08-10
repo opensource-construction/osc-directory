@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1696,
+    "stars": 1698,
     "forks": 449,
-    "lastUpdated": "2025-08-09T01:46:08Z",
+    "lastUpdated": "2025-08-09T15:37:41Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 70,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108013,
-    "forks": 35937,
-    "lastUpdated": "2025-08-09T01:15:47Z",
+    "stars": 108022,
+    "forks": 35938,
+    "lastUpdated": "2025-08-10T01:34:46Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 579,
+    "openIssues": 578,
     "platforms": [
       "web",
       "mobile"
@@ -127,7 +127,7 @@
       "openbim"
     ],
     "stars": 1640,
-    "forks": 629,
+    "forks": 630,
     "lastUpdated": "2025-08-05T09:20:51Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
@@ -178,11 +178,11 @@
       "spatial-data"
     ],
     "stars": 11632,
-    "forks": 3183,
-    "lastUpdated": "2025-08-08T12:36:59Z",
+    "forks": 3182,
+    "lastUpdated": "2025-08-09T23:41:40Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5060,
+    "openIssues": 5059,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2176,
+    "stars": 2175,
     "forks": 804,
-    "lastUpdated": "2025-08-08T18:18:38Z",
+    "lastUpdated": "2025-08-09T23:46:49Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1047,
+    "openIssues": 1046,
     "platforms": [
       "windows",
       "linux",
@@ -797,7 +797,7 @@
     "name": "bim-open-schema",
     "description": "BIM to Parquet and DuckDB",
     "stars": 18,
-    "forks": 2,
+    "forks": 3,
     "lastUpdated": "2025-08-08T18:41:16Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
