@@ -53,4 +53,5 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [Taxonomy](https://github.com/MagmaWorks/Taxonomy) | A set of interfaces describing a taxonomy for structural engineering objects | C# | 4 | Aug 1, 2025 | MIT |
 | [engine_components](https://github.com/ThatOpen/engine_components) | No description provided | TypeScript | 493 | Aug 13, 2025 | MIT |
 | [SOM-Toolkit](https://github.com/c-mellueh/SOM-Toolkit) | Toolkit for creating, managing, and exporting Semantic Object Models (SOM) for BIM — includes a Python library and PySide6-based GUI with bSDD & IDS support. | Python | 6 | Aug 14, 2025 | MIT |
+| [IfcBorehole](https://github.com/c-mellueh/IfcBorehole) | CLI and GUI for creating IfcBoreholes from Excel files | Python | 0 | Aug 14, 2025 | MIT |
 

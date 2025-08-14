@@ -899,5 +899,28 @@
     ],
     "mainLanguage": "Python",
     "openIssues": 1
+  },
+  {
+    "url": "https://github.com/c-mellueh/IfcBorehole",
+    "tags": [
+      "bim",
+      "geotechnical-engineering",
+      "ifc",
+      "ifcopenshell"
+    ],
+    "name": "IfcBorehole",
+    "description": "CLI and GUI for creating IfcBoreholes from Excel files",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-08-14T08:41:05Z",
+    "license": "MIT",
+    "submissionDate": "2025-08-14",
+    "submitterUsername": "c-mellueh",
+    "frameworks": [],
+    "platforms": [
+      "desktop"
+    ],
+    "mainLanguage": "Python",
+    "openIssues": 0
   }
 ]
