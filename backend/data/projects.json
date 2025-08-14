@@ -75,9 +75,9 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108090,
+    "stars": 108091,
     "forks": 35957,
-    "lastUpdated": "2025-08-14T09:54:07Z",
+    "lastUpdated": "2025-08-14T12:06:19Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 575,
@@ -876,5 +876,28 @@
     ],
     "mainLanguage": "TypeScript",
     "openIssues": 7
+  },
+  {
+    "url": "https://github.com/c-mellueh/SOM-Toolkit",
+    "tags": [
+      "bim",
+      "bsdd",
+      "ids",
+      "som"
+    ],
+    "name": "SOM-Toolkit",
+    "description": "Toolkit for creating, managing, and exporting Semantic Object Models (SOM) for BIM — includes a Python library and PySide6-based GUI with bSDD & IDS support.",
+    "stars": 6,
+    "forks": 2,
+    "lastUpdated": "2025-08-14T08:38:49Z",
+    "license": "MIT",
+    "submissionDate": "2025-08-14",
+    "submitterUsername": "c-mellueh",
+    "frameworks": [],
+    "platforms": [
+      "windows"
+    ],
+    "mainLanguage": "Python",
+    "openIssues": 1
   }
 ]
