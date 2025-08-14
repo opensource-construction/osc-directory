@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1708,
-    "forks": 451,
-    "lastUpdated": "2025-08-13T13:10:51Z",
+    "stars": 1711,
+    "forks": 453,
+    "lastUpdated": "2025-08-14T10:38:16Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 70,
+    "openIssues": 71,
     "platforms": [
       "windows",
       "linux",
@@ -75,9 +75,9 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108077,
+    "stars": 108090,
     "forks": 35957,
-    "lastUpdated": "2025-08-14T00:40:07Z",
+    "lastUpdated": "2025-08-14T09:54:07Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 575,
@@ -128,7 +128,7 @@
     ],
     "stars": 1641,
     "forks": 630,
-    "lastUpdated": "2025-08-12T01:40:19Z",
+    "lastUpdated": "2025-08-14T08:42:37Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 104,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11648,
-    "forks": 3181,
-    "lastUpdated": "2025-08-14T01:34:53Z",
+    "stars": 11652,
+    "forks": 3183,
+    "lastUpdated": "2025-08-14T09:46:01Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5069,
+    "openIssues": 5075,
     "platforms": [
       "windows",
       "linux",
@@ -211,7 +211,7 @@
     "lastUpdated": "2025-08-13T12:28:12Z",
     "mainLanguage": "C#",
     "license": "MIT",
-    "openIssues": 27,
+    "openIssues": 28,
     "platforms": [
       "windows",
       "linux",
@@ -282,10 +282,10 @@
     ],
     "stars": 2179,
     "forks": 808,
-    "lastUpdated": "2025-08-13T20:24:14Z",
+    "lastUpdated": "2025-08-14T07:14:30Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1028,
+    "openIssues": 1025,
     "platforms": [
       "windows",
       "linux",
@@ -858,5 +858,23 @@
     "platforms": [],
     "mainLanguage": "C#",
     "openIssues": 0
+  },
+  {
+    "url": "https://github.com/ThatOpen/engine_components",
+    "tags": [],
+    "name": "engine_components",
+    "description": "No description provided",
+    "stars": 493,
+    "forks": 163,
+    "lastUpdated": "2025-08-13T16:55:49Z",
+    "license": "MIT",
+    "submissionDate": "2025-08-14",
+    "submitterUsername": "agviegas",
+    "frameworks": [],
+    "platforms": [
+      "web"
+    ],
+    "mainLanguage": "TypeScript",
+    "openIssues": 7
   }
 ]
