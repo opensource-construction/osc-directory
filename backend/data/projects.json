@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1721,
+    "stars": 1724,
     "forks": 453,
-    "lastUpdated": "2025-08-17T23:48:51Z",
+    "lastUpdated": "2025-08-18T19:10:04Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 67,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108147,
-    "forks": 35963,
-    "lastUpdated": "2025-08-18T01:35:25Z",
+    "stars": 108163,
+    "forks": 35964,
+    "lastUpdated": "2025-08-19T01:42:19Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 581,
+    "openIssues": 586,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1643,
+    "stars": 1644,
     "forks": 630,
-    "lastUpdated": "2025-08-16T16:27:45Z",
+    "lastUpdated": "2025-08-18T05:53:49Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 104,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11663,
+    "stars": 11667,
     "forks": 3186,
-    "lastUpdated": "2025-08-17T17:21:33Z",
+    "lastUpdated": "2025-08-19T00:53:22Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5071,
+    "openIssues": 5080,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2179,
-    "forks": 809,
-    "lastUpdated": "2025-08-16T13:02:25Z",
+    "stars": 2180,
+    "forks": 810,
+    "lastUpdated": "2025-08-18T14:48:39Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1029,
+    "openIssues": 1027,
     "platforms": [
       "windows",
       "linux",
@@ -379,7 +379,7 @@
     ],
     "stars": 33,
     "forks": 20,
-    "lastUpdated": "2025-08-16T23:26:22Z",
+    "lastUpdated": "2025-08-18T16:56:27Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 20,
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-08-16T18:29:06Z",
+    "lastUpdated": "2025-08-19T01:11:27Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -597,7 +597,7 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "bastiannispel",
     "mainLanguage": "C#",
-    "openIssues": 12,
+    "openIssues": 14,
     "platforms": [
       "windows"
     ],
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 5,
     "forks": 1,
-    "lastUpdated": "2025-07-24T05:10:43Z",
+    "lastUpdated": "2025-08-18T16:11:55Z",
     "license": "AGPL-3.0",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -857,16 +857,16 @@
     "frameworks": [],
     "platforms": [],
     "mainLanguage": "C#",
-    "openIssues": 0
+    "openIssues": 1
   },
   {
     "url": "https://github.com/ThatOpen/engine_components",
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 496,
+    "stars": 498,
     "forks": 164,
-    "lastUpdated": "2025-08-17T20:19:26Z",
+    "lastUpdated": "2025-08-18T19:49:47Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -875,7 +875,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 8
+    "openIssues": 9
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
