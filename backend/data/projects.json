@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1729,
+    "stars": 1732,
     "forks": 454,
-    "lastUpdated": "2025-08-19T20:47:16Z",
+    "lastUpdated": "2025-08-20T13:39:39Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 67,
@@ -47,7 +47,7 @@
     "lastUpdated": "2025-08-14T14:40:22Z",
     "mainLanguage": "Python",
     "license": "MIT",
-    "openIssues": 110,
+    "openIssues": 109,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108181,
-    "forks": 35964,
-    "lastUpdated": "2025-08-20T01:16:30Z",
+    "stars": 108200,
+    "forks": 35968,
+    "lastUpdated": "2025-08-20T23:24:10Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 591,
+    "openIssues": 594,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11672,
-    "forks": 3188,
-    "lastUpdated": "2025-08-19T21:55:57Z",
+    "stars": 11678,
+    "forks": 3190,
+    "lastUpdated": "2025-08-20T20:19:52Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5092,
+    "openIssues": 5094,
     "platforms": [
       "windows",
       "linux",
@@ -206,9 +206,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 675,
+    "stars": 676,
     "forks": 146,
-    "lastUpdated": "2025-08-13T12:28:12Z",
+    "lastUpdated": "2025-08-20T10:38:33Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 28,
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2180,
-    "forks": 810,
-    "lastUpdated": "2025-08-19T14:07:03Z",
+    "stars": 2182,
+    "forks": 809,
+    "lastUpdated": "2025-08-20T18:34:04Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1026,
+    "openIssues": 1029,
     "platforms": [
       "windows",
       "linux",
@@ -320,7 +320,7 @@
       "webgl-viewer"
     ],
     "stars": 815,
-    "forks": 311,
+    "forks": 312,
     "lastUpdated": "2025-08-19T07:17:29Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-08-19T23:18:58Z",
+    "lastUpdated": "2025-08-20T19:42:25Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -535,9 +535,9 @@
       "visual-scripting",
       "web-ifc"
     ],
-    "stars": 41,
+    "stars": 43,
     "forks": 4,
-    "lastUpdated": "2025-08-16T14:59:31Z",
+    "lastUpdated": "2025-08-20T18:36:03Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "openIssues": 0,
@@ -561,9 +561,9 @@
     ],
     "name": "ifc-classifier",
     "description": "No description provided",
-    "stars": 15,
+    "stars": 16,
     "forks": 2,
-    "lastUpdated": "2025-08-16T08:20:57Z",
+    "lastUpdated": "2025-08-20T10:33:30Z",
     "license": "AGPL-3.0",
     "submissionDate": "2025-06-24",
     "submitterUsername": "louistrue",
@@ -597,7 +597,7 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "bastiannispel",
     "mainLanguage": "C#",
-    "openIssues": 14,
+    "openIssues": 16,
     "platforms": [
       "windows"
     ],
@@ -828,7 +828,7 @@
     "description": "The First Web-based Parametric Structural Engineering Platform",
     "stars": 85,
     "forks": 12,
-    "lastUpdated": "2025-08-06T10:40:32Z",
+    "lastUpdated": "2025-08-21T00:34:42Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -837,7 +837,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 25
+    "openIssues": 23
   },
   {
     "url": "https://github.com/MagmaWorks/Taxonomy",
@@ -864,9 +864,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 498,
+    "stars": 500,
     "forks": 165,
-    "lastUpdated": "2025-08-19T21:00:38Z",
+    "lastUpdated": "2025-08-21T01:08:04Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -875,7 +875,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 8
+    "openIssues": 7
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -889,7 +889,7 @@
     "description": "Toolkit for creating, managing, and exporting Semantic Object Models (SOM) for BIM — includes a Python library and PySide6-based GUI with bSDD & IDS support.",
     "stars": 6,
     "forks": 2,
-    "lastUpdated": "2025-08-14T08:38:49Z",
+    "lastUpdated": "2025-08-20T15:30:49Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "c-mellueh",
