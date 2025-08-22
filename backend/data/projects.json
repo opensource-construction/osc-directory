@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1732,
+    "stars": 1734,
     "forks": 454,
-    "lastUpdated": "2025-08-20T13:39:39Z",
+    "lastUpdated": "2025-08-22T00:53:38Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 67,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108200,
-    "forks": 35968,
-    "lastUpdated": "2025-08-20T23:24:10Z",
+    "stars": 108219,
+    "forks": 35970,
+    "lastUpdated": "2025-08-21T21:04:05Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 594,
+    "openIssues": 596,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11678,
-    "forks": 3190,
-    "lastUpdated": "2025-08-20T20:19:52Z",
+    "stars": 11687,
+    "forks": 3191,
+    "lastUpdated": "2025-08-22T00:43:59Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5094,
+    "openIssues": 5102,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2182,
+    "stars": 2183,
     "forks": 809,
-    "lastUpdated": "2025-08-20T18:34:04Z",
+    "lastUpdated": "2025-08-21T20:55:24Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1029,
+    "openIssues": 1031,
     "platforms": [
       "windows",
       "linux",
@@ -379,7 +379,7 @@
     ],
     "stars": 33,
     "forks": 20,
-    "lastUpdated": "2025-08-19T22:26:27Z",
+    "lastUpdated": "2025-08-21T03:16:20Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 20,
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-08-20T19:42:25Z",
+    "lastUpdated": "2025-08-21T03:16:20Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -425,7 +425,7 @@
     ],
     "stars": 16,
     "forks": 11,
-    "lastUpdated": "2025-08-15T00:55:01Z",
+    "lastUpdated": "2025-08-21T03:16:21Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9,
@@ -540,7 +540,7 @@
     "lastUpdated": "2025-08-20T18:36:03Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
-    "openIssues": 0,
+    "openIssues": 3,
     "platforms": [
       "web"
     ],
@@ -597,7 +597,7 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "bastiannispel",
     "mainLanguage": "C#",
-    "openIssues": 16,
+    "openIssues": 22,
     "platforms": [
       "windows"
     ],
@@ -864,9 +864,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 500,
+    "stars": 501,
     "forks": 165,
-    "lastUpdated": "2025-08-21T01:08:04Z",
+    "lastUpdated": "2025-08-21T03:30:34Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -875,7 +875,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 7
+    "openIssues": 6
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
