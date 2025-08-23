@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108219,
-    "forks": 35970,
-    "lastUpdated": "2025-08-21T21:04:05Z",
+    "stars": 108236,
+    "forks": 35971,
+    "lastUpdated": "2025-08-23T01:27:37Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 596,
+    "openIssues": 597,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11687,
-    "forks": 3191,
-    "lastUpdated": "2025-08-22T00:43:59Z",
+    "stars": 11689,
+    "forks": 3190,
+    "lastUpdated": "2025-08-22T16:36:48Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5102,
+    "openIssues": 5099,
     "platforms": [
       "windows",
       "linux",
@@ -280,9 +280,9 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2183,
+    "stars": 2184,
     "forks": 809,
-    "lastUpdated": "2025-08-21T20:55:24Z",
+    "lastUpdated": "2025-08-22T12:11:46Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "openIssues": 1031,
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-08-21T03:16:20Z",
+    "lastUpdated": "2025-08-22T19:04:08Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -535,9 +535,9 @@
       "visual-scripting",
       "web-ifc"
     ],
-    "stars": 43,
+    "stars": 44,
     "forks": 4,
-    "lastUpdated": "2025-08-20T18:36:03Z",
+    "lastUpdated": "2025-08-22T19:09:34Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "openIssues": 3,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 5,
     "forks": 1,
-    "lastUpdated": "2025-08-18T16:11:55Z",
+    "lastUpdated": "2025-08-22T10:15:10Z",
     "license": "AGPL-3.0",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -827,8 +827,8 @@
     "name": "awatif",
     "description": "The First Web-based Parametric Structural Engineering Platform",
     "stars": 85,
-    "forks": 12,
-    "lastUpdated": "2025-08-21T00:34:42Z",
+    "forks": 13,
+    "lastUpdated": "2025-08-22T16:47:57Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -837,7 +837,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 23
+    "openIssues": 0
   },
   {
     "url": "https://github.com/MagmaWorks/Taxonomy",
@@ -864,9 +864,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 501,
-    "forks": 165,
-    "lastUpdated": "2025-08-21T03:30:34Z",
+    "stars": 503,
+    "forks": 166,
+    "lastUpdated": "2025-08-22T23:08:53Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -875,7 +875,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 6
+    "openIssues": 8
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
