@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1734,
+    "stars": 1737,
     "forks": 454,
-    "lastUpdated": "2025-08-22T00:53:38Z",
+    "lastUpdated": "2025-08-24T16:53:05Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 68,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108241,
+    "stars": 108255,
     "forks": 35969,
-    "lastUpdated": "2025-08-24T00:02:28Z",
+    "lastUpdated": "2025-08-24T23:47:47Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 592,
+    "openIssues": 595,
     "platforms": [
       "web",
       "mobile"
@@ -131,7 +131,7 @@
     "lastUpdated": "2025-08-18T05:53:49Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
-    "openIssues": 104,
+    "openIssues": 102,
     "platforms": [
       "windows",
       "linux",
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11691,
-    "forks": 3191,
-    "lastUpdated": "2025-08-24T00:12:29Z",
+    "stars": 11697,
+    "forks": 3192,
+    "lastUpdated": "2025-08-24T21:37:18Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5103,
+    "openIssues": 5091,
     "platforms": [
       "windows",
       "linux",
@@ -282,7 +282,7 @@
     ],
     "stars": 2184,
     "forks": 811,
-    "lastUpdated": "2025-08-22T12:11:46Z",
+    "lastUpdated": "2025-08-24T06:23:35Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "openIssues": 1033,
@@ -537,10 +537,10 @@
     ],
     "stars": 45,
     "forks": 4,
-    "lastUpdated": "2025-08-23T23:32:13Z",
+    "lastUpdated": "2025-08-24T19:18:38Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
-    "openIssues": 3,
+    "openIssues": 4,
     "platforms": [
       "web"
     ],
