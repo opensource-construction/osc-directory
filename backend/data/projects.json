@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1741,
-    "forks": 456,
-    "lastUpdated": "2025-08-25T21:01:21Z",
+    "stars": 1743,
+    "forks": 457,
+    "lastUpdated": "2025-08-27T16:15:16Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 68,
+    "openIssues": 69,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108283,
-    "forks": 35976,
-    "lastUpdated": "2025-08-26T23:43:53Z",
+    "stars": 108296,
+    "forks": 35979,
+    "lastUpdated": "2025-08-28T00:15:04Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 598,
+    "openIssues": 602,
     "platforms": [
       "web",
       "mobile"
@@ -155,7 +155,7 @@
       "weather"
     ],
     "stars": 209,
-    "forks": 55,
+    "forks": 56,
     "lastUpdated": "2025-08-12T12:42:18Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11705,
-    "forks": 3193,
-    "lastUpdated": "2025-08-26T17:25:16Z",
+    "stars": 11707,
+    "forks": 3194,
+    "lastUpdated": "2025-08-28T01:15:01Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5093,
+    "openIssues": 5104,
     "platforms": [
       "windows",
       "linux",
@@ -281,11 +281,11 @@
       "ifcopenshell"
     ],
     "stars": 2184,
-    "forks": 811,
-    "lastUpdated": "2025-08-26T15:04:51Z",
+    "forks": 812,
+    "lastUpdated": "2025-08-27T18:32:34Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1034,
+    "openIssues": 1038,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2025-08-26T20:08:50Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
-    "openIssues": 161,
+    "openIssues": 162,
     "platforms": [
       "web"
     ],
@@ -535,12 +535,12 @@
       "visual-scripting",
       "web-ifc"
     ],
-    "stars": 46,
+    "stars": 47,
     "forks": 4,
-    "lastUpdated": "2025-08-26T01:34:59Z",
+    "lastUpdated": "2025-08-27T18:39:52Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
-    "openIssues": 4,
+    "openIssues": 7,
     "platforms": [
       "web"
     ],
@@ -568,7 +568,7 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "louistrue",
     "mainLanguage": "TypeScript",
-    "openIssues": 1,
+    "openIssues": 2,
     "platforms": [
       "web"
     ],
@@ -745,7 +745,7 @@
     "description": "Scripted C# Plug-in Framework for Revit",
     "stars": 55,
     "forks": 7,
-    "lastUpdated": "2025-08-25T03:31:56Z",
+    "lastUpdated": "2025-08-27T02:39:37Z",
     "license": "MIT",
     "submissionDate": "2025-07-03",
     "submitterUsername": "cdiggins",
@@ -798,7 +798,7 @@
     "description": "BIM to Parquet and DuckDB",
     "stars": 19,
     "forks": 3,
-    "lastUpdated": "2025-08-12T16:01:47Z",
+    "lastUpdated": "2025-08-27T02:38:58Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "cdiggins",
@@ -826,9 +826,9 @@
     ],
     "name": "awatif",
     "description": "The First Web-based Parametric Structural Engineering Platform",
-    "stars": 86,
+    "stars": 87,
     "forks": 13,
-    "lastUpdated": "2025-08-26T20:14:16Z",
+    "lastUpdated": "2025-08-27T23:36:54Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
