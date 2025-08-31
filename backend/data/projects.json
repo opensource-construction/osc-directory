@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1748,
+    "stars": 1747,
     "forks": 458,
-    "lastUpdated": "2025-08-30T14:35:54Z",
+    "lastUpdated": "2025-08-31T03:22:45Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 77,
+    "openIssues": 76,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108332,
-    "forks": 35980,
-    "lastUpdated": "2025-08-30T22:01:09Z",
+    "stars": 108339,
+    "forks": 35983,
+    "lastUpdated": "2025-08-31T11:30:17Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 602,
+    "openIssues": 604,
     "platforms": [
       "web",
       "mobile"
@@ -127,7 +127,7 @@
       "openbim"
     ],
     "stars": 1645,
-    "forks": 630,
+    "forks": 631,
     "lastUpdated": "2025-08-29T09:59:54Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11719,
+    "stars": 11721,
     "forks": 3197,
-    "lastUpdated": "2025-08-30T18:28:38Z",
+    "lastUpdated": "2025-08-31T10:20:46Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5105,
+    "openIssues": 5103,
     "platforms": [
       "windows",
       "linux",
@@ -282,10 +282,10 @@
     ],
     "stars": 2186,
     "forks": 813,
-    "lastUpdated": "2025-08-30T18:05:02Z",
+    "lastUpdated": "2025-08-31T08:57:55Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1036,
+    "openIssues": 1034,
     "platforms": [
       "windows",
       "linux",
@@ -796,9 +796,9 @@
     ],
     "name": "bim-open-schema",
     "description": "BIM to Parquet and DuckDB",
-    "stars": 19,
+    "stars": 20,
     "forks": 3,
-    "lastUpdated": "2025-08-27T02:38:58Z",
+    "lastUpdated": "2025-08-31T01:48:43Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "cdiggins",
@@ -922,5 +922,38 @@
     ],
     "mainLanguage": "Python",
     "openIssues": 0
+  },
+  {
+    "url": "https://github.com/chuongmep/RevitAddInManager",
+    "tags": [
+      "dev",
+      "revitapi",
+      "bim",
+      "developer",
+      "addin",
+      "addinmanager",
+      "adn",
+      "aps",
+      "autodesk",
+      "autodesk-revit",
+      "forge",
+      "revit",
+      "revitaddin",
+      "revitaddinmanager"
+    ],
+    "name": "RevitAddInManager",
+    "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
+    "stars": 383,
+    "forks": 68,
+    "lastUpdated": "2025-08-31T11:03:05Z",
+    "license": "MIT",
+    "submissionDate": "2025-08-31",
+    "submitterUsername": "chuongmep",
+    "frameworks": [],
+    "platforms": [
+      "windows"
+    ],
+    "mainLanguage": "C#",
+    "openIssues": 7
   }
 ]
