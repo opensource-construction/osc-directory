@@ -18,7 +18,7 @@
     "lastUpdated": "2025-09-02T19:26:16Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 75,
+    "openIssues": 76,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108368,
-    "forks": 35988,
-    "lastUpdated": "2025-09-03T00:02:18Z",
+    "stars": 108386,
+    "forks": 35986,
+    "lastUpdated": "2025-09-04T01:20:41Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 601,
+    "openIssues": 600,
     "platforms": [
       "web",
       "mobile"
@@ -154,9 +154,9 @@
       "ladybug",
       "weather"
     ],
-    "stars": 210,
+    "stars": 211,
     "forks": 56,
-    "lastUpdated": "2025-08-30T03:08:20Z",
+    "lastUpdated": "2025-09-03T16:56:31Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 8,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11732,
-    "forks": 3198,
-    "lastUpdated": "2025-09-02T19:30:03Z",
+    "stars": 11740,
+    "forks": 3199,
+    "lastUpdated": "2025-09-04T00:58:30Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5109,
+    "openIssues": 5121,
     "platforms": [
       "windows",
       "linux",
@@ -281,11 +281,11 @@
       "ifcopenshell"
     ],
     "stars": 2188,
-    "forks": 814,
+    "forks": 815,
     "lastUpdated": "2025-09-02T20:51:26Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1044,
+    "openIssues": 1043,
     "platforms": [
       "windows",
       "linux",
@@ -379,7 +379,7 @@
     ],
     "stars": 33,
     "forks": 20,
-    "lastUpdated": "2025-08-30T00:45:24Z",
+    "lastUpdated": "2025-09-03T20:14:26Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 20,
@@ -514,7 +514,7 @@
       "pyodide"
     ],
     "stars": 27,
-    "forks": 4,
+    "forks": 3,
     "lastUpdated": "2025-08-04T11:42:29Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
@@ -568,7 +568,7 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "louistrue",
     "mainLanguage": "TypeScript",
-    "openIssues": 1,
+    "openIssues": 7,
     "platforms": [
       "web"
     ],
@@ -826,9 +826,9 @@
     ],
     "name": "awatif",
     "description": "The First Web-based Parametric Structural Engineering Platform",
-    "stars": 89,
+    "stars": 90,
     "forks": 13,
-    "lastUpdated": "2025-09-02T16:15:17Z",
+    "lastUpdated": "2025-09-03T03:21:40Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
