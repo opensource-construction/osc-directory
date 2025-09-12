@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1764,
+    "stars": 1768,
     "forks": 462,
-    "lastUpdated": "2025-09-10T14:05:21Z",
+    "lastUpdated": "2025-09-11T21:45:57Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 77,
+    "openIssues": 76,
     "platforms": [
       "windows",
       "linux",
@@ -75,9 +75,9 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108508,
-    "forks": 36003,
-    "lastUpdated": "2025-09-10T23:53:01Z",
+    "stars": 108525,
+    "forks": 36004,
+    "lastUpdated": "2025-09-12T00:30:50Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 601,
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1647,
+    "stars": 1646,
     "forks": 632,
-    "lastUpdated": "2025-09-05T02:35:57Z",
+    "lastUpdated": "2025-09-11T16:12:47Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 102,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11768,
-    "forks": 3211,
-    "lastUpdated": "2025-09-11T00:54:06Z",
+    "stars": 11770,
+    "forks": 3213,
+    "lastUpdated": "2025-09-11T21:09:44Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5144,
+    "openIssues": 5149,
     "platforms": [
       "windows",
       "linux",
@@ -257,7 +257,7 @@
     ],
     "stars": 15,
     "forks": 5,
-    "lastUpdated": "2025-08-07T11:29:02Z",
+    "lastUpdated": "2025-09-11T09:28:51Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 0,
@@ -282,10 +282,10 @@
     ],
     "stars": 2195,
     "forks": 816,
-    "lastUpdated": "2025-09-10T12:46:52Z",
+    "lastUpdated": "2025-09-11T17:55:02Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1048,
+    "openIssues": 1055,
     "platforms": [
       "windows",
       "linux",
@@ -319,12 +319,12 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 818,
+    "stars": 820,
     "forks": 314,
-    "lastUpdated": "2025-09-10T08:07:27Z",
+    "lastUpdated": "2025-09-12T00:31:11Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
-    "openIssues": 164,
+    "openIssues": 165,
     "platforms": [
       "web"
     ],
@@ -448,7 +448,7 @@
     ],
     "stars": 5,
     "forks": 0,
-    "lastUpdated": "2025-02-25T17:10:28Z",
+    "lastUpdated": "2025-09-11T04:36:09Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 5,
@@ -537,10 +537,10 @@
     ],
     "stars": 53,
     "forks": 5,
-    "lastUpdated": "2025-09-10T20:23:36Z",
+    "lastUpdated": "2025-09-11T14:17:43Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
-    "openIssues": 7,
+    "openIssues": 3,
     "platforms": [
       "web"
     ],
@@ -875,7 +875,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 12
+    "openIssues": 14
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -943,9 +943,9 @@
     ],
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
-    "stars": 385,
+    "stars": 386,
     "forks": 68,
-    "lastUpdated": "2025-09-04T21:03:15Z",
+    "lastUpdated": "2025-09-11T12:53:40Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
