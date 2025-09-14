@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1771,
+    "stars": 1772,
     "forks": 462,
-    "lastUpdated": "2025-09-12T18:40:04Z",
+    "lastUpdated": "2025-09-13T15:02:52Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 77,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108540,
-    "forks": 36005,
-    "lastUpdated": "2025-09-13T01:05:43Z",
+    "stars": 108550,
+    "forks": 36003,
+    "lastUpdated": "2025-09-13T23:26:08Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 602,
+    "openIssues": 601,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 11961,
-    "forks": 3218,
-    "lastUpdated": "2025-09-13T01:21:40Z",
+    "stars": 12202,
+    "forks": 3225,
+    "lastUpdated": "2025-09-14T01:01:00Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5155,
+    "openIssues": 5154,
     "platforms": [
       "windows",
       "linux",
@@ -281,11 +281,11 @@
       "ifcopenshell"
     ],
     "stars": 2195,
-    "forks": 816,
-    "lastUpdated": "2025-09-12T15:11:30Z",
+    "forks": 817,
+    "lastUpdated": "2025-09-13T21:13:59Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1057,
+    "openIssues": 1055,
     "platforms": [
       "windows",
       "linux",
@@ -780,7 +780,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 40
+    "openIssues": 41
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
