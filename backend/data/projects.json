@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1772,
-    "forks": 462,
-    "lastUpdated": "2025-09-13T15:02:52Z",
+    "stars": 1775,
+    "forks": 463,
+    "lastUpdated": "2025-09-14T14:29:31Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 77,
+    "openIssues": 78,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108550,
-    "forks": 36003,
-    "lastUpdated": "2025-09-13T23:26:08Z",
+    "stars": 108564,
+    "forks": 36004,
+    "lastUpdated": "2025-09-15T00:55:50Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 601,
+    "openIssues": 596,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12202,
-    "forks": 3225,
-    "lastUpdated": "2025-09-14T01:01:00Z",
+    "stars": 12260,
+    "forks": 3227,
+    "lastUpdated": "2025-09-15T00:58:30Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5154,
+    "openIssues": 5155,
     "platforms": [
       "windows",
       "linux",
@@ -282,10 +282,10 @@
     ],
     "stars": 2195,
     "forks": 817,
-    "lastUpdated": "2025-09-13T21:13:59Z",
+    "lastUpdated": "2025-09-14T17:15:37Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1055,
+    "openIssues": 1061,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2025-09-12T00:31:11Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
-    "openIssues": 164,
+    "openIssues": 163,
     "platforms": [
       "web"
     ],
@@ -623,7 +623,7 @@
     "description": "📚 Various C# libraries for efficient data driven applications ",
     "stars": 14,
     "forks": 5,
-    "lastUpdated": "2025-09-12T14:59:46Z",
+    "lastUpdated": "2025-09-14T04:43:58Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
