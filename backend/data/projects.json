@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1792,
+    "stars": 1793,
     "forks": 468,
-    "lastUpdated": "2025-09-24T16:52:53Z",
+    "lastUpdated": "2025-09-25T07:09:06Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 86,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108701,
-    "forks": 36016,
-    "lastUpdated": "2025-09-24T21:58:03Z",
+    "stars": 108710,
+    "forks": 36017,
+    "lastUpdated": "2025-09-25T17:08:29Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 600,
+    "openIssues": 608,
     "platforms": [
       "web",
       "mobile"
@@ -156,7 +156,7 @@
     ],
     "stars": 212,
     "forks": 56,
-    "lastUpdated": "2025-09-20T03:45:09Z",
+    "lastUpdated": "2025-09-25T22:47:08Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 8,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12491,
+    "stars": 12502,
     "forks": 3248,
-    "lastUpdated": "2025-09-25T00:56:52Z",
+    "lastUpdated": "2025-09-26T01:09:24Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5185,
+    "openIssues": 5193,
     "platforms": [
       "windows",
       "linux",
@@ -206,9 +206,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 677,
+    "stars": 678,
     "forks": 148,
-    "lastUpdated": "2025-09-24T16:21:03Z",
+    "lastUpdated": "2025-09-25T09:46:21Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 28,
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2204,
-    "forks": 823,
-    "lastUpdated": "2025-09-24T20:47:05Z",
+    "stars": 2205,
+    "forks": 824,
+    "lastUpdated": "2025-09-25T19:57:50Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1069,
+    "openIssues": 1070,
     "platforms": [
       "windows",
       "linux",
@@ -320,11 +320,11 @@
       "webgl-viewer"
     ],
     "stars": 839,
-    "forks": 318,
+    "forks": 319,
     "lastUpdated": "2025-09-24T12:10:29Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
-    "openIssues": 165,
+    "openIssues": 166,
     "platforms": [
       "web"
     ],
@@ -379,7 +379,7 @@
     ],
     "stars": 33,
     "forks": 20,
-    "lastUpdated": "2025-09-24T22:12:29Z",
+    "lastUpdated": "2025-09-25T23:13:55Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 20,
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-09-24T22:12:31Z",
+    "lastUpdated": "2025-09-25T23:13:55Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -425,7 +425,7 @@
     ],
     "stars": 17,
     "forks": 11,
-    "lastUpdated": "2025-09-24T22:12:30Z",
+    "lastUpdated": "2025-09-25T23:13:56Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9,
@@ -513,15 +513,16 @@
       "lca",
       "pyodide"
     ],
-    "stars": 0,
-    "forks": 0,
-    "lastUpdated": "2025-09-25T01:37:59.884Z",
-    "license": "Unknown",
-    "openIssues": 0,
+    "stars": 29,
+    "forks": 3,
+    "lastUpdated": "2025-09-16T08:03:48Z",
+    "license": "AGPL-3.0",
+    "openIssues": 14,
     "platforms": [
       "web"
     ],
-    "frameworks": []
+    "frameworks": [],
+    "mainLanguage": "TypeScript"
   },
   {
     "name": "ifc-flow",
@@ -688,7 +689,7 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
     "mainLanguage": "Python",
-    "openIssues": 35,
+    "openIssues": 34,
     "platforms": [
       "web"
     ],
@@ -796,8 +797,8 @@
     "name": "bim-open-schema",
     "description": "BIM to Parquet and DuckDB",
     "stars": 22,
-    "forks": 4,
-    "lastUpdated": "2025-09-24T17:55:13Z",
+    "forks": 5,
+    "lastUpdated": "2025-09-25T23:16:35Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "cdiggins",
@@ -864,7 +865,7 @@
     "name": "engine_components",
     "description": "No description provided",
     "stars": 523,
-    "forks": 168,
+    "forks": 169,
     "lastUpdated": "2025-09-24T08:22:29Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
@@ -874,7 +875,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 16
+    "openIssues": 17
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
