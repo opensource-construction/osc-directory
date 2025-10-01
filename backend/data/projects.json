@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1801,
-    "forks": 468,
-    "lastUpdated": "2025-09-30T00:34:42Z",
+    "stars": 1802,
+    "forks": 469,
+    "lastUpdated": "2025-09-30T08:53:41Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 87,
@@ -42,12 +42,12 @@
       "rhino3d",
       "rpc"
     ],
-    "stars": 348,
+    "stars": 349,
     "forks": 113,
-    "lastUpdated": "2025-09-24T09:57:24Z",
+    "lastUpdated": "2025-09-30T10:11:38Z",
     "mainLanguage": "Python",
     "license": "MIT",
-    "openIssues": 110,
+    "openIssues": 111,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108776,
+    "stars": 108793,
     "forks": 36025,
-    "lastUpdated": "2025-09-30T00:58:24Z",
+    "lastUpdated": "2025-09-30T17:36:20Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 602,
+    "openIssues": 603,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12539,
-    "forks": 3254,
-    "lastUpdated": "2025-09-30T01:12:02Z",
+    "stars": 12544,
+    "forks": 3253,
+    "lastUpdated": "2025-10-01T00:54:16Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5177,
+    "openIssues": 5180,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2209,
+    "stars": 2212,
     "forks": 824,
-    "lastUpdated": "2025-09-29T14:07:25Z",
+    "lastUpdated": "2025-09-30T14:34:20Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1058,
+    "openIssues": 1059,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2025-09-27T06:07:59Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
-    "openIssues": 166,
+    "openIssues": 167,
     "platforms": [
       "web"
     ],
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-09-27T00:11:33Z",
+    "lastUpdated": "2025-09-30T20:52:58Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -446,9 +446,9 @@
       "grasshopper",
       "rhino"
     ],
-    "stars": 5,
+    "stars": 6,
     "forks": 0,
-    "lastUpdated": "2025-09-11T04:36:09Z",
+    "lastUpdated": "2025-09-30T06:54:39Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 5,
@@ -535,9 +535,9 @@
       "visual-scripting",
       "web-ifc"
     ],
-    "stars": 55,
+    "stars": 57,
     "forks": 5,
-    "lastUpdated": "2025-09-17T14:33:43Z",
+    "lastUpdated": "2025-09-30T12:19:49Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
     "openIssues": 2,
@@ -622,7 +622,7 @@
     "name": "ara3d-sdk",
     "description": "📚 Various C# libraries for efficient data driven applications ",
     "stars": 16,
-    "forks": 5,
+    "forks": 6,
     "lastUpdated": "2025-09-24T13:57:44Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
@@ -864,9 +864,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 526,
+    "stars": 528,
     "forks": 169,
-    "lastUpdated": "2025-09-29T12:38:36Z",
+    "lastUpdated": "2025-09-30T21:17:18Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -875,7 +875,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 17
+    "openIssues": 19
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
