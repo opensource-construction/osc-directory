@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1802,
-    "forks": 469,
-    "lastUpdated": "2025-09-30T08:53:41Z",
+    "stars": 1803,
+    "forks": 468,
+    "lastUpdated": "2025-10-01T19:23:47Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 87,
@@ -47,7 +47,7 @@
     "lastUpdated": "2025-09-30T10:11:38Z",
     "mainLanguage": "Python",
     "license": "MIT",
-    "openIssues": 111,
+    "openIssues": 110,
     "platforms": [
       "windows",
       "linux",
@@ -75,9 +75,9 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108793,
-    "forks": 36025,
-    "lastUpdated": "2025-09-30T17:36:20Z",
+    "stars": 108811,
+    "forks": 36024,
+    "lastUpdated": "2025-10-02T00:32:22Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 603,
@@ -154,9 +154,9 @@
       "ladybug",
       "weather"
     ],
-    "stars": 212,
+    "stars": 213,
     "forks": 56,
-    "lastUpdated": "2025-09-25T22:47:08Z",
+    "lastUpdated": "2025-10-01T14:49:26Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 8,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12544,
+    "stars": 12548,
     "forks": 3253,
-    "lastUpdated": "2025-10-01T00:54:16Z",
+    "lastUpdated": "2025-10-02T00:31:29Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5180,
+    "openIssues": 5178,
     "platforms": [
       "windows",
       "linux",
@@ -206,9 +206,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 678,
-    "forks": 148,
-    "lastUpdated": "2025-09-25T09:46:21Z",
+    "stars": 679,
+    "forks": 149,
+    "lastUpdated": "2025-10-01T03:07:57Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 28,
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2212,
+    "stars": 2214,
     "forks": 824,
-    "lastUpdated": "2025-09-30T14:34:20Z",
+    "lastUpdated": "2025-10-01T14:58:43Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1059,
+    "openIssues": 1061,
     "platforms": [
       "windows",
       "linux",
@@ -320,11 +320,11 @@
       "webgl-viewer"
     ],
     "stars": 841,
-    "forks": 319,
-    "lastUpdated": "2025-09-27T06:07:59Z",
+    "forks": 320,
+    "lastUpdated": "2025-10-01T12:33:42Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
-    "openIssues": 167,
+    "openIssues": 169,
     "platforms": [
       "web"
     ],
@@ -513,9 +513,9 @@
       "lca",
       "pyodide"
     ],
-    "stars": 29,
+    "stars": 30,
     "forks": 3,
-    "lastUpdated": "2025-09-16T08:03:48Z",
+    "lastUpdated": "2025-10-01T15:27:14Z",
     "license": "AGPL-3.0",
     "openIssues": 14,
     "platforms": [
@@ -623,7 +623,7 @@
     "description": "📚 Various C# libraries for efficient data driven applications ",
     "stars": 16,
     "forks": 6,
-    "lastUpdated": "2025-09-24T13:57:44Z",
+    "lastUpdated": "2025-10-01T19:05:45Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
@@ -767,9 +767,9 @@
     ],
     "name": "EngineeringPaper.xyz",
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
-    "stars": 181,
+    "stars": 182,
     "forks": 20,
-    "lastUpdated": "2025-09-29T01:17:52Z",
+    "lastUpdated": "2025-10-01T02:20:36Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
@@ -805,7 +805,7 @@
     "frameworks": [],
     "platforms": [],
     "mainLanguage": "C#",
-    "openIssues": 0
+    "openIssues": 1
   },
   {
     "url": "https://github.com/madil4/awatif",
