@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1822,
-    "forks": 471,
-    "lastUpdated": "2025-10-11T13:38:42Z",
+    "stars": 1837,
+    "forks": 473,
+    "lastUpdated": "2025-10-13T01:37:31Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 77,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108921,
-    "forks": 36029,
-    "lastUpdated": "2025-10-12T00:03:23Z",
+    "stars": 108933,
+    "forks": 36030,
+    "lastUpdated": "2025-10-12T22:12:16Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 602,
+    "openIssues": 600,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12635,
-    "forks": 3259,
-    "lastUpdated": "2025-10-11T20:25:36Z",
+    "stars": 12638,
+    "forks": 3260,
+    "lastUpdated": "2025-10-12T22:20:35Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5198,
+    "openIssues": 5199,
     "platforms": [
       "windows",
       "linux",
@@ -280,9 +280,9 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2231,
+    "stars": 2230,
     "forks": 827,
-    "lastUpdated": "2025-10-11T22:47:45Z",
+    "lastUpdated": "2025-10-13T00:56:07Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "openIssues": 1057,
@@ -769,7 +769,7 @@
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
     "stars": 185,
     "forks": 21,
-    "lastUpdated": "2025-10-05T21:59:48Z",
+    "lastUpdated": "2025-10-12T20:25:30Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
@@ -780,7 +780,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 41
+    "openIssues": 40
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -828,7 +828,7 @@
     "description": "The First Web-based Parametric Structural Engineering Platform",
     "stars": 95,
     "forks": 14,
-    "lastUpdated": "2025-10-11T18:34:12Z",
+    "lastUpdated": "2025-10-12T12:13:51Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
