@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1837,
-    "forks": 473,
-    "lastUpdated": "2025-10-13T01:37:31Z",
+    "stars": 1859,
+    "forks": 478,
+    "lastUpdated": "2025-10-14T00:25:18Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 77,
+    "openIssues": 79,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 108933,
-    "forks": 36030,
-    "lastUpdated": "2025-10-12T22:12:16Z",
+    "stars": 108947,
+    "forks": 36029,
+    "lastUpdated": "2025-10-14T00:32:51Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 600,
+    "openIssues": 603,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12638,
+    "stars": 12646,
     "forks": 3260,
-    "lastUpdated": "2025-10-12T22:20:35Z",
+    "lastUpdated": "2025-10-13T22:18:12Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5199,
+    "openIssues": 5191,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2230,
+    "stars": 2233,
     "forks": 827,
-    "lastUpdated": "2025-10-13T00:56:07Z",
+    "lastUpdated": "2025-10-14T00:31:07Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1057,
+    "openIssues": 1059,
     "platforms": [
       "windows",
       "linux",
@@ -319,9 +319,9 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 842,
+    "stars": 841,
     "forks": 321,
-    "lastUpdated": "2025-10-10T16:03:43Z",
+    "lastUpdated": "2025-10-13T09:20:11Z",
     "mainLanguage": "JavaScript",
     "license": "AGPL-3.0",
     "openIssues": 171,
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-10-11T16:32:01Z",
+    "lastUpdated": "2025-10-13T16:55:42Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -623,7 +623,7 @@
     "description": "📚 Various C# libraries for efficient data driven applications ",
     "stars": 16,
     "forks": 7,
-    "lastUpdated": "2025-10-06T16:20:11Z",
+    "lastUpdated": "2025-10-13T04:12:54Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
@@ -796,9 +796,9 @@
     ],
     "name": "bim-open-schema",
     "description": "BIM to Parquet and DuckDB",
-    "stars": 23,
+    "stars": 24,
     "forks": 5,
-    "lastUpdated": "2025-10-06T17:19:36Z",
+    "lastUpdated": "2025-10-13T11:58:02Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "cdiggins",
@@ -875,7 +875,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 20
+    "openIssues": 21
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
