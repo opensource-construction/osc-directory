@@ -19,17 +19,17 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
-| [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1859 | Oct 14, 2025 | LGPL-2.1 |
+| [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1874 | Oct 15, 2025 | LGPL-2.1 |
 | [compas](https://github.com/compas-dev/compas) | Main library of the COMPAS framework and CAD integrations for Rhino/GH and Blender. | Python | 350 | Oct 9, 2025 | MIT |
-| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 108947 | Oct 14, 2025 | MIT |
+| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 108966 | Oct 15, 2025 | MIT |
 | [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 85 | Sep 22, 2025 | MIT |
 | [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1648 | Oct 10, 2025 | AGPL-3.0 |
 | [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 213 | Oct 1, 2025 | AGPL-3.0 |
-| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 12646 | Oct 13, 2025 | GPL-2.0 |
+| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 12648 | Oct 15, 2025 | GPL-2.0 |
 | [rhino3dm](https://github.com/mcneel/rhino3dm) | Libraries based on OpenNURBS with a RhinoCommon style | C# | 686 | Oct 11, 2025 | MIT |
 | [lcax](https://github.com/ocni-dtu/lcax) | LCAx is a open, verifiable, machine and human-readable LCA exchange format | Rust | 68 | Sep 5, 2025 | Apache-2.0 |
 | [calc](https://github.com/herzogdemeuron/calc) | Calc helps architects quickly estimate the environmental impact of their early design. | C# | 16 | Oct 7, 2025 | MIT |
-| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2233 | Oct 14, 2025 | LGPL-3.0 |
+| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2237 | Oct 14, 2025 | LGPL-3.0 |
 | [xeokit-sdk](https://github.com/xeokit/xeokit-sdk) | 3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision | JavaScript | 841 | Oct 13, 2025 | AGPL-3.0 |
 | [compas_wood](https://github.com/petrasvestartas/compas_wood) | Project for Timber Joint Generation. Documentation: | Python | 44 | Oct 3, 2025 | MIT |
 | [honeybee-energy](https://github.com/ladybug-tools/honeybee-energy) | 🐝 :fire: Honeybee extension for energy simulation | Python | 33 | Oct 11, 2025 | AGPL-3.0 |
@@ -51,7 +51,7 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [bim-open-schema](https://github.com/ara3d/bim-open-schema) | BIM to Parquet and DuckDB | C# | 24 | Oct 13, 2025 | MIT |
 | [awatif](https://github.com/madil4/awatif) | The First Web-based Parametric Structural Engineering Platform | TypeScript | 95 | Oct 12, 2025 | MIT |
 | [Taxonomy](https://github.com/MagmaWorks/Taxonomy) | A set of interfaces describing a taxonomy for structural engineering objects | C# | 4 | Aug 25, 2025 | MIT |
-| [engine_components](https://github.com/ThatOpen/engine_components) | No description provided | TypeScript | 535 | Oct 11, 2025 | MIT |
+| [engine_components](https://github.com/ThatOpen/engine_components) | No description provided | TypeScript | 536 | Oct 14, 2025 | MIT |
 | [SOM-Toolkit](https://github.com/c-mellueh/SOM-Toolkit) | Toolkit for creating, managing, and exporting Semantic Object Models (SOM) for BIM — includes a Python library and PySide6-based GUI with bSDD & IDS support. | Python | 6 | Sep 9, 2025 | MIT |
 | [IfcBorehole](https://github.com/c-mellueh/IfcBorehole) | CLI and GUI for creating IfcBoreholes from Excel or GIS files or a pandas dataframe | Python | 1 | Oct 2, 2025 | MIT |
 | [RevitAddInManager](https://github.com/chuongmep/RevitAddInManager) | Revit AddinManager update .NET assemblies without restart Revit for developer. | C# | 392 | Oct 8, 2025 | MIT |
