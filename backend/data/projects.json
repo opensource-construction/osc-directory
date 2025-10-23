@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1906,
-    "forks": 481,
-    "lastUpdated": "2025-10-22T01:16:39Z",
+    "stars": 1908,
+    "forks": 483,
+    "lastUpdated": "2025-10-22T11:39:08Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 79,
+    "openIssues": 78,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 109061,
+    "stars": 109076,
     "forks": 36044,
-    "lastUpdated": "2025-10-21T22:23:03Z",
+    "lastUpdated": "2025-10-22T20:05:43Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 599,
+    "openIssues": 604,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12702,
-    "forks": 3267,
-    "lastUpdated": "2025-10-22T00:41:18Z",
+    "stars": 12711,
+    "forks": 3266,
+    "lastUpdated": "2025-10-22T22:38:10Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5208,
+    "openIssues": 5218,
     "platforms": [
       "windows",
       "linux",
@@ -206,9 +206,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 689,
-    "forks": 148,
-    "lastUpdated": "2025-10-20T13:56:50Z",
+    "stars": 690,
+    "forks": 149,
+    "lastUpdated": "2025-10-22T15:59:26Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 29,
@@ -232,9 +232,9 @@
       "sustainability",
       "environmental-impact"
     ],
-    "stars": 68,
+    "stars": 69,
     "forks": 5,
-    "lastUpdated": "2025-09-05T18:01:14Z",
+    "lastUpdated": "2025-10-22T14:44:07Z",
     "mainLanguage": "Rust",
     "license": "Apache-2.0",
     "openIssues": 16,
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2239,
-    "forks": 833,
-    "lastUpdated": "2025-10-22T00:30:59Z",
+    "stars": 2241,
+    "forks": 836,
+    "lastUpdated": "2025-10-22T21:59:23Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1078,
+    "openIssues": 1072,
     "platforms": [
       "windows",
       "linux",
@@ -379,7 +379,7 @@
     ],
     "stars": 33,
     "forks": 20,
-    "lastUpdated": "2025-10-11T15:52:28Z",
+    "lastUpdated": "2025-10-22T23:20:13Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 20,
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-10-16T17:02:08Z",
+    "lastUpdated": "2025-10-22T23:20:11Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -425,7 +425,7 @@
     ],
     "stars": 17,
     "forks": 11,
-    "lastUpdated": "2025-10-08T11:25:08Z",
+    "lastUpdated": "2025-10-22T23:20:13Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9,
@@ -515,9 +515,9 @@
     ],
     "stars": 32,
     "forks": 3,
-    "lastUpdated": "2025-10-21T10:08:04Z",
+    "lastUpdated": "2025-10-22T19:16:53Z",
     "license": "AGPL-3.0",
-    "openIssues": 9,
+    "openIssues": 4,
     "platforms": [
       "web"
     ],
@@ -623,7 +623,7 @@
     "description": "📚 Various C# libraries for efficient data driven applications ",
     "stars": 16,
     "forks": 7,
-    "lastUpdated": "2025-10-21T15:45:03Z",
+    "lastUpdated": "2025-10-22T04:31:05Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-10-22T01:44:20.469Z",
+    "lastUpdated": "2025-10-23T01:40:12.637Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 38
+    "openIssues": 39
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 22
+    "openIssues": 23
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
