@@ -15,7 +15,7 @@
     ],
     "stars": 1925,
     "forks": 487,
-    "lastUpdated": "2025-10-28T09:41:25Z",
+    "lastUpdated": "2025-10-29T22:01:29Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 80,
@@ -44,10 +44,10 @@
     ],
     "stars": 350,
     "forks": 113,
-    "lastUpdated": "2025-10-20T05:59:32Z",
+    "lastUpdated": "2025-10-29T13:09:34Z",
     "mainLanguage": "Python",
     "license": "MIT",
-    "openIssues": 113,
+    "openIssues": 110,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 109144,
-    "forks": 36051,
-    "lastUpdated": "2025-10-29T00:15:50Z",
+    "stars": 109159,
+    "forks": 36052,
+    "lastUpdated": "2025-10-30T01:44:17Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 593,
+    "openIssues": 590,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12748,
-    "forks": 3274,
-    "lastUpdated": "2025-10-29T01:13:52Z",
+    "stars": 12755,
+    "forks": 3276,
+    "lastUpdated": "2025-10-29T21:53:00Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5237,
+    "openIssues": 5246,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2249,
+    "stars": 2248,
     "forks": 837,
-    "lastUpdated": "2025-10-28T21:34:11Z",
+    "lastUpdated": "2025-10-29T05:21:06Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1036,
+    "openIssues": 1040,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2025-10-27T23:58:46Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 174,
+    "openIssues": 175,
     "platforms": [
       "web"
     ],
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-10-29T01:46:35.296Z",
+    "lastUpdated": "2025-10-30T01:45:54.476Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -849,14 +849,14 @@
     "description": "A set of interfaces describing a taxonomy for structural engineering objects",
     "stars": 4,
     "forks": 0,
-    "lastUpdated": "2025-10-28T16:29:06Z",
+    "lastUpdated": "2025-10-29T09:19:41Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "kpne",
     "frameworks": [],
     "platforms": [],
     "mainLanguage": "C#",
-    "openIssues": 3
+    "openIssues": 0
   },
   {
     "url": "https://github.com/ThatOpen/engine_components",
@@ -865,7 +865,7 @@
     "description": "No description provided",
     "stars": 540,
     "forks": 172,
-    "lastUpdated": "2025-10-28T15:19:47Z",
+    "lastUpdated": "2025-10-29T03:12:26Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 20
+    "openIssues": 17
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
