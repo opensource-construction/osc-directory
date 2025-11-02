@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1930,
-    "forks": 489,
-    "lastUpdated": "2025-10-31T08:09:56Z",
+    "stars": 1933,
+    "forks": 490,
+    "lastUpdated": "2025-11-02T01:25:04Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 90,
+    "openIssues": 86,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 109187,
-    "forks": 36056,
-    "lastUpdated": "2025-11-01T00:39:31Z",
+    "stars": 109196,
+    "forks": 36057,
+    "lastUpdated": "2025-11-02T00:10:57Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 590,
+    "openIssues": 595,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12779,
+    "stars": 12782,
     "forks": 3279,
-    "lastUpdated": "2025-11-01T00:59:06Z",
+    "lastUpdated": "2025-11-01T08:15:39Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5241,
+    "openIssues": 5247,
     "platforms": [
       "windows",
       "linux",
@@ -319,12 +319,12 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 845,
+    "stars": 846,
     "forks": 322,
-    "lastUpdated": "2025-10-31T14:27:15Z",
+    "lastUpdated": "2025-11-01T21:02:16Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 174,
+    "openIssues": 175,
     "platforms": [
       "web"
     ],
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-11-01T01:46:19.409Z",
+    "lastUpdated": "2025-11-02T01:48:15.761Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
