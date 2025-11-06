@@ -21,11 +21,11 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 |---------|-------------|----------|-------|--------------|--------|
 | [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 1939 | Nov 5, 2025 | LGPL-2.1 |
 | [compas](https://github.com/compas-dev/compas) | Main library of the COMPAS framework and CAD integrations for Rhino/GH and Blender. | Python | 350 | Oct 30, 2025 | MIT |
-| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 109238 | Nov 6, 2025 | MIT |
+| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 109241 | Nov 6, 2025 | MIT |
 | [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 85 | Sep 22, 2025 | MIT |
 | [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1651 | Nov 2, 2025 | AGPL-3.0 |
 | [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 214 | Nov 5, 2025 | AGPL-3.0 |
-| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 12808 | Nov 6, 2025 | GPL-2.0 |
+| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 12809 | Nov 6, 2025 | GPL-2.0 |
 | [rhino3dm](https://github.com/mcneel/rhino3dm) | Libraries based on OpenNURBS with a RhinoCommon style | C# | 692 | Oct 28, 2025 | MIT |
 | [lcax](https://github.com/ocni-dtu/lcax) | LCAx is a open, verifiable, machine and human-readable LCA exchange format | Rust | 69 | Oct 22, 2025 | Apache-2.0 |
 | [calc](https://github.com/herzogdemeuron/calc) | Calc helps architects quickly estimate the environmental impact of their early design. | C# | 16 | Oct 7, 2025 | MIT |
@@ -55,4 +55,5 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [SOM-Toolkit](https://github.com/c-mellueh/SOM-Toolkit) | Toolkit for creating, managing, and exporting Semantic Object Models (SOM) for BIM — includes a Python library and PySide6-based GUI with bSDD & IDS support. | Python | 7 | Oct 16, 2025 | MIT |
 | [IfcBorehole](https://github.com/c-mellueh/IfcBorehole) | CLI and GUI for creating IfcBoreholes from Excel or GIS files or a pandas dataframe | Python | 1 | Oct 2, 2025 | MIT |
 | [RevitAddInManager](https://github.com/chuongmep/RevitAddInManager) | Revit AddinManager update .NET assemblies without restart Revit for developer. | C# | 397 | Nov 2, 2025 | MIT |
+| [Hywe](https://github.com/vykrum/Hywe) | Space layout planning in a browser | F# | 1 | Nov 5, 2025 | MIT |
 
