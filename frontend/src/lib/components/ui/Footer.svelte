@@ -21,7 +21,7 @@
 					Contribute on GitHub
 				</a>
 				<a
-					href={'https://github.com/opensource-construction/osc-directory/issues/new?assignees=&labels=submission&template=new_project.yml&title=%5BNEW%20PROJECT%5D%20'}
+					href={'https://github.com/opensource-construction/osc-directory/issues/new?template=new_project.yml'}
 					target="_blank"
 					rel="noopener noreferrer"
 					class="inline-flex items-center gap-2 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors"
