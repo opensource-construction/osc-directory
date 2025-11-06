@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 109238,
-    "forks": 36060,
-    "lastUpdated": "2025-11-06T01:25:23Z",
+    "stars": 109241,
+    "forks": 36059,
+    "lastUpdated": "2025-11-06T08:13:17Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 600,
+    "openIssues": 599,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12808,
-    "forks": 3278,
-    "lastUpdated": "2025-11-06T00:51:03Z",
+    "stars": 12809,
+    "forks": 3279,
+    "lastUpdated": "2025-11-06T03:33:04Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5242,
+    "openIssues": 5239,
     "platforms": [
       "windows",
       "linux",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-11-06T01:44:38.299Z",
+    "lastUpdated": "2025-11-06T08:50:56.593Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -954,5 +954,33 @@
     ],
     "mainLanguage": "C#",
     "openIssues": 7
+  },
+  {
+    "url": "https://github.com/vykrum/Hywe",
+    "tags": [
+      "architecture",
+      "planning",
+      "early-stage-design",
+      "spatial-layouts",
+      "flowchart-interface",
+      "browser-based",
+      "wasm",
+      "fsharp",
+      "bolero"
+    ],
+    "name": "Hywe",
+    "description": "Space layout planning in a browser",
+    "stars": 1,
+    "forks": 0,
+    "lastUpdated": "2025-11-05T18:01:19Z",
+    "license": "MIT",
+    "submissionDate": "2025-11-06",
+    "submitterUsername": "vykrum",
+    "frameworks": [],
+    "platforms": [
+      "web"
+    ],
+    "mainLanguage": "F#",
+    "openIssues": 0
   }
 ]
