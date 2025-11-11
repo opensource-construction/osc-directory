@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1953,
+    "stars": 1955,
     "forks": 494,
-    "lastUpdated": "2025-11-11T01:09:27Z",
+    "lastUpdated": "2025-11-11T05:56:12Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 79,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 109296,
+    "stars": 109299,
     "forks": 36070,
-    "lastUpdated": "2025-11-11T00:27:52Z",
+    "lastUpdated": "2025-11-11T05:59:58Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 592,
+    "openIssues": 594,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12846,
-    "forks": 3287,
-    "lastUpdated": "2025-11-11T01:35:11Z",
+    "stars": 12853,
+    "forks": 3288,
+    "lastUpdated": "2025-11-11T05:48:19Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5253,
+    "openIssues": 5255,
     "platforms": [
       "windows",
       "linux",
@@ -281,7 +281,7 @@
       "ifcopenshell"
     ],
     "stars": 2258,
-    "forks": 840,
+    "forks": 841,
     "lastUpdated": "2025-11-10T14:42:14Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-11-11T01:45:14.652Z",
+    "lastUpdated": "2025-11-11T06:25:55.224Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -1049,5 +1049,36 @@
     ],
     "mainLanguage": "Python",
     "openIssues": 1
+  },
+  {
+    "url": "https://github.com/processing/p5.js",
+    "tags": [
+      "javascript",
+      "html",
+      "3d",
+      "graphics",
+      "art",
+      "creative-coding",
+      "design",
+      "education",
+      "learning",
+      "p5js",
+      "processing",
+      "sound"
+    ],
+    "name": "p5.js",
+    "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
+    "stars": 23140,
+    "forks": 3622,
+    "lastUpdated": "2025-11-11T02:02:41Z",
+    "license": "LGPL-2.1",
+    "submissionDate": "2025-11-11",
+    "submitterUsername": "boydhont",
+    "frameworks": [],
+    "platforms": [
+      "web"
+    ],
+    "mainLanguage": "JavaScript",
+    "openIssues": 435
   }
 ]
