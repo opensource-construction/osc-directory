@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1955,
-    "forks": 494,
-    "lastUpdated": "2025-11-11T05:56:12Z",
+    "stars": 1957,
+    "forks": 495,
+    "lastUpdated": "2025-11-11T12:01:46Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 79,
+    "openIssues": 81,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 109299,
-    "forks": 36070,
-    "lastUpdated": "2025-11-11T05:59:58Z",
+    "stars": 109315,
+    "forks": 36066,
+    "lastUpdated": "2025-11-12T01:40:47Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 594,
+    "openIssues": 595,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1651,
+    "stars": 1652,
     "forks": 639,
-    "lastUpdated": "2025-11-02T15:51:42Z",
+    "lastUpdated": "2025-11-11T13:39:54Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 103,
@@ -154,9 +154,9 @@
       "ladybug",
       "weather"
     ],
-    "stars": 214,
+    "stars": 215,
     "forks": 56,
-    "lastUpdated": "2025-11-07T04:27:02Z",
+    "lastUpdated": "2025-11-11T19:11:36Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 8,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12853,
-    "forks": 3288,
-    "lastUpdated": "2025-11-11T05:48:19Z",
+    "stars": 12860,
+    "forks": 3291,
+    "lastUpdated": "2025-11-11T22:41:55Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5255,
+    "openIssues": 5260,
     "platforms": [
       "windows",
       "linux",
@@ -211,7 +211,7 @@
     "lastUpdated": "2025-10-28T07:47:27Z",
     "mainLanguage": "C#",
     "license": "MIT",
-    "openIssues": 29,
+    "openIssues": 30,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2258,
-    "forks": 841,
-    "lastUpdated": "2025-11-10T14:42:14Z",
+    "stars": 2260,
+    "forks": 842,
+    "lastUpdated": "2025-11-11T22:33:24Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1052,
+    "openIssues": 1054,
     "platforms": [
       "windows",
       "linux",
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-11-07T20:42:45Z",
+    "lastUpdated": "2025-11-12T00:36:01Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-11-11T06:25:55.224Z",
+    "lastUpdated": "2025-11-12T01:44:44.457Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -856,16 +856,16 @@
     "frameworks": [],
     "platforms": [],
     "mainLanguage": "C#",
-    "openIssues": 0
+    "openIssues": 1
   },
   {
     "url": "https://github.com/ThatOpen/engine_components",
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 544,
+    "stars": 545,
     "forks": 174,
-    "lastUpdated": "2025-11-10T08:48:18Z",
+    "lastUpdated": "2025-11-11T16:19:26Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23140,
-    "forks": 3622,
-    "lastUpdated": "2025-11-11T02:02:41Z",
+    "stars": 23143,
+    "forks": 3624,
+    "lastUpdated": "2025-11-11T20:54:22Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,6 +1079,6 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 435
+    "openIssues": 437
   }
 ]
