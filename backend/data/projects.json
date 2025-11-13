@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1957,
-    "forks": 495,
-    "lastUpdated": "2025-11-11T12:01:46Z",
+    "stars": 1959,
+    "forks": 497,
+    "lastUpdated": "2025-11-13T00:33:00Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 81,
@@ -44,7 +44,7 @@
     ],
     "stars": 350,
     "forks": 114,
-    "lastUpdated": "2025-11-06T09:02:37Z",
+    "lastUpdated": "2025-11-12T15:41:50Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "openIssues": 108,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 109315,
+    "stars": 109333,
     "forks": 36066,
-    "lastUpdated": "2025-11-12T01:40:47Z",
+    "lastUpdated": "2025-11-13T01:13:14Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 595,
+    "openIssues": 601,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12860,
-    "forks": 3291,
-    "lastUpdated": "2025-11-11T22:41:55Z",
+    "stars": 12868,
+    "forks": 3294,
+    "lastUpdated": "2025-11-12T23:47:04Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5260,
+    "openIssues": 5264,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2260,
+    "stars": 2261,
     "forks": 842,
-    "lastUpdated": "2025-11-11T22:33:24Z",
+    "lastUpdated": "2025-11-12T22:00:52Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1054,
+    "openIssues": 1056,
     "platforms": [
       "windows",
       "linux",
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2025-11-12T00:36:01Z",
+    "lastUpdated": "2025-11-13T01:11:29Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -536,7 +536,7 @@
       "web-ifc"
     ],
     "stars": 60,
-    "forks": 6,
+    "forks": 5,
     "lastUpdated": "2025-11-09T20:54:13Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-11-12T01:44:44.457Z",
+    "lastUpdated": "2025-11-13T01:45:51.364Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 545,
+    "stars": 546,
     "forks": 174,
-    "lastUpdated": "2025-11-11T16:19:26Z",
+    "lastUpdated": "2025-11-12T18:21:28Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 22
+    "openIssues": 17
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -942,9 +942,9 @@
     ],
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
-    "stars": 398,
+    "stars": 399,
     "forks": 69,
-    "lastUpdated": "2025-11-06T15:39:20Z",
+    "lastUpdated": "2025-11-12T14:54:25Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23143,
-    "forks": 3624,
-    "lastUpdated": "2025-11-11T20:54:22Z",
+    "stars": 23148,
+    "forks": 3625,
+    "lastUpdated": "2025-11-12T22:38:31Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,6 +1079,6 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 437
+    "openIssues": 433
   }
 ]
