@@ -14,7 +14,7 @@
       "opencascade"
     ],
     "stars": 1977,
-    "forks": 502,
+    "forks": 503,
     "lastUpdated": "2025-11-21T23:36:48Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
@@ -75,9 +75,9 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 109468,
-    "forks": 36093,
-    "lastUpdated": "2025-11-22T00:28:53Z",
+    "stars": 109482,
+    "forks": 36094,
+    "lastUpdated": "2025-11-23T00:47:28Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 599,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12905,
-    "forks": 3301,
-    "lastUpdated": "2025-11-22T00:09:36Z",
+    "stars": 12907,
+    "forks": 3303,
+    "lastUpdated": "2025-11-22T23:20:38Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5274,
+    "openIssues": 5262,
     "platforms": [
       "windows",
       "linux",
@@ -280,9 +280,9 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2269,
+    "stars": 2270,
     "forks": 845,
-    "lastUpdated": "2025-11-22T00:16:47Z",
+    "lastUpdated": "2025-11-22T22:53:35Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "openIssues": 1057,
@@ -655,9 +655,9 @@
     ],
     "name": "ara3d-webgl",
     "description": "A Three.JS based WebGL viewer for AEC data. ",
-    "stars": 24,
+    "stars": 25,
     "forks": 4,
-    "lastUpdated": "2025-07-07T12:18:58Z",
+    "lastUpdated": "2025-11-22T05:40:45Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-11-22T01:40:10.388Z",
+    "lastUpdated": "2025-11-23T01:57:18.645Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23174,
-    "forks": 3637,
-    "lastUpdated": "2025-11-21T23:57:01Z",
+    "stars": 23178,
+    "forks": 3636,
+    "lastUpdated": "2025-11-23T00:55:28Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,6 +1079,6 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 449
+    "openIssues": 453
   }
 ]
