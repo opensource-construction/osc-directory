@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1977,
+    "stars": 1979,
     "forks": 505,
-    "lastUpdated": "2025-11-24T21:24:49Z",
+    "lastUpdated": "2025-11-25T07:40:46Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 86,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 109512,
+    "stars": 109516,
     "forks": 36098,
-    "lastUpdated": "2025-11-25T01:09:26Z",
+    "lastUpdated": "2025-11-25T07:12:46Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 601,
+    "openIssues": 605,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1659,
+    "stars": 1660,
     "forks": 642,
-    "lastUpdated": "2025-11-24T02:34:31Z",
+    "lastUpdated": "2025-11-25T07:24:49Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 104,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 12920,
-    "forks": 3302,
-    "lastUpdated": "2025-11-24T22:46:43Z",
+    "stars": 12921,
+    "forks": 3303,
+    "lastUpdated": "2025-11-25T07:35:40Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5265,
+    "openIssues": 5257,
     "platforms": [
       "windows",
       "linux",
@@ -282,7 +282,7 @@
     ],
     "stars": 2273,
     "forks": 844,
-    "lastUpdated": "2025-11-24T16:17:54Z",
+    "lastUpdated": "2025-11-25T08:19:38Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "openIssues": 1063,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-11-25T01:45:53.177Z",
+    "lastUpdated": "2025-11-25T08:58:08.202Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 41
+    "openIssues": 42
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23192,
+    "stars": 23194,
     "forks": 3640,
-    "lastUpdated": "2025-11-25T01:40:29Z",
+    "lastUpdated": "2025-11-25T06:44:40Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,6 +1079,29 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 452
+    "openIssues": 453
+  },
+  {
+    "url": "https://github.com/enji-io/enji-react-svg-drawings",
+    "tags": [
+      "engineering",
+      "drawings",
+      "detailings",
+      "BIM"
+    ],
+    "name": "enji-react-svg-drawings",
+    "description": "This repository demonstrates how React can be used to create SVG-based drawings for construction and manufacturing applications.",
+    "stars": 12,
+    "forks": 1,
+    "lastUpdated": "2025-11-23T18:09:49Z",
+    "license": "Unknown",
+    "submissionDate": "2025-11-25",
+    "submitterUsername": "viktar-b",
+    "frameworks": [],
+    "platforms": [
+      "web"
+    ],
+    "mainLanguage": "TypeScript",
+    "openIssues": 0
   }
 ]
