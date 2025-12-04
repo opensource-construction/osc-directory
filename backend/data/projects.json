@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 1995,
+    "stars": 1999,
     "forks": 512,
-    "lastUpdated": "2025-12-01T23:53:39Z",
+    "lastUpdated": "2025-12-03T13:19:52Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 87,
+    "openIssues": 85,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 109638,
-    "forks": 36132,
-    "lastUpdated": "2025-12-03T00:22:20Z",
+    "stars": 109658,
+    "forks": 36127,
+    "lastUpdated": "2025-12-04T01:40:29Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 606,
+    "openIssues": 605,
     "platforms": [
       "web",
       "mobile"
@@ -178,11 +178,11 @@
       "spatial-data"
     ],
     "stars": 12962,
-    "forks": 3311,
-    "lastUpdated": "2025-12-02T21:33:46Z",
+    "forks": 3310,
+    "lastUpdated": "2025-12-03T22:11:51Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5289,
+    "openIssues": 5290,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2282,
+    "stars": 2283,
     "forks": 847,
-    "lastUpdated": "2025-12-02T17:13:54Z",
+    "lastUpdated": "2025-12-03T16:13:20Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1074,
+    "openIssues": 1076,
     "platforms": [
       "windows",
       "linux",
@@ -321,10 +321,10 @@
     ],
     "stars": 853,
     "forks": 324,
-    "lastUpdated": "2025-12-02T12:24:17Z",
+    "lastUpdated": "2025-12-03T17:05:35Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 178,
+    "openIssues": 177,
     "platforms": [
       "web"
     ],
@@ -517,7 +517,7 @@
     "forks": 4,
     "lastUpdated": "2025-11-26T08:32:02Z",
     "license": "AGPL-3.0",
-    "openIssues": 4,
+    "openIssues": 5,
     "platforms": [
       "web"
     ],
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-12-03T01:47:24.076Z",
+    "lastUpdated": "2025-12-04T01:48:30.841Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -865,7 +865,7 @@
     "description": "No description provided",
     "stars": 555,
     "forks": 177,
-    "lastUpdated": "2025-12-02T09:26:48Z",
+    "lastUpdated": "2025-12-03T18:53:42Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 5
+    "openIssues": 4
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -1035,9 +1035,9 @@
     ],
     "name": "ifc-ids-mcp",
     "description": "An MCP to create IDS files deterministically using IfcOpenShell's IfcTester",
-    "stars": 18,
+    "stars": 19,
     "forks": 4,
-    "lastUpdated": "2025-12-02T15:04:03Z",
+    "lastUpdated": "2025-12-03T15:52:07Z",
     "license": "MIT",
     "submissionDate": "2025-11-10",
     "submitterUsername": "vinnividivicci",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23214,
-    "forks": 3641,
-    "lastUpdated": "2025-12-03T00:10:20Z",
+    "stars": 23219,
+    "forks": 3640,
+    "lastUpdated": "2025-12-04T01:01:43Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 462
+    "openIssues": 467
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
