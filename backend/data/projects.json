@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2034,
-    "forks": 515,
-    "lastUpdated": "2025-12-18T08:40:30Z",
+    "stars": 2037,
+    "forks": 516,
+    "lastUpdated": "2025-12-19T20:49:57Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 90,
+    "openIssues": 88,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 109932,
-    "forks": 36163,
-    "lastUpdated": "2025-12-19T01:08:05Z",
+    "stars": 109936,
+    "forks": 36169,
+    "lastUpdated": "2025-12-19T23:08:27Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 610,
+    "openIssues": 620,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13044,
+    "stars": 13046,
     "forks": 3327,
-    "lastUpdated": "2025-12-18T17:53:48Z",
+    "lastUpdated": "2025-12-19T21:46:57Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5319,
+    "openIssues": 5316,
     "platforms": [
       "windows",
       "linux",
@@ -282,10 +282,10 @@
     ],
     "stars": 2298,
     "forks": 855,
-    "lastUpdated": "2025-12-18T18:37:39Z",
+    "lastUpdated": "2025-12-19T18:44:30Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1102,
+    "openIssues": 1098,
     "platforms": [
       "windows",
       "linux",
@@ -319,12 +319,12 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 859,
+    "stars": 860,
     "forks": 327,
-    "lastUpdated": "2025-12-18T15:13:41Z",
+    "lastUpdated": "2025-12-19T17:24:24Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 180,
+    "openIssues": 181,
     "platforms": [
       "web"
     ],
@@ -623,12 +623,12 @@
     "description": "📚 Various C# libraries for efficient data driven applications ",
     "stars": 19,
     "forks": 10,
-    "lastUpdated": "2025-12-07T23:47:07Z",
+    "lastUpdated": "2025-12-19T20:20:44Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
     "mainLanguage": "C#",
-    "openIssues": 2,
+    "openIssues": 1,
     "platforms": [
       "windows",
       "linux",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-12-19T01:50:44.020Z",
+    "lastUpdated": "2025-12-20T01:45:12.632Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 567,
+    "stars": 568,
     "forks": 179,
-    "lastUpdated": "2025-12-17T06:18:17Z",
+    "lastUpdated": "2025-12-19T09:38:39Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 7
+    "openIssues": 8
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23266,
-    "forks": 3658,
-    "lastUpdated": "2025-12-18T19:13:13Z",
+    "stars": 23269,
+    "forks": 3659,
+    "lastUpdated": "2025-12-19T16:54:47Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 461
+    "openIssues": 460
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
