@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2043,
+    "stars": 2047,
     "forks": 516,
-    "lastUpdated": "2025-12-22T23:50:28Z",
+    "lastUpdated": "2025-12-24T01:33:21Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 87,
+    "openIssues": 86,
     "platforms": [
       "windows",
       "linux",
@@ -43,7 +43,7 @@
       "rpc"
     ],
     "stars": 349,
-    "forks": 114,
+    "forks": 115,
     "lastUpdated": "2025-12-14T05:51:19Z",
     "mainLanguage": "Python",
     "license": "MIT",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 109978,
+    "stars": 109988,
     "forks": 36182,
-    "lastUpdated": "2025-12-23T00:17:19Z",
+    "lastUpdated": "2025-12-23T23:29:24Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 618,
+    "openIssues": 620,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1670,
+    "stars": 1671,
     "forks": 643,
-    "lastUpdated": "2025-12-22T23:07:46Z",
+    "lastUpdated": "2025-12-23T22:55:49Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 104,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13059,
-    "forks": 3327,
-    "lastUpdated": "2025-12-22T18:51:42Z",
+    "stars": 13065,
+    "forks": 3328,
+    "lastUpdated": "2025-12-23T16:44:40Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5319,
+    "openIssues": 5318,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2313,
+    "stars": 2314,
     "forks": 856,
-    "lastUpdated": "2025-12-22T14:59:31Z",
+    "lastUpdated": "2025-12-23T14:51:31Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1098,
+    "openIssues": 1099,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2025-12-22T10:26:36Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 181,
+    "openIssues": 182,
     "platforms": [
       "web"
     ],
@@ -424,7 +424,7 @@
       "honeybee"
     ],
     "stars": 17,
-    "forks": 11,
+    "forks": 12,
     "lastUpdated": "2025-11-27T12:47:53Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
@@ -662,7 +662,7 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
     "mainLanguage": "TypeScript",
-    "openIssues": 0,
+    "openIssues": 1,
     "platforms": [
       "web"
     ],
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-12-23T01:51:54.431Z",
+    "lastUpdated": "2025-12-24T01:50:13.634Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -768,7 +768,7 @@
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
     "stars": 197,
     "forks": 22,
-    "lastUpdated": "2025-12-21T18:32:27Z",
+    "lastUpdated": "2025-12-24T00:09:43Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 43
+    "openIssues": 41
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 8
+    "openIssues": 9
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -1069,8 +1069,8 @@
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
     "stars": 23267,
-    "forks": 3660,
-    "lastUpdated": "2025-12-22T03:26:23Z",
+    "forks": 3662,
+    "lastUpdated": "2025-12-23T21:47:54Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 459
+    "openIssues": 460
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
