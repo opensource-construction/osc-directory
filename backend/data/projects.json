@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2053,
-    "forks": 517,
-    "lastUpdated": "2025-12-25T06:10:58Z",
+    "stars": 2056,
+    "forks": 518,
+    "lastUpdated": "2025-12-26T22:47:56Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 89,
+    "openIssues": 87,
     "platforms": [
       "windows",
       "linux",
@@ -75,9 +75,9 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110021,
-    "forks": 36183,
-    "lastUpdated": "2025-12-26T01:02:29Z",
+    "stars": 110029,
+    "forks": 36185,
+    "lastUpdated": "2025-12-27T01:02:38Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
     "openIssues": 621,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13071,
-    "forks": 3328,
-    "lastUpdated": "2025-12-25T16:55:59Z",
+    "stars": 13072,
+    "forks": 3329,
+    "lastUpdated": "2025-12-26T23:49:01Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5319,
+    "openIssues": 5321,
     "platforms": [
       "windows",
       "linux",
@@ -282,10 +282,10 @@
     ],
     "stars": 2315,
     "forks": 857,
-    "lastUpdated": "2025-12-26T01:30:03Z",
+    "lastUpdated": "2025-12-26T03:18:29Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1096,
+    "openIssues": 1095,
     "platforms": [
       "windows",
       "linux",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-12-26T01:51:24.004Z",
+    "lastUpdated": "2025-12-27T01:49:22.561Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 42
+    "openIssues": 43
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -827,7 +827,7 @@
     "description": "The First Web-based Parametric Structural Engineering Platform",
     "stars": 116,
     "forks": 15,
-    "lastUpdated": "2025-12-25T14:59:05Z",
+    "lastUpdated": "2025-12-26T12:13:49Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 571,
+    "stars": 572,
     "forks": 183,
-    "lastUpdated": "2025-12-25T16:40:10Z",
+    "lastUpdated": "2025-12-26T14:24:56Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23275,
-    "forks": 3663,
-    "lastUpdated": "2025-12-25T20:23:23Z",
+    "stars": 23277,
+    "forks": 3666,
+    "lastUpdated": "2025-12-26T15:06:45Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 463
+    "openIssues": 460
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
