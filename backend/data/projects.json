@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2057,
-    "forks": 518,
-    "lastUpdated": "2025-12-27T08:45:14Z",
+    "stars": 2058,
+    "forks": 519,
+    "lastUpdated": "2025-12-29T00:32:18Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 87,
@@ -47,7 +47,7 @@
     "lastUpdated": "2025-12-14T05:51:19Z",
     "mainLanguage": "Python",
     "license": "MIT",
-    "openIssues": 110,
+    "openIssues": 111,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110040,
-    "forks": 36185,
-    "lastUpdated": "2025-12-28T01:31:20Z",
+    "stars": 110055,
+    "forks": 36183,
+    "lastUpdated": "2025-12-29T01:55:27Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 620,
+    "openIssues": 622,
     "platforms": [
       "web",
       "mobile"
@@ -177,9 +177,9 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13075,
-    "forks": 3328,
-    "lastUpdated": "2025-12-27T19:11:13Z",
+    "stars": 13081,
+    "forks": 3330,
+    "lastUpdated": "2025-12-28T23:04:05Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "openIssues": 5326,
@@ -282,10 +282,10 @@
     ],
     "stars": 2316,
     "forks": 857,
-    "lastUpdated": "2025-12-27T15:59:54Z",
+    "lastUpdated": "2025-12-28T14:20:58Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1096,
+    "openIssues": 1095,
     "platforms": [
       "windows",
       "linux",
@@ -356,7 +356,7 @@
     ],
     "stars": 46,
     "forks": 2,
-    "lastUpdated": "2025-12-27T10:02:02Z",
+    "lastUpdated": "2025-12-28T19:02:40Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "openIssues": 7,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-12-28T02:02:37.393Z",
+    "lastUpdated": "2025-12-29T02:01:03.801Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -864,7 +864,7 @@
     "name": "engine_components",
     "description": "No description provided",
     "stars": 573,
-    "forks": 184,
+    "forks": 185,
     "lastUpdated": "2025-12-27T02:03:39Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 9
+    "openIssues": 10
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -942,9 +942,9 @@
     ],
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
-    "stars": 407,
+    "stars": 408,
     "forks": 70,
-    "lastUpdated": "2025-12-27T13:32:39Z",
+    "lastUpdated": "2025-12-28T16:20:45Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23281,
+    "stars": 23285,
     "forks": 3668,
-    "lastUpdated": "2025-12-27T14:16:19Z",
+    "lastUpdated": "2025-12-29T01:24:38Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 463
+    "openIssues": 466
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
