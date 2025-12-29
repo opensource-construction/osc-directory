@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2058,
+    "stars": 2059,
     "forks": 519,
-    "lastUpdated": "2025-12-29T00:32:18Z",
+    "lastUpdated": "2025-12-29T06:56:09Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 87,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110055,
-    "forks": 36183,
-    "lastUpdated": "2025-12-29T01:55:27Z",
+    "stars": 110060,
+    "forks": 36184,
+    "lastUpdated": "2025-12-29T06:15:42Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 622,
+    "openIssues": 623,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13081,
+    "stars": 13084,
     "forks": 3330,
-    "lastUpdated": "2025-12-28T23:04:05Z",
+    "lastUpdated": "2025-12-29T07:07:18Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5326,
+    "openIssues": 5320,
     "platforms": [
       "windows",
       "linux",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-12-29T02:01:03.801Z",
+    "lastUpdated": "2025-12-29T07:37:07.989Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 43
+    "openIssues": 44
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 10
+    "openIssues": 11
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23285,
+    "stars": 23290,
     "forks": 3668,
-    "lastUpdated": "2025-12-29T01:24:38Z",
+    "lastUpdated": "2025-12-29T07:15:42Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1102,6 +1102,24 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
+    "openIssues": 0
+  },
+  {
+    "url": "https://github.com/regenbuild/Speckle2Graph",
+    "tags": [
+      "Speckle"
+    ],
+    "name": "Speckle2Graph",
+    "description": "No description provided",
+    "stars": 0,
+    "forks": 1,
+    "lastUpdated": "2025-12-15T15:50:31Z",
+    "license": "Apache-2.0",
+    "submissionDate": "2025-12-29",
+    "submitterUsername": "2twenity",
+    "frameworks": [],
+    "platforms": [],
+    "mainLanguage": "Python",
     "openIssues": 0
   }
 ]
