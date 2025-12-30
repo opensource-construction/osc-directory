@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2059,
+    "stars": 2062,
     "forks": 519,
-    "lastUpdated": "2025-12-29T06:56:09Z",
+    "lastUpdated": "2025-12-30T01:22:51Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 87,
+    "openIssues": 88,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110060,
-    "forks": 36184,
-    "lastUpdated": "2025-12-29T06:15:42Z",
+    "stars": 110077,
+    "forks": 36188,
+    "lastUpdated": "2025-12-30T01:28:53Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 623,
+    "openIssues": 624,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13084,
-    "forks": 3330,
-    "lastUpdated": "2025-12-29T07:07:18Z",
+    "stars": 13086,
+    "forks": 3332,
+    "lastUpdated": "2025-12-29T12:23:35Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5320,
+    "openIssues": 5322,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2316,
+    "stars": 2315,
     "forks": 857,
-    "lastUpdated": "2025-12-28T14:20:58Z",
+    "lastUpdated": "2025-12-29T20:31:46Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1095,
+    "openIssues": 1098,
     "platforms": [
       "windows",
       "linux",
@@ -321,10 +321,10 @@
     ],
     "stars": 862,
     "forks": 328,
-    "lastUpdated": "2025-12-25T11:39:18Z",
+    "lastUpdated": "2025-12-29T14:18:56Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 182,
+    "openIssues": 179,
     "platforms": [
       "web"
     ],
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-12-29T07:37:07.989Z",
+    "lastUpdated": "2025-12-30T01:52:53.043Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -768,7 +768,7 @@
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
     "stars": 197,
     "forks": 22,
-    "lastUpdated": "2025-12-24T18:40:27Z",
+    "lastUpdated": "2025-12-29T17:17:29Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 44
+    "openIssues": 43
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -827,7 +827,7 @@
     "description": "The First Web-based Parametric Structural Engineering Platform",
     "stars": 117,
     "forks": 15,
-    "lastUpdated": "2025-12-27T13:18:19Z",
+    "lastUpdated": "2025-12-29T12:26:29Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 573,
+    "stars": 575,
     "forks": 185,
-    "lastUpdated": "2025-12-27T02:03:39Z",
+    "lastUpdated": "2025-12-29T23:38:09Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 11
+    "openIssues": 12
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23290,
-    "forks": 3668,
-    "lastUpdated": "2025-12-29T07:15:42Z",
+    "stars": 23291,
+    "forks": 3669,
+    "lastUpdated": "2025-12-29T17:14:56Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
