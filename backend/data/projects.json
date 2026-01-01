@@ -14,11 +14,11 @@
       "opencascade"
     ],
     "stars": 2063,
-    "forks": 519,
+    "forks": 520,
     "lastUpdated": "2025-12-30T02:45:11Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 89,
+    "openIssues": 88,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110090,
-    "forks": 36186,
-    "lastUpdated": "2025-12-31T00:22:43Z",
+    "stars": 110103,
+    "forks": 36189,
+    "lastUpdated": "2026-01-01T01:42:58Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 628,
+    "openIssues": 621,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1672,
+    "stars": 1673,
     "forks": 643,
-    "lastUpdated": "2025-12-30T21:02:18Z",
+    "lastUpdated": "2025-12-31T12:56:39Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 104,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13088,
-    "forks": 3331,
-    "lastUpdated": "2025-12-31T00:09:07Z",
+    "stars": 13091,
+    "forks": 3332,
+    "lastUpdated": "2026-01-01T01:00:28Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5317,
+    "openIssues": 5321,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2318,
+    "stars": 2320,
     "forks": 858,
-    "lastUpdated": "2025-12-30T16:40:50Z",
+    "lastUpdated": "2025-12-31T14:02:47Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1097,
+    "openIssues": 1096,
     "platforms": [
       "windows",
       "linux",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-12-31T01:53:12.718Z",
+    "lastUpdated": "2026-01-01T02:03:13.403Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -827,7 +827,7 @@
     "description": "The First Web-based Parametric Structural Engineering Platform",
     "stars": 117,
     "forks": 15,
-    "lastUpdated": "2025-12-29T12:26:29Z",
+    "lastUpdated": "2025-12-31T15:12:26Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -856,7 +856,7 @@
     "frameworks": [],
     "platforms": [],
     "mainLanguage": "C#",
-    "openIssues": 2
+    "openIssues": 1
   },
   {
     "url": "https://github.com/ThatOpen/engine_components",
@@ -865,7 +865,7 @@
     "description": "No description provided",
     "stars": 575,
     "forks": 186,
-    "lastUpdated": "2025-12-29T23:38:09Z",
+    "lastUpdated": "2025-12-31T16:57:35Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 9
+    "openIssues": 5
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -942,9 +942,9 @@
     ],
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
-    "stars": 408,
+    "stars": 409,
     "forks": 70,
-    "lastUpdated": "2025-12-28T16:20:45Z",
+    "lastUpdated": "2025-12-31T04:06:33Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23294,
-    "forks": 3671,
-    "lastUpdated": "2025-12-30T09:37:24Z",
+    "stars": 23296,
+    "forks": 3673,
+    "lastUpdated": "2026-01-01T00:07:21Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
