@@ -14,7 +14,7 @@
       "opencascade"
     ],
     "stars": 2066,
-    "forks": 521,
+    "forks": 522,
     "lastUpdated": "2026-01-02T20:54:16Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110135,
-    "forks": 36189,
-    "lastUpdated": "2026-01-03T01:41:23Z",
+    "stars": 110140,
+    "forks": 36194,
+    "lastUpdated": "2026-01-04T01:27:24Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 619,
+    "openIssues": 617,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13096,
-    "forks": 3332,
-    "lastUpdated": "2026-01-02T19:38:40Z",
+    "stars": 13101,
+    "forks": 3334,
+    "lastUpdated": "2026-01-03T22:43:05Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5322,
+    "openIssues": 5323,
     "platforms": [
       "windows",
       "linux",
@@ -282,10 +282,10 @@
     ],
     "stars": 2322,
     "forks": 859,
-    "lastUpdated": "2026-01-03T00:22:35Z",
+    "lastUpdated": "2026-01-04T00:10:27Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1098,
+    "openIssues": 1099,
     "platforms": [
       "windows",
       "linux",
@@ -623,7 +623,7 @@
     "description": "📚 Various C# libraries for efficient data driven applications ",
     "stars": 19,
     "forks": 10,
-    "lastUpdated": "2026-01-03T00:19:56Z",
+    "lastUpdated": "2026-01-03T04:34:01Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-01-03T01:48:22.371Z",
+    "lastUpdated": "2026-01-04T02:04:28.053Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -804,7 +804,7 @@
     "frameworks": [],
     "platforms": [],
     "mainLanguage": "JavaScript",
-    "openIssues": 1
+    "openIssues": 0
   },
   {
     "url": "https://github.com/madil4/awatif",
@@ -942,9 +942,9 @@
     ],
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
-    "stars": 409,
+    "stars": 410,
     "forks": 70,
-    "lastUpdated": "2025-12-31T04:06:33Z",
+    "lastUpdated": "2026-01-04T00:36:11Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23298,
-    "forks": 3672,
-    "lastUpdated": "2026-01-02T19:55:28Z",
+    "stars": 23299,
+    "forks": 3671,
+    "lastUpdated": "2026-01-03T17:58:07Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 470
+    "openIssues": 469
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
