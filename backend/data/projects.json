@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2066,
+    "stars": 2068,
     "forks": 522,
-    "lastUpdated": "2026-01-02T20:54:16Z",
+    "lastUpdated": "2026-01-04T14:21:12Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 89,
+    "openIssues": 88,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110140,
-    "forks": 36194,
-    "lastUpdated": "2026-01-04T01:27:24Z",
+    "stars": 110156,
+    "forks": 36192,
+    "lastUpdated": "2026-01-05T00:45:47Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 617,
+    "openIssues": 615,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13101,
-    "forks": 3334,
-    "lastUpdated": "2026-01-03T22:43:05Z",
+    "stars": 13103,
+    "forks": 3335,
+    "lastUpdated": "2026-01-04T15:10:34Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5323,
+    "openIssues": 5327,
     "platforms": [
       "windows",
       "linux",
@@ -280,9 +280,9 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2322,
+    "stars": 2323,
     "forks": 859,
-    "lastUpdated": "2026-01-04T00:10:27Z",
+    "lastUpdated": "2026-01-04T19:15:47Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "openIssues": 1099,
@@ -324,7 +324,7 @@
     "lastUpdated": "2025-12-29T14:18:56Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 179,
+    "openIssues": 180,
     "platforms": [
       "web"
     ],
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-01-04T02:04:28.053Z",
+    "lastUpdated": "2026-01-05T02:04:19.935Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 5
+    "openIssues": 7
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23299,
+    "stars": 23305,
     "forks": 3671,
-    "lastUpdated": "2026-01-03T17:58:07Z",
+    "lastUpdated": "2026-01-04T20:08:43Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 469
+    "openIssues": 468
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
