@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2071,
+    "stars": 2075,
     "forks": 524,
-    "lastUpdated": "2026-01-07T01:29:59Z",
+    "lastUpdated": "2026-01-07T19:49:33Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 87,
+    "openIssues": 88,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110193,
-    "forks": 36192,
-    "lastUpdated": "2026-01-07T01:27:04Z",
+    "stars": 110208,
+    "forks": 36197,
+    "lastUpdated": "2026-01-08T01:18:29Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 609,
+    "openIssues": 608,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13117,
-    "forks": 3332,
-    "lastUpdated": "2026-01-07T01:34:07Z",
+    "stars": 13120,
+    "forks": 3334,
+    "lastUpdated": "2026-01-08T01:51:41Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5329,
+    "openIssues": 5327,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2328,
-    "forks": 860,
-    "lastUpdated": "2026-01-07T01:38:57Z",
+    "stars": 2329,
+    "forks": 859,
+    "lastUpdated": "2026-01-07T15:08:18Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1103,
+    "openIssues": 1102,
     "platforms": [
       "windows",
       "linux",
@@ -319,9 +319,9 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 863,
+    "stars": 861,
     "forks": 328,
-    "lastUpdated": "2026-01-05T14:23:54Z",
+    "lastUpdated": "2026-01-07T11:00:47Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
     "openIssues": 179,
@@ -356,7 +356,7 @@
     ],
     "stars": 46,
     "forks": 2,
-    "lastUpdated": "2025-12-28T19:02:40Z",
+    "lastUpdated": "2026-01-07T18:53:20Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "openIssues": 7,
@@ -425,7 +425,7 @@
     ],
     "stars": 17,
     "forks": 12,
-    "lastUpdated": "2026-01-06T17:50:25Z",
+    "lastUpdated": "2026-01-08T00:21:15Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9,
@@ -517,7 +517,7 @@
     "forks": 4,
     "lastUpdated": "2025-12-30T14:57:26Z",
     "license": "AGPL-3.0",
-    "openIssues": 4,
+    "openIssues": 5,
     "platforms": [
       "web"
     ],
@@ -561,9 +561,9 @@
     ],
     "name": "ifc-classifier",
     "description": "No description provided",
-    "stars": 21,
+    "stars": 22,
     "forks": 3,
-    "lastUpdated": "2025-12-30T09:45:10Z",
+    "lastUpdated": "2026-01-07T11:53:26Z",
     "license": "AGPL-3.0",
     "submissionDate": "2025-06-24",
     "submitterUsername": "louistrue",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-01-07T01:54:19.039Z",
+    "lastUpdated": "2026-01-08T01:54:34.443Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -796,7 +796,7 @@
     "name": "bim-open-schema",
     "description": "Representing BIM Data as Parquet  ",
     "stars": 34,
-    "forks": 6,
+    "forks": 7,
     "lastUpdated": "2026-01-06T15:19:57Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
@@ -856,16 +856,16 @@
     "frameworks": [],
     "platforms": [],
     "mainLanguage": "C#",
-    "openIssues": 2
+    "openIssues": 1
   },
   {
     "url": "https://github.com/ThatOpen/engine_components",
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 575,
+    "stars": 576,
     "forks": 186,
-    "lastUpdated": "2025-12-31T16:57:35Z",
+    "lastUpdated": "2026-01-07T20:29:41Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 10
+    "openIssues": 13
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23313,
-    "forks": 3672,
-    "lastUpdated": "2026-01-06T21:33:34Z",
+    "stars": 23314,
+    "forks": 3671,
+    "lastUpdated": "2026-01-07T19:23:06Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 470
+    "openIssues": 471
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
