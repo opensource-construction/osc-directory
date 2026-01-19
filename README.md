@@ -19,17 +19,17 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 
 | Project | Description | Language | Stars | Last Updated | License |
 |---------|-------------|----------|-------|--------------|--------|
-| [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 2103 | Jan 16, 2026 | LGPL-2.1 |
+| [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 2105 | Jan 18, 2026 | LGPL-2.1 |
 | [compas](https://github.com/compas-dev/compas) | Main library of the COMPAS framework and CAD integrations for Rhino/GH and Blender. | Python | 350 | Jan 15, 2026 | MIT |
-| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 110387 | Jan 18, 2026 | MIT |
+| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 110396 | Jan 18, 2026 | MIT |
 | [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 87 | Jan 15, 2026 | MIT |
 | [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1676 | Jan 17, 2026 | AGPL-3.0 |
 | [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 221 | Jan 17, 2026 | AGPL-3.0 |
-| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 13159 | Jan 17, 2026 | GPL-2.0 |
+| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 13159 | Jan 19, 2026 | GPL-2.0 |
 | [rhino3dm](https://github.com/mcneel/rhino3dm) | Libraries based on OpenNURBS with a RhinoCommon style | C# | 701 | Jan 13, 2026 | MIT |
 | [lcax](https://github.com/ocni-dtu/lcax) | LCAx is a open, verifiable, machine and human-readable LCA exchange format | Rust | 72 | Jan 13, 2026 | Apache-2.0 |
 | [calc](https://github.com/herzogdemeuron/calc) | Calc helps architects quickly estimate the environmental impact of their early design. | C# | 18 | Nov 26, 2025 | MIT |
-| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2337 | Jan 17, 2026 | LGPL-3.0 |
+| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2338 | Jan 19, 2026 | LGPL-3.0 |
 | [xeokit-sdk](https://github.com/xeokit/xeokit-sdk) | 3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision | HTML | 862 | Jan 14, 2026 | AGPL-3.0 |
 | [compas_wood](https://github.com/petrasvestartas/compas_wood) | Project for Timber Joint Generation. Documentation: | Python | 46 | Jan 7, 2026 | MIT |
 | [honeybee-energy](https://github.com/ladybug-tools/honeybee-energy) | 🐝 :fire: Honeybee extension for energy simulation | Python | 33 | Jan 17, 2026 | AGPL-3.0 |
@@ -39,12 +39,12 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [BetterCorrectFast](https://github.com/boydhont/BetterCorrectFast) | Simplified BIM Collaboration Format (BCF) generation for project leaders and managers | Python | 13 | Jan 15, 2026 | MIT |
 | [sPrint](https://github.com/PerkinsAndWill-IO/sPrint) | A Chrome extension that allows batch-print PDFs from BIM360 and ACC platforms. | TypeScript | 32 | Dec 12, 2025 | MIT |
 | [IfcLCA](https://github.com/IfcLCA/IfcLCA) | Open Source Life Cycle Assessment for Built Environment with Industry Foundation Classes | TypeScript | 34 | Jan 12, 2026 | AGPL-3.0 |
-| [ifc-flow](https://github.com/louistrue/ifc-flow) | A visual node-based tool for working with Industry Foundation Classes (IFC) files | TypeScript | 65 | Jan 17, 2026 | AGPL-3.0 |
+| [ifc-flow](https://github.com/louistrue/ifc-flow) | A visual node-based tool for working with Industry Foundation Classes (IFC) files | TypeScript | 66 | Jan 18, 2026 | AGPL-3.0 |
 | [ifc-classifier](https://github.com/louistrue/ifc-classifier) | Web-based tool to add IFC classification references (Uniclass, eBKP-H etc.) with 3D visualization using Three.js, web-ifc, and IfcOpenShell. | TypeScript | 21 | Jan 17, 2026 | AGPL-3.0 |
 | [D2P-Components](https://github.com/design-to-production/D2P-Components) | D2P Components streamline parametric modeling in Grasshopper, helping you manage complex data trees, reduce recomputations, and maintain a structured, scalable workflow from concept to fabrication. | C# | 19 | Oct 11, 2025 | MIT |
 | [ara3d-sdk](https://github.com/ara3d/ara3d-sdk) | 📚 Various C# libraries for efficient data driven applications  | C# | 20 | Jan 15, 2026 | MIT |
-| [ara3d-webgl](https://github.com/ara3d/ara3d-webgl) | A Three.JS based WebGL viewer for AEC data.  | TypeScript | 35 | Jan 15, 2026 | MIT |
-| [gladis](https://github.com/daikon-eco/gladis) | A web app and search engine for Environmental Product Declarations (EPDs). | N/A | 0 | Jan 18, 2026 | Unknown |
+| [ara3d-webgl](https://github.com/ara3d/ara3d-webgl) | A Three.JS based WebGL viewer for AEC data.  | TypeScript | 35 | Jan 18, 2026 | MIT |
+| [gladis](https://github.com/daikon-eco/gladis) | A web app and search engine for Environmental Product Declarations (EPDs). | N/A | 0 | Jan 19, 2026 | Unknown |
 | [honey-ifc](https://github.com/IliaShkola/honey-ifc) | Stylish desktop app for exploring and exporting IFC data — fast, fun, and frustration-free.  | Python | 6 | Dec 4, 2025 | GPL-3.0 |
 | [bowerbird](https://github.com/ara3d/bowerbird) | Scripted C# Plug-in Framework for Revit | C# | 57 | Sep 28, 2025 | MIT |
 | [EngineeringPaper.xyz](https://github.com/mgreminger/EngineeringPaper.xyz) | EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations. | TypeScript | 203 | Jan 15, 2026 | MIT |
@@ -58,7 +58,7 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [Hywe](https://github.com/vykrum/Hywe) | Space layout planning in a browser | F# | 7 | Jan 2, 2026 | MIT |
 | [AppBuilderSdk](https://github.com/shapediver/AppBuilderSdk) | Single page application which serves as the frontend of ShapeDiver App Builder | TypeScript | 9 | Jan 12, 2026 | MIT |
 | [ifc-ids-mcp](https://github.com/vinnividivicci/ifc-ids-mcp) | An MCP to create IDS files deterministically using IfcOpenShell's IfcTester | Python | 19 | Dec 3, 2025 | MIT |
-| [p5.js](https://github.com/processing/p5.js) | p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org | JavaScript | 23348 | Jan 17, 2026 | LGPL-2.1 |
+| [p5.js](https://github.com/processing/p5.js) | p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org | JavaScript | 23353 | Jan 18, 2026 | LGPL-2.1 |
 | [enji-react-svg-drawings](https://github.com/enji-io/enji-react-svg-drawings) | This repository demonstrates how React can be used to create SVG-based drawings for construction and manufacturing applications. | TypeScript | 13 | Dec 17, 2025 | Unknown |
 | [Speckle2Graph](https://github.com/regenbuild/Speckle2Graph) | No description provided | Python | 0 | Jan 16, 2026 | Apache-2.0 |
 | [Calcpad](https://github.com/Proektsoftbg/Calcpad) | Free and open source software for mathematical and engineering calculations. | HTML | 621 | Jan 18, 2026 | MIT |
