@@ -14,11 +14,11 @@
       "opencascade"
     ],
     "stars": 2113,
-    "forks": 535,
+    "forks": 536,
     "lastUpdated": "2026-01-20T18:24:12Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 98,
+    "openIssues": 97,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110439,
+    "stars": 110466,
     "forks": 36238,
-    "lastUpdated": "2026-01-21T01:04:42Z",
+    "lastUpdated": "2026-01-22T01:52:19Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 606,
+    "openIssues": 608,
     "platforms": [
       "web",
       "mobile"
@@ -127,7 +127,7 @@
       "openbim"
     ],
     "stars": 1677,
-    "forks": 642,
+    "forks": 641,
     "lastUpdated": "2026-01-19T08:48:30Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13166,
-    "forks": 3349,
-    "lastUpdated": "2026-01-21T00:54:57Z",
+    "stars": 13170,
+    "forks": 3350,
+    "lastUpdated": "2026-01-22T01:43:05Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5362,
+    "openIssues": 5376,
     "platforms": [
       "windows",
       "linux",
@@ -206,9 +206,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 702,
+    "stars": 703,
     "forks": 150,
-    "lastUpdated": "2026-01-19T18:04:58Z",
+    "lastUpdated": "2026-01-21T02:41:05Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 33,
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2339,
-    "forks": 867,
-    "lastUpdated": "2026-01-20T08:27:08Z",
+    "stars": 2340,
+    "forks": 868,
+    "lastUpdated": "2026-01-22T00:19:08Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1117,
+    "openIssues": 1115,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2026-01-14T19:44:24Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 174,
+    "openIssues": 175,
     "platforms": [
       "web"
     ],
@@ -379,10 +379,10 @@
     ],
     "stars": 33,
     "forks": 20,
-    "lastUpdated": "2026-01-17T00:35:56Z",
+    "lastUpdated": "2026-01-21T20:51:24Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
-    "openIssues": 21,
+    "openIssues": 20,
     "platforms": [
       "windows",
       "linux",
@@ -425,7 +425,7 @@
     ],
     "stars": 17,
     "forks": 12,
-    "lastUpdated": "2026-01-15T12:12:11Z",
+    "lastUpdated": "2026-01-21T13:29:30Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9,
@@ -535,12 +535,12 @@
       "visual-scripting",
       "web-ifc"
     ],
-    "stars": 67,
+    "stars": 68,
     "forks": 8,
-    "lastUpdated": "2026-01-20T03:05:37Z",
+    "lastUpdated": "2026-01-21T07:07:38Z",
     "mainLanguage": "TypeScript",
     "license": "AGPL-3.0",
-    "openIssues": 0,
+    "openIssues": 2,
     "platforms": [
       "web"
     ],
@@ -563,7 +563,7 @@
     "description": "Web-based tool to add IFC classification references (Uniclass, eBKP-H etc.) with 3D visualization using Three.js, web-ifc, and IfcOpenShell.",
     "stars": 21,
     "forks": 3,
-    "lastUpdated": "2026-01-17T10:22:35Z",
+    "lastUpdated": "2026-01-21T14:00:38Z",
     "license": "AGPL-3.0",
     "submissionDate": "2025-06-24",
     "submitterUsername": "louistrue",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-01-21T01:58:43.600Z",
+    "lastUpdated": "2026-01-22T01:59:26.700Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -827,7 +827,7 @@
     "description": "The First Web-based Parametric Structural Engineering Platform",
     "stars": 120,
     "forks": 15,
-    "lastUpdated": "2026-01-19T13:54:13Z",
+    "lastUpdated": "2026-01-21T21:57:38Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 583,
-    "forks": 185,
-    "lastUpdated": "2026-01-17T23:08:55Z",
+    "stars": 584,
+    "forks": 184,
+    "lastUpdated": "2026-01-21T20:08:50Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 10
+    "openIssues": 9
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -942,9 +942,9 @@
     ],
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
-    "stars": 416,
+    "stars": 417,
     "forks": 71,
-    "lastUpdated": "2026-01-20T20:56:22Z",
+    "lastUpdated": "2026-01-21T06:18:59Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
@@ -1009,7 +1009,7 @@
     "description": "Single page application which serves as the frontend of ShapeDiver App Builder",
     "stars": 9,
     "forks": 9,
-    "lastUpdated": "2026-01-20T12:42:17Z",
+    "lastUpdated": "2026-01-21T16:41:33Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "snabela",
@@ -1069,8 +1069,8 @@
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
     "stars": 23360,
-    "forks": 3680,
-    "lastUpdated": "2026-01-21T01:15:44Z",
+    "forks": 3686,
+    "lastUpdated": "2026-01-22T00:08:57Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1110,10 +1110,10 @@
       "Speckle"
     ],
     "name": "Speckle2Graph",
-    "description": "No description provided",
-    "stars": 0,
+    "description": "Speckle2Graph is a Python library that builds pipelines from Speckle to a graph database in a few lines of code",
+    "stars": 1,
     "forks": 1,
-    "lastUpdated": "2026-01-16T09:00:48Z",
+    "lastUpdated": "2026-01-21T19:40:25Z",
     "license": "Apache-2.0",
     "submissionDate": "2025-12-29",
     "submitterUsername": "2twenity",
@@ -1139,7 +1139,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 623,
     "forks": 84,
-    "lastUpdated": "2026-01-19T19:34:57Z",
+    "lastUpdated": "2026-01-21T15:05:52Z",
     "license": "MIT",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
@@ -1151,6 +1151,6 @@
       "cloud"
     ],
     "mainLanguage": "HTML",
-    "openIssues": 70
+    "openIssues": 69
   }
 ]
