@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2141,
+    "stars": 2142,
     "forks": 540,
-    "lastUpdated": "2026-01-30T15:25:39Z",
+    "lastUpdated": "2026-01-31T20:14:51Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 97,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110636,
-    "forks": 36256,
-    "lastUpdated": "2026-01-31T01:58:47Z",
+    "stars": 110660,
+    "forks": 36255,
+    "lastUpdated": "2026-02-01T01:45:45Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 606,
+    "openIssues": 605,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1686,
+    "stars": 1687,
     "forks": 642,
-    "lastUpdated": "2026-01-30T19:58:55Z",
+    "lastUpdated": "2026-01-31T11:15:33Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 104,
@@ -177,9 +177,9 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13212,
-    "forks": 3359,
-    "lastUpdated": "2026-01-30T18:29:55Z",
+    "stars": 13215,
+    "forks": 3358,
+    "lastUpdated": "2026-02-01T00:10:40Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "openIssues": 5386,
@@ -234,10 +234,10 @@
     ],
     "stars": 72,
     "forks": 6,
-    "lastUpdated": "2026-01-23T11:12:33Z",
+    "lastUpdated": "2026-01-31T08:06:14Z",
     "mainLanguage": "Rust",
     "license": "Apache-2.0",
-    "openIssues": 18,
+    "openIssues": 17,
     "platforms": [
       "windows",
       "linux",
@@ -280,9 +280,9 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2353,
+    "stars": 2354,
     "forks": 873,
-    "lastUpdated": "2026-01-30T23:04:21Z",
+    "lastUpdated": "2026-01-31T20:27:37Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "openIssues": 1114,
@@ -377,9 +377,9 @@
       "energyplus",
       "honeybee"
     ],
-    "stars": 33,
+    "stars": 34,
     "forks": 20,
-    "lastUpdated": "2026-01-30T23:40:41Z",
+    "lastUpdated": "2026-01-31T18:23:54Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 19,
@@ -621,9 +621,9 @@
     ],
     "name": "ara3d-sdk",
     "description": "📚 Various C# libraries for efficient data driven applications ",
-    "stars": 20,
+    "stars": 21,
     "forks": 10,
-    "lastUpdated": "2026-01-27T20:36:52Z",
+    "lastUpdated": "2026-01-31T16:33:44Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
@@ -655,9 +655,9 @@
     ],
     "name": "ara3d-webgl",
     "description": "A Three.JS based WebGL viewer for AEC data. ",
-    "stars": 37,
+    "stars": 38,
     "forks": 4,
-    "lastUpdated": "2026-01-29T16:33:49Z",
+    "lastUpdated": "2026-01-31T11:13:20Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-01-31T02:08:31.004Z",
+    "lastUpdated": "2026-02-01T02:38:22.742Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -768,7 +768,7 @@
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
     "stars": 203,
     "forks": 25,
-    "lastUpdated": "2026-01-29T17:18:49Z",
+    "lastUpdated": "2026-02-01T00:28:54Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 43
+    "openIssues": 44
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -827,7 +827,7 @@
     "description": "The First Web-based Parametric Structural Engineering Platform",
     "stars": 122,
     "forks": 14,
-    "lastUpdated": "2026-01-31T01:26:59Z",
+    "lastUpdated": "2026-01-31T15:37:14Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -836,7 +836,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 1
+    "openIssues": 0
   },
   {
     "url": "https://github.com/MagmaWorks/Taxonomy",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 586,
+    "stars": 587,
     "forks": 185,
-    "lastUpdated": "2026-01-27T20:39:27Z",
+    "lastUpdated": "2026-01-31T04:25:28Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -972,7 +972,7 @@
     "description": "Space layout planning in a browser",
     "stars": 7,
     "forks": 0,
-    "lastUpdated": "2026-01-30T15:03:29Z",
+    "lastUpdated": "2026-01-31T16:35:58Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "vykrum",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23381,
-    "forks": 3693,
-    "lastUpdated": "2026-01-30T21:13:50Z",
+    "stars": 23388,
+    "forks": 3694,
+    "lastUpdated": "2026-02-01T01:24:41Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 490
+    "openIssues": 492
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1137,9 +1137,9 @@
     ],
     "name": "Calcpad",
     "description": "Free and open source software for mathematical and engineering calculations.",
-    "stars": 627,
+    "stars": 626,
     "forks": 85,
-    "lastUpdated": "2026-01-28T18:57:06Z",
+    "lastUpdated": "2026-01-31T04:07:58Z",
     "license": "MIT",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
@@ -1151,6 +1151,6 @@
       "cloud"
     ],
     "mainLanguage": "HTML",
-    "openIssues": 71
+    "openIssues": 70
   }
 ]
