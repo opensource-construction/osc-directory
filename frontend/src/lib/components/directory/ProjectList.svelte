@@ -6,7 +6,7 @@
 </script>
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-	{#each projects as project}
+	{#each projects as project (project.url)}
 		<ProjectCard {project} />
 	{/each}
 </div>
