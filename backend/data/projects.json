@@ -18,7 +18,7 @@
     "lastUpdated": "2026-02-04T08:20:52Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 103,
+    "openIssues": 105,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110715,
+    "stars": 110720,
     "forks": 36265,
-    "lastUpdated": "2026-02-05T01:58:08Z",
+    "lastUpdated": "2026-02-05T09:08:34Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 607,
+    "openIssues": 605,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13225,
-    "forks": 3362,
-    "lastUpdated": "2026-02-05T01:23:17Z",
+    "stars": 13226,
+    "forks": 3361,
+    "lastUpdated": "2026-02-05T05:38:21Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5367,
+    "openIssues": 5364,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2358,
+    "stars": 2359,
     "forks": 873,
-    "lastUpdated": "2026-02-04T22:25:13Z",
+    "lastUpdated": "2026-02-05T03:05:01Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1103,
+    "openIssues": 1104,
     "platforms": [
       "windows",
       "linux",
@@ -662,7 +662,7 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
     "mainLanguage": "TypeScript",
-    "openIssues": 0,
+    "openIssues": 1,
     "platforms": [
       "web"
     ],
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-02-05T02:22:24.714Z",
+    "lastUpdated": "2026-02-05T09:08:34.079Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23401,
+    "stars": 23402,
     "forks": 3696,
-    "lastUpdated": "2026-02-04T18:09:07Z",
+    "lastUpdated": "2026-02-05T05:53:27Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1152,5 +1152,33 @@
     ],
     "mainLanguage": "HTML",
     "openIssues": 70
+  },
+  {
+    "url": "https://github.com/Habnetic/resilient-housing-bayes",
+    "tags": [
+      "bayesian",
+      "geospatial",
+      "gis",
+      "housing",
+      "probabilistic-modeling",
+      "resilience",
+      "risk-analysis"
+    ],
+    "name": "resilient-housing-bayes",
+    "description": "Bayesian simulation framework exploring how housing systems respond to stochastic climate events. Includes synthetic data generation, probabilistic fragility modeling, and estimation of downtime and reconstruction cost for resilience assessment.",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2026-02-05T09:00:53Z",
+    "license": "MIT",
+    "submissionDate": "2026-02-05",
+    "submitterUsername": "mikel-knowledge",
+    "frameworks": [],
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "mainLanguage": "Jupyter Notebook",
+    "openIssues": 0
   }
 ]
