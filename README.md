@@ -21,15 +21,15 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 |---------|-------------|----------|-------|--------------|--------|
 | [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 2149 | Feb 4, 2026 | LGPL-2.1 |
 | [compas](https://github.com/compas-dev/compas) | Main library of the COMPAS framework and CAD integrations for Rhino/GH and Blender. | Python | 351 | Jan 26, 2026 | MIT |
-| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 110715 | Feb 5, 2026 | MIT |
+| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 110720 | Feb 5, 2026 | MIT |
 | [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 89 | Feb 1, 2026 | MIT |
 | [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1687 | Jan 31, 2026 | AGPL-3.0 |
 | [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 221 | Jan 30, 2026 | AGPL-3.0 |
-| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 13225 | Feb 5, 2026 | GPL-2.0 |
+| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 13226 | Feb 5, 2026 | GPL-2.0 |
 | [rhino3dm](https://github.com/mcneel/rhino3dm) | Libraries based on OpenNURBS with a RhinoCommon style | C# | 705 | Jan 30, 2026 | MIT |
 | [lcax](https://github.com/ocni-dtu/lcax) | LCAx is a open, verifiable, machine and human-readable LCA exchange format | Rust | 72 | Jan 31, 2026 | Apache-2.0 |
 | [calc](https://github.com/herzogdemeuron/calc) | Calc helps architects quickly estimate the environmental impact of their early design. | C# | 18 | Nov 26, 2025 | MIT |
-| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2358 | Feb 4, 2026 | LGPL-3.0 |
+| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2359 | Feb 5, 2026 | LGPL-3.0 |
 | [xeokit-sdk](https://github.com/xeokit/xeokit-sdk) | 3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision | HTML | 868 | Feb 4, 2026 | AGPL-3.0 |
 | [compas_wood](https://github.com/petrasvestartas/compas_wood) | Project for Timber Joint Generation. Documentation: | Python | 46 | Jan 7, 2026 | MIT |
 | [honeybee-energy](https://github.com/ladybug-tools/honeybee-energy) | 🐝 :fire: Honeybee extension for energy simulation | Python | 34 | Feb 3, 2026 | AGPL-3.0 |
@@ -58,8 +58,9 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [Hywe](https://github.com/vykrum/Hywe) | Space layout planning in a browser | F# | 7 | Feb 3, 2026 | MIT |
 | [AppBuilderSdk](https://github.com/shapediver/AppBuilderSdk) | Single page application which serves as the frontend of ShapeDiver App Builder | TypeScript | 9 | Jan 29, 2026 | MIT |
 | [ifc-ids-mcp](https://github.com/vinnividivicci/ifc-ids-mcp) | An MCP to create IDS files deterministically using IfcOpenShell's IfcTester | Python | 21 | Jan 29, 2026 | MIT |
-| [p5.js](https://github.com/processing/p5.js) | p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org | JavaScript | 23401 | Feb 4, 2026 | LGPL-2.1 |
+| [p5.js](https://github.com/processing/p5.js) | p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org | JavaScript | 23402 | Feb 5, 2026 | LGPL-2.1 |
 | [enji-react-svg-drawings](https://github.com/enji-io/enji-react-svg-drawings) | This repository demonstrates how React can be used to create SVG-based drawings for construction and manufacturing applications. | TypeScript | 13 | Dec 17, 2025 | Unknown |
 | [Speckle2Graph](https://github.com/regenbuild/Speckle2Graph) | Speckle2Graph is a Python library that builds pipelines from Speckle to a graph database in a few lines of code | Python | 14 | Feb 1, 2026 | Apache-2.0 |
 | [Calcpad](https://github.com/Proektsoftbg/Calcpad) | Free and open source software for mathematical and engineering calculations. | HTML | 627 | Feb 3, 2026 | MIT |
+| [resilient-housing-bayes](https://github.com/Habnetic/resilient-housing-bayes) | Bayesian simulation framework exploring how housing systems respond to stochastic climate events. Includes synthetic data generation, probabilistic fragility modeling, and estimation of downtime and reconstruction cost for resilience assessment. | Jupyter Notebook | 0 | Feb 5, 2026 | MIT |
 
