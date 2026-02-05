@@ -117,10 +117,6 @@
 	}
 
 	$effect(() => {
-		applySorting();
-	});
-
-	$effect(() => {
 		projects;
 		applySorting();
 	});

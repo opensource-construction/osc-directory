@@ -170,7 +170,7 @@
 			{/if}
 		</div>
 		{#if groupedProjects.length > 0}
-			{#each groupedProjects as group}
+			{#each groupedProjects as group (group.groupName)}
 				<div class="mb-8">
 					<h2 class="text-xl font-semibold text-gray-800 mb-4 pb-2 border-b border-gray-200">
 						{group.groupName}
