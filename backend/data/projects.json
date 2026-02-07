@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2153,
-    "forks": 543,
-    "lastUpdated": "2026-02-06T02:22:19Z",
+    "stars": 2154,
+    "forks": 544,
+    "lastUpdated": "2026-02-07T01:37:08Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 105,
+    "openIssues": 106,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110729,
-    "forks": 36265,
-    "lastUpdated": "2026-02-06T01:44:15Z",
+    "stars": 110756,
+    "forks": 36270,
+    "lastUpdated": "2026-02-07T01:02:30Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 606,
+    "openIssues": 607,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13227,
-    "forks": 3361,
-    "lastUpdated": "2026-02-05T11:53:45Z",
+    "stars": 13234,
+    "forks": 3360,
+    "lastUpdated": "2026-02-07T00:04:19Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5376,
+    "openIssues": 5387,
     "platforms": [
       "windows",
       "linux",
@@ -206,9 +206,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 705,
+    "stars": 706,
     "forks": 149,
-    "lastUpdated": "2026-01-30T19:30:48Z",
+    "lastUpdated": "2026-02-06T15:55:26Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 33,
@@ -280,9 +280,9 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2359,
+    "stars": 2361,
     "forks": 873,
-    "lastUpdated": "2026-02-05T23:10:45Z",
+    "lastUpdated": "2026-02-07T01:37:07Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "openIssues": 1107,
@@ -354,9 +354,9 @@
       "woodwork",
       "woodworking"
     ],
-    "stars": 46,
+    "stars": 47,
     "forks": 2,
-    "lastUpdated": "2026-01-07T18:53:20Z",
+    "lastUpdated": "2026-02-06T23:14:53Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "openIssues": 7,
@@ -378,8 +378,8 @@
       "honeybee"
     ],
     "stars": 34,
-    "forks": 20,
-    "lastUpdated": "2026-02-06T00:29:22Z",
+    "forks": 21,
+    "lastUpdated": "2026-02-06T22:08:39Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 19,
@@ -517,7 +517,7 @@
     "forks": 5,
     "lastUpdated": "2026-01-12T21:01:51Z",
     "license": "AGPL-3.0",
-    "openIssues": 6,
+    "openIssues": 7,
     "platforms": [
       "web"
     ],
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-02-06T02:22:38.639Z",
+    "lastUpdated": "2026-02-07T02:11:22.954Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -795,9 +795,9 @@
     ],
     "name": "bim-open-schema",
     "description": "Representing BIM Data as Parquet  ",
-    "stars": 35,
+    "stars": 36,
     "forks": 8,
-    "lastUpdated": "2026-01-26T23:03:28Z",
+    "lastUpdated": "2026-02-06T17:13:24Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "cdiggins",
@@ -825,9 +825,9 @@
     ],
     "name": "awatif",
     "description": "The First Web-based Parametric Structural Engineering Platform",
-    "stars": 122,
+    "stars": 123,
     "forks": 14,
-    "lastUpdated": "2026-02-05T10:00:43Z",
+    "lastUpdated": "2026-02-06T13:24:50Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 11
+    "openIssues": 12
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23401,
-    "forks": 3697,
-    "lastUpdated": "2026-02-06T00:03:23Z",
+    "stars": 23408,
+    "forks": 3699,
+    "lastUpdated": "2026-02-06T23:55:03Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 500
+    "openIssues": 501
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1139,7 +1139,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 627,
     "forks": 85,
-    "lastUpdated": "2026-02-05T21:47:24Z",
+    "lastUpdated": "2026-02-07T00:09:01Z",
     "license": "MIT",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
