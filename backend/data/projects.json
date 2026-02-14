@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2163,
+    "stars": 2164,
     "forks": 547,
-    "lastUpdated": "2026-02-13T00:32:52Z",
+    "lastUpdated": "2026-02-13T19:46:45Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 111,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 110851,
-    "forks": 36273,
-    "lastUpdated": "2026-02-13T00:33:03Z",
+    "stars": 110859,
+    "forks": 36272,
+    "lastUpdated": "2026-02-13T21:22:15Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 603,
+    "openIssues": 602,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1688,
+    "stars": 1689,
     "forks": 643,
-    "lastUpdated": "2026-02-08T16:48:50Z",
+    "lastUpdated": "2026-02-13T05:35:00Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 104,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13258,
+    "stars": 13262,
     "forks": 3361,
-    "lastUpdated": "2026-02-13T00:30:18Z",
+    "lastUpdated": "2026-02-13T22:54:16Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5395,
+    "openIssues": 5386,
     "platforms": [
       "windows",
       "linux",
@@ -282,10 +282,10 @@
     ],
     "stars": 2364,
     "forks": 875,
-    "lastUpdated": "2026-02-12T07:27:14Z",
+    "lastUpdated": "2026-02-13T09:17:42Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1121,
+    "openIssues": 1123,
     "platforms": [
       "windows",
       "linux",
@@ -492,9 +492,9 @@
       "acc",
       "pdf-printing"
     ],
-    "stars": 32,
+    "stars": 33,
     "forks": 6,
-    "lastUpdated": "2025-12-12T15:32:14Z",
+    "lastUpdated": "2026-02-13T21:51:35Z",
     "mainLanguage": "TypeScript",
     "license": "MIT",
     "openIssues": 3,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-02-13T02:31:48.317Z",
+    "lastUpdated": "2026-02-14T02:12:37.037Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -744,7 +744,7 @@
     "description": "Scripted C# Plug-in Framework for Revit",
     "stars": 59,
     "forks": 7,
-    "lastUpdated": "2026-02-11T13:33:59Z",
+    "lastUpdated": "2026-02-13T13:01:01Z",
     "license": "MIT",
     "submissionDate": "2025-07-03",
     "submitterUsername": "cdiggins",
@@ -865,7 +865,7 @@
     "description": "No description provided",
     "stars": 594,
     "forks": 186,
-    "lastUpdated": "2026-02-12T21:49:37Z",
+    "lastUpdated": "2026-02-13T11:33:45Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 15
+    "openIssues": 19
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -972,7 +972,7 @@
     "description": "Space layout planning in a browser",
     "stars": 7,
     "forks": 0,
-    "lastUpdated": "2026-02-12T17:07:53Z",
+    "lastUpdated": "2026-02-13T09:43:07Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "vykrum",
@@ -1009,7 +1009,7 @@
     "description": "Single page application which serves as the frontend of ShapeDiver App Builder",
     "stars": 9,
     "forks": 9,
-    "lastUpdated": "2026-02-10T14:15:00Z",
+    "lastUpdated": "2026-02-13T11:22:41Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "snabela",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23424,
+    "stars": 23421,
     "forks": 3706,
-    "lastUpdated": "2026-02-13T01:43:02Z",
+    "lastUpdated": "2026-02-13T12:15:20Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 496
+    "openIssues": 499
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1151,7 +1151,7 @@
       "cloud"
     ],
     "mainLanguage": "HTML",
-    "openIssues": 70
+    "openIssues": 71
   },
   {
     "url": "https://github.com/Habnetic/resilient-housing-bayes",
