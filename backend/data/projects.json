@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2169,
-    "forks": 550,
-    "lastUpdated": "2026-02-21T17:12:05Z",
+    "stars": 2171,
+    "forks": 551,
+    "lastUpdated": "2026-02-22T04:17:53Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 115,
+    "openIssues": 118,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 111019,
-    "forks": 36281,
-    "lastUpdated": "2026-02-22T02:26:50Z",
+    "stars": 111039,
+    "forks": 36280,
+    "lastUpdated": "2026-02-23T02:04:22Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 599,
+    "openIssues": 604,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1691,
+    "stars": 1692,
     "forks": 642,
-    "lastUpdated": "2026-02-16T21:51:13Z",
+    "lastUpdated": "2026-02-22T09:44:49Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 104,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13294,
-    "forks": 3364,
-    "lastUpdated": "2026-02-21T17:21:00Z",
+    "stars": 13298,
+    "forks": 3365,
+    "lastUpdated": "2026-02-22T19:32:02Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5352,
+    "openIssues": 5358,
     "platforms": [
       "windows",
       "linux",
@@ -211,7 +211,7 @@
     "lastUpdated": "2026-02-11T16:51:26Z",
     "mainLanguage": "C#",
     "license": "MIT",
-    "openIssues": 35,
+    "openIssues": 36,
     "platforms": [
       "windows",
       "linux",
@@ -281,11 +281,11 @@
       "ifcopenshell"
     ],
     "stars": 2370,
-    "forks": 876,
-    "lastUpdated": "2026-02-21T15:56:13Z",
+    "forks": 877,
+    "lastUpdated": "2026-02-22T23:46:18Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1131,
+    "openIssues": 1133,
     "platforms": [
       "windows",
       "linux",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-02-22T02:27:30.077Z",
+    "lastUpdated": "2026-02-23T02:28:30.905Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -766,9 +766,9 @@
     ],
     "name": "EngineeringPaper.xyz",
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
-    "stars": 206,
-    "forks": 25,
-    "lastUpdated": "2026-02-20T03:26:45Z",
+    "stars": 208,
+    "forks": 26,
+    "lastUpdated": "2026-02-22T13:53:56Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23458,
-    "forks": 3714,
-    "lastUpdated": "2026-02-21T15:42:16Z",
+    "stars": 23459,
+    "forks": 3715,
+    "lastUpdated": "2026-02-22T21:13:47Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 501
+    "openIssues": 504
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1151,7 +1151,7 @@
       "cloud"
     ],
     "mainLanguage": "HTML",
-    "openIssues": 71
+    "openIssues": 72
   },
   {
     "url": "https://github.com/Habnetic/resilient-housing-bayes",
