@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2173,
-    "forks": 553,
-    "lastUpdated": "2026-02-23T14:33:49Z",
+    "stars": 2175,
+    "forks": 555,
+    "lastUpdated": "2026-02-24T13:22:00Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 116,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 111048,
+    "stars": 111068,
     "forks": 36281,
-    "lastUpdated": "2026-02-24T01:59:04Z",
+    "lastUpdated": "2026-02-25T01:54:45Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 606,
+    "openIssues": 604,
     "platforms": [
       "web",
       "mobile"
@@ -127,7 +127,7 @@
       "openbim"
     ],
     "stars": 1692,
-    "forks": 641,
+    "forks": 642,
     "lastUpdated": "2026-02-22T09:44:49Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13301,
+    "stars": 13303,
     "forks": 3366,
-    "lastUpdated": "2026-02-24T00:57:20Z",
+    "lastUpdated": "2026-02-24T23:17:16Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5374,
+    "openIssues": 5379,
     "platforms": [
       "windows",
       "linux",
@@ -211,7 +211,7 @@
     "lastUpdated": "2026-02-23T16:27:17Z",
     "mainLanguage": "C#",
     "license": "MIT",
-    "openIssues": 36,
+    "openIssues": 37,
     "platforms": [
       "windows",
       "linux",
@@ -232,9 +232,9 @@
       "sustainability",
       "environmental-impact"
     ],
-    "stars": 72,
+    "stars": 73,
     "forks": 6,
-    "lastUpdated": "2026-02-11T23:50:51Z",
+    "lastUpdated": "2026-02-24T18:49:06Z",
     "mainLanguage": "Rust",
     "license": "Apache-2.0",
     "openIssues": 17,
@@ -282,10 +282,10 @@
     ],
     "stars": 2370,
     "forks": 876,
-    "lastUpdated": "2026-02-23T23:03:45Z",
+    "lastUpdated": "2026-02-24T10:26:29Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1132,
+    "openIssues": 1141,
     "platforms": [
       "windows",
       "linux",
@@ -379,7 +379,7 @@
     ],
     "stars": 33,
     "forks": 21,
-    "lastUpdated": "2026-02-23T20:41:12Z",
+    "lastUpdated": "2026-02-24T21:40:56Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 18,
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2026-02-20T18:04:54Z",
+    "lastUpdated": "2026-02-24T21:40:53Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -425,7 +425,7 @@
     ],
     "stars": 17,
     "forks": 12,
-    "lastUpdated": "2026-02-20T18:04:14Z",
+    "lastUpdated": "2026-02-24T21:40:57Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-02-24T02:24:56.767Z",
+    "lastUpdated": "2026-02-25T02:25:59.847Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -766,9 +766,9 @@
     ],
     "name": "EngineeringPaper.xyz",
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
-    "stars": 209,
+    "stars": 210,
     "forks": 26,
-    "lastUpdated": "2026-02-23T21:14:48Z",
+    "lastUpdated": "2026-02-24T23:31:28Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 43
+    "openIssues": 42
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -826,7 +826,7 @@
     "name": "awatif",
     "description": "The First Web-based Parametric Structural Engineering Platform",
     "stars": 124,
-    "forks": 14,
+    "forks": 15,
     "lastUpdated": "2026-02-21T19:21:06Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
@@ -836,7 +836,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 0
+    "openIssues": 1
   },
   {
     "url": "https://github.com/MagmaWorks/Taxonomy",
@@ -864,8 +864,8 @@
     "name": "engine_components",
     "description": "No description provided",
     "stars": 596,
-    "forks": 188,
-    "lastUpdated": "2026-02-23T20:22:03Z",
+    "forks": 189,
+    "lastUpdated": "2026-02-24T13:04:59Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 20
+    "openIssues": 22
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -943,7 +943,7 @@
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
     "stars": 430,
-    "forks": 73,
+    "forks": 74,
     "lastUpdated": "2026-02-15T20:15:41Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
@@ -972,7 +972,7 @@
     "description": "Space layout planning in a browser",
     "stars": 7,
     "forks": 0,
-    "lastUpdated": "2026-02-23T13:19:17Z",
+    "lastUpdated": "2026-02-24T16:12:51Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "vykrum",
@@ -1009,7 +1009,7 @@
     "description": "Single page application which serves as the frontend of ShapeDiver App Builder",
     "stars": 9,
     "forks": 9,
-    "lastUpdated": "2026-02-23T11:39:57Z",
+    "lastUpdated": "2026-02-24T14:31:06Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "snabela",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23461,
-    "forks": 3717,
-    "lastUpdated": "2026-02-23T17:25:25Z",
+    "stars": 23465,
+    "forks": 3718,
+    "lastUpdated": "2026-02-25T01:53:50Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 505
+    "openIssues": 503
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1137,9 +1137,9 @@
     ],
     "name": "Calcpad",
     "description": "Free and open source software for mathematical and engineering calculations.",
-    "stars": 632,
+    "stars": 633,
     "forks": 85,
-    "lastUpdated": "2026-02-23T21:40:35Z",
+    "lastUpdated": "2026-02-24T23:14:31Z",
     "license": "MIT",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
