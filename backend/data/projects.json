@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2192,
-    "forks": 560,
-    "lastUpdated": "2026-03-03T00:38:23Z",
+    "stars": 2194,
+    "forks": 561,
+    "lastUpdated": "2026-03-03T13:47:00Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 117,
+    "openIssues": 116,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 111140,
-    "forks": 36282,
-    "lastUpdated": "2026-03-03T02:12:52Z",
+    "stars": 111162,
+    "forks": 36278,
+    "lastUpdated": "2026-03-04T01:21:46Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 607,
+    "openIssues": 604,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13319,
+    "stars": 13321,
     "forks": 3369,
-    "lastUpdated": "2026-03-03T00:48:31Z",
+    "lastUpdated": "2026-03-03T23:09:22Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5395,
+    "openIssues": 5409,
     "platforms": [
       "windows",
       "linux",
@@ -211,7 +211,7 @@
     "lastUpdated": "2026-02-27T16:36:08Z",
     "mainLanguage": "C#",
     "license": "MIT",
-    "openIssues": 37,
+    "openIssues": 38,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2382,
-    "forks": 879,
-    "lastUpdated": "2026-03-02T20:49:14Z",
+    "stars": 2385,
+    "forks": 880,
+    "lastUpdated": "2026-03-03T21:17:02Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1139,
+    "openIssues": 1132,
     "platforms": [
       "windows",
       "linux",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-03-03T02:26:14.935Z",
+    "lastUpdated": "2026-03-04T02:12:25.786Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -742,9 +742,9 @@
     ],
     "name": "bowerbird",
     "description": "Scripted C# Plug-in Framework for Revit",
-    "stars": 59,
+    "stars": 60,
     "forks": 7,
-    "lastUpdated": "2026-02-13T13:01:01Z",
+    "lastUpdated": "2026-03-03T21:38:01Z",
     "license": "MIT",
     "submissionDate": "2025-07-03",
     "submitterUsername": "cdiggins",
@@ -768,7 +768,7 @@
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
     "stars": 210,
     "forks": 26,
-    "lastUpdated": "2026-03-01T12:29:04Z",
+    "lastUpdated": "2026-03-03T02:43:28Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 44
+    "openIssues": 43
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 599,
+    "stars": 600,
     "forks": 190,
-    "lastUpdated": "2026-03-01T10:27:15Z",
+    "lastUpdated": "2026-03-03T17:04:25Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 8
+    "openIssues": 9
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -972,7 +972,7 @@
     "description": "Space layout planning in a browser",
     "stars": 7,
     "forks": 0,
-    "lastUpdated": "2026-03-01T04:09:57Z",
+    "lastUpdated": "2026-03-03T05:58:54Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "vykrum",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23471,
+    "stars": 23478,
     "forks": 3725,
-    "lastUpdated": "2026-03-02T13:48:02Z",
+    "lastUpdated": "2026-03-04T01:51:44Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 504
+    "openIssues": 503
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1139,7 +1139,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 636,
     "forks": 85,
-    "lastUpdated": "2026-03-03T02:22:52Z",
+    "lastUpdated": "2026-03-03T09:36:09Z",
     "license": "MIT",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
@@ -1168,7 +1168,7 @@
     "description": "Bayesian simulation framework exploring how housing systems respond to stochastic climate events. Includes synthetic data generation, probabilistic fragility modeling, and estimation of downtime and reconstruction cost for resilience assessment.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-03-02T21:50:16Z",
+    "lastUpdated": "2026-03-03T04:21:25Z",
     "license": "MIT",
     "submissionDate": "2026-02-05",
     "submitterUsername": "mikel-knowledge",
