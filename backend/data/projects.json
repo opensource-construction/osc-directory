@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2194,
-    "forks": 561,
-    "lastUpdated": "2026-03-03T13:47:00Z",
+    "stars": 2195,
+    "forks": 563,
+    "lastUpdated": "2026-03-04T14:50:59Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 116,
+    "openIssues": 119,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 111162,
-    "forks": 36278,
-    "lastUpdated": "2026-03-04T01:21:46Z",
+    "stars": 111171,
+    "forks": 36276,
+    "lastUpdated": "2026-03-05T00:40:45Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 604,
+    "openIssues": 600,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13321,
-    "forks": 3369,
-    "lastUpdated": "2026-03-03T23:09:22Z",
+    "stars": 13328,
+    "forks": 3372,
+    "lastUpdated": "2026-03-05T00:04:13Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5409,
+    "openIssues": 5411,
     "platforms": [
       "windows",
       "linux",
@@ -281,8 +281,8 @@
       "ifcopenshell"
     ],
     "stars": 2385,
-    "forks": 880,
-    "lastUpdated": "2026-03-03T21:17:02Z",
+    "forks": 881,
+    "lastUpdated": "2026-03-05T00:06:09Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "openIssues": 1132,
@@ -319,9 +319,9 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 877,
+    "stars": 878,
     "forks": 328,
-    "lastUpdated": "2026-03-02T06:20:41Z",
+    "lastUpdated": "2026-03-05T00:13:36Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
     "openIssues": 177,
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2026-02-27T21:37:48Z",
+    "lastUpdated": "2026-03-04T18:28:44Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-03-04T02:12:25.786Z",
+    "lastUpdated": "2026-03-05T02:23:15.533Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -942,9 +942,9 @@
     ],
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
-    "stars": 433,
+    "stars": 434,
     "forks": 74,
-    "lastUpdated": "2026-03-02T10:56:43Z",
+    "lastUpdated": "2026-03-04T14:08:16Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
@@ -1020,7 +1020,7 @@
       "desktop"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 3
+    "openIssues": 4
   },
   {
     "url": "https://github.com/vinnividivicci/ifc-ids-mcp",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23478,
-    "forks": 3725,
-    "lastUpdated": "2026-03-04T01:51:44Z",
+    "stars": 23483,
+    "forks": 3730,
+    "lastUpdated": "2026-03-04T18:20:14Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1139,7 +1139,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 636,
     "forks": 85,
-    "lastUpdated": "2026-03-03T09:36:09Z",
+    "lastUpdated": "2026-03-04T14:30:46Z",
     "license": "MIT",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
@@ -1151,7 +1151,7 @@
       "cloud"
     ],
     "mainLanguage": "HTML",
-    "openIssues": 72
+    "openIssues": 70
   },
   {
     "url": "https://github.com/Habnetic/resilient-housing-bayes",
