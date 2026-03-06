@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2195,
+    "stars": 2200,
     "forks": 563,
-    "lastUpdated": "2026-03-04T14:50:59Z",
+    "lastUpdated": "2026-03-05T23:28:33Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 119,
+    "openIssues": 121,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 111171,
-    "forks": 36276,
-    "lastUpdated": "2026-03-05T00:40:45Z",
+    "stars": 111196,
+    "forks": 36282,
+    "lastUpdated": "2026-03-06T02:12:43Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 600,
+    "openIssues": 597,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1692,
+    "stars": 1693,
     "forks": 642,
-    "lastUpdated": "2026-03-02T22:30:28Z",
+    "lastUpdated": "2026-03-05T13:58:04Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 105,
@@ -156,7 +156,7 @@
     ],
     "stars": 222,
     "forks": 59,
-    "lastUpdated": "2026-03-02T09:46:27Z",
+    "lastUpdated": "2026-03-05T18:31:48Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 8,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13328,
-    "forks": 3372,
-    "lastUpdated": "2026-03-05T00:04:13Z",
+    "stars": 13331,
+    "forks": 3375,
+    "lastUpdated": "2026-03-06T00:33:33Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5411,
+    "openIssues": 5397,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2385,
-    "forks": 881,
-    "lastUpdated": "2026-03-05T00:06:09Z",
+    "stars": 2386,
+    "forks": 882,
+    "lastUpdated": "2026-03-05T22:50:42Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1132,
+    "openIssues": 1133,
     "platforms": [
       "windows",
       "linux",
@@ -319,9 +319,9 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 878,
+    "stars": 879,
     "forks": 328,
-    "lastUpdated": "2026-03-05T00:13:36Z",
+    "lastUpdated": "2026-03-05T04:10:15Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
     "openIssues": 177,
@@ -354,9 +354,9 @@
       "woodwork",
       "woodworking"
     ],
-    "stars": 48,
+    "stars": 47,
     "forks": 2,
-    "lastUpdated": "2026-02-17T16:56:57Z",
+    "lastUpdated": "2026-03-05T19:32:39Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "openIssues": 7,
@@ -379,7 +379,7 @@
     ],
     "stars": 33,
     "forks": 21,
-    "lastUpdated": "2026-02-24T21:40:56Z",
+    "lastUpdated": "2026-03-05T19:08:12Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 18,
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 12,
-    "lastUpdated": "2026-03-04T18:28:44Z",
+    "lastUpdated": "2026-03-05T19:07:43Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -425,7 +425,7 @@
     ],
     "stars": 17,
     "forks": 12,
-    "lastUpdated": "2026-02-24T21:40:57Z",
+    "lastUpdated": "2026-03-05T19:07:49Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9,
@@ -568,7 +568,7 @@
     "submissionDate": "2025-06-24",
     "submitterUsername": "louistrue",
     "mainLanguage": "TypeScript",
-    "openIssues": 1,
+    "openIssues": 2,
     "platforms": [
       "web"
     ],
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-03-05T02:23:15.533Z",
+    "lastUpdated": "2026-03-06T02:21:15.137Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -825,9 +825,9 @@
     ],
     "name": "awatif",
     "description": "The First Web-based Parametric Structural Engineering Platform",
-    "stars": 128,
+    "stars": 129,
     "forks": 17,
-    "lastUpdated": "2026-03-02T11:02:20Z",
+    "lastUpdated": "2026-03-05T22:40:06Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 600,
+    "stars": 602,
     "forks": 190,
-    "lastUpdated": "2026-03-03T17:04:25Z",
+    "lastUpdated": "2026-03-05T23:33:32Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 9
+    "openIssues": 10
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -1009,7 +1009,7 @@
     "description": "Single page application which serves as the frontend of ShapeDiver App Builder",
     "stars": 9,
     "forks": 8,
-    "lastUpdated": "2026-02-27T11:20:10Z",
+    "lastUpdated": "2026-03-05T11:31:54Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "snabela",
@@ -1020,7 +1020,7 @@
       "desktop"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 4
+    "openIssues": 3
   },
   {
     "url": "https://github.com/vinnividivicci/ifc-ids-mcp",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23483,
+    "stars": 23486,
     "forks": 3730,
-    "lastUpdated": "2026-03-04T18:20:14Z",
+    "lastUpdated": "2026-03-06T00:39:32Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 503
+    "openIssues": 514
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
