@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2219,
+    "stars": 2223,
     "forks": 568,
-    "lastUpdated": "2026-03-12T15:59:20Z",
+    "lastUpdated": "2026-03-14T01:44:11Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 119,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 111321,
-    "forks": 36292,
-    "lastUpdated": "2026-03-13T02:20:56Z",
+    "stars": 111343,
+    "forks": 36302,
+    "lastUpdated": "2026-03-14T01:37:28Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 593,
+    "openIssues": 586,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1697,
+    "stars": 1698,
     "forks": 643,
-    "lastUpdated": "2026-03-12T20:04:28Z",
+    "lastUpdated": "2026-03-13T13:33:55Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 106,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13420,
-    "forks": 3385,
-    "lastUpdated": "2026-03-12T23:12:57Z",
+    "stars": 13425,
+    "forks": 3386,
+    "lastUpdated": "2026-03-13T22:56:19Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5394,
+    "openIssues": 5400,
     "platforms": [
       "windows",
       "linux",
@@ -206,9 +206,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 714,
+    "stars": 715,
     "forks": 150,
-    "lastUpdated": "2026-03-12T13:00:54Z",
+    "lastUpdated": "2026-03-13T13:51:12Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 38,
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2389,
-    "forks": 884,
-    "lastUpdated": "2026-03-12T19:29:15Z",
+    "stars": 2393,
+    "forks": 885,
+    "lastUpdated": "2026-03-13T23:38:34Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1153,
+    "openIssues": 1157,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2026-03-12T09:10:47Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 177,
+    "openIssues": 178,
     "platforms": [
       "web"
     ],
@@ -592,7 +592,7 @@
     "description": "D2P Components streamline parametric modeling in Grasshopper, helping you manage complex data trees, reduce recomputations, and maintain a structured, scalable workflow from concept to fabrication.",
     "stars": 19,
     "forks": 4,
-    "lastUpdated": "2025-10-11T09:21:19Z",
+    "lastUpdated": "2026-03-13T07:25:31Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "bastiannispel",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-03-13T02:22:29.960Z",
+    "lastUpdated": "2026-03-14T02:12:36.193Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -710,9 +710,9 @@
     ],
     "name": "honey-ifc",
     "description": "Stylish desktop app for exploring and exporting IFC data — fast, fun, and frustration-free. ",
-    "stars": 7,
+    "stars": 8,
     "forks": 0,
-    "lastUpdated": "2026-03-13T00:25:30Z",
+    "lastUpdated": "2026-03-13T09:15:00Z",
     "license": "GPL-3.0",
     "submissionDate": "2025-06-27",
     "submitterUsername": "IliaShkola",
@@ -768,7 +768,7 @@
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
     "stars": 211,
     "forks": 26,
-    "lastUpdated": "2026-03-11T11:03:52Z",
+    "lastUpdated": "2026-03-14T01:11:27Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 43
+    "openIssues": 42
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 604,
+    "stars": 605,
     "forks": 190,
-    "lastUpdated": "2026-03-12T07:02:02Z",
+    "lastUpdated": "2026-03-13T12:29:23Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 11
+    "openIssues": 12
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -1009,7 +1009,7 @@
     "description": "Single page application which serves as the frontend of ShapeDiver App Builder",
     "stars": 9,
     "forks": 8,
-    "lastUpdated": "2026-03-12T15:50:31Z",
+    "lastUpdated": "2026-03-13T10:19:03Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "snabela",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23504,
-    "forks": 3737,
-    "lastUpdated": "2026-03-12T22:25:17Z",
+    "stars": 23507,
+    "forks": 3739,
+    "lastUpdated": "2026-03-13T20:41:40Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 514
+    "openIssues": 516
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1151,7 +1151,7 @@
       "cloud"
     ],
     "mainLanguage": "HTML",
-    "openIssues": 70
+    "openIssues": 71
   },
   {
     "url": "https://github.com/Habnetic/resilient-housing-bayes",
