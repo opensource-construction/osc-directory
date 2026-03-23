@@ -21,15 +21,15 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 |---------|-------------|----------|-------|--------------|--------|
 | [OCCT](https://github.com/Open-Cascade-SAS/OCCT) | Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE. | C++ | 2248 | Mar 21, 2026 | LGPL-2.1 |
 | [compas](https://github.com/compas-dev/compas) | Main library of the COMPAS framework and CAD integrations for Rhino/GH and Blender. | Python | 353 | Mar 1, 2026 | MIT |
-| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 111488 | Mar 22, 2026 | MIT |
+| [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | JavaScript | 111508 | Mar 23, 2026 | MIT |
 | [voxelization_toolkit](https://github.com/IfcOpenShell/voxelization_toolkit) | Voxelization Toolkit for (IFC) Building Models | C++ | 90 | Mar 21, 2026 | MIT |
 | [BIMserver](https://github.com/opensourceBIM/BIMserver) | The open source BIMserver platform | Java | 1701 | Mar 19, 2026 | AGPL-3.0 |
 | [ladybug](https://github.com/ladybug-tools/ladybug) | 🐞 Core ladybug library for weather data analysis and visualization | Python | 222 | Mar 16, 2026 | AGPL-3.0 |
-| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 13473 | Mar 21, 2026 | GPL-2.0 |
+| [QGIS](https://github.com/qgis/QGIS) | QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) | C++ | 13478 | Mar 22, 2026 | GPL-2.0 |
 | [rhino3dm](https://github.com/mcneel/rhino3dm) | Libraries based on OpenNURBS with a RhinoCommon style | C# | 716 | Mar 21, 2026 | MIT |
 | [lcax](https://github.com/ocni-dtu/lcax) | LCAx is a open, verifiable, machine and human-readable LCA exchange format | Rust | 75 | Mar 19, 2026 | Apache-2.0 |
 | [calc](https://github.com/herzogdemeuron/calc) | Calc helps architects quickly estimate the environmental impact of their early design. | C# | 19 | Feb 7, 2026 | MIT |
-| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2414 | Mar 21, 2026 | LGPL-3.0 |
+| [IfcOpenShell](https://github.com/ifcopenshell/ifcopenshell) | Open source IFC library and geometry engine | C++ | 2415 | Mar 22, 2026 | LGPL-3.0 |
 | [xeokit-sdk](https://github.com/xeokit/xeokit-sdk) | 3D BIM IFC Viewer SDK for AEC engineering applications. Open Source JavaScript Toolkit based on pure WebGL for top performance, real-world coordinates and full double precision | HTML | 886 | Mar 20, 2026 | AGPL-3.0 |
 | [compas_wood](https://github.com/petrasvestartas/compas_wood) | Project for Timber Joint Generation. Documentation: | Python | 47 | Mar 5, 2026 | MIT |
 | [honeybee-energy](https://github.com/ladybug-tools/honeybee-energy) | 🐝 :fire: Honeybee extension for energy simulation | Python | 33 | Mar 20, 2026 | AGPL-3.0 |
@@ -44,7 +44,7 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [D2P-Components](https://github.com/design-to-production/D2P-Components) | D2P Components streamline parametric modeling in Grasshopper, helping you manage complex data trees, reduce recomputations, and maintain a structured, scalable workflow from concept to fabrication. | C# | 19 | Mar 13, 2026 | MIT |
 | [ara3d-sdk](https://github.com/ara3d/ara3d-sdk) | 📚 Various C# libraries for efficient data driven applications  | C# | 25 | Mar 21, 2026 | MIT |
 | [ara3d-webgl](https://github.com/ara3d/ara3d-webgl) | A Three.JS based WebGL viewer for AEC data.  | TypeScript | 42 | Mar 10, 2026 | MIT |
-| [gladis](https://github.com/daikon-eco/gladis) | A web app and search engine for Environmental Product Declarations (EPDs). | N/A | 0 | Mar 22, 2026 | Unknown |
+| [gladis](https://github.com/daikon-eco/gladis) | A web app and search engine for Environmental Product Declarations (EPDs). | N/A | 0 | Mar 23, 2026 | Unknown |
 | [honey-ifc](https://github.com/IliaShkola/honey-ifc) | Stylish desktop app for exploring and exporting IFC data — fast, fun, and frustration-free.  | Python | 8 | Mar 13, 2026 | GPL-3.0 |
 | [bowerbird](https://github.com/ara3d/bowerbird) | Scripted C# Plug-in Framework for Revit | C# | 60 | Mar 3, 2026 | MIT |
 | [EngineeringPaper.xyz](https://github.com/mgreminger/EngineeringPaper.xyz) | EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations. | TypeScript | 214 | Mar 20, 2026 | MIT |
@@ -58,7 +58,7 @@ This project is inspired by the [extra-awesome-dotnet](https://github.com/ara3d/
 | [Hywe](https://github.com/vykrum/Hywe) | Space layout planning in a browser | F# | 7 | Mar 10, 2026 | MIT |
 | [AppBuilderSdk](https://github.com/shapediver/AppBuilderSdk) | Single page application which serves as the frontend of ShapeDiver App Builder | TypeScript | 9 | Mar 13, 2026 | MIT |
 | [ifc-ids-mcp](https://github.com/vinnividivicci/ifc-ids-mcp) | An MCP to create IDS files deterministically using IfcOpenShell's IfcTester | Python | 24 | Feb 24, 2026 | MIT |
-| [p5.js](https://github.com/processing/p5.js) | p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org | JavaScript | 23535 | Mar 21, 2026 | LGPL-2.1 |
+| [p5.js](https://github.com/processing/p5.js) | p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org | JavaScript | 23539 | Mar 22, 2026 | LGPL-2.1 |
 | [enji-react-svg-drawings](https://github.com/enji-io/enji-react-svg-drawings) | This repository demonstrates how React can be used to create SVG-based drawings for construction and manufacturing applications. | TypeScript | 14 | Feb 7, 2026 | Unknown |
 | [Speckle2Graph](https://github.com/regenbuild/Speckle2Graph) | Speckle2Graph is a Python library that builds pipelines from Speckle to a graph database in a few lines of code | Python | 14 | Feb 1, 2026 | Apache-2.0 |
 | [Calcpad](https://github.com/Proektsoftbg/Calcpad) | Free and open source software for mathematical and engineering calculations. | HTML | 642 | Mar 21, 2026 | MIT |
