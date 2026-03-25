@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2251,
-    "forks": 576,
-    "lastUpdated": "2026-03-24T01:32:56Z",
+    "stars": 2258,
+    "forks": 577,
+    "lastUpdated": "2026-03-24T22:08:31Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 124,
+    "openIssues": 123,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 111514,
-    "forks": 36306,
-    "lastUpdated": "2026-03-24T01:14:28Z",
+    "stars": 111541,
+    "forks": 36309,
+    "lastUpdated": "2026-03-25T02:04:48Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 584,
+    "openIssues": 588,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13483,
-    "forks": 3391,
-    "lastUpdated": "2026-03-24T01:19:47Z",
+    "stars": 13489,
+    "forks": 3392,
+    "lastUpdated": "2026-03-25T02:22:25Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5423,
+    "openIssues": 5422,
     "platforms": [
       "windows",
       "linux",
@@ -233,7 +233,7 @@
       "environmental-impact"
     ],
     "stars": 75,
-    "forks": 6,
+    "forks": 7,
     "lastUpdated": "2026-03-19T09:50:38Z",
     "mainLanguage": "Rust",
     "license": "Apache-2.0",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2415,
-    "forks": 889,
-    "lastUpdated": "2026-03-23T23:54:22Z",
+    "stars": 2418,
+    "forks": 892,
+    "lastUpdated": "2026-03-24T21:55:20Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1128,
+    "openIssues": 1130,
     "platforms": [
       "windows",
       "linux",
@@ -319,9 +319,9 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 887,
+    "stars": 888,
     "forks": 327,
-    "lastUpdated": "2026-03-23T20:36:30Z",
+    "lastUpdated": "2026-03-24T08:36:00Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
     "openIssues": 178,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-03-24T02:24:03.578Z",
+    "lastUpdated": "2026-03-25T02:28:35.346Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 43
+    "openIssues": 44
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -825,9 +825,9 @@
     ],
     "name": "awatif",
     "description": "The First Web-based Parametric Structural Engineering Platform",
-    "stars": 135,
+    "stars": 136,
     "forks": 21,
-    "lastUpdated": "2026-03-24T01:19:11Z",
+    "lastUpdated": "2026-03-25T00:47:51Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 614,
+    "stars": 616,
     "forks": 191,
-    "lastUpdated": "2026-03-23T11:31:12Z",
+    "lastUpdated": "2026-03-24T17:17:52Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -942,9 +942,9 @@
     ],
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
-    "stars": 437,
+    "stars": 438,
     "forks": 77,
-    "lastUpdated": "2026-03-20T07:36:23Z",
+    "lastUpdated": "2026-03-24T06:18:08Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
@@ -1020,7 +1020,7 @@
       "desktop"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 2
+    "openIssues": 3
   },
   {
     "url": "https://github.com/vinnividivicci/ifc-ids-mcp",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23543,
-    "forks": 3749,
-    "lastUpdated": "2026-03-23T14:57:55Z",
+    "stars": 23548,
+    "forks": 3748,
+    "lastUpdated": "2026-03-24T18:13:02Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 520
+    "openIssues": 524
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1137,10 +1137,10 @@
     ],
     "name": "Calcpad",
     "description": "Free and open source software for mathematical and engineering calculations.",
-    "stars": 642,
-    "forks": 86,
-    "lastUpdated": "2026-03-24T00:57:07Z",
-    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2026-03-25T02:28:35.342Z",
+    "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
     "frameworks": [],
@@ -1150,8 +1150,7 @@
       "web",
       "cloud"
     ],
-    "mainLanguage": "HTML",
-    "openIssues": 70
+    "openIssues": 0
   },
   {
     "url": "https://github.com/Habnetic/resilient-housing-bayes",
