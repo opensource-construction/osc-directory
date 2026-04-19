@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2348,
-    "forks": 590,
-    "lastUpdated": "2026-04-17T20:14:09Z",
+    "stars": 2351,
+    "forks": 592,
+    "lastUpdated": "2026-04-18T18:21:05Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 118,
+    "openIssues": 122,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 112017,
-    "forks": 36325,
-    "lastUpdated": "2026-04-18T02:11:57Z",
+    "stars": 112050,
+    "forks": 36322,
+    "lastUpdated": "2026-04-19T02:46:30Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 533,
+    "openIssues": 531,
     "platforms": [
       "web",
       "mobile"
@@ -177,9 +177,9 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13626,
-    "forks": 3403,
-    "lastUpdated": "2026-04-17T23:16:42Z",
+    "stars": 13629,
+    "forks": 3404,
+    "lastUpdated": "2026-04-18T17:27:24Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "openIssues": 5418,
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2451,
-    "forks": 900,
-    "lastUpdated": "2026-04-17T10:53:57Z",
+    "stars": 2453,
+    "forks": 901,
+    "lastUpdated": "2026-04-18T15:55:56Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1186,
+    "openIssues": 1195,
     "platforms": [
       "windows",
       "linux",
@@ -321,10 +321,10 @@
     ],
     "stars": 895,
     "forks": 326,
-    "lastUpdated": "2026-04-17T09:33:15Z",
+    "lastUpdated": "2026-04-18T13:00:59Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 184,
+    "openIssues": 186,
     "platforms": [
       "web"
     ],
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-04-18T02:38:05.090Z",
+    "lastUpdated": "2026-04-19T02:54:23.742Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 630,
-    "forks": 193,
-    "lastUpdated": "2026-04-17T22:57:53Z",
+    "stars": 633,
+    "forks": 195,
+    "lastUpdated": "2026-04-19T01:18:43Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 28
+    "openIssues": 22
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -972,7 +972,7 @@
     "description": "Space layout planning in a browser",
     "stars": 7,
     "forks": 0,
-    "lastUpdated": "2026-04-12T15:57:41Z",
+    "lastUpdated": "2026-04-18T15:42:41Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "vykrum",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23601,
-    "forks": 3751,
-    "lastUpdated": "2026-04-17T17:24:04Z",
+    "stars": 23609,
+    "forks": 3752,
+    "lastUpdated": "2026-04-19T02:49:05Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 510
+    "openIssues": 511
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1139,7 +1139,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-04-18T02:38:05.094Z",
+    "lastUpdated": "2026-04-19T02:54:23.729Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
