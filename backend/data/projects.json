@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2359,
+    "stars": 2362,
     "forks": 594,
-    "lastUpdated": "2026-04-21T00:38:15Z",
+    "lastUpdated": "2026-04-21T21:36:20Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 127,
+    "openIssues": 128,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 112089,
-    "forks": 36328,
-    "lastUpdated": "2026-04-21T02:39:39Z",
+    "stars": 112112,
+    "forks": 36330,
+    "lastUpdated": "2026-04-22T01:30:10Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 533,
+    "openIssues": 534,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1702,
+    "stars": 1704,
     "forks": 642,
-    "lastUpdated": "2026-04-17T09:28:01Z",
+    "lastUpdated": "2026-04-21T17:53:18Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 106,
@@ -154,9 +154,9 @@
       "ladybug",
       "weather"
     ],
-    "stars": 224,
+    "stars": 225,
     "forks": 60,
-    "lastUpdated": "2026-04-17T15:35:21Z",
+    "lastUpdated": "2026-04-21T08:21:56Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 8,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13639,
+    "stars": 13644,
     "forks": 3404,
-    "lastUpdated": "2026-04-21T01:56:19Z",
+    "lastUpdated": "2026-04-21T23:52:20Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5422,
+    "openIssues": 5430,
     "platforms": [
       "windows",
       "linux",
@@ -281,11 +281,11 @@
       "ifcopenshell"
     ],
     "stars": 2457,
-    "forks": 901,
-    "lastUpdated": "2026-04-20T19:20:28Z",
+    "forks": 902,
+    "lastUpdated": "2026-04-21T22:46:58Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1199,
+    "openIssues": 1207,
     "platforms": [
       "windows",
       "linux",
@@ -321,10 +321,10 @@
     ],
     "stars": 895,
     "forks": 326,
-    "lastUpdated": "2026-04-20T18:40:06Z",
+    "lastUpdated": "2026-04-21T09:19:53Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 183,
+    "openIssues": 185,
     "platforms": [
       "web"
     ],
@@ -379,7 +379,7 @@
     ],
     "stars": 34,
     "forks": 21,
-    "lastUpdated": "2026-04-17T19:29:33Z",
+    "lastUpdated": "2026-04-21T15:30:56Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 19,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-04-21T02:48:24.022Z",
+    "lastUpdated": "2026-04-22T02:46:45.955Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 637,
-    "forks": 195,
-    "lastUpdated": "2026-04-21T01:59:56Z",
+    "stars": 639,
+    "forks": 196,
+    "lastUpdated": "2026-04-21T17:59:24Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 22
+    "openIssues": 17
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -972,7 +972,7 @@
     "description": "Space layout planning in a browser",
     "stars": 7,
     "forks": 0,
-    "lastUpdated": "2026-04-20T08:38:19Z",
+    "lastUpdated": "2026-04-21T13:52:43Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "vykrum",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23616,
+    "stars": 23617,
     "forks": 3755,
-    "lastUpdated": "2026-04-21T02:13:43Z",
+    "lastUpdated": "2026-04-21T16:06:22Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 508
+    "openIssues": 509
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1139,7 +1139,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-04-21T02:48:24.026Z",
+    "lastUpdated": "2026-04-22T02:46:45.941Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
