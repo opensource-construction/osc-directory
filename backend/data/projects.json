@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2376,
+    "stars": 2377,
     "forks": 598,
-    "lastUpdated": "2026-04-24T22:36:24Z",
+    "lastUpdated": "2026-04-25T12:21:52Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 126,
+    "openIssues": 120,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 112165,
+    "stars": 112182,
     "forks": 36341,
-    "lastUpdated": "2026-04-25T00:28:10Z",
+    "lastUpdated": "2026-04-26T02:33:25Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 519,
+    "openIssues": 517,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13660,
+    "stars": 13667,
     "forks": 3407,
-    "lastUpdated": "2026-04-25T02:27:22Z",
+    "lastUpdated": "2026-04-26T01:40:17Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5427,
+    "openIssues": 5426,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2462,
+    "stars": 2463,
     "forks": 902,
-    "lastUpdated": "2026-04-24T21:34:38Z",
+    "lastUpdated": "2026-04-25T21:37:42Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1222,
+    "openIssues": 1224,
     "platforms": [
       "windows",
       "linux",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-04-25T02:39:28.502Z",
+    "lastUpdated": "2026-04-26T02:56:34.309Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -767,7 +767,7 @@
     "name": "EngineeringPaper.xyz",
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
     "stars": 220,
-    "forks": 30,
+    "forks": 31,
     "lastUpdated": "2026-04-24T17:11:21Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 46
+    "openIssues": 47
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -825,9 +825,9 @@
     ],
     "name": "awatif",
     "description": "The First Web-based Parametric Structural Engineering Platform",
-    "stars": 150,
-    "forks": 24,
-    "lastUpdated": "2026-04-24T03:55:50Z",
+    "stars": 151,
+    "forks": 23,
+    "lastUpdated": "2026-04-25T06:45:46Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -972,7 +972,7 @@
     "description": "Space layout planning in a browser",
     "stars": 7,
     "forks": 0,
-    "lastUpdated": "2026-04-24T13:39:24Z",
+    "lastUpdated": "2026-04-25T09:55:28Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "vykrum",
@@ -1068,9 +1068,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23630,
-    "forks": 3757,
-    "lastUpdated": "2026-04-25T02:36:02Z",
+    "stars": 23632,
+    "forks": 3756,
+    "lastUpdated": "2026-04-26T02:32:55Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1079,7 +1079,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 511
+    "openIssues": 513
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1139,7 +1139,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-04-25T02:39:28.518Z",
+    "lastUpdated": "2026-04-26T02:56:34.207Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
