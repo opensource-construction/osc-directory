@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2474,
+    "stars": 2478,
     "forks": 612,
-    "lastUpdated": "2026-05-18T10:39:48Z",
+    "lastUpdated": "2026-05-20T03:06:36Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 115,
+    "openIssues": 116,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 112547,
-    "forks": 36377,
-    "lastUpdated": "2026-05-19T02:31:30Z",
+    "stars": 112574,
+    "forks": 36379,
+    "lastUpdated": "2026-05-20T03:45:06Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 464,
+    "openIssues": 461,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13776,
-    "forks": 3423,
-    "lastUpdated": "2026-05-19T01:32:45Z",
+    "stars": 13787,
+    "forks": 3424,
+    "lastUpdated": "2026-05-20T00:43:23Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5430,
+    "openIssues": 5437,
     "platforms": [
       "windows",
       "linux",
@@ -281,11 +281,11 @@
       "ifcopenshell"
     ],
     "stars": 2523,
-    "forks": 907,
-    "lastUpdated": "2026-05-19T03:44:02Z",
+    "forks": 909,
+    "lastUpdated": "2026-05-19T11:03:27Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1261,
+    "openIssues": 1266,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2026-05-16T05:58:28Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 185,
+    "openIssues": 187,
     "platforms": [
       "web"
     ],
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 13,
-    "lastUpdated": "2026-05-18T21:57:18Z",
+    "lastUpdated": "2026-05-19T18:28:38Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -492,9 +492,9 @@
       "acc",
       "pdf-printing"
     ],
-    "stars": 33,
+    "stars": 34,
     "forks": 6,
-    "lastUpdated": "2026-05-01T08:40:31Z",
+    "lastUpdated": "2026-05-19T11:00:03Z",
     "mainLanguage": "TypeScript",
     "license": "MIT",
     "openIssues": 2,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-05-19T03:47:53.797Z",
+    "lastUpdated": "2026-05-20T03:48:37.582Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 653,
+    "stars": 654,
     "forks": 200,
-    "lastUpdated": "2026-05-18T07:17:36Z",
+    "lastUpdated": "2026-05-19T11:00:06Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 18
+    "openIssues": 19
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -942,9 +942,9 @@
     ],
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
-    "stars": 457,
+    "stars": 458,
     "forks": 80,
-    "lastUpdated": "2026-05-15T13:48:27Z",
+    "lastUpdated": "2026-05-19T16:04:05Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
@@ -982,7 +982,7 @@
     "description": "An active design sandbox for weaving spatial topology and flow-based hierarchies through design computation. Prioritizing connectivity over adjacency.",
     "stars": 10,
     "forks": 0,
-    "lastUpdated": "2026-05-18T15:20:17Z",
+    "lastUpdated": "2026-05-19T09:18:02Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "vykrum",
@@ -1078,9 +1078,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23693,
-    "forks": 3753,
-    "lastUpdated": "2026-05-18T23:43:43Z",
+    "stars": 23695,
+    "forks": 3754,
+    "lastUpdated": "2026-05-20T03:26:48Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1089,7 +1089,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 495
+    "openIssues": 498
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1149,7 +1149,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-05-19T03:47:53.724Z",
+    "lastUpdated": "2026-05-20T03:48:37.608Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
