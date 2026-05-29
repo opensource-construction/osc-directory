@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2501,
-    "forks": 620,
-    "lastUpdated": "2026-05-27T13:34:49Z",
+    "stars": 2503,
+    "forks": 621,
+    "lastUpdated": "2026-05-28T13:00:43Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 120,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 112718,
+    "stars": 112745,
     "forks": 36377,
-    "lastUpdated": "2026-05-28T03:23:55Z",
+    "lastUpdated": "2026-05-29T03:04:34Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 434,
+    "openIssues": 439,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13830,
+    "stars": 13833,
     "forks": 3429,
-    "lastUpdated": "2026-05-28T02:51:52Z",
+    "lastUpdated": "2026-05-29T03:36:58Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5463,
+    "openIssues": 5459,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2537,
+    "stars": 2539,
     "forks": 911,
-    "lastUpdated": "2026-05-27T19:44:00Z",
+    "lastUpdated": "2026-05-29T02:25:48Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1281,
+    "openIssues": 1285,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2026-05-27T11:08:24Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 185,
+    "openIssues": 186,
     "platforms": [
       "web"
     ],
@@ -493,7 +493,7 @@
       "pdf-printing"
     ],
     "stars": 34,
-    "forks": 6,
+    "forks": 7,
     "lastUpdated": "2026-05-19T11:00:03Z",
     "mainLanguage": "TypeScript",
     "license": "MIT",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-05-28T03:50:51.883Z",
+    "lastUpdated": "2026-05-29T03:52:26.905Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -768,7 +768,7 @@
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
     "stars": 223,
     "forks": 33,
-    "lastUpdated": "2026-05-26T15:31:29Z",
+    "lastUpdated": "2026-05-29T01:27:08Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 47
+    "openIssues": 48
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -863,9 +863,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 656,
-    "forks": 200,
-    "lastUpdated": "2026-05-27T18:03:26Z",
+    "stars": 657,
+    "forks": 199,
+    "lastUpdated": "2026-05-28T21:18:00Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 22
+    "openIssues": 23
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -944,7 +944,7 @@
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
     "stars": 460,
     "forks": 80,
-    "lastUpdated": "2026-05-27T23:53:05Z",
+    "lastUpdated": "2026-05-28T11:31:28Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
@@ -1078,9 +1078,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23711,
-    "forks": 3754,
-    "lastUpdated": "2026-05-27T14:03:09Z",
+    "stars": 23715,
+    "forks": 3755,
+    "lastUpdated": "2026-05-29T03:43:44Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1089,7 +1089,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 506
+    "openIssues": 510
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1149,7 +1149,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-05-28T03:50:51.893Z",
+    "lastUpdated": "2026-05-29T03:52:26.974Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
@@ -1177,7 +1177,7 @@
     "description": "Bayesian simulation framework exploring how housing systems respond to stochastic climate events. Includes synthetic data generation, probabilistic fragility modeling, and estimation of downtime and reconstruction cost for resilience assessment.",
     "stars": 1,
     "forks": 0,
-    "lastUpdated": "2026-05-25T11:12:02Z",
+    "lastUpdated": "2026-05-28T12:15:27Z",
     "license": "MIT",
     "submissionDate": "2026-02-05",
     "submitterUsername": "mikel-knowledge",
