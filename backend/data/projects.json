@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2535,
-    "forks": 628,
-    "lastUpdated": "2026-06-09T03:11:08Z",
+    "stars": 2538,
+    "forks": 629,
+    "lastUpdated": "2026-06-10T01:39:24Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 124,
+    "openIssues": 126,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 112900,
-    "forks": 36382,
-    "lastUpdated": "2026-06-09T03:11:38Z",
+    "stars": 112914,
+    "forks": 36379,
+    "lastUpdated": "2026-06-09T22:12:08Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 421,
+    "openIssues": 419,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 13891,
-    "forks": 3442,
-    "lastUpdated": "2026-06-09T01:35:45Z",
+    "stars": 13892,
+    "forks": 3443,
+    "lastUpdated": "2026-06-10T03:55:09Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5485,
+    "openIssues": 5482,
     "platforms": [
       "windows",
       "linux",
@@ -280,9 +280,9 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2554,
+    "stars": 2557,
     "forks": 916,
-    "lastUpdated": "2026-06-08T23:39:46Z",
+    "lastUpdated": "2026-06-10T02:26:34Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
     "openIssues": 1284,
@@ -379,7 +379,7 @@
     ],
     "stars": 35,
     "forks": 22,
-    "lastUpdated": "2026-06-08T22:05:55Z",
+    "lastUpdated": "2026-06-09T19:50:09Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 19,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-06-09T03:42:19.291Z",
+    "lastUpdated": "2026-06-10T03:56:46.385Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 49
+    "openIssues": 51
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -942,9 +942,9 @@
     ],
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
-    "stars": 464,
+    "stars": 465,
     "forks": 81,
-    "lastUpdated": "2026-06-04T04:18:04Z",
+    "lastUpdated": "2026-06-09T04:47:59Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
@@ -1019,7 +1019,7 @@
     "description": "Single page application which serves as the frontend of ShapeDiver App Builder",
     "stars": 11,
     "forks": 9,
-    "lastUpdated": "2026-06-08T12:29:08Z",
+    "lastUpdated": "2026-06-09T13:30:39Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "snabela",
@@ -1078,9 +1078,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23730,
+    "stars": 23733,
     "forks": 3760,
-    "lastUpdated": "2026-06-09T03:38:26Z",
+    "lastUpdated": "2026-06-09T17:02:23Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1089,7 +1089,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 491
+    "openIssues": 492
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1149,7 +1149,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-06-09T03:42:19.319Z",
+    "lastUpdated": "2026-06-10T03:56:46.379Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
