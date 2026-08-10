@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2733,
+    "stars": 2737,
     "forks": 653,
-    "lastUpdated": "2026-08-08T19:33:05Z",
+    "lastUpdated": "2026-08-09T17:48:32Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 192,
+    "openIssues": 190,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 114365,
-    "forks": 36470,
-    "lastUpdated": "2026-08-09T01:30:01Z",
+    "stars": 114382,
+    "forks": 36469,
+    "lastUpdated": "2026-08-10T01:15:47Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 367,
+    "openIssues": 368,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 14187,
-    "forks": 3487,
-    "lastUpdated": "2026-08-08T20:58:41Z",
+    "stars": 14195,
+    "forks": 3488,
+    "lastUpdated": "2026-08-09T21:03:08Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5432,
+    "openIssues": 5429,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2698,
-    "forks": 942,
-    "lastUpdated": "2026-08-08T17:35:45Z",
+    "stars": 2699,
+    "forks": 943,
+    "lastUpdated": "2026-08-09T19:24:45Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1916,
+    "openIssues": 1915,
     "platforms": [
       "windows",
       "linux",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-08-09T01:51:12.222Z",
+    "lastUpdated": "2026-08-10T01:56:03.876Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -766,9 +766,9 @@
     ],
     "name": "EngineeringPaper.xyz",
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
-    "stars": 233,
+    "stars": 236,
     "forks": 35,
-    "lastUpdated": "2026-08-08T00:07:48Z",
+    "lastUpdated": "2026-08-09T22:41:13Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 8
+    "openIssues": 14
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -942,9 +942,9 @@
     ],
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
-    "stars": 482,
+    "stars": 483,
     "forks": 79,
-    "lastUpdated": "2026-08-06T07:21:19Z",
+    "lastUpdated": "2026-08-09T20:59:26Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
@@ -1078,9 +1078,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23859,
-    "forks": 3802,
-    "lastUpdated": "2026-08-09T01:46:10Z",
+    "stars": 23860,
+    "forks": 3800,
+    "lastUpdated": "2026-08-09T16:13:47Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1089,7 +1089,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 512
+    "openIssues": 511
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1149,7 +1149,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-08-09T01:51:12.216Z",
+    "lastUpdated": "2026-08-10T01:56:03.884Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
@@ -1177,7 +1177,7 @@
     "description": "Bayesian simulation framework exploring how housing systems respond to stochastic climate events. Includes synthetic data generation, probabilistic fragility modeling, and estimation of downtime and reconstruction cost for resilience assessment.",
     "stars": 1,
     "forks": 0,
-    "lastUpdated": "2026-06-22T13:51:40Z",
+    "lastUpdated": "2026-08-09T16:04:06Z",
     "license": "MIT",
     "submissionDate": "2026-02-05",
     "submitterUsername": "mikel-knowledge",
