@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2745,
-    "forks": 654,
-    "lastUpdated": "2026-08-11T00:37:55Z",
+    "stars": 2749,
+    "forks": 655,
+    "lastUpdated": "2026-08-11T17:08:30Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 187,
+    "openIssues": 188,
     "platforms": [
       "windows",
       "linux",
@@ -42,12 +42,12 @@
       "rhino3d",
       "rpc"
     ],
-    "stars": 378,
+    "stars": 379,
     "forks": 121,
-    "lastUpdated": "2026-08-06T23:14:39Z",
+    "lastUpdated": "2026-08-11T15:41:13Z",
     "mainLanguage": "Python",
     "license": "MIT",
-    "openIssues": 120,
+    "openIssues": 119,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 114412,
-    "forks": 36473,
-    "lastUpdated": "2026-08-11T01:12:27Z",
+    "stars": 114444,
+    "forks": 36471,
+    "lastUpdated": "2026-08-12T01:55:00Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 370,
+    "openIssues": 371,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1733,
+    "stars": 1735,
     "forks": 644,
-    "lastUpdated": "2026-08-07T06:43:58Z",
+    "lastUpdated": "2026-08-11T08:02:23Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 107,
@@ -156,7 +156,7 @@
     ],
     "stars": 226,
     "forks": 62,
-    "lastUpdated": "2026-08-10T20:01:22Z",
+    "lastUpdated": "2026-08-11T22:51:09Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 9,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 14199,
-    "forks": 3488,
-    "lastUpdated": "2026-08-10T22:34:55Z",
+    "stars": 14206,
+    "forks": 3487,
+    "lastUpdated": "2026-08-11T16:59:36Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5429,
+    "openIssues": 5433,
     "platforms": [
       "windows",
       "linux",
@@ -281,11 +281,11 @@
       "ifcopenshell"
     ],
     "stars": 2702,
-    "forks": 943,
-    "lastUpdated": "2026-08-10T20:47:55Z",
+    "forks": 944,
+    "lastUpdated": "2026-08-11T15:34:16Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1915,
+    "openIssues": 1918,
     "platforms": [
       "windows",
       "linux",
@@ -379,7 +379,7 @@
     ],
     "stars": 35,
     "forks": 23,
-    "lastUpdated": "2026-08-10T22:50:40Z",
+    "lastUpdated": "2026-08-11T23:17:03Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 19,
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 13,
-    "lastUpdated": "2026-08-10T20:27:13Z",
+    "lastUpdated": "2026-08-11T23:17:03Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -425,7 +425,7 @@
     ],
     "stars": 19,
     "forks": 13,
-    "lastUpdated": "2026-08-10T20:27:22Z",
+    "lastUpdated": "2026-08-11T23:17:03Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 8,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-08-11T01:51:40.641Z",
+    "lastUpdated": "2026-08-12T02:04:33.409Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -768,7 +768,7 @@
     "description": "EngineeringPaper.xyz is a web app that makes it easy to create, save, and share engineering calculations.",
     "stars": 236,
     "forks": 35,
-    "lastUpdated": "2026-08-09T22:41:13Z",
+    "lastUpdated": "2026-08-12T00:35:35Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "mgreminger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 58
+    "openIssues": 56
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -1019,7 +1019,7 @@
     "description": "Single page application which serves as the frontend of ShapeDiver App Builder",
     "stars": 13,
     "forks": 10,
-    "lastUpdated": "2026-08-10T15:29:56Z",
+    "lastUpdated": "2026-08-11T11:02:06Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "snabela",
@@ -1030,7 +1030,7 @@
       "desktop"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 6
+    "openIssues": 7
   },
   {
     "url": "https://github.com/vinnividivicci/ifc-ids-mcp",
@@ -1080,7 +1080,7 @@
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
     "stars": 23866,
     "forks": 3801,
-    "lastUpdated": "2026-08-10T23:35:48Z",
+    "lastUpdated": "2026-08-12T01:43:24Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1089,7 +1089,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 504
+    "openIssues": 501
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1149,7 +1149,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-08-11T01:51:40.628Z",
+    "lastUpdated": "2026-08-12T02:04:33.406Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
