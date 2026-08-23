@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2786,
-    "forks": 656,
-    "lastUpdated": "2026-08-21T18:15:58Z",
+    "stars": 2788,
+    "forks": 658,
+    "lastUpdated": "2026-08-22T10:11:48Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 196,
+    "openIssues": 197,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 114667,
-    "forks": 36493,
-    "lastUpdated": "2026-08-22T01:14:34Z",
+    "stars": 114691,
+    "forks": 36497,
+    "lastUpdated": "2026-08-22T23:54:46Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 383,
+    "openIssues": 379,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1737,
+    "stars": 1738,
     "forks": 644,
-    "lastUpdated": "2026-08-21T19:38:05Z",
+    "lastUpdated": "2026-08-22T02:31:21Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 107,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 14264,
-    "forks": 3495,
-    "lastUpdated": "2026-08-22T00:42:23Z",
+    "stars": 14268,
+    "forks": 3499,
+    "lastUpdated": "2026-08-22T23:40:14Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5428,
+    "openIssues": 5426,
     "platforms": [
       "windows",
       "linux",
@@ -206,9 +206,9 @@
       "rhinocommon",
       "wasm"
     ],
-    "stars": 746,
-    "forks": 151,
-    "lastUpdated": "2026-08-20T19:20:48Z",
+    "stars": 747,
+    "forks": 152,
+    "lastUpdated": "2026-08-22T15:18:22Z",
     "mainLanguage": "C#",
     "license": "MIT",
     "openIssues": 29,
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2724,
-    "forks": 950,
-    "lastUpdated": "2026-08-21T23:19:29Z",
+    "stars": 2727,
+    "forks": 951,
+    "lastUpdated": "2026-08-22T15:52:40Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1957,
+    "openIssues": 1955,
     "platforms": [
       "windows",
       "linux",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-08-22T01:18:10.859Z",
+    "lastUpdated": "2026-08-23T01:25:17.528Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 18
+    "openIssues": 20
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -982,7 +982,7 @@
     "description": "An active design sandbox for weaving spatial topology and flow-based hierarchies through design computation. Prioritizing connectivity over adjacency.",
     "stars": 11,
     "forks": 0,
-    "lastUpdated": "2026-08-21T17:07:11Z",
+    "lastUpdated": "2026-08-22T16:44:33Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "vykrum",
@@ -1078,9 +1078,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23888,
-    "forks": 3807,
-    "lastUpdated": "2026-08-21T16:18:07Z",
+    "stars": 23886,
+    "forks": 3809,
+    "lastUpdated": "2026-08-22T14:49:57Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1089,7 +1089,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 515
+    "openIssues": 516
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1149,7 +1149,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-08-22T01:18:10.852Z",
+    "lastUpdated": "2026-08-23T01:25:17.517Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
