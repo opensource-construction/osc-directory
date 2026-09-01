@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2813,
-    "forks": 666,
-    "lastUpdated": "2026-08-31T02:03:06Z",
+    "stars": 2820,
+    "forks": 665,
+    "lastUpdated": "2026-09-01T01:51:17Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 206,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 114954,
-    "forks": 36512,
-    "lastUpdated": "2026-08-31T03:59:15Z",
+    "stars": 114989,
+    "forks": 36516,
+    "lastUpdated": "2026-09-01T04:04:26Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 376,
+    "openIssues": 377,
     "platforms": [
       "web",
       "mobile"
@@ -154,12 +154,12 @@
       "ladybug",
       "weather"
     ],
-    "stars": 226,
+    "stars": 227,
     "forks": 62,
-    "lastUpdated": "2026-08-28T23:04:34Z",
+    "lastUpdated": "2026-08-31T19:40:16Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
-    "openIssues": 11,
+    "openIssues": 8,
     "platforms": [
       "windows",
       "linux",
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 14304,
-    "forks": 3503,
-    "lastUpdated": "2026-08-31T04:02:55Z",
+    "stars": 14314,
+    "forks": 3504,
+    "lastUpdated": "2026-09-01T03:32:40Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5444,
+    "openIssues": 5447,
     "platforms": [
       "windows",
       "linux",
@@ -282,10 +282,10 @@
     ],
     "stars": 2746,
     "forks": 958,
-    "lastUpdated": "2026-08-30T18:41:19Z",
+    "lastUpdated": "2026-08-31T22:35:08Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1980,
+    "openIssues": 1982,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2026-08-26T22:45:29Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 191,
+    "openIssues": 192,
     "platforms": [
       "web"
     ],
@@ -379,7 +379,7 @@
     ],
     "stars": 36,
     "forks": 23,
-    "lastUpdated": "2026-08-28T23:31:02Z",
+    "lastUpdated": "2026-08-31T20:11:54Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 19,
@@ -402,7 +402,7 @@
     ],
     "stars": 18,
     "forks": 13,
-    "lastUpdated": "2026-08-28T23:30:52Z",
+    "lastUpdated": "2026-08-31T20:09:35Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 1,
@@ -425,7 +425,7 @@
     ],
     "stars": 19,
     "forks": 13,
-    "lastUpdated": "2026-08-28T23:30:45Z",
+    "lastUpdated": "2026-08-31T20:21:59Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 8,
@@ -657,7 +657,7 @@
     "description": "A Three.JS based WebGL viewer for AEC data. ",
     "stars": 48,
     "forks": 8,
-    "lastUpdated": "2026-08-27T17:59:15Z",
+    "lastUpdated": "2026-09-01T01:07:39Z",
     "license": "MIT",
     "submissionDate": "2025-06-24",
     "submitterUsername": "cdiggins",
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-08-31T04:21:43.013Z",
+    "lastUpdated": "2026-09-01T04:06:06.646Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -986,7 +986,7 @@
     "description": "A computational spatial design environment for generating and exploring architectural spatial configurations from relational graphs, rules, and constraints.",
     "stars": 11,
     "forks": 0,
-    "lastUpdated": "2026-08-30T11:21:37Z",
+    "lastUpdated": "2026-08-31T20:07:02Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "vykrum",
@@ -1034,7 +1034,7 @@
       "desktop"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 3
+    "openIssues": 5
   },
   {
     "url": "https://github.com/vinnividivicci/ifc-ids-mcp",
@@ -1082,9 +1082,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 23922,
-    "forks": 3811,
-    "lastUpdated": "2026-08-31T02:09:17Z",
+    "stars": 23927,
+    "forks": 3815,
+    "lastUpdated": "2026-09-01T03:08:43Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1093,7 +1093,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 511
+    "openIssues": 508
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1153,7 +1153,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-08-31T04:21:43.030Z",
+    "lastUpdated": "2026-09-01T04:06:06.547Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
