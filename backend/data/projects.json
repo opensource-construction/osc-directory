@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 2939,
-    "forks": 690,
-    "lastUpdated": "2026-10-02T16:10:41Z",
+    "stars": 2941,
+    "forks": 691,
+    "lastUpdated": "2026-10-04T01:56:58Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 238,
+    "openIssues": 240,
     "platforms": [
       "windows",
       "linux",
@@ -43,11 +43,11 @@
       "rpc"
     ],
     "stars": 385,
-    "forks": 122,
+    "forks": 123,
     "lastUpdated": "2026-09-30T16:20:13Z",
     "mainLanguage": "Python",
     "license": "MIT",
-    "openIssues": 113,
+    "openIssues": 115,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 116179,
-    "forks": 36609,
-    "lastUpdated": "2026-10-03T03:19:39Z",
+    "stars": 116201,
+    "forks": 36608,
+    "lastUpdated": "2026-10-04T04:27:42Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 381,
+    "openIssues": 389,
     "platforms": [
       "web",
       "mobile"
@@ -126,9 +126,9 @@
       "java",
       "openbim"
     ],
-    "stars": 1757,
+    "stars": 1758,
     "forks": 645,
-    "lastUpdated": "2026-09-28T16:37:54Z",
+    "lastUpdated": "2026-10-03T12:08:36Z",
     "mainLanguage": "Java",
     "license": "AGPL-3.0",
     "openIssues": 107,
@@ -177,9 +177,9 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 14455,
+    "stars": 14456,
     "forks": 3536,
-    "lastUpdated": "2026-10-03T01:51:04Z",
+    "lastUpdated": "2026-10-03T14:11:02Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
     "openIssues": 5498,
@@ -281,11 +281,11 @@
       "ifcopenshell"
     ],
     "stars": 2824,
-    "forks": 973,
-    "lastUpdated": "2026-10-03T03:41:58Z",
+    "forks": 974,
+    "lastUpdated": "2026-10-03T22:34:18Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 1998,
+    "openIssues": 2003,
     "platforms": [
       "windows",
       "linux",
@@ -319,9 +319,9 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 942,
+    "stars": 943,
     "forks": 332,
-    "lastUpdated": "2026-09-30T12:03:13Z",
+    "lastUpdated": "2026-10-03T12:10:37Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
     "openIssues": 193,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-10-03T04:19:39.134Z",
+    "lastUpdated": "2026-10-04T04:50:55.736Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -779,7 +779,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 54
+    "openIssues": 55
   },
   {
     "url": "https://github.com/ara3d/bim-open-schema",
@@ -797,7 +797,7 @@
     "description": "Representing BIM Data as Parquet  ",
     "stars": 52,
     "forks": 10,
-    "lastUpdated": "2026-09-29T09:48:01Z",
+    "lastUpdated": "2026-10-03T23:11:58Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "cdiggins",
@@ -826,7 +826,7 @@
     "name": "awatif",
     "description": "Open-source, AI-native structural analysis and design toolset that runs in the browser",
     "stars": 182,
-    "forks": 30,
+    "forks": 31,
     "lastUpdated": "2026-10-02T19:16:47Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
@@ -864,7 +864,7 @@
     "name": "engine_components",
     "description": "No description provided",
     "stars": 708,
-    "forks": 212,
+    "forks": 213,
     "lastUpdated": "2026-10-01T06:03:03Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
@@ -874,7 +874,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 12
+    "openIssues": 14
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -942,9 +942,9 @@
     ],
     "name": "RevitAddInManager",
     "description": "Revit AddinManager update .NET assemblies without restart Revit for developer.",
-    "stars": 497,
+    "stars": 496,
     "forks": 84,
-    "lastUpdated": "2026-09-22T04:20:17Z",
+    "lastUpdated": "2026-10-03T16:04:42Z",
     "license": "MIT",
     "submissionDate": "2025-08-31",
     "submitterUsername": "chuongmep",
@@ -997,7 +997,7 @@
     "description": "A computational spatial design environment for generating and exploring architectural spatial configurations from relational graphs, rules, and constraints.",
     "stars": 11,
     "forks": 0,
-    "lastUpdated": "2026-10-02T17:44:26Z",
+    "lastUpdated": "2026-10-04T01:54:34Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "vykrum",
@@ -1093,9 +1093,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 24072,
-    "forks": 3842,
-    "lastUpdated": "2026-10-02T19:55:38Z",
+    "stars": 24078,
+    "forks": 3847,
+    "lastUpdated": "2026-10-04T04:06:31Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1104,7 +1104,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 527
+    "openIssues": 530
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1164,7 +1164,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-10-03T04:19:39.139Z",
+    "lastUpdated": "2026-10-04T04:50:55.750Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
@@ -1192,7 +1192,7 @@
     "description": "Bayesian simulation framework exploring how housing systems respond to stochastic climate events. Includes synthetic data generation, probabilistic fragility modeling, and estimation of downtime and reconstruction cost for resilience assessment.",
     "stars": 1,
     "forks": 0,
-    "lastUpdated": "2026-10-01T16:05:34Z",
+    "lastUpdated": "2026-10-03T14:35:46Z",
     "license": "MIT",
     "submissionDate": "2026-02-05",
     "submitterUsername": "mikel-knowledge",
