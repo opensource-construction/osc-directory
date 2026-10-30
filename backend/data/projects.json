@@ -13,9 +13,9 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 3086,
+    "stars": 3090,
     "forks": 730,
-    "lastUpdated": "2026-10-28T15:52:17Z",
+    "lastUpdated": "2026-10-29T22:05:37Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
     "openIssues": 296,
@@ -42,9 +42,9 @@
       "rhino3d",
       "rpc"
     ],
-    "stars": 390,
+    "stars": 391,
     "forks": 125,
-    "lastUpdated": "2026-10-28T11:23:25Z",
+    "lastUpdated": "2026-10-29T18:37:55Z",
     "mainLanguage": "Python",
     "license": "MIT",
     "openIssues": 120,
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 117156,
-    "forks": 36795,
-    "lastUpdated": "2026-10-29T04:46:57Z",
+    "stars": 117200,
+    "forks": 36814,
+    "lastUpdated": "2026-10-30T04:50:09Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 394,
+    "openIssues": 384,
     "platforms": [
       "web",
       "mobile"
@@ -154,9 +154,9 @@
       "ladybug",
       "weather"
     ],
-    "stars": 229,
+    "stars": 230,
     "forks": 62,
-    "lastUpdated": "2026-10-28T21:59:36Z",
+    "lastUpdated": "2026-10-29T10:29:59Z",
     "mainLanguage": "Python",
     "license": "AGPL-3.0",
     "openIssues": 10,
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 14734,
-    "forks": 3591,
-    "lastUpdated": "2026-10-29T02:25:21Z",
+    "stars": 14737,
+    "forks": 3590,
+    "lastUpdated": "2026-10-30T04:27:33Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5510,
+    "openIssues": 5506,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2905,
-    "forks": 999,
-    "lastUpdated": "2026-10-29T01:15:33Z",
+    "stars": 2907,
+    "forks": 1000,
+    "lastUpdated": "2026-10-30T01:41:01Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 2084,
+    "openIssues": 2088,
     "platforms": [
       "windows",
       "linux",
@@ -324,7 +324,7 @@
     "lastUpdated": "2026-10-27T18:16:40Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
-    "openIssues": 191,
+    "openIssues": 192,
     "platforms": [
       "web"
     ],
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-10-29T04:50:54.654Z",
+    "lastUpdated": "2026-10-30T04:50:50.412Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -828,9 +828,9 @@
     ],
     "name": "awatif",
     "description": "Open-source, AI-native structural analysis and design toolset that runs in the browser",
-    "stars": 187,
+    "stars": 188,
     "forks": 32,
-    "lastUpdated": "2026-10-22T12:51:27Z",
+    "lastUpdated": "2026-10-29T05:38:57Z",
     "license": "MIT",
     "submissionDate": "2025-07-30",
     "submitterUsername": "madil4",
@@ -867,7 +867,7 @@
     "name": "engine_components",
     "description": "No description provided",
     "stars": 721,
-    "forks": 214,
+    "forks": 215,
     "lastUpdated": "2026-10-28T06:54:29Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
@@ -877,7 +877,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 29
+    "openIssues": 32
   },
   {
     "url": "https://github.com/c-mellueh/SOM-Toolkit",
@@ -1000,7 +1000,7 @@
     "description": "A computational spatial design environment for generating and exploring architectural spatial configurations from relational graphs, rules, and constraints.",
     "stars": 11,
     "forks": 0,
-    "lastUpdated": "2026-10-28T18:30:58Z",
+    "lastUpdated": "2026-10-29T19:06:31Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "vykrum",
@@ -1037,7 +1037,7 @@
     "description": "Single page application which serves as the frontend of ShapeDiver App Builder",
     "stars": 15,
     "forks": 10,
-    "lastUpdated": "2026-10-28T15:31:59Z",
+    "lastUpdated": "2026-10-29T11:11:48Z",
     "license": "MIT",
     "submissionDate": "2025-11-06",
     "submitterUsername": "snabela",
@@ -1048,7 +1048,7 @@
       "desktop"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 4
+    "openIssues": 5
   },
   {
     "url": "https://github.com/vinnividivicci/ifc-ids-mcp",
@@ -1096,9 +1096,9 @@
     ],
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-    "stars": 24264,
-    "forks": 3885,
-    "lastUpdated": "2026-10-29T03:57:50Z",
+    "stars": 24265,
+    "forks": 3884,
+    "lastUpdated": "2026-10-30T03:06:56Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1107,7 +1107,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 533
+    "openIssues": 532
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1167,7 +1167,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-10-29T04:50:54.727Z",
+    "lastUpdated": "2026-10-30T04:50:50.445Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
