@@ -13,12 +13,12 @@
       "occt3d",
       "opencascade"
     ],
-    "stars": 3212,
-    "forks": 779,
-    "lastUpdated": "2026-11-26T02:05:32Z",
+    "stars": 3215,
+    "forks": 781,
+    "lastUpdated": "2026-11-27T06:10:47Z",
     "mainLanguage": "C++",
     "license": "LGPL-2.1",
-    "openIssues": 373,
+    "openIssues": 377,
     "platforms": [
       "windows",
       "linux",
@@ -75,12 +75,12 @@
       "webgpu",
       "webxr"
     ],
-    "stars": 119428,
-    "forks": 37031,
-    "lastUpdated": "2026-11-26T07:04:18Z",
+    "stars": 119504,
+    "forks": 37044,
+    "lastUpdated": "2026-11-27T07:10:53Z",
     "mainLanguage": "JavaScript",
     "license": "MIT",
-    "openIssues": 406,
+    "openIssues": 404,
     "platforms": [
       "web",
       "mobile"
@@ -177,12 +177,12 @@
       "qgis",
       "spatial-data"
     ],
-    "stars": 14888,
-    "forks": 3610,
-    "lastUpdated": "2026-11-26T02:14:50Z",
+    "stars": 14899,
+    "forks": 3612,
+    "lastUpdated": "2026-11-27T01:44:13Z",
     "mainLanguage": "C++",
     "license": "GPL-2.0",
-    "openIssues": 5528,
+    "openIssues": 5530,
     "platforms": [
       "windows",
       "linux",
@@ -280,12 +280,12 @@
       "geometry",
       "ifcopenshell"
     ],
-    "stars": 2997,
+    "stars": 3001,
     "forks": 1022,
-    "lastUpdated": "2026-11-26T00:17:32Z",
+    "lastUpdated": "2026-11-26T18:17:27Z",
     "mainLanguage": "C++",
     "license": "LGPL-3.0",
-    "openIssues": 2158,
+    "openIssues": 2154,
     "platforms": [
       "windows",
       "linux",
@@ -319,9 +319,9 @@
       "webgl",
       "webgl-viewer"
     ],
-    "stars": 968,
+    "stars": 969,
     "forks": 335,
-    "lastUpdated": "2026-11-26T02:01:55Z",
+    "lastUpdated": "2026-11-26T09:47:48Z",
     "mainLanguage": "HTML",
     "license": "AGPL-3.0",
     "openIssues": 192,
@@ -684,7 +684,7 @@
     "description": "A web app and search engine for Environmental Product Declarations (EPDs).",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-11-26T07:19:46.335Z",
+    "lastUpdated": "2026-11-27T07:16:37.135Z",
     "license": "Unknown",
     "submissionDate": "2025-06-24",
     "submitterUsername": "aduverger",
@@ -795,9 +795,9 @@
     ],
     "name": "bim-open-schema",
     "description": "Representing BIM Data as Parquet  ",
-    "stars": 57,
+    "stars": 58,
     "forks": 10,
-    "lastUpdated": "2026-11-16T04:31:03Z",
+    "lastUpdated": "2026-11-26T08:29:29Z",
     "license": "MIT",
     "submissionDate": "2025-07-24",
     "submitterUsername": "cdiggins",
@@ -839,7 +839,7 @@
       "web"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 1
+    "openIssues": 0
   },
   {
     "url": "https://github.com/MagmaWorks/Taxonomy",
@@ -866,9 +866,9 @@
     "tags": [],
     "name": "engine_components",
     "description": "No description provided",
-    "stars": 764,
-    "forks": 228,
-    "lastUpdated": "2026-11-26T02:01:47Z",
+    "stars": 766,
+    "forks": 229,
+    "lastUpdated": "2026-11-26T13:14:28Z",
     "license": "MIT",
     "submissionDate": "2025-08-14",
     "submitterUsername": "agviegas",
@@ -1048,7 +1048,7 @@
       "desktop"
     ],
     "mainLanguage": "TypeScript",
-    "openIssues": 2
+    "openIssues": 3
   },
   {
     "url": "https://github.com/vinnividivicci/ifc-ids-mcp",
@@ -1097,8 +1097,8 @@
     "name": "p5.js",
     "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
     "stars": 24434,
-    "forks": 3927,
-    "lastUpdated": "2026-11-26T00:57:46Z",
+    "forks": 3928,
+    "lastUpdated": "2026-11-26T22:31:01Z",
     "license": "LGPL-2.1",
     "submissionDate": "2025-11-11",
     "submitterUsername": "boydhont",
@@ -1107,7 +1107,7 @@
       "web"
     ],
     "mainLanguage": "JavaScript",
-    "openIssues": 553
+    "openIssues": 557
   },
   {
     "url": "https://github.com/enji-io/enji-react-svg-drawings",
@@ -1167,7 +1167,7 @@
     "description": "Free and open source software for mathematical and engineering calculations.",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2026-11-26T07:19:46.369Z",
+    "lastUpdated": "2026-11-27T07:16:37.198Z",
     "license": "Unknown",
     "submissionDate": "2026-01-08",
     "submitterUsername": "Proektsoftbg",
